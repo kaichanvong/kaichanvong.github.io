@@ -69,11 +69,9 @@ ul {
 #my-craft ul {
   margin-top: 10px; }
 #my-craft li {
-  background-color: rgba(225, 64, 64, 0.5);
-  border-left: 25px solid rgba(51, 134, 254, 0.75); }
+  background-color: rgba(255, 230, 180, 0.5); }
   #my-craft li:nth-child(odd) {
-    background-color: rgba(225, 64, 64, 0.25);
-    border-left: 25px solid rgba(51, 134, 254, 0.75); }
+    background-color: rgba(230, 180, 100, 0.25); }
 #my-craft .photography .images {
   overflow-y: scroll; }
   #my-craft .photography .images .wrapper {
