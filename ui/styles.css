@@ -2,8 +2,7 @@ html {
   border-top: 30px solid #00B28B;
   padding-top: 40px;
   line-height: 140%;
-  min-height: 100%;
-  border-bottom: 25px solid #00B28B; }
+  border-bottom: 30px solid #00B28B; }
 
 .if-colorblindness {
   color: #E14040; }
@@ -18,8 +17,7 @@ body {
 
 p {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 1em;
-  margin: 0 0 10px; }
+  font-size: 1em; }
 
 a {
   color: #32479D; }
@@ -33,9 +31,9 @@ h2[title] {
 h1,
 h2 {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 1.5em;
+  font-size: 3em;
   line-height: 100%;
-  margin-bottom: 5px; }
+  margin-bottom: 0; }
   h1 span,
   h2 span {
     color: #5583E3; }
@@ -45,30 +43,31 @@ h1 {
   margin-bottom: 1em; }
 
 h3 {
-  margin-top: 0;
-   }
+  margin-top: 0; }
   h3 strong {
     color: #5583E3; }
 
 ul,
-p { max-width: 700px; }
+p {
+  max-width: 700px;
+  margin-top: 5px; }
 
 ul {
-  margin: 20px 0 40px;
+  margin: 10px 0 50px;
   padding: 0; }
   ul li {
     list-style: none;
     margin: 0 -2em;
-    padding: 0.5em 7em 0.5em 1.5em;
+    padding: 1em 7em 0.5em 1.5em;
     border-left: 10px solid rgba(0, 0, 0, 0); }
     ul li p {
-      margin: 0; }
+      margin: 0 0 1em; }
   ul h3 {
     margin-bottom: 5px;
     padding-bottom: 0; }
 
 #my-craft ul {
-  margin-top: 30px; }
+  margin-top: 10px; }
 #my-craft li {
   background-color: rgba(255, 230, 180, 0.5); }
   #my-craft li:nth-child(odd) {
@@ -117,5 +116,17 @@ ul {
     color: #fff;
     display: block;
     text-decoration: none; }
+
+small:after {
+  content: ' ';
+  display: block;
+  height: 30px;
+  width: 50.1%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  background-color: #C30000;
+  background-color: #00A88A; }
 
 /*# sourceMappingURL=styles.css.map */
