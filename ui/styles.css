@@ -1,8 +1,7 @@
 html {
   border-top: 30px solid #00B28B;
   padding-top: 40px;
-  line-height: 140%;
-  border-bottom: 30px solid #00B28B; }
+  line-height: 140%; }
 
 .if-colorblindness {
   color: #E14040; }
