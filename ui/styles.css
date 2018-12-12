@@ -1,5 +1,5 @@
 html {
-  border-top: 30px solid #00B28B;
+  border-top: 30px solid #FFE7D5;
   padding-top: 40px;
   line-height: 140%; }
 
@@ -10,7 +10,6 @@ body {
   background-color: rgba(255, 255, 255, 0.45);
   color: #222;
   font-family: Helvetica, Arial, sans-serif;
-  max-width: 90%;
   margin: 0 5%;
   padding: 1px 2em 1em; }
 
@@ -48,7 +47,7 @@ h3 {
 
 ul,
 p {
-  max-width: 700px;
+  /*max-width: 700px;*/
   margin-top: 5px; }
 
 ul {
@@ -65,19 +64,21 @@ ul {
     margin-bottom: 5px;
     padding-bottom: 0; }
 
-#my-craft ul {
-  margin-top: 10px; }
-#my-craft li {
-  background-color: rgba(255, 230, 180, 0.5); }
-  #my-craft li:nth-child(odd) {
-    background-color: rgba(230, 180, 100, 0.25); }
-#my-craft .photography .images {
-  overflow-y: scroll; }
-  #my-craft .photography .images .wrapper {
-    width: 4800px; }
-  #my-craft .photography .images img {
-    display: inline;
-    white-space: nowrap; }
+#my-craft {
+  width: 46.1%; }
+  #my-craft ul {
+    margin-top: 10px; }
+  #my-craft li {
+    background-color: rgba(255, 230, 180, 0.5); }
+    #my-craft li:nth-child(odd) {
+      background-color: rgba(230, 180, 100, 0.25); }
+  #my-craft .photography .images {
+    overflow-y: scroll; }
+    #my-craft .photography .images .wrapper {
+      width: 4800px; }
+    #my-craft .photography .images img {
+      display: inline;
+      white-space: nowrap; }
 
 #faq {
   background-color: rgba(151, 255, 246, 0.25);
@@ -124,8 +125,6 @@ small:after {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: black;
-  background-color: #C30000;
-  background-color: #00A88A; }
+  background-color: #FFDBC0; }
 
 /*# sourceMappingURL=styles.css.map */
