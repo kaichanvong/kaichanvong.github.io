@@ -1,10 +1,20 @@
 html {
-  border-top: 30px solid #FFE7D5;
+  border-top: 30px solid #E14040;
   padding-top: 40px;
   line-height: 140%; }
 
 .if-colorblindness {
   color: #E14040; }
+
+small:after {
+  content: ' ';
+  display: block;
+  height: 30px;
+  width: 50.1%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #F6533D; }
 
 body {
   background-color: rgba(255, 255, 255, 0.45);
@@ -64,22 +74,35 @@ ul {
     margin-bottom: 5px;
     padding-bottom: 0; }
 
-#my-craft {
-  width: 46.1%; }
-  #my-craft ul {
-    margin-top: 10px; }
-  #my-craft li {
-    background-color: rgba(255, 230, 180, 0.5); }
-    #my-craft li:nth-child(odd) {
-      background-color: rgba(230, 180, 100, 0.25); }
-  #my-craft .photography .images {
-    overflow-y: scroll; }
-    #my-craft .photography .images .wrapper {
-      width: 4800px; }
-    #my-craft .photography .images img {
-      display: inline;
-      white-space: nowrap; }
+/*#my-craft {
+  width: 46.1%;
 
+  ul {
+    margin-top: 10px;
+  }
+
+  li {
+    background-color: rgba(255, 230, 180, 0.50);
+
+    &:nth-child(odd) {
+      background-color: rgba(230, 180, 100, 0.25);
+    }
+  }
+
+  .photography .images {
+    overflow-y: scroll;
+
+    .wrapper {
+      $image_count: 20;
+      width: $image_count * 240px;
+    }
+
+    img {
+      display: inline;
+      white-space: nowrap;
+    }
+  }
+}*/
 #faq {
   background-color: rgba(151, 255, 246, 0.25);
   margin: 0 -2em 0;
@@ -116,15 +139,5 @@ ul {
     color: #fff;
     display: block;
     text-decoration: none; }
-
-small:after {
-  content: ' ';
-  display: block;
-  height: 30px;
-  width: 50.1%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #FFDBC0; }
 
 /*# sourceMappingURL=styles.css.map */
