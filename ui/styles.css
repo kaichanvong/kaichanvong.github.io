@@ -7,7 +7,7 @@ html {
   color: #E14040; }
 
 small {
-  color: #F1F1C1; }
+  color: #F6533D; }
   small:after {
     content: ' ';
     display: block;
@@ -19,9 +19,8 @@ small {
     background-color: #F6533D; }
 
 body {
-  background-color: rgba(255, 255, 255, 0.45);
-  background-color: #111;
-  color: #fff;
+  background-color: #f1f1f1;
+  color: #111;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 5%;
   padding: 1px 2em 1em; }
@@ -31,9 +30,9 @@ p {
   font-size: 1em; }
 
 a {
-  color: #cbcbcb; }
+  color: #5583E3; }
   a:hover {
-    color: #F1F1C1; }
+    color: #F6533D; }
 
 .hidden {
   display: none; }
