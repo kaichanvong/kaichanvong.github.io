@@ -6,19 +6,22 @@ html {
 .if-colorblindness {
   color: #E14040; }
 
-small:after {
-  content: ' ';
-  display: block;
-  height: 30px;
-  width: 50.1%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #F6533D; }
+small {
+  color: #F1F1C1; }
+  small:after {
+    content: ' ';
+    display: block;
+    height: 30px;
+    width: 50.1%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F6533D; }
 
 body {
   background-color: rgba(255, 255, 255, 0.45);
-  color: #222;
+  background-color: #111;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 5%;
   padding: 1px 2em 1em; }
@@ -28,7 +31,9 @@ p {
   font-size: 1em; }
 
 a {
-  color: #32479D; }
+  color: #cbcbcb; }
+  a:hover {
+    color: #F1F1C1; }
 
 .hidden {
   display: none; }
