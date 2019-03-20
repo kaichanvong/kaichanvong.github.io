@@ -1,13 +1,13 @@
 html {
-  border-top: 30px solid #2AEFB5;
+  border-top: 30px solid #2759C6;
   padding-top: 40px;
   line-height: 140%; }
 
 .if-colorblindness {
-  color: #2AEFB5; }
+  color: #2759C6; }
 
 small {
-  color: #2AEFB5; }
+  color: #2759C6; }
   small:after {
     content: ' ';
     display: block;
@@ -16,11 +16,11 @@ small {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #12DEA2; }
+    background-color: #2774C6; }
 
 body {
-  background-color: #315F8E;
-  color: #f1f2f0;
+  background-color: #E6EBF6;
+  color: #315F8E;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 120%;
   margin: 0 5%;
@@ -43,7 +43,7 @@ p {
       width: 18px; }
 
 a {
-  color: #2AEFB5; }
+  color: #2759C6; }
   a:hover {
     color: #12DEA2; }
 
