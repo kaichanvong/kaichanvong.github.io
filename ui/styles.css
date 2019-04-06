@@ -1,37 +1,59 @@
+html, slot.hr {
+  border-top: 30px solid #2759C6; }
+
 html {
-  border-top: 30px solid #2759C6;
-  padding-top: 40px;
   line-height: 140%; }
 
 .if-colorblindness {
   color: #2759C6; }
 
-small {
-  color: #2759C6; }
-  small:after {
-    content: ' ';
-    display: block;
-    height: 30px;
-    width: 50.1%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #2774C6; }
-
 body {
+  margin: 0; }
+
+slot.hr:after,
+small:after {
+  content: ' ';
+  display: block;
+  height: 30px;
+  width: 50.1%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #2774C6; }
+
+summary, slot.hr {
   background-color: #E6EBF6;
   color: #315F8E;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 120%;
-  margin: 0 5%;
-  padding: 1px 2em 1em; }
+  padding: 25px 2em 1em; }
 
-p {
+slot.hr {
+  border-color: #FFB875;
+  /*color: crimson;*/
+  display: block;
+  padding: 20px 2em 25px;
+  position: relative; }
+  slot.hr:after {
+    background-color: #FF912B;
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -30px; }
+  slot.hr strong {
+    font-family: Helvetica, Arial, sans-serif; }
+
+body, slot.hr {
+  background-color: #FFF4D8; }
+
+p, em {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 1em; }
 
 #dotcom-companies {
-  margin: 35px 0 70px; }
+  margin: 30px 0; }
+  #dotcom-companies p, #dotcom-companies em {
+    font-style: italic; }
   #dotcom-companies p, #dotcom-companies ul {
     display: inline; }
   #dotcom-companies li {
@@ -41,6 +63,13 @@ p {
     #dotcom-companies li.icon img {
       height: 18px;
       width: 18px; }
+
+a:link, a:hover, a:visited, a:focus, a:active {
+  text-decoration: none;
+  border-bottom: 1px solid #2759C6; }
+
+a:hover {
+  border-bottom: 1px solid #12DEA2; }
 
 a {
   color: #2759C6; }
@@ -83,10 +112,15 @@ ul {
   ul li {
     list-style: none;
     margin: 0 -2em;
-    padding: 1em 7em 0.5em 1.5em;
-    border-left: 10px solid rgba(0, 0, 0, 0); }
+    padding: 1em 7em 0.5em 1.5em; }
     ul li p {
       margin: 0 0 1em; }
+    ul li strong a {
+      color: #315F8E; }
+      ul li strong a:link, ul li strong a:hover, ul li strong a:visited, ul li strong a:focus, ul li strong a:active {
+        border-bottom: 2px solid #315F8E; }
+      ul li strong a:hover {
+        border-bottom: 2px solid #12DEA2; }
   ul h3 {
     margin-bottom: 5px;
     padding-bottom: 0; }
@@ -158,7 +192,7 @@ ul {
     text-decoration: none; }
 
 @media (max-width: 575px) {
-  body {
+  body summary, body slot.hr {
     font-size: 135%;
     line-height: 130%;
     padding-left: 0.5em;
