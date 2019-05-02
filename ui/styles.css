@@ -1,11 +1,11 @@
 html, slot.hr {
-  border-top: 30px solid #2759C6; }
+  border-top: 30px solid crimson; }
 
 html {
   line-height: 140%; }
 
 .if-colorblindness {
-  color: #2759C6; }
+  color: crimson; }
 
 body {
   margin: 0; }
@@ -19,10 +19,10 @@ small:after {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #2774C6; }
+  background-color: red; }
 
 summary, slot.hr {
-  background-color: #E6EBF6;
+  background-color: #fff;
   color: #315F8E;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 120%;
@@ -30,7 +30,6 @@ summary, slot.hr {
 
 slot.hr {
   border-color: #FFB875;
-  /*color: crimson;*/
   display: block;
   padding: 20px 2em 25px;
   position: relative; }
@@ -44,7 +43,8 @@ slot.hr {
     font-family: Helvetica, Arial, sans-serif; }
 
 body, slot.hr {
-  background-color: #FFF4D8; }
+  background-color: #D51818;
+  color: #fff; }
 
 p, em {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
@@ -66,15 +66,15 @@ p, em {
 
 a:link, a:hover, a:visited, a:focus, a:active {
   text-decoration: none;
-  border-bottom: 1px solid #2759C6; }
+  border-bottom: 1px solid crimson; }
 
 a:hover {
-  border-bottom: 1px solid #12DEA2; }
+  border-bottom: 1px solid red; }
 
 a {
-  color: #2759C6; }
+  color: crimson; }
   a:hover {
-    color: #12DEA2; }
+    color: red; }
 
 .hidden {
   display: none; }
@@ -120,7 +120,7 @@ ul {
       ul li strong a:link, ul li strong a:hover, ul li strong a:visited, ul li strong a:focus, ul li strong a:active {
         border-bottom: 2px solid #315F8E; }
       ul li strong a:hover {
-        border-bottom: 2px solid #12DEA2; }
+        border-bottom: 2px solid red; }
   ul h3 {
     margin-bottom: 5px;
     padding-bottom: 0; }
