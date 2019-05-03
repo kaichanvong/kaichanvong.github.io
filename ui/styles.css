@@ -22,8 +22,8 @@ small:after {
   background-color: red; }
 
 summary, slot.hr {
-  background-color: #fff;
-  color: #315F8E;
+  background-color: #353535;
+  color: #bbb;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 120%;
   padding: 25px 2em 1em; }
@@ -66,13 +66,13 @@ p, em {
 
 a:link, a:hover, a:visited, a:focus, a:active {
   text-decoration: none;
-  border-bottom: 1px solid crimson; }
+  border-bottom: 1px solid red; }
 
 a:hover {
   border-bottom: 1px solid red; }
 
 a {
-  color: crimson; }
+  color: red; }
   a:hover {
     color: red; }
 
@@ -116,9 +116,9 @@ ul {
     ul li p {
       margin: 0 0 1em; }
     ul li strong a {
-      color: #315F8E; }
+      color: #bbb; }
       ul li strong a:link, ul li strong a:hover, ul li strong a:visited, ul li strong a:focus, ul li strong a:active {
-        border-bottom: 2px solid #315F8E; }
+        border-bottom: 2px solid #bbb; }
       ul li strong a:hover {
         border-bottom: 2px solid red; }
   ul h3 {
