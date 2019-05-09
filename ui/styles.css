@@ -10,6 +10,9 @@ html {
 body {
   margin: 0; }
 
+#last-edited {
+  margin-top: 50px; }
+
 slot.hr:after,
 small:after {
   content: ' ';
@@ -197,5 +200,25 @@ ul {
     line-height: 130%;
     padding-left: 0.5em;
     padding-right: 0.5em; } }
+.animated-iframe {
+  background-color: red;
+  height: 315px;
+  position: relative;
+  -webkit-animation: mymove 5s 1;
+  -webkit-animation-timing-function: linear;
+  animation: mymove 5s 1;
+  animation-timing-function: linear; }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {
+    height: 0px; }
+  to {
+    height: 315px; } }
+@keyframes mymove {
+  from {
+    height: 0px; }
+  to {
+    height: 315px; } }
 
 /*# sourceMappingURL=styles.css.map */
