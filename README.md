@@ -1,1 +1,1 @@
-public hosting for kaivong.com
+my public_html hosting for kaivong.com
