@@ -75,9 +75,9 @@ a:hover {
   border-bottom: 1px solid red; }
 
 a {
-  color: red; }
+  color: whitesmoke; }
   a:hover {
-    color: red; }
+    color: whitesmoke; }
 
 .hidden {
   display: none; }
