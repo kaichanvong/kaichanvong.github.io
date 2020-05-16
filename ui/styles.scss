@@ -1,34 +1,35 @@
 $primary:  #32479D;
 $secondary:#5583E3;
 $tertiary: #888888;
-$halt: #E14040;
-$continue: #FFE7D5;
+$green: #257748;
 
-$font_headline: Helvetica, Arial, sans-serif;
-$font_paragraph: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+$font_headline: helvetica, arial, sans-serif;
+$font_paragraph: baskerville, helvetica, arial, sans-serif;
 
 html {
-  border-top: 30px solid $continue;
+  border-top: 30px solid $green;
 //   border-top: 0.75em solid #fff;
   padding-top: 40px;
   line-height: 140%;
 }
 
 .if-colorblindness {
-  color: $halt;
+  color: $green;
 }
 
 body {
+  // background-color: rgb(66, 18, 80); // make websafe
   background-color: rgba(255,255,255,0.45); // make websafe
   color: #222;
   font-family: $font_headline;
+  max-width: 90%;
   margin: 0 5%;
   padding: 1px 2em 1em;
 }
 
 p {
   font-family: $font_paragraph;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 a {
@@ -74,7 +75,7 @@ h3 {
 
 ul,
 p {
-  /*max-width: 700px;*/
+  max-width: 700px;
   margin-top: 5px;
 }
 
@@ -85,8 +86,9 @@ ul {
   li {
     list-style: none;
     margin: 0 -2em;
-    padding: 1em 7em 0.5em 1.5em;
+    padding: 0.5em 7em 0.5em 1.5em;
     border-left: 10px solid rgba(0, 0, 0, 0);
+    // padding: 0.85em 0;
 
     p {
       margin: 0 0 1em;
@@ -101,17 +103,17 @@ ul {
 
 
 #my-craft {
-  width: 46.1%;
-
   ul {
     margin-top: 10px;
   }
 
   li {
-    background-color: rgba(255, 230, 180, 0.50);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-left: 25px solid rgba(217, 217, 217, 0.75);
 
     &:nth-child(odd) {
-      background-color: rgba(230, 180, 100, 0.25);
+      background-color: rgba(255, 221, 195, 0.25);
+      border-left: 25px solid rgba(255, 221, 195, 0.75);
     }
   }
 
@@ -194,5 +196,3 @@ ul {
     text-decoration: none;
   }
 }
-
-small:after { content:' ';display:block; height:30px; width:50.1%; position:absolute; top:0 ; right: 0; background-color:#FFDBC0; }
