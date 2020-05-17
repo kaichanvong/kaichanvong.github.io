@@ -64,57 +64,9 @@ ul {
     margin-bottom: 5px;
     padding-bottom: 0; }
 
-#my-craft ul {
-  margin-top: 10px; }
-#my-craft li {
-  background-color: rgba(255, 255, 255, 0.25);
-  border-left: 25px solid rgba(217, 217, 217, 0.75); }
-  #my-craft li:nth-child(odd) {
-    background-color: rgba(255, 221, 195, 0.25);
-    border-left: 25px solid rgba(255, 221, 195, 0.75); }
-#my-craft .photography .images {
-  overflow-y: scroll; }
-  #my-craft .photography .images .wrapper {
-    width: 4800px; }
-  #my-craft .photography .images img {
-    display: inline;
-    white-space: nowrap; }
-
-#faq {
-  background-color: rgba(151, 255, 246, 0.25);
-  margin: 0 -2em 0;
-  padding: 1em 2em 0; }
-
-#credits:active {
-  background-color: rgba(151, 255, 246, 0.25); }
-#credits p {
-  margin: 0 0 0; }
-#credits li {
-  list-style: circle;
-  margin-left: 1em;
-  padding-left: 0; }
-
 .full-name span.zn-CN {
   display: none; }
 .full-name:hover span[lang|="en"] {
   display: none; }
 .full-name:hover span.zn-CN {
   display: inline-block; }
-
-#creative-commons-license img {
-  float: left;
-  margin: 6px 10px 0 0; }
-
-#github-repo-link {
-  background: #111 url("/images/github.svg") no-repeat scroll 2em 50%;
-  color: #FFF;
-  margin: 0 -2em;
-  padding: 1.2em 2em 1.25em 5.5em; }
-  #github-repo-link:hover {
-    background-color: #222; }
-  #github-repo-link a {
-    color: #fff;
-    display: block;
-    text-decoration: none; }
-
-/*# sourceMappingURL=styles.css.map */
