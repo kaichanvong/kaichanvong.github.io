@@ -7,8 +7,6 @@ html {
   color: #257748; }
 
 body {
-  /*background-color: rgba(255, 255, 255, 0.45);*/
-  /*background-color: aquamarine;*/
   color: #222;
   font-family: helvetica, arial, sans-serif;
   max-width: 90%;
@@ -41,9 +39,6 @@ h2 {
 h1 {margin-top: 0; }
 h1 em { font-style: normal;  }
 
-
-/*h1:first-letter { color: #222;  }*/
-
 h3 {
   margin-top: 0; }
   h3 strong {
@@ -55,8 +50,6 @@ p {
   margin-top: 5px; }
 
 ul {
-/*  border: 1px solid crimson;
-  border-left: 35px solid crimson;*/
   float: left;
   margin: 0 0 0 50px;
   list-style: none;
@@ -66,9 +59,6 @@ ul {
 ul li {
   list-style: none;
   margin: 0 ;
-  /*padding: 0.5em;*/
-  /*padding: 0 2em 0 0; */
-/*  border-left: 10px solid transparent;*/
   margin-right: 10px;
   display: inline-block;}
 
@@ -91,10 +81,9 @@ ul h3 {
   display: inline-block; }
 .full-name:hover .com { visibility: hidden;  }
 
-/*@media screen and (min-width: 800px) { body { background-color: aquamarine; } }
-@media screen and (min-width: 600px) { body { background-color: bisque; } }*/
+
 @media screen and (max-device-width: 480px) {
   html { line-height: 350%; }
-  body { background-color: bisque; font-size: 200%; }
+  body { font-size: 200%; }
   body li img { height: 75px; margin-right: 35px; top: 25px; width: 75px; }
 }
