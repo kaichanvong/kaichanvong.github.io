@@ -85,5 +85,7 @@ ul h3 {
 @media screen and (max-device-width: 480px) {
   html { line-height: 350%; }
   body { font-size: 200%; }
+  .full-name em { display: none; }
   body li img { height: 75px; margin-right: 35px; top: 25px; width: 75px; }
+/*  #find-links { font-size: 100%; }*/
 }
