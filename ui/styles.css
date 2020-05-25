@@ -65,8 +65,12 @@ ul li {
 ul li p { margin: 0 0 1em; }
 ul li img { position: relative; top: 6px; margin-right: 15px;  }
 
-#find-links {
-  float: left; margin: 28px 0 0;
+#find-links p {
+  float: left; margin: 28px 50px 0 0;
+}
+
+#find-links ul {
+  margin-left: 0;
 }
 
 ul h3 {
@@ -88,4 +92,14 @@ ul h3 {
   .full-name em { display: none; }
   body li img { height: 75px; margin-right: 35px; top: 25px; width: 75px; }
 /*  #find-links { font-size: 100%; }*/
+}
+
+aside {
+  float: right; width: 35%; padding: 0; margin: 0; font-style: italic;
+}
+
+aside h2 {  margin: 0; }
+
+aside img {
+  border: 2px solid #333; position: relative; top: -5px;
 }
