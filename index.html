@@ -2,18 +2,19 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='ui/styles.css' rel='stylesheet'>
     <title>kaivong.com – something light fantastic!</title>
     <link href='ui/favicon.ico' rel='shortcut icon' type='image/x-icon'>
   </head>
   <body>
-    <div style=" float: left;  width: 60%;">
+    <content>
       <h1 title='Kai[Chan]Vong.com'>a <strong class='bbc-gbr full-name'><span lang='en-GB'>kai<em>chan</em>vong</span> <span class='zn-CN' lang='zh-CN' style="cursor: pointer;"> 黃振佳 </span><span class="com"></span> website
       </strong></h1>
       <p>Hello. This page occasionally changes now and again. Any questions, reach out and send an email about your question (kai @ kaivong.com).</p>
 
       <div id='about'>
-        <h2>About <span>Kai</span></h2>
+        <h2>about <span>Kai</span></h2>
         <p>Kai has a background in Computer-Games Design, studying the components, hobbies and eSports from the mid-90s to 2006.
         Designing since the 1990s doing small-websites then follow studying; at various web-companies.</p>
       </div>
@@ -23,11 +24,16 @@
            <li><a href="https://www.linkedin.com/in/kaichanvong"><img src="ui/icons/LI-In-Bug.png" width='49' height='35' title="kaichanvong in LinkedIn"></a></li><li><a href="https://www.facebook.com/kaichanvong"><img src="ui/icons/f_logo_RGB-Grey_100.png" width='35' height='36' title="Facebook"></a></li><li class="twitter"><a href="https://www.twitter.com/kaichanvong"><img src="ui/icons/Twitter_Logo_Blue.png" width='35' height='35' title="Twitter"></a></li><li><a href="https://www.instagram.com/kaichanvong"><img src="ui/icons/instagram_classic_logo.png" width='35' height='35' title='instagram'></a></li>
         </ul>
       </div>
-    </div>
+    </content>
 
     <aside>
-      <h2>a_<span>picture</span></h2>
-      <img src="images/no-fishing-down-stream_3732415641_o.jpg" title='message on signpost: NO FISHING DOWNSTREAM'>
+      <h2>a_<span>Picture</span></h2>
+
+      <picture>
+        <source media="(min-width:300px)" srcset="/images/no-fishing-down-stream_3732415641_o-300.png">
+        <source media="(min-width:600px)" srcset="/images/no-fishing-down-stream_3732415641_o-600.png">
+        <img src="/images/no-fishing-down-stream_3732415641_o.png" alt='message on signpost: NO FISHING DOWNSTREAM'>
+      </picture>
     </aside>
 
     <!-- <label>dark mode</label> -->
