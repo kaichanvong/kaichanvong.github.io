@@ -27,13 +27,17 @@ a {
 h2[title] {
   text-decoration: underline; }
 
+.new-line {
+ display: block;
+}
+
 h1,
 h2 {
   font-family: helvetica, arial, sans-serif;
   font-size: 3em;
   line-height: 100%;
   margin-bottom: 0; }
-  h1 span,
+  h1 .highlight,
   h2 span {
     color: crimson; }
 
@@ -70,20 +74,20 @@ ul li img { position: relative; top: 6px; margin-right: 15px;  }
 #find-links ul { margin-left: 0; }
 ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 
-.full-name span.zn-CN {
+.highlight span.zn-CN {
   display: none; }
-.full-name:hover span[lang|="en"] {
+.highlight:hover span[lang|="en"] {
   display: none; }
-.full-name:hover span.zn-CN {
+.highlight:hover span.zn-CN {
   display: inline-block; }
-.full-name:hover .com { visibility: hidden;  }
+.highlight:hover .com { visibility: hidden;  }
 
 aside { float: left; width: 35%; padding: 0; margin: 0; font-style: italic; }
 aside h2 {  margin: 0; z-index: 2; position: relative; }
 aside img { border: 3px solid #333; position: relative; top: -5px; z-index: 1;}
 
 @media screen and (max-device-width: 480px) {
-	.full-name em { display: none; }
+	.highlight em { display: none; }
 	body { padding: 0; }
 	body content { max-width: 100%; }
 	/*content { float: none; }*/
