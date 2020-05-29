@@ -87,9 +87,10 @@ aside h2 {  margin: 0; z-index: 2; position: relative; }
 aside img { border: 3px solid #333; position: relative; top: -5px; z-index: 1;}
 
 @media screen and (max-device-width: 480px) {
-	.highlight em { display: none; }
+	html { padding: 0;  }
+  .highlight em { display: none; }
 	body { padding: 0; }
-	body content { max-width: 100%; }
+/*	body content { max-width: 100%; }*/
 	/*content { float: none; }*/
-	aside { float: none; }
+	aside { float: none; margin-left: 0; }
 }
