@@ -1,5 +1,5 @@
 html {
-  border-top: 20px solid crimson;
+  border-top: 40px solid #c42c00;
   padding-top: 40px;
   line-height: 140%; }
 
@@ -17,8 +17,7 @@ p {
   font-family: helvetica, arial, sans-serif;
   font-size: 0.9em; }
 
-a {
-  color: #32479D; }
+a { color: #32479D; }
 
 .hidden {
   display: none; }
@@ -38,7 +37,7 @@ h2 {
   margin: 0; }
   h1 .highlight,
   h2 span {
-    color: crimson; }
+    color: #c42c00; }
 
 h1 {margin-top: 0; }
 h1 em { font-style: normal;  }
@@ -46,7 +45,7 @@ h1 em { font-style: normal;  }
 h3 {
   margin-top: 0; }
   h3 strong {
-    color: crimson; }
+    color: #c42c00; }
 
 body content { float: left;
   /*max-width: 460px;*/
