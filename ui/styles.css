@@ -1,6 +1,5 @@
 html {
-  background-color: #eef39d;
-  border-top: 20px solid #9fe458; /* CRiMiSoN is for battle-net */
+  border-top: 20px solid crimson;
   padding-top: 40px;
   line-height: 140%; }
 
@@ -36,7 +35,7 @@ h2 {
   font-family: helvetica, arial, sans-serif;
   font-size: 3em;
   line-height: 100%;
-  margin-bottom: 0; }
+  margin: 0; }
   h1 .highlight,
   h2 span {
     color: crimson; }
@@ -84,7 +83,7 @@ ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 
 aside { float: right; width: 35%; padding: 0; margin: 0 0 0 100px ; font-style: italic; }
 aside h2 {  margin: 0; z-index: 2; position: relative; }
-aside img { border: 3px solid #333; position: relative; top: -5px; z-index: 1; width:400px; min-height: 600px; }
+aside img { border: 5px solid #333; position: relative; top: -5px; z-index: 1; width:400px; min-height: 600px; box-shadow: 7px 7px 5px #555; }
 
 
 @media screen and (max-device-width: 480px) {
