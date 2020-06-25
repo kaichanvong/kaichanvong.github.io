@@ -108,5 +108,6 @@ aside img { border: 5px solid #333; position: relative; top: -5px; z-index: 1; w
 	body { padding: 0; }
 /*	body content { max-width: 100%; }*/
 	/*content { float: none; }*/
-	aside { float: none; margin-left: 0; }
+	#previously-kai, aside { float: none; margin-left: 0; }
+	
 }
