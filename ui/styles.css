@@ -93,23 +93,10 @@ ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: #aaa ;
-    margin: 0; padding: 0 0.5em;
-  }
+  body { margin: 0; padding: 0 0.5em; }
   h2 { font-size: 28px;}
-  aside img {
-    margin-left: 0;
-  }
+  aside img { margin-left: 0; }
   #previously-kai { float: none; }
-}
-
-@media only screen and (min-width: 600px) {
-  body {
-    border-right: yellow solid 4px;
-    background-color: #ccc ;
-
-  }
 }
 
 @media only screen and (min-width: 600px) {
