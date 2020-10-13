@@ -71,6 +71,10 @@ ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 #other-externals, #previously-kai { margin-left: 0; vertical-align: baseline; }
 #other-externals li, #previously-kai li { vertical-align: baseline; text-align: center; }
 #other-externals { float: left; }
+#other-externals a { vertical-align: top; }
+#other-externals i { display: inline-block; width:35px; height:35px; color: blue; margin-top: 6px; }
+#other-externals img { display: none; }
+
 #previously-kai { margin-left: -5px; margin-top: 5px;}
 #previously-kai li { background-color: white; border: #999 1px solid; max-width: 48px; padding: 1px 0 5px; }
 #previously-kai li.white { background-color: white; }
