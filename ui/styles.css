@@ -42,7 +42,6 @@ h1 em { font-style: normal; }
 h3 {margin-top: 0; }
 h3 strong {color: red; }
 
-body content { float: left; margin-top: 5px; margin-right: 60px; }
 aside { float: right; padding: 0; font-style: italic; }
 aside h2 {  margin: 0; z-index: 2; position: relative; }
 aside img { border: 5px solid #333; position: relative; top: -5px; max-width: 260px;
