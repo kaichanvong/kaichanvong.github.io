@@ -10,11 +10,11 @@ html:before {
   color: #257748; }
 
 body {
-  color: #222;
-  font-family: helvetica, arial, sans-serif;
+  color: black;
+  font-family: 'Roboto-Light', helvetica, arial, sans-serif;
   padding: 2em; }
 
-p { font-family: helvetica, arial, sans-serif; font-size: 0.9em; }
+p { font-size: 100%; }
 
 a { color: #32479D; }
 
@@ -28,20 +28,25 @@ h2[title] {
  display: block;
 }
 
+strong,
 h1,
 h2 {
   color: red;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 3em;
+  /*font-family: helvetica, arial, sans-serif;*/
+  font-size: 200%;
   line-height: 120%;
-  margin: 0; }
-h1 .highlight, h2 span  { border-bottom: 4px solid crimson; }
-h2 span span { color: #222; }
+  margin: 0;
+}
+strong#notificat0r { margin-bottom: 20px; display: block; }
+h1 .highlight,
+h2 span  { border-bottom: 4px solid crimson; }
+/*h2 span span { color: black; }
 h1 {margin-top: 0; }
 h1 em { font-style: normal; }
 h3 {margin-top: 0; }
-h3 strong {color: red; }
-
+h3 strong {color: red; }*/
+strong.headline-text { margin: 0 0 16px -6px;  }
+h1.paragraph-text { font-size: 100%; color: black; font-weight: normal;}
 aside { float: right; padding: 0; font-style: italic; }
 aside h2 {  margin: 0; z-index: 2; position: relative; }
 aside img { border: 5px solid #333; position: relative; top: -5px; max-width: 260px;
@@ -66,7 +71,7 @@ ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 #social-links { background: lightgrey ; border-top: 2px solid #333;
   border-bottom: 2px solid #333; border-left: 2px solid #999;
   border-right: 2px solid #999; padding-bottom: 2px; overflow: hidden;
-  padding-left: 10px; box-shadow: 0 7px 15px #555; }
+  padding-left: 10px; box-shadow: 0 7px 15px #555; margin: 120px 0 0; }
 #other-externals, #previously-kai { margin-left: 0; vertical-align: baseline; }
 #other-externals li, #previously-kai li { vertical-align: baseline; text-align: center; }
 #other-externals { float: left; }
@@ -84,6 +89,8 @@ ul h3 { margin-bottom: 5px; padding-bottom: 0; }
 .highlight:hover span[lang|="en"] { display: none; }
 .highlight:hover span.zn-CN { display: inline-block; }
 .highlight:hover .com { visibility: hidden;  }
+
+.electronic-mail { font-style: 120%; }
 
 @media screen and (max-device-width: 480px) {
 	html { padding: 0; }
