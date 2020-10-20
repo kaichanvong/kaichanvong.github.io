@@ -141,7 +141,7 @@ ul {
 
 #other-externals {
   float: left;
-  padding: 0 0 0; }
+  padding: 0 0 0; max-width: 200px; }
   #other-externals a {
     vertical-align: top; }
   #other-externals i {
