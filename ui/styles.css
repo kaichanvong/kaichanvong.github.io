@@ -148,12 +148,12 @@ ul {
     width: 35px;
     height: 35px;
     color: khaki; }
-  #other-externals img {
+/*  #other-externals img {
     display: none; }
-
-.fallback-guard #other-externals i {
+*/
+#other-externals i {
   display: none; }
-.fallback-guard #other-externals img {
+#other-externals img {
   display: block; }
 
 #previously-kai {
