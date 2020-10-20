@@ -140,7 +140,8 @@ ul {
     text-align: center; }
 
 #other-externals {
-  float: left; }
+  float: left;
+  padding: 0 0 0; }
   #other-externals a {
     vertical-align: top; }
   #other-externals i {
@@ -148,14 +149,10 @@ ul {
     width: 35px;
     height: 35px;
     color: khaki; }
-/*  #other-externals img {
-    display: none; }
-*/
 #other-externals i {
   display: none; }
 #other-externals img {
-  display: block; }
-
+  display: block; top: 0; }
 #previously-kai {
   margin-left: -5px;
   margin-top: 5px; }
