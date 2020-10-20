@@ -201,11 +201,8 @@ ul {
     padding: 0; }
 
   #other-externals, #previously-kai, aside, aside img {
-    float: none;
     margin-left: 0; }
-
-  #previously-kai {
-    clear: both; } }
+}
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
