@@ -151,6 +151,7 @@ ul {
     color: khaki; }
 #other-externals i {
   display: none; }
+#other-externals li { margin: 0 0 0 0; }
 #other-externals img {
   display: block; top: 0; margin: 0 0 0 0;}
 #previously-kai {
