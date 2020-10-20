@@ -241,3 +241,9 @@ ul {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; }
+
+body.highlight, body.highlight #other-externals h2 {
+  background: #333;
+}
+body.highlight .other-externals h2,
+body.highlight #other-externals li i { color: #666 }

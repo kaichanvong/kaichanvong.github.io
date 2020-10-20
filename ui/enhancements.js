@@ -1,4 +1,12 @@
-// function creativifi_that_page_element(tag_selector, message) { document.getElementsByTagName(tag_selector)[0].append(message); }
-var document_title_text = document.title.replace('their','the');
-(document.getElementById('notificat0r').innerHTML = document_title_text);
-// creativifi_that_page_element('h1', ' does use Google web-tracking in your browser');
+if (document.getElementById('notificat0r') == null) {
+} else {
+	var document_title_text = document.title.replace('their','the');
+	(document.getElementById('notificat0r').innerHTML = document_title_text);
+}
+
+var element_anchor_name_lookup = document.URL.split('#')[1];
+if (element_anchor_name_lookup == undefined) {
+} else if (element_anchor_name_lookup == "previously-kai") {
+	document.getElementsByTagName('body')[0].setAttribute('class','highlight');
+} else {
+}
