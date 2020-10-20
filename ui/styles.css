@@ -244,3 +244,4 @@ body.highlight, body.highlight #other-externals h2 {
 }
 body.highlight .other-externals h2,
 body.highlight #other-externals li i { color: #666 }
+body.highlight #other-externals li img { opacity: 25%; }
