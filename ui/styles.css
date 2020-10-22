@@ -55,7 +55,8 @@ aside {
   float: right;
   padding: 0;
   font-style: italic;
-  margin: 40px 0 0; }
+  margin: 40px 0 0;
+  width: 300px; }
   aside h2 {
     margin: 0;
     z-index: 2;
@@ -69,6 +70,21 @@ aside {
     z-index: 1;
     box-shadow: 0 7px 15px #555;
     margin: 20px 0 20px 100px; }
+  aside picture {
+    height: 450px;
+    width: 300px;
+    position: relative; }
+    aside picture img {
+      position: absolute;
+      right: 0; }
+      aside picture img.selfie {
+        visibility: hidden; }
+      aside picture img.self-drawing {
+        visibility: visible; }
+    aside picture:hover img.selfie {
+      visibility: visible; }
+    aside picture:hover img.self-drawing {
+      visibility: hidden; }
 
 ul {
   float: left;
