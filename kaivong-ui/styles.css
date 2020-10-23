@@ -92,8 +92,7 @@ aside {
 ul {
   float: left;
   margin: 0 0 0 50px;
-  list-style: none;
-  padding: 5px 5px 10px; }
+  list-style: none; }
   ul li {
     list-style: none;
     margin: 0  10px 0 0;
@@ -102,7 +101,6 @@ ul {
       margin: 0 0 1em; }
     ul li img {
       position: relative;
-      top: 6px;
       margin-right: 12px; }
   ul h3 {
     margin-bottom: 5px;
@@ -121,8 +119,7 @@ ul {
   margin: 0 0 0 0; }
   .social-links li {
     border-top: 2px solid grey;
-    overflow: hidden;
-    padding-top: 4px; }
+    overflow: hidden; }
     .social-links li.other-externals {
       float: left; }
     .social-links li.previously-kai {
@@ -156,23 +153,22 @@ ul {
     text-align: center; }
 
 #previously-kai li.nth-child-2n, #previously-kai li.last-child {
-  margin-right: 0; }
+  margin-right: 5px; }
 
 #other-externals {
   float: left;
   padding: 0 0 0;
-  max-width: 175px; }
+  max-width: 135px;
+  line-height: 2; }
   #other-externals a {
     vertical-align: top; }
   #other-externals i {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     color: khaki; }
   #other-externals i {
     display: none; }
-  #other-externals li {
-    margin: 0 0 0 0; }
   #other-externals img {
     display: block;
     top: 0;
@@ -182,13 +178,14 @@ ul {
   margin-left: -5px;
   margin-top: 5px;
   text-align: right;
-  width: 120px; }
+  width: 120px;
+  line-height: 2; }
   #previously-kai li {
     background-color: white;
     border: 0;
-    margin: 5px;
-    max-width: 48px;
-    padding: 1px 0 5px; }
+    margin-top: 2px;
+    max-height: 28px;
+    max-width: 48px; }
   #previously-kai li a {
     display: block; }
   #previously-kai img {
