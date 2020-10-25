@@ -272,19 +272,3 @@ body.about p.homepage-link {
 body.about code {
   display: block;
   font-size: 200%; }
-
-/*body.portfolio h2 {
-  display: inline-block;*/
-  margin-right: 60px; }
-  body.portfolio h2:first-child, body.portfolio h2:nth-child(2n) {
-    color: grey; }
-/*body.portfolio ul {
-  display: none; }*/
-/*  body.portfolio ul li {
-    display: inline-block; }*/
-body.portfolio #justgiving {
-  display: block; }
-
-body.about picture, body.about picture img {
-  float: right;
-  width: 300px; }
