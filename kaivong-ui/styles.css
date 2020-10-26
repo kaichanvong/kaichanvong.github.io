@@ -11,7 +11,7 @@ body {
   color: default;
   font-family: "Roboto-Light", helvetica, arial, sans-serif;
   margin: -120px 0 0;
-  padding: 2em; }
+  padding: 2em 0 0 0; }
 
 a:link {
   color: blue; }
@@ -28,17 +28,24 @@ a:active {
   border: 0;
   outline: 0; }
 
+h1, h2, p, li {
+  padding: 0 2em 2em 2em; }
+
 p, li {
   font-size: 2em;
   font-family: "Roboto-Light", helvetica, arial, sans-serif;
   margin: 0; }
 
 h2 {
-  font-size: 3em; }
+  font-size: 3em;
+  padding: 0 1.3em 0 1.3em;
+  margin: 0; }
 
 h1 {
+  background: crimson;
   color: red;
   font-size: 4em;
+  padding: 0 1em 0 1em;
   text-shadow: khaki -4px -4px 1px; }
   h1.paragraph-text {
     font-size: 150%;
@@ -85,7 +92,6 @@ aside {
       visibility: hidden; }
 
 ul {
-  float: left;
   margin: 0 0 0 50px;
   list-style: none; }
   ul li {
@@ -101,9 +107,6 @@ ul {
     margin-bottom: 5px;
     padding-bottom: 0; }
 
-#about {
-  margin-right: 50px; }
-
 ol.social-links {
   display: block;
   overflow: hidden;
@@ -114,7 +117,8 @@ ol.social-links {
   margin: 50px 0 0 0; }
   ol.social-links li {
     border-top: 2px solid grey;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0; }
     ol.social-links li.other-externals {
       float: left; }
     ol.social-links li.previously-kai {
@@ -132,7 +136,6 @@ ol.social-links {
 #social-links {
   background: #3f3f3f;
   border: 2px solid grey;
-  /*min-height: 58px;*/
   box-shadow: 0 7px 15px #555;
   overflow: hidden;
   padding: 0 0 0 6px; }
@@ -155,6 +158,8 @@ ol.social-links {
   max-width: 200px; }
   #other-externals a {
     vertical-align: top; }
+  #other-externals li {
+    padding: 0 0 0; }
   #other-externals i {
     display: inline-block;
     width: 32px;
@@ -173,7 +178,8 @@ ol.social-links {
   text-align: right;
   padding: 0 10px 0 0; }
   #previously-kai li {
-    background-color: white; }
+    background-color: white;
+    padding: 0; }
     #previously-kai li:last-child {
       margin-right: 0; }
   #previously-kai li a, #previously-kai img {
@@ -213,6 +219,9 @@ body {
   h1 {
     font-size: 5em; }
 
+  p {
+    margin: 20px 14px 0 14px; }
+
   p, li {
     font-size: 3em;
     vertical-align: top; }
@@ -224,19 +233,34 @@ body {
     padding: 60px 0 0 0; }
     body.homepage h1 {
       background: red; }
-  body.contact img {
-    margin: 0 0 0 -100px; }
+  body.contact {
+    background: crimson; }
+    body.contact h1 {
+      margin: 0; }
+    body.contact img {
+      margin: 0 0 0 -100px; }
+    body.contact p.electronic-mail {
+      margin: 0; }
   body.portfolio {
     padding: 60px 0 0 0; }
     body.portfolio h1 {
       background: red; }
-  body.social-links #other-externals {
-    /*max-width: 64px;*/ }
-  body.social-links #previously-kai li {
-    text-align: right;
-    display: block;
-    float: none;
-    margin: 0 0 10px; } }
+  body.social-links {
+    padding: 0; }
+    body.social-links h1 {
+      background: crimson;
+      clear: both;
+      padding: 0 0 0 20px;
+      margin: 0 -5px 0; }
+    body.social-links aside {
+      background: crimson;
+      overflow: hidden;
+      width: 100%; }
+    body.social-links #previously-kai li {
+      text-align: right;
+      display: block;
+      float: none;
+      margin: 0 0 10px; } }
 /*
 @media only screen and (max-width: 600px) {
   body {
@@ -283,6 +307,7 @@ body.social-links #about {
   max-width: 600px; }
 
 body.portfolio ul {
+  float: none;
   padding: 0;
   margin: 0; }
   body.portfolio ul li img {
