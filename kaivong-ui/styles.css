@@ -74,7 +74,7 @@ aside {
     max-width: 260px;
     z-index: 1;
     box-shadow: 0 7px 15px #555;
-    margin: 20px 0 20px 100px; }
+    margin: 20px 0 20px 0; }
   aside picture {
     height: 450px;
     width: 300px;
@@ -250,7 +250,7 @@ body {
     body.social-links h1 {
       background: crimson;
       clear: both;
-      padding: 0 0 0 20px;
+      padding: 0 0 0 0;
       margin: 0 -5px 0; }
     body.social-links aside {
       background: crimson;
@@ -305,6 +305,8 @@ body.highlight {
 
 body.social-links #about {
   max-width: 600px; }
+body.social-links h1 {
+  padding: 0 0.75em 0 0.75em; }
 
 body.portfolio ul {
   float: none;
