@@ -10,7 +10,7 @@ body {
   background: white;
   color: default;
   font-family: "Roboto-Light", helvetica, arial, sans-serif;
-  margin: -160px 0 0;
+  margin: -120px 0 0;
   padding: 2em; }
 
 a:link {
@@ -27,6 +27,14 @@ a:active {
   color: grey;
   border: 0;
   outline: 0; }
+
+p, li {
+  font-size: 2em;
+  font-family: "Roboto-Light", helvetica, arial, sans-serif;
+  margin: 0; }
+
+h2 {
+  font-size: 3em; }
 
 h1 {
   color: red;
@@ -137,16 +145,14 @@ ol.social-links {
   margin: 4px 0 0; }
   #other-externals li, #previously-kai li {
     vertical-align: baseline;
-    text-align: center; }
-
-#previously-kai li.nth-child-2n, #previously-kai li.last-child {
-  margin-right: 5px; }
+    text-align: center;
+    margin-right: 16px; }
 
 #other-externals {
   float: left;
   padding: 0 0 0;
-  max-width: 150px;
-  line-height: 2; }
+  line-height: 2;
+  max-width: 200px; }
   #other-externals a {
     vertical-align: top; }
   #other-externals i {
@@ -162,22 +168,19 @@ ol.social-links {
     margin: 0 0 0 0; }
 
 #previously-kai {
-  margin-left: -5px;
-  margin-top: 5px;
+  float: right;
+  line-height: 2;
   text-align: right;
-  width: 120px;
-  line-height: 2; }
+  padding: 0 10px 0 0; }
   #previously-kai li {
-    background-color: white;
-    border: 0;
-    margin-top: 2px;
-    max-height: 28px;
-    max-width: 48px; }
-  #previously-kai li a {
+    background-color: white; }
+    #previously-kai li:last-child {
+      margin-right: 0; }
+  #previously-kai li a, #previously-kai img {
     display: block; }
   #previously-kai img {
-    max-width: 50%;
-    margin-right: 0; }
+    margin: 0;
+    width: 50px; }
 
 body.contact img {
   position: absolute; }
@@ -195,46 +198,62 @@ body.contact div {
     margin: 0;
     text-shadow: none; }
 
-.electronic-mail {
-  font-style: 120%; }
+body {
+  font-size: 12px; }
 
 @media screen and (max-device-width: 480px) {
-  html {
-    padding: 0; }
-
-  #about {
-    margin-right: 0; }
-
-  #about, #social-links {
-    min-width: initial; }
-
-  .highlight em {
-    display: none; }
-
   body {
-    padding: 0; }
+    font-size: 40%;
+    padding: 60px 4px 0 4px; }
 
-  #other-externals, #previously-kai, aside, aside img {
-    margin-left: 0; } }
+  h2 {
+    font-size: 4em;
+    margin-bottom: 4px; }
+
+  h1 {
+    font-size: 5em; }
+
+  p, li {
+    font-size: 3em;
+    vertical-align: top; }
+
+  ul, ul li {
+    display: block; }
+
+  body.homepage {
+    padding: 60px 0 0 0; }
+    body.homepage h1 {
+      background: red; }
+  body.contact img {
+    margin: 0 0 0 -100px; }
+  body.portfolio {
+    padding: 60px 0 0 0; }
+    body.portfolio h1 {
+      background: red; }
+  body.social-links #other-externals {
+    /*max-width: 64px;*/ }
+  body.social-links #previously-kai li {
+    text-align: right;
+    display: block;
+    float: none;
+    margin: 0 0 10px; } }
+/*
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
     padding: 0 0.5em; }
-
   h2 {
     font-size: 28px; }
-
   aside img {
     margin-left: 0; }
-
   #previously-kai {
-    float: right; } }
+    float: right; }}
 @media only screen and (min-width: 600px) {
   #previously-kai {
-    float: right; } }
+    float: right; }}
 @media only screen and (min-width: 970px) {
   #previously-kai {
-    float: right; } }
+    float: right; }}*/
 ::-webkit-scrollbar {
   width: 12px; }
 
@@ -262,6 +281,12 @@ body.highlight {
 
 body.social-links #about {
   max-width: 600px; }
+
+body.portfolio ul {
+  padding: 0;
+  margin: 0; }
+  body.portfolio ul li img {
+    max-width: 100%; }
 
 body.about p {
   max-width: 600px; }
