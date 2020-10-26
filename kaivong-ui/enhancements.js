@@ -24,16 +24,16 @@
     }
   };
 
-  old_text = 'their';
+  if (document.getElementsByTagName('body')[0].getAttribute('class') === 'homepage') {
+    old_text = 'their';
+    new_text = 'the';
+    correct_notificat0r_text(old_text, new_text);
+  }
 
-  new_text = 'the';
-
-  correct_notificat0r_text(old_text, new_text);
-
-  anchor_name_split_i = 1;
-
-  body_class_split_i = 3;
-
-  enhance_social_links(anchor_name_split_i, body_class_split_i);
+  if (document.getElementsByTagName('body')[0].getAttribute('class') === 'social-links') {
+    anchor_name_split_i = 1;
+    body_class_split_i = 3;
+    enhance_social_links(anchor_name_split_i, body_class_split_i);
+  }
 
 }).call(this);
