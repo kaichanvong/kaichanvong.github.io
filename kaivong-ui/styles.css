@@ -1,5 +1,5 @@
 html {
-  border-top: 40px solid crimson;
+  border-top: 50px solid crimson;
   line-height: 1.5; }
   html:before {
     border: 2px crimson solid;
@@ -10,7 +10,7 @@ body {
   background: white;
   color: default;
   font-family: "Roboto-Light", helvetica, arial, sans-serif;
-  margin: -120px 0 0;
+  margin: -136px 0 0;
   padding: 2em 0 0 0; }
 
 a:link {
@@ -45,13 +45,20 @@ h1 {
   background: crimson;
   color: red;
   font-size: 4em;
-  padding: 0 1em 0 1em;
+  padding: 0 1em 10px 3em;
+  position: relative;
   text-shadow: khaki -4px -4px 1px; }
   h1.paragraph-text {
     font-size: 150%;
     font-weight: normal;
     margin: 10px 0 0;
     color: grey; }
+
+img#logo {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  height: 53px; }
 
 strong.headline-text {
   margin: 0 0 16px -6px; }
@@ -307,8 +314,6 @@ body.highlight {
 
 body.social-links #about {
   max-width: 600px; }
-body.social-links h1 {
-  padding: 0 0.75em 0 0.75em; }
 
 body.portfolio ul {
   float: none;
