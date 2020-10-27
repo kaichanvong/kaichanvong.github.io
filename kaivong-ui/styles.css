@@ -187,6 +187,9 @@ ol.social-links {
     margin: 0;
     width: 50px; }
 
+body.contact {
+  background: crimson; }
+
 body.contact img {
   position: absolute; }
 body.contact div {
