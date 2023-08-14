@@ -1407,3 +1407,6 @@ body#top #sidebar h3 { float: left; }
 body#top #sidebar div { background-color: #bbb; float: left; padding: 6px 20px 0 6px; }
 body#top #sidebar div div { float: left; background-color: #bbb; }
 .no-display { display: none; }
+h1 { font-size: 7em; }
+.portfolioAlbum i span { position: absolute; text-indent: -9em; }
+ 
