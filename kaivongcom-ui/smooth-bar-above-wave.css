@@ -1390,14 +1390,14 @@ body { cursor: default; }
 #online-companies { padding-bottom: 0; }
 .portfolioAlbum p { max-width: 510px; white-space: normal; line-height: 1.3; }
 body#top .portfolioAlbum, body#portfolio .portfolioAlbum { height: 300px; }
-#sidebar button { border: 1px solid #333; border-radius: 100%; display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; text-align: left; top: 10px; width:80px; z-index:2;}
+#sidebar button { border: 1px solid #333; border-radius: 100%; display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; text-align: left; width:80px; z-index:2;}
 #sidebar dialog::backdrop { background-color: rgba(0,0,0, 0.90); }
 #sidebar dialog { padding: 0; border-radius: 100%;}
 #sidebar dialog img { display: block; float: none; height: 100%; width: 100%; 
  					  max-width: 280px; max-height: 280px;}
 #sidebar dialog span { position: absolute; left: 10px; top: 10px; color: #fff; }
 body#top #sidebar:after { display: block; } 
-#social-media-channels-complete { list-style-type: none; }
+#social-media-channels-complete { list-style-type: none; margin-left: 10px; }
 body#top #sidebar { background-color: #bbb; border: 0; display: block; float: none; max-width: auto; width: auto; margin: 0; overflow: hidden; padding: 10px 10px 10px 24px;
 }
 body#top #sidebar p { font-size: 1em; line-height: 1.3; }
