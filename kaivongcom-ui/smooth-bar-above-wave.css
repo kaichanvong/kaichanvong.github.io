@@ -1410,3 +1410,5 @@ body#top #sidebar div div { float: left; background-color: #bbb; }
 h1 { font-size: 7em; }
 .portfolioAlbum i span { position: absolute; text-indent: -9em; }
  
+a.multi-links.external:link, 
+a.multi-links.external:visited { background-color: transparent; color: blue; }
