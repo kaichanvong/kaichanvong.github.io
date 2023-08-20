@@ -1412,3 +1412,4 @@ h1 { font-size: 7em; }
  
 a.multi-links.external:link, 
 a.multi-links.external:visited { background-color: transparent; color: blue; }
+.afk-link { color: #888; display: block; font-size: 0.9em;  }
