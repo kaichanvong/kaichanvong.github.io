@@ -11,3 +11,8 @@ function showCSSpictures(){
     addClassName('dressipi');
     addClassName('justgiving');
 }
+function scrollPage(){
+    document.getElementById('bio').scrollIntoView();
+    console.log('scrolling happens!');
+    return false;
+}

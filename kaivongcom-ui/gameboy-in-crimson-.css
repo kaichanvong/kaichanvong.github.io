@@ -674,6 +674,8 @@ body#digital-identity .footer {
 #bio #twitter-details {
   margin: 0 0 1em 40px;
   min-width: 460px; }
+#bio #twitter-details .bi.bi-link-45deg { float: right; }
+
 #bio .twitch, #bio .twitter {
   background-color: skyblue;
   border-top: 4px solid #aaa;
@@ -1009,7 +1011,7 @@ h1 { font-size: 7em; }
  
 a.multi-links.external:link, 
 a.multi-links.external:visited { background-color: transparent; color: blue; }
-.afk-link { color: #888; display: block; font-size: 0.9em;  }
+.afk-link { color: #888; display: inline; font-size: 0.9em;  }
 #main-content #designs { overflow: auto; }
 .redesigns { width: 4540px; margin: 0; padding: 0; overflow: auto; }
 .redesigns li { display: inline; }
@@ -1022,3 +1024,4 @@ a.multi-links.external:visited { background-color: transparent; color: blue; }
 .thoughtworks-talk { max-height: 280px;max-width: 280px; float: left; padding: 0 20px 10px 0; }
 body table.menubar.controls.widget td a.cc-link:link,
 body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 0; }
+#scroll-to-bio { font-size: 0.9em; display: block; margin-top: 10px; margin-bottom: 10px; }
