@@ -211,9 +211,7 @@ body span.menubar.controls.widget li.digital-identity {
   padding: 0;
   position: relative;
   width: 320px; }
-    #dressipi.pictures--css:after,
-    #justgiving.pictures--css:after,
-  .pictures--css div:after,
+  .pictures--css div div:after,
   .pictures-wrapper:after,
   .pictures-wrapper-2:after {
     content: "\f42b";
@@ -447,7 +445,7 @@ body#digital-identity .footer {
       margin-top: 0.25em; }
     @media (min-width: 480px) {
       body .footer div.copyright {
-        padding: 1em 0 1em 30px; } }
+          padding: 1em 0 1em 30px; } }
   body div.footer {
     background-color: #b0c4de;
     margin: 1em 0 0;
