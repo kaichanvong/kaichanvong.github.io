@@ -2,7 +2,8 @@
 /* fonts for social links */
 @font-face {
   font-family: "bootstrap-icons";
-  src: url("fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"), url("fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
+  src: url("fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"), 
+       url("fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
 .bi a span:before,
 .bi:before,
 [class^="bi-"]:before,
@@ -46,14 +47,16 @@ html.highlight body.social-links a:link,
 html.highlight body.esports a:link {
   color: #009999; }
 html.highlight a.external:visited,
-html.highlight a.external:focus, html.highlight a.external:active,
+html.highlight a.external:focus, 
+html.highlight a.external:active,
 a.external:link, a.external:visited {
   background-color: #21262e;
   color: #f4a460;
   font-weight: bold; }
 a.external:focus {
   color: #21262e; }
-.hidden-visibility a.external:link, .hidden-visibility a.external:visited {
+.hidden-visibility a.external:link, 
+.hidden-visibility a.external:visited {
   background-color: #00cdd1;
   color: #00cdd1; }
 .hidden-visibility a.external:focus {
@@ -88,7 +91,10 @@ a.external:focus {
 #external-links li.css-validation {
   font-size: 0;
   height: 28px; }
-#external-links li.example-studies a, #external-links li#artfinder a, #external-links li#dressipi a, #external-links li#justgiving a {
+#external-links li.example-studies a, 
+#external-links li#artfinder a, 
+#external-links li#dressipi a, 
+#external-links li#justgiving a {
   background: transparent url("social_network_icons.png") 0 0 no-repeat;
   background-size: cover;
   display: block;
@@ -219,7 +225,8 @@ body span.menubar.controls.widget li.digital-identity {
     padding: 0;
     position: relative;
     z-index: 2; }
-    body table.menubar.controls.widget tbody, body table.menubar.controls.widget tr {
+    body table.menubar.controls.widget tbody, 
+    body table.menubar.controls.widget tr {
       width: 100%; }
     body table.menubar td.about { overflow: hidden; }
     body table.menubar.controls.widget.z-bar-1 td.about table {
@@ -232,7 +239,8 @@ body span.menubar.controls.widget li.digital-identity {
         margin: 0; }
         body table.menubar.controls.widget.z-bar-1 td.about table .about {
           border: 0; }
-        body table.menubar.controls.widget.z-bar-1 td.about table tbody, body table.menubar.controls.widget.z-bar-1 td.about table tr {
+        body table.menubar.controls.widget.z-bar-1 td.about table tbody, 
+        body table.menubar.controls.widget.z-bar-1 td.about table tr {
           display: block; }
         body table.menubar.controls.widget.z-bar-1 td.about table td {
           border: 0; }
@@ -273,7 +281,12 @@ body span.menubar.controls.widget li.digital-identity {
         body table.menubar.controls.widget.z-bar-1 td.about table:focus-within:after,
         body table.menubar.controls.widget.z-bar-1 td.about table:hover:after {
           background-color: #21262e; }
-        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .designs, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .gaming, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .about-kcv-about, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .bio, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .contact, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .digital-identity, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .tweets,
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .designs, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .gaming, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .about-kcv-about, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .bio, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .contact, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .digital-identity, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .tweets,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .designs,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .gaming,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .about-kcv-about,
@@ -320,9 +333,9 @@ body span.menubar.controls.widget li.digital-identity {
         body table.menubar.controls.widget.z-bar-1 td.about table:hover .gaming {
           top: 6em; }
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .about-kcv-about,
-        body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .about-kcv-about,
-        body table.menubar.controls.widget.z-bar-1 td.about table:focus .about-kcv-about,
-        body table.menubar.controls.widget.z-bar-1 td.about table:focus-within .about-kcv-about,
+    body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .about-kcv-about,
+    body table.menubar.controls.widget.z-bar-1 td.about table:focus .about-kcv-about,
+    body table.menubar.controls.widget.z-bar-1 td.about table:focus-within .about-kcv-about,
         body table.menubar.controls.widget.z-bar-1 td.about table:hover .about-kcv-about {
           top: 11em; }
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .tweets,
@@ -344,7 +357,8 @@ body span.menubar.controls.widget li.digital-identity {
         top: 170em; }
       body table.menubar.controls.widget.z-bar-1 td.about .about-kcv-about {
         top: 22em; }
-    body table.menubar.controls.widget.z-bar-1 td.notes, body table.menubar.controls.widget.z-bar-1 td.home {
+    body table.menubar.controls.widget.z-bar-1 td.notes, 
+    body table.menubar.controls.widget.z-bar-1 td.home {
       clear: none; }
     body table.menubar.controls.widget table {
       border: 0; }
@@ -469,35 +483,55 @@ body span.menubar.controls.widget li.digital-identity {
       padding-bottom: 1.5em;
       padding-top: 0.25em;
       text-align: left; }
-      body table.menubar.controls.widget.z-bar-0, body table.menubar.controls.widget.z-bar-0 tbody, body table.menubar.controls.widget.z-bar-0 tr, body table.menubar.controls.widget.z-bar-0 td {
+      body table.menubar.controls.widget.z-bar-0, 
+      body table.menubar.controls.widget.z-bar-0 tbody, 
+      body table.menubar.controls.widget.z-bar-0 tr, 
+      body table.menubar.controls.widget.z-bar-0 td {
         display: inline-block;
         vertical-align: top; }
-      body table.menubar.controls.widget.z-bar-0 .about, body table.menubar.controls.widget.z-bar-0 .about table, body table.menubar.controls.widget.z-bar-0 .about tbody, body table.menubar.controls.widget.z-bar-0 .about tr {
+      body table.menubar.controls.widget.z-bar-0 .about, 
+      body table.menubar.controls.widget.z-bar-0 .about table, 
+      body table.menubar.controls.widget.z-bar-0 .about tbody, 
+      body table.menubar.controls.widget.z-bar-0 .about tr {
         display: inline-block; }
       body table.menubar.controls.widget.z-bar-0 .about td {
         border: 0;
         display: inline-block; }
         body table.menubar.controls.widget.z-bar-0 .about td a {
           padding: 0; }
-      body table.menubar.controls.widget.z-bar-0 tbody, body table.menubar.controls.widget.z-bar-0 tr {
+      body table.menubar.controls.widget.z-bar-0 tbody, 
+      body table.menubar.controls.widget.z-bar-0 tr {
         display: block; }
       body table.menubar.controls.widget.z-bar-0 td {
         border: 0;
         padding: 0;
         text-align: center; }
-      body table.menubar.controls.widget.z-bar-0 td.about, body table.menubar.controls.widget.z-bar-0 td.about table {
+      body table.menubar.controls.widget.z-bar-0 td.about, 
+      body table.menubar.controls.widget.z-bar-0 td.about table {
         display: block;
         text-align: left; }
       body table.menubar.controls.widget.z-bar-0 td.about label {
         margin: 0 0 0 0; }
-      body table.menubar.controls.widget.z-bar-0 td.bio, body table.menubar.controls.widget.z-bar-0 td.contact, body table.menubar.controls.widget.z-bar-0 td.designs, body table.menubar.controls.widget.z-bar-0 td.gaming, body table.menubar.controls.widget.z-bar-0 td.digital-identity, body table.menubar.controls.widget.z-bar-0 td.tweets,
-      body table.menubar.controls.widget.z-bar-0 td.notes, body table.menubar.controls.widget.z-bar-0 td.home {
+      body table.menubar.controls.widget.z-bar-0 td.bio, 
+      body table.menubar.controls.widget.z-bar-0 td.contact, 
+      body table.menubar.controls.widget.z-bar-0 td.designs, 
+      body table.menubar.controls.widget.z-bar-0 td.gaming, 
+      body table.menubar.controls.widget.z-bar-0 td.digital-identity, 
+      body table.menubar.controls.widget.z-bar-0 td.tweets,
+      body table.menubar.controls.widget.z-bar-0 td.notes, 
+      body table.menubar.controls.widget.z-bar-0 td.home {
         display: block;
         margin: 0 0 0.5em 2em;
         padding: 0;
         text-align: left; }
-        body table.menubar.controls.widget.z-bar-0 td.bio a, body table.menubar.controls.widget.z-bar-0 td.contact a, body table.menubar.controls.widget.z-bar-0 td.designs a, body table.menubar.controls.widget.z-bar-0 td.gaming a, body table.menubar.controls.widget.z-bar-0 td.digital-identity a, body table.menubar.controls.widget.z-bar-0 td.tweets a,
-        body table.menubar.controls.widget.z-bar-0 td.notes a, body table.menubar.controls.widget.z-bar-0 td.home a {
+        body table.menubar.controls.widget.z-bar-0 td.bio a, 
+        body table.menubar.controls.widget.z-bar-0 td.contact a, 
+        body table.menubar.controls.widget.z-bar-0 td.designs a, 
+        body table.menubar.controls.widget.z-bar-0 td.gaming a, 
+        body table.menubar.controls.widget.z-bar-0 td.digital-identity a, 
+        body table.menubar.controls.widget.z-bar-0 td.tweets a,
+        body table.menubar.controls.widget.z-bar-0 td.notes a, 
+        body table.menubar.controls.widget.z-bar-0 td.home a {
           margin: 0;
           padding: 0; }
     body table.menubar.controls.widget thead td {
@@ -602,7 +636,8 @@ body span.menubar.controls.widget li.digital-identity {
     background-color: #21262e;
     color: #f4a460;
     font-weight: bold; }
-    #bio .twitch .bi.bi-link-45degspan:before, #bio .twitch .bi.bi-link-45deg:before {    color: #FFFF00; }
+    #bio .twitch .bi.bi-link-45degspan:before, 
+    #bio .twitch .bi.bi-link-45deg:before {    color: #FFFF00; }
 #bio li.user h3.name {
   display: inline;
   margin: 0;
@@ -636,7 +671,8 @@ body span.menubar.controls.widget li.digital-identity {
       background: #21262e;
       color: #fff;
       display: inline-block; }
-    #contact #contact-me h1, #contact #contact-me h2,
+    #contact #contact-me h1, 
+    #contact #contact-me h2,
     #contact #contact-me h2 {
       font-family: Georgia, Times, "Times New Roman", serif;
       font-size: 36px;
@@ -757,7 +793,8 @@ body { cursor: default; }
 #sidebar dialog span { position: absolute; left: 10px; top: 10px; color: #fff; }
 body#top #sidebar:after { display: block; } 
 #social-media-channels-complete { list-style-type: none; margin-left: 10px; }
-body#top #sidebar { background-color: #bbb; display: block; float: none; margin: 0; max-width: auto; padding: 10px 10px 10px 24px; position: relative; width: auto; z-index: -1; }
+body#top #sidebar { background-color: #bbb; display: block; float: none; margin: 0; max-width: auto; 
+padding: 10px 10px 10px 24px; position: relative; width: auto; z-index: -1; }
 body#top #sidebar p { font-size: 1em; line-height: 1.3; }
 body#top #sidebar p,
 body#top #sidebar p { margin-right: 0; float: left; clear: left; }
@@ -779,7 +816,8 @@ a.multi-links.external:visited { background-color: transparent; color: blue; }
 #designs.main-content-div {  border-bottom: 0;}
 #sidebar.main-content-div.navigationA  { min-height: 100px; line-height: 1.3; border-bottom: 4px solid #87ceeb;}
 .main-content-div.navigationA span { color: #ddd; z-index: 1; position: relative; } 
-#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: -11px 20px 10px -4px; border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
+#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: -11px 20px 10px -4px; 
+border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #sidebar:before { content: '...'; left: 510px; font-size: 90px;  
     color: #73FCD6; position: absolute; float: right; display: block; 
     right: 0; top: 20px; text-align: center;  
