@@ -274,7 +274,7 @@ body#digital-identity .footer {
   padding: 0; }:root {
   --background-errr: rgb(100,220,240);
   --background-primary: #eee;
-  --background-secondary: #333; }
+  --background-secondary: #424242; }
   /* body...  */
   body {
   color: #222;
@@ -635,7 +635,7 @@ body#digital-identity .footer {
   float: left;
   margin: 0 0 0; }
 #about .has-links a {
-  color: #dc143c; }
+  color: #76D6FF; }
   #about .has-links a.external {
     color: #fff; }
 #about #email, #about #kai-info, #about .footer {
@@ -709,7 +709,7 @@ body#digital-identity .footer {
   clear: left; }
   #bio li.user div.bio.bio-not-found {
     border-left: #222 6px solid;
-    color: #dc143c;
+    color: #76D6FF;
     padding-left: 30px;
     margin-left: -30px; }
 #bio ul#followers-kaichanvong,
@@ -820,9 +820,9 @@ body#top .happenings-latest {
     body#top #gaming-notes a,
     body#top #liked-linked-pages a,
     body#top .happenings-latest a {
-      color: #dc143c; } }
+      color: #76D6FF; } }
 body#top #liked-linked-pages {
-  background: #dc143c;
+  background: #76D6FF;
   border-bottom: 0;
   overflow: hidden;
   padding-bottom: 0;
@@ -842,7 +842,7 @@ body#top #liked-linked-pages {
     padding-top: 0;
     overflow: hidden; }
   body#top #liked-linked-pages li {
-    border-bottom: 1px #dc143c solid;
+    border-bottom: 1px #76D6FF solid;
     line-height: 0.5;
     margin-bottom: 32px;
     margin-left: -2em;
@@ -883,14 +883,6 @@ body#top ol, body#top .recent-digital-notes {
     color: #21262e; }
   body#top ol small, body#top .recent-digital-notes small {
     color: grey; }
-body#top #sidebar {
-  background-color: #e0e0e0;
-  border: 6px solid #b0c4de;
-  float: right;
-  margin: 30px 2em 30px 0;
-  padding: 0 20px 4px 1em;
-  position: relative;
-  width: 284px; }
   body#top #sidebar:after {
     background-repeat: no-repeat;
     background-size: 100%;
@@ -902,13 +894,7 @@ body#top #sidebar {
     right: 20px;
     width: 80px; }
   @media (max-width: 1021px) {
-    body#top #sidebar {
-      background: transparent;
-      float: none;
-      margin-bottom: 26px;
-      margin-left: 30px;
-      margin-top: 0;
-      width: initial; }
+    
       html .portfolioAlbum p { max-width: 360px;}
   }
   body#top #sidebar h3 {
@@ -970,26 +956,24 @@ body #main-content p {margin-right: 2em;}
 #designs .redesigns.pictures li { float: none; display: inline-block;}
  #main-content #developer-kata-stuff.note img { float: none; }
  #main-content #note-39.note h3 { border-left: 0 }
- #main-content #note-39.note #icy-veins-com-sc2-suggestions { border-left: 6px solid #333; }
+ #main-content #note-39.note #icy-veins-com-sc2-suggestions { border-left: 6px solid #424242; }
 body #main-content table.menubar.controls.widget.z-bar-0 td.home a { font-weight: bold; text-decoration: underline; }
-.highlight.headline-text { background-color: #dc143c; border-bottom: 2px solid black; border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
+.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid black; border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
-.highlight.headline-text a { background-color: #dc143c; color: #f00;  }
+.highlight.headline-text a { background-color: #76D6FF; color: #424242;  }
 body table.menubar.z-bar-1 td.about a { padding: 0 1.25em 0.5em; }
 body #main-content .footer table.menubar.controls.widget td.about a { padding-left: 2em}
 body #main-content .footer table.menubar.controls.widget td.about table a  { padding-left: 0}
 body h1 {font-size: 22pt;}
-body #main-content #sidebar { margin-top: 9px; margin-left: 10px; }
 body #main-content #bio { padding-bottom: 0; }
 body#top>nav { position:sticky; top:0; z-index:2; }
-body { cursor: default; }
-#sidebar { cursor: text; } 
+body { cursor: default; } 
 .justgiving.portfolioAlbum { margin-bottom: 0; }
 #online-companies { padding-bottom: 0; }
 .portfolioAlbum p { max-width: 510px; white-space: normal; line-height: 1.3; }
 
-#sidebar button { border: 1px solid #333; border-radius: 100%; display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; text-align: left; width:80px; z-index:2;}
+#sidebar button { border: 1px solid #424242; border-radius: 100%; display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; text-align: left; width:80px; z-index:2;}
 #sidebar dialog::backdrop { background-color: rgba(0,0,0, 0.90); }
 #sidebar dialog { padding: 0; border-radius: 100%;}
 #sidebar dialog img { display: block; float: none; height: 100%; width: 100%; 
@@ -997,7 +981,7 @@ body { cursor: default; }
 #sidebar dialog span { position: absolute; left: 10px; top: 10px; color: #fff; }
 body#top #sidebar:after { display: block; } 
 #social-media-channels-complete { list-style-type: none; margin-left: 10px; }
-body#top #sidebar { background-color: #bbb; border: 0; display: block; float: none; max-width: auto; width: auto; margin: 0; overflow: hidden; padding: 10px 10px 10px 24px;
+body#top #sidebar { background-color: #bbb; display: block; float: none; max-width: auto; width: auto; margin: 0; overflow: hidden; padding: 10px 10px 10px 24px;
 }
 body#top #sidebar p { font-size: 1em; line-height: 1.3; }
 body#top #sidebar p,
@@ -1017,11 +1001,11 @@ a.multi-links.external:visited { background-color: transparent; color: blue; }
 .redesigns li { display: inline; }
 .redesigns li img { margin-right: 0; }
 /*.pictures--css div div { border: 10px solid blue; }*/
-.main-content-div { margin-bottom: 40px; border-bottom: 20px solid #333; }
+.main-content-div { margin-bottom: 40px; border-bottom: 20px solid #424242; }
 #designs.main-content-div {  border-bottom: 0;}
-.main-content-div.navigationA { line-height: 1.3; }
-.main-content-div.navigationA span { color: #ddd;} 
-.thoughtworks-talk { max-height: 280px;max-width: 280px; float: left; padding: 0 20px 10px 0; }
+#sidebar.main-content-div.navigationA  { line-height: 1.3; border-bottom: 4px solid #87ceeb;}
+.main-content-div.navigationA span { color: #ddd; } 
+.thoughtworks-talk { max-height: 368px;max-width: 368px; float: left; margin: -11px 20px 10px -4px; border-right: 4px solid #424242; border-top: 4px solid #424242; }
 body table.menubar.controls.widget td a.cc-link:link,
 body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 0; }
 #scroll-to-bio { font-size: 0.9em; display: block; margin-top: 10px; margin-bottom: 10px; }
