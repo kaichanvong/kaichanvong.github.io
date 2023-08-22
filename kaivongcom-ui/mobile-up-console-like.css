@@ -833,3 +833,13 @@ border-right: 4px solid #424242; border-top: 4px solid #424242; position: relati
 body table.menubar.controls.widget td a.cc-link:link,
 body table.menubar.controls.widget td a.cc-link: visited { color: blue; padding: 0; }
 #scroll-to-bio { font-size: 0.9em; display: block; margin-top: 10px; margin-bottom: 10px; }
+.redesigns { overflow-y: hidden; overflow-x: auto; height: 300px; }
+.redesigns li img { position: relative;}
+.redesigns li:nth-child(1) img {top: -50px; }
+.redesigns li:nth-child(2) img {top: -215px; }
+.redesigns li:nth-child(3) img {top: -245px; }
+.redesigns li:nth-child(4) img {top: -170px; }
+.redesigns li:nth-child(5) img {top: -200px; }
+.redesigns li:nth-child(6) img {top: -110px; }
+.redesigns li:nth-child(7) img {top: -275px; }
+.redesigns li:nth-child(8) img {top: -265px; }
