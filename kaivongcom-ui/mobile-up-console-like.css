@@ -265,7 +265,8 @@ body span.menubar.controls.widget li.digital-identity {
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table:before,
         body table.menubar.controls.widget.z-bar-1 td.about table:focus:before,
         body table.menubar.controls.widget.z-bar-1 td.about table:focus-within:before,
-        body table.menubar.controls.widget.z-bar-1 td.about table:hover:before {        background-color: #21262e;
+        body table.menubar.controls.widget.z-bar-1 td.about table:hover:before {        
+            background-color: #21262e;
           content: '';
           display: block;
           height: 1em;
@@ -286,7 +287,8 @@ body span.menubar.controls.widget li.digital-identity {
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .about-kcv-about, 
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .bio, 
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .contact, 
-        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .digital-identity, body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .tweets,
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .digital-identity, 
+        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table .tweets,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .designs,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .gaming,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table .about-kcv-about,
@@ -770,8 +772,10 @@ body #main-content p {margin-right: 2em;}
  #main-content #designs { overflow: hidden; }
 #designs .redesigns.pictures li { float: none; display: inline-block;}
  #main-content #developer-kata-stuff.note img { float: none; }
-body #main-content table.menubar.controls.widget.z-bar-0 td.home a { font-weight: bold; text-decoration: underline; }
-.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid black; border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
+body #main-content table.menubar.controls.widget.z-bar-0 td.home a { font-weight: bold; 
+text-decoration: underline; }
+.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid black; 
+border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: #76D6FF; color: #424242;  }
@@ -785,7 +789,9 @@ body { cursor: default; }
 .justgiving.portfolioAlbum { margin-bottom: 0; }
 #online-companies { padding-bottom: 0; }
 .portfolioAlbum p { max-width: 510px; white-space: normal; line-height: 1.3; }
-#sidebar button { border: 1px solid #424242; border-radius: 100%; display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; text-align: left; width:80px; z-index:2;}
+#sidebar button { border: 1px solid #424242; border-radius: 100%; 
+display:block !important; float: right; height:80px;padding:0; overflow:hidden;position: relative; 
+text-align: left; width:80px; z-index:2;}
 #sidebar dialog::backdrop { background-color: rgba(0,0,0, 0.90); }
 #sidebar dialog { padding: 0; border-radius: 100%;}
 #sidebar dialog img { display: block; float: none; height: 100%; width: 100%; 
@@ -814,7 +820,8 @@ a.multi-links.external:visited { background-color: transparent; color: blue; }
 /*.pictures--css div div { border: 10px solid blue; }*/
 .main-content-div { margin-bottom: 40px; border-bottom: 20px solid #424242; }
 #designs.main-content-div {  border-bottom: 0;}
-#sidebar.main-content-div.navigationA  { min-height: 100px; line-height: 1.3; border-bottom: 4px solid #87ceeb;}
+#sidebar.main-content-div.navigationA  { min-height: 100px; line-height: 1.3; 
+border-bottom: 4px solid #87ceeb;}
 .main-content-div.navigationA span { color: #ddd; z-index: 1; position: relative; } 
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: -11px 20px 10px -4px; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
