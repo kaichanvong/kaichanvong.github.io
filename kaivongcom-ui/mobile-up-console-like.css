@@ -765,7 +765,7 @@ body#top ul.links {
  #main-content .google { background-color: transparent; color: #369; font-weight: normal; }
  #main-content .kern-a-e- { position: relative; z-index: -1;}
 body #main-content #gaming-notes {padding-top:18px;}
- #main-content .scattered-companies { padding-top: 8px; padding-bottom: 0 }
+ #main-content .scattered-companies { padding-top: 0; padding-bottom: 0 }
 body #main-content p {margin-right: 2em;}
  #main-content .twitter .tweets-by-year li { display: inline; }
  #main-content .scattered-companies .pictures { height: 240px; }
@@ -774,8 +774,8 @@ body #main-content p {margin-right: 2em;}
  #main-content #developer-kata-stuff.note img { float: none; }
 body #main-content table.menubar.controls.widget.z-bar-0 td.home a { font-weight: bold; 
 text-decoration: underline; }
-.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid black; 
-border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
+.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid #111; 
+border-left: 10px solid #111; color: #111;  }
 .highlight.headline-text em { font-family: times; color: #666;}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
@@ -852,3 +852,7 @@ body table.menubar.controls.widget td a.cc-link: visited { color: blue; padding:
 .redesigns li:nth-child(6) img {top: -110px; }
 .redesigns li:nth-child(7) img {top: -275px; }
 .redesigns li:nth-child(8) img {top: -265px; }
+html { width:100%; overflow: hidden;overflow-y: auto; }
+h2:first-letter { border-left: #76D6FF 8px solid; padding-left: 26px; }
+body#top h2 { padding-left: 0;  }
+#main-content .scattered-companies h2 { padding-left: 36px;  }
