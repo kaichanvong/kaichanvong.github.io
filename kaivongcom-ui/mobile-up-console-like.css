@@ -776,6 +776,7 @@ body #main-content table.menubar.controls.widget.z-bar-0 td.home a { font-weight
 text-decoration: underline; }
 .highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid black; 
 border-left: 10px solid black; color: black; padding: 0 0 0 13px;  }
+.highlight.headline-text em { font-family: times; color: #666;}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: #76D6FF; color: #424242;  }
