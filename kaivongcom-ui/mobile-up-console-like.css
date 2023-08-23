@@ -816,10 +816,6 @@ a.multi-links.external:visited { background-color: transparent; color: blue; }
 /*.pictures--css div div { border: 10px solid blue; }*/
 #digital-identity.main-content-div { padding-top: 60px; }
 body #main-content #bio.main-content-div { padding: 40px 0; }
-body #main-content #bio.main-content-div { background: url(pictures/IRL/464301630_o.jpg) 0 0 no-repeat ;
-background-image: url(pictures/IRL/464301630_o.jpg);
-background-repeat: no-repeat;
-}
 body #main-content #bio.main-content-div p { max-width: 556px; }
 body #main-content #contact.main-content-div { padding: 20px 0 30px; } 
 body #main-content #designs.main-content-div { overflow: hidden; padding: 20px 0 0; }
