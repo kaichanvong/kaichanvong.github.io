@@ -836,10 +836,10 @@ border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0 20px 10px -4px; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #sidebar:before { content: '...'; left: 510px; font-size: 90px;  
-    color: #73FCD6; position: absolute; float: right; display: block; 
+    color: #FFD479; position: absolute; float: right; display: block; 
     right: 0; top: 20px; text-align: center;  
     border-bottom: 4px solid #999; margin-left:  0; height: 100px; 
-     background-color: #0096FF;  }
+     background-color: #FF40FF;  }
 .portfolioAlbum { margin-bottom: 30px; }
 .justgiving.portfolioAlbum { margin-bottom: 0; }
 body table.menubar.controls.widget td a.cc-link:link,
