@@ -833,7 +833,7 @@ div#speaking { background-color: darkkhaki;
               max-width: 400px;
               padding-bottom: 30; }
 .main-content-div.navigationA span { color: #ddd; z-index: 1; position: relative; } 
-#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0 0 10px -4px; 
+#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #sidebar:before { content: '...'; left: 510px; font-size: 90px;  
     color: darkkhaki; position: absolute; float: right; display: block; 
