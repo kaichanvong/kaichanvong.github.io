@@ -820,7 +820,7 @@ body #main-content #bio.main-content-div p { max-width: 556px; }
 body #main-content #contact.main-content-div { padding: 20px 0 30px; } 
 body #main-content #designs.main-content-div { overflow: hidden; padding: 20px 0 0; }
 body #main-content #designs.main-content-div em { color: #A9A9A9; }
-.main-content-div { margin-bottom: 20px; border-bottom: 20px solid #424242; }
+.main-content-div { margin-bottom: 20px; }
 #designs.main-content-div {  border-bottom: 0;}
 #sidebar { background-color: #bbb; display: block; float: none;  
 max-width: auto; min-height: 100px; line-height: 1.3;
