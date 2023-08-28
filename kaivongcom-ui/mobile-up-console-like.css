@@ -808,7 +808,7 @@ body#top-of-page #sidebar:after { display: block; }
 .no-display { display: none; }
 h1 { font-size: 7em; }
 .portfolioAlbum i span { position: absolute; text-indent: -90em; }
-a.external.multi-links { background-color: khaki; color: #424242; font-weight: normal; }
+a.external.multi-links { background-color: darkkhaki; color: #424242; font-weight: normal; }
 .afk-link { color: #888; display: inline; font-size: 0.9em;  }
 .redesigns { width: 4540px; margin: 0; padding: 0; overflow: auto; }
 .redesigns li { display: inline; }
@@ -832,7 +832,7 @@ border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0 0 10px -4px; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #sidebar:before { content: '...'; left: 510px; font-size: 90px;  
-    color: #FFD479; position: absolute; float: right; display: block; 
+    color: darkkhaki; position: absolute; float: right; display: block; 
     right: 0; top: 20px; text-align: center;  
     border-bottom: 4px solid #999; margin-left:  0; height: 100px; 
      background-color: #941751;  }
