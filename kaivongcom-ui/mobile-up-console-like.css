@@ -808,7 +808,7 @@ body#top-of-page #sidebar:after { display: block; }
 .no-display { display: none; }
 h1 { font-size: 7em; }
 .portfolioAlbum i span { position: absolute; text-indent: -90em; }
-a.external.multi-links { background-color: khaki; color: #424242; }
+a.external.multi-links { background-color: khaki; color: #424242; font-weight: normal; }
 .afk-link { color: #888; display: inline; font-size: 0.9em;  }
 .redesigns { width: 4540px; margin: 0; padding: 0; overflow: auto; }
 .redesigns li { display: inline; }
