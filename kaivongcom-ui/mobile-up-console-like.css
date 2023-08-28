@@ -703,15 +703,15 @@ body span.menubar.controls.widget li.digital-identity {
   #contact img.decorative {
     border: 10px solid #555;
     margin-left: 20px; }    
-body#top h1 a {
+body#top-of-page h1 a {
   font-weight: bold;
   text-decoration: none; }
-body#top h2 {
+body#top-of-page h2 {
   font-size: 18pt;
   font-weight: normal;
   padding-left: 1em;
-  padding: 10px 26px; }
-  body#top #sidebar:after {
+  padding: 0 30px 10px; }
+  body#top-of-page #sidebar:after {
     background-repeat: no-repeat;
     background-size: 100%;
     content: '';
@@ -722,42 +722,42 @@ body#top h2 {
     right: 20px;
     width: 80px; }
   @media (max-width: 1021px) { html .portfolioAlbum p { max-width: 580px;}  }
-  body#top #sidebar h3 {
+  body#top-of-page #sidebar h3 {
     font-size: 13px;
     margin-left: 0;
     padding: 0 0 0; }
-  body#top #sidebar p {
+  body#top-of-page #sidebar p {
     font-size: 11px;
     line-height: 1.6;
     margin: 0 90px 10px 0; }
   @media (prefers-color-scheme: dark) {
-    body#top #sidebar {
+    body#top-of-page #sidebar {
       background-color: #21262e;
       border: 6px solid #222;
       color: grey; }
-      body#top #sidebar h3 {
+      body#top-of-page #sidebar h3 {
         border-bottom: 3px solid #fff; } }
-body#top .recent-digital-notes {
+body#top-of-page .recent-digital-notes {
   min-width: auto; }
-body#top .links {
+body#top-of-page .links {
   line-height: 1.8;
   min-width: 980px; }
-  body#top .links a {
+  body#top-of-page .links a {
     display: block; }
-  body#top .links li {
+  body#top-of-page .links li {
     margin-bottom: 20px;
     line-height: 1; }
-  body#top .links .link-text {
+  body#top-of-page .links .link-text {
     display: none; }
-  body#top .links small {
+  body#top-of-page .links small {
     line-height: 1; }
-  body#top .links small a {
+  body#top-of-page .links small a {
     display: inline-block; }
-body#top ol.links,
-body#top ul.links {
+body#top-of-page ol.links,
+body#top-of-page ul.links {
   color: #222; }
-  body#top ol.links small,
-  body#top ul.links small { color: grey; }
+  body#top-of-page ol.links small,
+  body#top-of-page ul.links small { color: grey; }
  #kai-info { padding-bottom: 30px; }
  #main-content #about h2 { display: block; visibility: visible; }
  #main-content #about .has-links h2 { display:none; visibility:hidden; }
@@ -784,7 +784,7 @@ body table.menubar.z-bar-1 td.about a { padding: 0 1.25em 0.5em; }
 body #main-content .footer table.menubar.controls.widget td.about a { padding-left: 2em}
 body #main-content .footer table.menubar.controls.widget td.about table a  { padding-left: 0}
 body h1 {font-size: 22pt;}
-body#top>nav { position:sticky; top:0; z-index:2; }
+body#top-of-page>nav { position:sticky; top:0; z-index:2; }
 body { cursor: default; } 
 #online-companies { padding-bottom: 0; }
 .portfolioAlbum p { max-width: 510px; white-space: normal; line-height: 1.3; }
@@ -797,7 +797,7 @@ text-align: left; width:80px; z-index:2; position: relative; z-index: 1;}
 #sidebar dialog img { display: block; float: none; height: 100%; width: 100%; 
  					  max-width: 280px; max-height: 280px;}
 #sidebar dialog span { position: absolute; left: 10px; top: 10px; color: #fff; }
-body#top #sidebar:after { display: block; } 
+body#top-of-page #sidebar:after { display: block; } 
 #social-media-channels-complete { list-style-type: none; margin-left: 10px; }
 #sidebar p { font-size: 1em; line-height: 1.3; }
 #sidebar p,
@@ -830,7 +830,7 @@ border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
 }
 #speaking.sidebar { max-width: 400px; display: inline-block; margin-bottom: 46px; }
 .main-content-div.navigationA span { color: #ddd; z-index: 1; position: relative; } 
-#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0 20px 10px -4px; 
+#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0 0 10px -4px; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #sidebar:before { content: '...'; left: 510px; font-size: 90px;  
     color: #FFD479; position: absolute; float: right; display: block; 
@@ -853,6 +853,7 @@ body table.menubar.controls.widget td a.cc-link: visited { color: blue; padding:
 .redesigns li:nth-child(7) img {top: -275px; }
 .redesigns li:nth-child(8) img {top: -265px; }
 html { width:100%; overflow: hidden;overflow-y: auto; }
-h2:first-letter { border-left: #76D6FF 8px solid; padding-left: 26px; }
-body#top h2 { padding-left: 0;  }
+h2:first-letter { border-left: #424242 8px solid; padding-left: 26px; }
+body#top-of-page h2 { padding-left: 0;  }
 #main-content .scattered-companies h2 { padding-left: 36px;  }
+body#top-of-page #speaking h2 {  margin-top:0; padding-top: 0; }
