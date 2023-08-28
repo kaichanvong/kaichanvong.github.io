@@ -860,3 +860,12 @@ h2:first-letter { border-left: #424242 8px solid; padding-left: 26px; }
 body#top-of-page h2 { padding-left: 0;  }
 #main-content .scattered-companies h2 { padding-left: 36px;  }
 body#top-of-page #speaking h2 {  margin-top:0; padding-top: 0; }
+span.social {
+border-bottom: 6px solid #ff1493; 
+}
+span.media {
+border-bottom: 6px solid #99CC33;
+}
+span.channels {
+border-bottom: 6px solid #222;
+}
