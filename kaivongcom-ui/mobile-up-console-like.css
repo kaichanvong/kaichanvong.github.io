@@ -829,7 +829,7 @@ body #main-content #designs.main-content-div em { color: #A9A9A9; }
 max-width: auto; min-height: 100px; line-height: 1.3;
 padding: 10px 10px 10px 24px; position: relative; width: auto; z-index: 0;  
 border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
-}
+}/*
 .navigationA.sidebar#sidebar span:after { 
     color: #eee; 
     content: "\f502"; 
@@ -843,7 +843,7 @@ border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
     transform: rotate(49deg);
     z-index: 1;
 }
-
+*/
 div#speaking { background-color: darkkhaki; 
               display: inline-block;
               float: left; 
