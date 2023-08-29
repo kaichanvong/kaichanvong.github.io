@@ -18,10 +18,13 @@
 html p { line-height: 1.4; }
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-.display-icons.social-media-channels li { list-style: none; }
-.display-icons.social-media-channels .bi a span:before {margin-right: 4px; }
-.display-icons.social-media-channels .bi-github a span:before {content: "\f3ed "; }
-.display-icons.social-media-channels .bi-linkedin a span:before {content: "\f472 "; }
+.display-icons.social-media-channels li { list-style: none; display: inline-block; margin-top: 30px; }
+.display-icons.social-media-channels li.bi a span:before {margin-right: 4px; font-size: 48px; }
+.display-icons.social-media-channels li.bi-github a span:before {content: "\f3ed"; }
+.display-icons.social-media-channels li.bi-linkedin a span:before {content: "\f472"; }
+.display-icons.social-media-channels li.bi-facebook a span:before {content: "\f344"; }
+.display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
+
 td.about table a {
   cursor: pointer;
   font-weight: normal;
