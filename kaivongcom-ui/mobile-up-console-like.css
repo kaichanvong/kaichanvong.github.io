@@ -385,7 +385,10 @@ body span.menubar.controls.widget li.digital-identity {
     body .footer div.copyright p {
       font-size: smaller;
       margin-left: 0em;
-      margin-top: 0.25em; }
+      margin-top: 0.25em; 
+      position: relative;
+      z-index: 1;
+    }
     @media (min-width: 480px) {
       body .footer div.copyright {
           padding: 1em 0 1em 30px; } }
