@@ -71,8 +71,12 @@ a.external:focus {
   margin: 0 90px 0 0;
   overflow: hidden;
   padding: 0 0 14px;
+  position: relative;
   text-align: left;
-  vertical-align: top; }
+  vertical-align: top;
+  z-index:1;
+  
+}
 #external-links li {
   border-bottom: 4px solid #00ff7f;
   border-top: 0;
@@ -889,12 +893,24 @@ span.channels {
 border-bottom: 6px solid #222;
 }
 html {
-    background-color: #53CFFD; 
+    background-color: rgb(79,79,79); 
 }
 body#top-of-page {
     background-color: #fff;
     margin: 40px 40px 40px 0;
     max-width: 785px;
     box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0; 
-    overflow: hidden;
+/*    overflow: hidden;*/
+}
+.about .copyright:after { 
+background: url(liquid-drop-into--changed.jpg) no-repeat ;
+background-position: -1px -1px;
+background-size:  34%;
+content: ' ';
+display: block;
+height: 180px;
+left: 0;
+position: absolute;
+top: 296px;
+width: 2607px;  
 }
