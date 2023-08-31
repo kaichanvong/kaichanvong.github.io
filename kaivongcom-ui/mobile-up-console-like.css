@@ -909,16 +909,16 @@ body#top-of-page {
 .footer {
  position: relative;
 }
-.footer:after {
-background: url(liquid-drop-into--light.jpg) no-repeat ;
-background-position: -1px -1px;
-background-size:  cover;
-content: ' ';
-display: block;
-height: 170px;
-left: -30px;
-position: absolute;
-right: 0;
-top: 380px;
-z-index: 2;
-}
+/*.footer:after {*/
+/*background: url(liquid-drop-into--light.jpg) no-repeat ;*/
+/*background-position: -1px -1px;*/
+/*background-size:  cover;*/
+/*content: ' ';*/
+/*display: block;*/
+/*height: 170px;*/
+/*left: -30px;*/
+/*position: absolute;*/
+/*right: 0;*/
+/*top: 380px;*/
+/*z-index: 2;*/
+/*}*/
