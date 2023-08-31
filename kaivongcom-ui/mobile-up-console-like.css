@@ -236,7 +236,6 @@ body span.menubar.controls.widget li.digital-identity {
     body table.menubar.controls.widget tbody, 
     body table.menubar.controls.widget tr {
       width: 100%; }
-    body table.menubar td.about { overflow: hidden; }
     body table.menubar.controls.widget.z-bar-1 td.about table {
         border-spacing: initial;
         display: block;
@@ -381,7 +380,9 @@ body span.menubar.controls.widget li.digital-identity {
   body .footer div.copyright {
     background: #b0c4de;
     color: #21262e;
-    clear: both; }
+    clear: both;
+    position: relative;    
+  }
     body .footer div.copyright p {
       font-size: smaller;
       margin-left: 0em;
@@ -391,7 +392,7 @@ body span.menubar.controls.widget li.digital-identity {
     }
     @media (min-width: 480px) {
       body .footer div.copyright {
-          padding: 1em 0 1em 30px; } }
+          padding: 1em 0 9em 30px; } }
   body div.footer {
     background-color: #b0c4de;
     margin: 1em 0 0;
@@ -493,7 +494,7 @@ body span.menubar.controls.widget li.digital-identity {
     body table.menubar.controls.widget td.external a.external:visited {
       color: #fff; }
     body table.menubar.controls.widget.z-bar-0 {
-      padding-bottom: 20px;
+      padding-bottom: 0;
       padding-top: 20px;
       text-align: left; }
       body table.menubar.controls.widget.z-bar-0, 
@@ -501,6 +502,7 @@ body span.menubar.controls.widget li.digital-identity {
       body table.menubar.controls.widget.z-bar-0 tr, 
       body table.menubar.controls.widget.z-bar-0 td {
         display: inline-block;
+        border: 0;
         vertical-align: top; }
       body table.menubar.controls.widget.z-bar-0 .about, 
       body table.menubar.controls.widget.z-bar-0 .about table, 
@@ -521,7 +523,7 @@ body span.menubar.controls.widget li.digital-identity {
         text-align: center; }
       body table.menubar.controls.widget.z-bar-0 td.about, 
       body table.menubar.controls.widget.z-bar-0 td.about table {
-        display: block; margin-bottom: 10px;
+        display: block; margin-bottom: 0;
         text-align: left; }
       body table.menubar.controls.widget.z-bar-0 td.about label {
         margin: 0 0 0 0; }
@@ -605,7 +607,7 @@ body span.menubar.controls.widget li.digital-identity {
   border: 0;
   border-radius: 300px;
   float: left;
-  margin: 0 40px 10px 0;
+  margin: 0 40px 0 0;
   height: 70px;
   width: 70px; }
 #bio h2 {
@@ -904,15 +906,19 @@ body#top-of-page {
     max-width: 785px;
     box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0; 
 }
-.about .copyright:after { 
+.footer {
+ position: relative;
+}
+.footer:after {
 background: url(liquid-drop-into--light.jpg) no-repeat ;
 background-position: -1px -1px;
-background-size:  34%;
+background-size:  cover;
 content: ' ';
 display: block;
-height: 180px;
-left: 0;
+height: 170px;
+left: -30px;
 position: absolute;
-top: 296px;
-width: 2607px;  
+right: 0;
+top: 380px;
+z-index: 2;
 }
