@@ -896,17 +896,16 @@ span.channels {
 border-bottom: 6px solid #222;
 }
 html {
-    background-color: rgb(79,79,79); 
+    background-color: rgb(0,150,255); 
 }
 body#top-of-page {
     background-color: #fff;
     margin: 40px 40px 40px 0;
     max-width: 785px;
     box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0; 
-/*    overflow: hidden;*/
 }
 .about .copyright:after { 
-background: url(liquid-drop-into--changed.jpg) no-repeat ;
+background: url(liquid-drop-into--light.jpg) no-repeat ;
 background-position: -1px -1px;
 background-size:  34%;
 content: ' ';
