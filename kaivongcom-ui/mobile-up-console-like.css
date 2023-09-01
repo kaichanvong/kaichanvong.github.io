@@ -872,8 +872,7 @@ body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 
 .redesigns li:nth-child(7) img {top: -275px; }
 .redesigns li:nth-child(8) img {top: -265px; }
 html { width:100%; overflow: hidden;overflow-y: auto; }
-h2:first-letter { border-left: #424242 8px solid; padding-left: 26px; }
-body#top-of-page h2 { padding-left: 0;  }
+h2 { border-left: #424242 8px solid; padding-left: 26px; }
 #main-content .scattered-companies h2 { padding-left: 36px;  }
 body#top-of-page #speaking h2 {  margin-top:0; padding-top: 0; }
 span.social {
@@ -896,7 +895,6 @@ body#top-of-page {
 }
 .footer {
  position: relative;
-
 }
 .footer:after {
 background: url(liquid-drop-into--light.jpg) no-repeat ;
