@@ -24,7 +24,6 @@ i.bi-link-45deg:before {content: "\f470"; }
 .display-icons.social-media-channels li.bi-linkedin a span:before {content: "\f472"; }
 .display-icons.social-media-channels li.bi-facebook a span:before {content: "\f344"; }
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
-
 td.about table a {
   cursor: pointer;
   font-weight: normal;
@@ -91,8 +90,8 @@ a.external:focus {
   width: 50px;
   display: block; }
 #external-links li a {
-  background-color: #eee; }#external-links li a:focus img {
-  background-color: #fff;
+  background-color: rgb(250,250,250); }#external-links li a:focus img {
+  background-color: white;
   opacity: 100%; }#external-links li a:focus img {
   opacity: 75%; }
 #external-links li.css-validation {
@@ -467,6 +466,7 @@ body span.menubar.controls.widget li.digital-identity {
     margin-bottom: 1em;
     margin-left: 44px; }
   body #main-content {
+    background-color: whitesmoke;
     min-height: 620px;
     padding-top: 0; }
   body .copyright p {
@@ -492,7 +492,7 @@ body span.menubar.controls.widget li.digital-identity {
     body table.menubar.controls.widget td.external,
     body table.menubar.controls.widget td.external a.external:link,
     body table.menubar.controls.widget td.external a.external:visited {
-      color: #fff; }
+      color: white; }
     body table.menubar.controls.widget.z-bar-0 {
       padding-bottom: 0;
       padding-top: 20px;
@@ -592,9 +592,9 @@ body span.menubar.controls.widget li.digital-identity {
 #about .has-links a {
   color: #76D6FF; }
   #about .has-links a.external {
-    color: #fff; }
+    color: white; }
 #about #email, #about #kai-info, #about .footer {
-  background-color: #fff; }
+  background-color: white; }
 #about #hresume p {
   margin-bottom: 0;
   padding-bottom: 30px; }
@@ -652,7 +652,7 @@ body span.menubar.controls.widget li.digital-identity {
     color: #f4a460;
     font-weight: bold; }
     #bio .twitch .bi.bi-link-45degspan:before, 
-    #bio .twitch .bi.bi-link-45deg:before {    color: #FFFF00; }
+    #bio .twitch .bi.bi-link-45deg:before {    color: white; }
 #bio li.user h3.name {
   display: inline;
   margin: 0;
@@ -684,7 +684,7 @@ body span.menubar.controls.widget li.digital-identity {
     text-align: left; }
     #contact #contact-me .electronic-mail a {
       background: #21262e;
-      color: #fff;
+      color: white;
       display: inline-block; }
     #contact #contact-me h1, 
     #contact #contact-me h2,
@@ -748,7 +748,7 @@ body#top-of-page h2 {
       border: 6px solid #222;
       color: grey; }
       body#top-of-page #sidebar h3 {
-        border-bottom: 3px solid #fff; } }
+        border-bottom: 3px solid white; } }
 body#top-of-page .recent-digital-notes {
 /*  min-width: auto; */
 }
@@ -809,7 +809,7 @@ text-align: left; width:80px; z-index:2; position: relative; z-index: 1;}
     z-index: 1;}
 #sidebar dialog img { display: block; float: none; height: 100%; width: 100%; 
  					  max-width: 280px; max-height: 280px;}
-#sidebar dialog span { position: absolute; left: 10px; top: 10px; color: #fff; }
+#sidebar dialog span { position: absolute; left: 10px; top: 10px; color: white; }
 body#top-of-page #sidebar:after { display: block; } 
 #social-media-channels-complete { list-style-type: none; margin-left: 10px; }
 #sidebar p { font-size: 1em; line-height: 1.3; }
@@ -903,7 +903,7 @@ html {
     background-color: rgb(0,150,255); 
 }
 body#top-of-page {
-    background-color: #fff;
+    background-color: white;
     margin: 40px 40px 0 0;
     max-width: 785px;
     box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0; 
