@@ -68,7 +68,7 @@ a.external:focus {
 #external-links {
   float: right;
   line-height: 2;
-  margin: 0 90px 0 0;
+  margin: 0 -6px 0 0;
   overflow: hidden;
   padding: 0 0 14px;
   position: relative;
@@ -401,7 +401,7 @@ body span.menubar.controls.widget li.digital-identity {
       min-width: 100%;
       visibility: visible; }
       body div.footer table table {
-        min-width: auto;
+/*        min-width: auto;*/
         display: none; }
     body div.footer .normal.back-link {
       display: none; }
@@ -750,7 +750,8 @@ body#top-of-page h2 {
       body#top-of-page #sidebar h3 {
         border-bottom: 3px solid #fff; } }
 body#top-of-page .recent-digital-notes {
-  min-width: auto; }
+/*  min-width: auto; */
+}
 body#top-of-page .links {
   line-height: 1.8;
   min-width: 980px; }
@@ -835,7 +836,8 @@ body #main-content #designs.main-content-div em { color: #A9A9A9; }
 .main-content-div { margin-bottom: 20px; }
 #designs.main-content-div {  border-bottom: 0;}
 #sidebar { background-color: #bbb; display: block; float: none;  
-max-width: auto; min-height: 100px; line-height: 1.3;
+/*max-width: auto; */
+min-height: 100px; line-height: 1.3;
 padding: 10px 10px 10px 24px; position: relative; width: auto; z-index: 0;  
 border-bottom: 4px solid #87ceeb; margin: 0; margin-bottom: 86px;
 }/*
