@@ -873,7 +873,7 @@ border-right: 4px solid #424242; border-top: 4px solid #424242; position: relati
 .portfolioAlbum { margin-bottom: 30px; }
 .justgiving.portfolioAlbum { margin-bottom: 0; }
 body table.menubar.controls.widget td a.cc-link:link,
-body table.menubar.controls.widget td a.cc-link: visited { color: blue; padding: 0; }
+body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 0; }
 #scroll-to-bio { font-size: 0.9em; display: block; margin-top: 10px; margin-bottom: 10px; }
 .redesigns { overflow-y: hidden; overflow-x: auto; height: 300px;  }
 .redesigns li img { position: relative;}
