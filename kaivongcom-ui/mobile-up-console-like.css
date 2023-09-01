@@ -902,23 +902,24 @@ html {
 }
 body#top-of-page {
     background-color: #fff;
-    margin: 40px 40px 40px 0;
+    margin: 40px 40px 0 0;
     max-width: 785px;
     box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0; 
 }
 .footer {
  position: relative;
+
 }
 .footer:after {
 background: url(liquid-drop-into--light.jpg) no-repeat ;
 background-position: -1px -1px;
-background-size:  cover;
+background-size:  100%;
 content: ' ';
 display: block;
-height: 170px;
+height: 200px;
 left: -30px;
 position: absolute;
-right: 0;
+right: -110px;
 top: 380px;
 z-index: 2;
 }
