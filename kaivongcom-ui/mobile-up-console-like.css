@@ -897,7 +897,7 @@ body#top-of-page {
  position: relative;
 }
 .footer:after {
-background: url(liquid-drop-into--light.jpg) no-repeat ;
+background: url(footer-glistening-brightly/liquid-drop-into--light.jpg) no-repeat ;
 background-position: -1px -1px;
 background-size:  100%;
 content: ' ';
