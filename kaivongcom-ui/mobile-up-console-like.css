@@ -597,6 +597,9 @@ body span.menubar.controls.widget li.digital-identity {
   margin: 0 0 0 0;
   height: 70px;
   width: 70px; }
+#bio {
+    background-color: rgba(10,190,210,0.4);
+}
 #bio h2 {
   text-transform: none; }
 #bio #twitch-details,
