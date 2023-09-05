@@ -33,6 +33,7 @@ i.bi-link-45deg:before {content: "\f470"; }
 
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
 table a { cursor: pointer; }
+td.home span { color: rgb(191,191,191);}
 td.home a {
   font-weight: normal;
   text-decoration: none; }
@@ -787,8 +788,18 @@ body #main-content p {margin-right: 2em;}
 body #main-content table.menubar.controls.widget.z-bar-0 td.home a { 
     font-weight: bold;  
 }
-.highlight.headline-text { background-color: #76D6FF; border-bottom: 2px solid #111; 
-border-left: 10px solid #111; color: #111;  }
+.highlight.headline-text {
+background-color: #76D6FF;
+border-bottom: 2px solid #111;
+border-left: 10px solid #111;
+color: #111;
+font-size: 1.8em;
+}
+.highlight.headline-text:after {
+    content: ' ';
+    border-radius: 10px 10px;
+    background-color: red;
+}
 .highlight.headline-text em { font-family: Arial, Helvetica, sans-serif; color: #666;}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
@@ -872,7 +883,7 @@ div#speaking { background-color: darkkhaki;
               max-width: 373px;
               padding-bottom: 0; }
 h2 { clear: left; }
-.main-content-div.navigationA span { color: #ddd; z-index: 2; position: relative; }
+.main-content-div.navigationA span { color: rgb(221,221,221); z-index: 2; position: relative; }
 #about strong {
     background-color: rgb(33,38,46);
     border-bottom: 6px solid;
@@ -895,13 +906,13 @@ color: darkkhaki;
 display: block;
 float: right;
 font-size: 90px;
-height: 100px; 
+height: 90px; 
 left: 484px;
 margin-left: 0;
 position: absolute;
 right: 0;
 text-align: center; 
-top: 20px;
+top: 0;
 z-index: 3;
 }
 .portfolioAlbum { margin-bottom: 30px; }
