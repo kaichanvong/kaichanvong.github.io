@@ -598,7 +598,7 @@ body span.menubar.controls.widget li.digital-identity {
   height: 70px;
   width: 70px; }
 #bio {
-    background-color: rgba(10,190,210,0.4);
+    background-color: rgba(10,190,210,0.7);
 }
 #bio h2 {
   text-transform: none; }
