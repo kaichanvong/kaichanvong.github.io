@@ -996,8 +996,12 @@ z-index: 2;
 }
 #augmented-reality-cards h2 { border-color: rgb(250,250,224); }
 #augmented-reality-cards img { float: right; margin: -40px 0 0 20px; }
-body#top-of-page abbrev {  border-bottom: dotted 1px rgb(250,250,224);/* font-style: italic; */ text-decoration: underline dotted; } 
+body#top-of-page abbrev {  border-bottom: dotted 1px rgb(250,250,224); /* font-style: italic; */ text-decoration: underline dotted; } 
 body table.menubar.controls.widget td.about .container { margin: 0 20px; }
 body table.menubar.controls.widget td.home a,
 .home a { margin-right: 10px; }
 #top-of-page { background-color: rgb(250,250,250); margin-right: 10px; }
+/*.home a:visited #top-of-page { display: none; }*/
+.home a:visited span#top-of-page {
+    visibility: hidden;
+}
