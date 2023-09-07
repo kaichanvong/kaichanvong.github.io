@@ -610,6 +610,7 @@ body span.menubar.controls.widget li.digital-identity {
   width: 70px; }
 body#top-of-page #main-content #bio.main-content-div {
     background-color: rgba(10,190,210,0.7);
+    border-right: 40px solid rgb(164,13,13);
     margin-top: 60px;
     padding-top: 60px;
 }
@@ -857,7 +858,7 @@ body#top-of-page #about:after { display: block; }
 .no-display { display: none; }
 h1 { font-size: 7em; }
 .portfolioAlbum i span { position: absolute; text-indent: -90em; }
-a.external.multi-links { background-color: darkkhaki; color: #424242; font-weight: normal; }
+a.external.multi-links { background-color: rgb(255,252,234); color: #424242; font-weight: normal; }
 .afk-link { color: #888; display: inline; font-size: 0.9em;  }
 .redesigns { width: 4540px; margin: 0; padding: 0; overflow: auto; }
 .redesigns li { display: inline; }
@@ -879,12 +880,14 @@ border-bottom: 4px solid skyblue; margin: 0; margin-bottom: 86px;
 #about a {
     color: rgb(33,38,46);
 }
-div#speaking { background-color: darkkhaki;
-              display: inline-block;
-              float: left; 
-              margin-bottom: 40px;
-              max-width: 373px;
-              padding-bottom: 0; }
+div#speaking { background-color: rgb(255,252,234);
+    border-right: 40px solid rgb(164,13,13);
+    display: inline-block;
+    float: left; 
+    margin-bottom: 40px;
+    max-width: 373px;
+    padding-bottom: 0;
+}
 h2 { clear: left; }
 .main-content-div.navigationA span { color: rgb(221,221,221); z-index: 2; position: relative; }
 #about strong {
@@ -902,12 +905,11 @@ h2 { clear: left; }
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #about:before {
-/*background-color: crimson;*/
-background-color: rgba(200 ,20 , 60, 0.6);
+background-color: rgb(164,13,13);
 border-bottom: 4px solid #999;
-border-right: 120px solid rgb(200 ,20 , 60);
+border-right: 120px solid rgb(164,13,13);
 content: '...';
-color: darkkhaki;
+color: rgb(255,252,234);
 display: block;
 float: right;
 font-family: none;
