@@ -902,12 +902,15 @@ h2 { clear: left; }
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0; 
 border-right: 4px solid #424242; border-top: 4px solid #424242; position: relative; display: block; }
 #about:before {
-background-color: #941751;
+/*background-color: crimson;*/
+background-color: rgba(200 ,20 , 60, 0.6);
 border-bottom: 4px solid #999;
+border-right: 120px solid rgb(200 ,20 , 60);
 content: '...';
 color: darkkhaki;
 display: block;
 float: right;
+font-family: none;
 font-size: 90px;
 height: 90px; 
 left: 484px;
@@ -946,8 +949,7 @@ span.channels {
 border-bottom: 6px solid #222;
 }
 html {
-    background-color: rgb(0,150,255);
-/*    padding-right: 40px; */
+    background-color: rgb(106, 196, 162);
 }
 body { cursor: default; }
 body#top-of-page {
