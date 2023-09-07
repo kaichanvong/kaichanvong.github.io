@@ -4,6 +4,8 @@
   font-family: "bootstrap-icons";
   src: url("fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
        url("fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
+.about .icon,
+.home a span#top-of-page,
 .bi a span:before,
 .bi:before,
 [class^="bi-"]:before,
@@ -608,7 +610,8 @@ body span.menubar.controls.widget li.digital-identity {
   width: 70px; }
 body#top-of-page #main-content #bio.main-content-div {
     background-color: rgba(10,190,210,0.7);
-    padding-top: 90px;
+    margin-top: 60px;
+    padding-top: 60px;
 }
 #bio h2 {
   text-transform: none; }
@@ -860,7 +863,7 @@ a.external.multi-links { background-color: darkkhaki; color: #424242; font-weigh
 .redesigns li { display: inline; }
 .redesigns li img { margin-right: 0; }
 /*.pictures--css div div { border: 10px solid blue; }*/
-#digital-identity.main-content-div { padding-top: 60px; }
+#digital-identity.main-content-div { padding-top: 90px; }
 body #main-content #bio.main-content-div { padding: 40px 0; }
 body #main-content #bio.main-content-div p { max-width: 556px; }
 body #main-content #contact.main-content-div { padding: 20px 0 20px; } 
@@ -997,8 +1000,9 @@ z-index: 2;
 #augmented-reality-cards h2 { border-color: rgb(250,250,224); }
 #augmented-reality-cards img { float: right; margin: -40px 0 0 20px; }
 body#top-of-page abbrev {  border-bottom: dotted 1px rgb(250,250,224); /* font-style: italic; */ text-decoration: underline dotted; } 
-#top-of-page { background-color: rgb(250,250,250); margin-right: 10px; }
+/*#top-of-page { background-color: rgb(250,250,250); margin-right: 10px; }*/
 /*.home a:visited #top-of-page { display: none; }*/
 .home a span#top-of-page {
-    display: none;
+/*    display: none;*/
 }
+body #main-content #contact.main-content-div { padding-top: 90px; }
