@@ -992,26 +992,9 @@ z-index: 2;
       right: -110px;
   }#thoughtworks-talk { margin-bottom: 60px; }
 }
-#drink-pictures-and-more,
-#augmented-reality-cards {
-    background-color: rgb(200,200,200);
-    border-bottom: 10px rgb(250,250,224) solid;
-    border-top: 10px rgb(250,250,224) solid; 
-    margin: 0 0 80px;
-    padding: 40px 0 0;
-    overflow: hidden; 
-}
-#drink-pictures-and-more h2,
-#augmented-reality-cards h2 { border-color: rgb(250,250,224); }
-#drink-pictures-and-more img,
-#augmented-reality-cards img { float: right; margin: -40px 0 0 20px; }
 body#top-of-page abbrev {  border-bottom: dotted 1px rgb(250,250,224); /* font-style: italic; */ text-decoration: underline dotted; } 
-/*#top-of-page { background-color: rgb(250,250,250); margin-right: 10px; }*/
-/*.home a:visited #top-of-page { display: none; }*/
 .home a span#top-of-page {
-/*    display: none;*/
 }
 body #main-content #contact.main-content-div { padding-top: 90px; }
 .home a span#top-of-page,
 .about .container .icon { vertical-align: text-bottom; margin-right: 2px; }
-/*0 2em 0 1.8em*/
