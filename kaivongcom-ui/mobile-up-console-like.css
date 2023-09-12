@@ -391,7 +391,7 @@ body span.menubar.controls.widget li.digital-identity {
     }
   body div.footer {
     background-color: #b0c4de;
-    margin: 1em 0 0;
+    margin: 1em 0 180px;
     text-align: left; }
     body div.footer table {
       min-width: 100%;
@@ -963,13 +963,14 @@ body#top-of-page {
  position: relative;
 }
 .footer:after {
-background: #eee url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat ;
+background: url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat ;
 background-position: right -1px;
 background-repeat: repeat-x;
 content: ' ';
 display: block;
 height: 190px;
 left: -30px;
+margin: 0 0 100px;
 position: absolute;
 right: -68px;
 top: 248px;
