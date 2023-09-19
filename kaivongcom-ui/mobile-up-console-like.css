@@ -67,8 +67,9 @@ a.external:focus {
 .hidden-visibility a.external:link,
 .hidden-visibility a.external:visited {
   background-color: rgb(4, 205, 209);
-  color: rgb(4, 205, 209);	
+  color: rgb(4, 205, 209);
 }
+
 .hidden-visibility a.external:focus {
   background-color: initial;
   color: initial; }
