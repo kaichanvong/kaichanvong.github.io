@@ -251,41 +251,16 @@ body span.menubar.controls.widget li.digital-identity {
           display: block; }
         body table.menubar.controls.widget.z-bar-1 td.about table td {
           border: 0; }
-        body table.menubar.controls.widget.z-bar-1 td.about table .digital-identity {
-          border-radius: 0 0 1em 1em;
-        }
-        body table.menubar.controls.widget.z-bar-1 td.about table .bio {
-          border-radius: 1em 1em 0 0;
-          padding-top: 1em; }
+        body table.menubar.controls.widget.z-bar-1 td.about table .bio { 
+        padding-top: 1em; }
           body table.menubar.controls.widget.z-bar-1 td.about table .bio a {
-            padding-top: 1em; }
+        padding-top: 1em; }
         body table.menubar.controls.widget.z-bar-1 td.about table td.about {
           padding: 0; }
       body table.menubar.controls.widget.z-bar-1 td.about a:focus + table,
       body table.menubar.controls.widget.z-bar-1 td.about a:hover + table,
       body table.menubar.controls.widget.z-bar-1 td.about table:focus,
       body table.menubar.controls.widget.z-bar-1 td.about table:focus-within,
-      body table.menubar.controls.widget.z-bar-1 td.about table:hover {
-        left: 0%;
-        min-width: 10em;
-        min-height: 17em;
-        padding: 3em 0 0;
-        position: absolute; }
-        body table.menubar.controls.widget.z-bar-1 td.about a:focus + table:before,
-        body table.menubar.controls.widget.z-bar-1 td.about a:hover + table:before,
-        body table.menubar.controls.widget.z-bar-1 td.about table:focus:before,
-        body table.menubar.controls.widget.z-bar-1 td.about table:focus-within:before,
-        body table.menubar.controls.widget.z-bar-1 td.about table:hover:before {
-            background-color: rgb(33,38,46);
-          content: '';
-          display: block;
-          height: 1em;
-          left: 3em;
-          position: absolute;
-          top: 2.5em;
-          transform: rotate(-45deg);
-          width: 1em;
-          z-index: -6; }
         body table.menubar.controls.widget.z-bar-1 td.about a:focus + table:after,
         body table.menubar.controls.widget.z-bar-1 td.about a:hover + table:after,
         body table.menubar.controls.widget.z-bar-1 td.about table:focus:after,
