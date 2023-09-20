@@ -22,7 +22,8 @@ li#github-note-01,
 .display-icons.social-media-channels li.bi-instagram a span:before,
 li.bi-linkedin a span:before,
 li.bi-github a span:before { color: rgba(200, 200, 200, 0.9); }
-.display-icons li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.4); }
+li.bi-linkedin a span:before { color: rgba(200, 200, 200, 0.35); }
+.display-icons.social-media-channels li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
 html p { line-height: 1.4; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
