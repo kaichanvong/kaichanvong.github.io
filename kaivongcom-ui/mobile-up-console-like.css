@@ -829,6 +829,7 @@ body #main-content #designs.main-content-div em { color: grey; }
 #designs.main-content-div {  border-bottom: 0;}
 #about {
 background-color: rgb(1, 0, 0);
+background-color: #rrggbb; /* amazement: http://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color */
 color: rgb(0, 161, 0);
 display: block;
 float: none;
