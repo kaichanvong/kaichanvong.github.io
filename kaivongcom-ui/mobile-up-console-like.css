@@ -987,4 +987,5 @@ content: "\F425 ";
   margin-left: 0;
   padding: 4px 0 4px 22px;
 }
-#about-plus-footernotes table tr td.even { background: rgb(100,100,100);  }
+body #main-content #about-plus-footernotes table tr td.even { background: rgb(100,100,100);  }
+.external.github-pages-link:link { background-color: rgb(125, 0, 151) }
