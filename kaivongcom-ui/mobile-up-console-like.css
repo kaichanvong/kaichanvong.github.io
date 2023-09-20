@@ -251,6 +251,9 @@ body span.menubar.controls.widget li.digital-identity {
           display: block; }
         body table.menubar.controls.widget.z-bar-1 td.about table td {
           border: 0; }
+        body table.menubar.controls.widget.z-bar-1 td.about table .digital-identity {
+          border-radius: 0 0 1em 1em;
+        }
         body table.menubar.controls.widget.z-bar-1 td.about table .bio {
           border-radius: 1em 1em 0 0;
           padding-top: 1em; }
