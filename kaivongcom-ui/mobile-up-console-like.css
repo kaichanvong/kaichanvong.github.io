@@ -971,7 +971,7 @@ body#top-of-page {
   margin: 0 60px 0 0;
   padding: 0;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 32px;
   max-width: 785px;
   overflow-x: hidden;
   box-shadow: rgba(0,0,0,0.1) 4px 4px 4px 0;
@@ -993,7 +993,9 @@ right: -68px;
 top: 242px;
 z-index: 2;
 }
-body#top-of-page abbrev {  border-bottom: dotted 1px rgb(250, 250, 224); text-decoration: underline dotted; }
+body#top-of-page abbrev {
+border-bottom: dotted 1px rgb(250, 250, 224); 
+text-decoration: underline dotted; }
 body #main-content #contact.main-content-div { padding-top: 90px; }
 .home a span#top-of-page,
 .about .container .icon { vertical-align: text-bottom; margin-right: 2px; }
