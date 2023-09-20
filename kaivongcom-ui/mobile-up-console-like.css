@@ -717,13 +717,6 @@ body#top-of-page h2 {
     font-size: 13px;
     line-height: 1.6;
     margin: 0 90px 10px 0; }
-  @media (prefers-color-scheme: dark) {
-    body#top-of-page #about {
-      background-color: rgb(10,190,210);
-      border: 6px solid rgb(34,  34,  34);
-      color: grey; }
-      body#top-of-page #about h3 {
-        border-bottom: 3px solid white; } }
 body#top-of-page .recent-digital-notes {
 }
 body#top-of-page .links {
