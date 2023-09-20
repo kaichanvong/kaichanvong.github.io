@@ -602,7 +602,6 @@ body span.menubar.controls.widget li.digital-identity {
   width: 70px; }
 body#top-of-page #main-content #bio.main-content-div {
     background-color: rgb(162,196,201);
-    border-right: 40px solid rgb(222, 126, 44);
     margin-top: 60px;
     padding-top: 60px;
 }
@@ -885,7 +884,6 @@ margin-bottom: 86px;
   content: ' \F123'
 }
 div#speaking { background-color: rgb(255,252,234);
-    border-right: 40px solid rgb(162, 0, 0);
     display: inline-block;
     float: left;
     margin-bottom: 40px;
@@ -950,7 +948,7 @@ body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 
 .redesigns li:nth-child(6) img {top: -110px; }
 .redesigns li:nth-child(7) img {top: -275px; }
 .redesigns li:nth-child(8) img {top: -265px; }
-h2 { border-left: rgb(66, 66, 66) 8px solid; padding-left: 26px; }
+h2 { border-left: rgb(162, 0, 0) 8px solid; padding-left: 26px; }
 #main-content .scattered-companies h2 { padding-left: 36px;  }
 body#top-of-page #speaking h2 {  margin-top:0; padding-top: 0; }
 span.social {
