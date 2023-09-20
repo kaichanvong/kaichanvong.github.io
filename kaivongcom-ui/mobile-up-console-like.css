@@ -966,7 +966,7 @@ left: -30px;
 margin: 0 0 100px;
 position: absolute;
 right: -68px;
-top: 242px;
+top: 262px;
 z-index: 2;
 }
 body#top-of-page abbrev {
@@ -981,3 +981,10 @@ content: "\F379 "; }
 content: "\F425 ";
 }
 #about div#browsed-details { float: none; }
+#about-plus-footernotes table.menubar.controls.widget  { margin: 0;}
+#about-plus-footernotes table.menubar.controls.widget td.about>a {padding-left: 22px; }
+#about-plus-footernotes table .about tr td {
+  margin-left: 0;
+  padding: 4px 0 4px 22px;
+}
+#about-plus-footernotes table tr td.even { background: rgb(100,100,100);  }
