@@ -875,8 +875,6 @@ position: relative;
 #about strong {
     background-color: rgb(33, 38, 46);
     background-color: rgb(33, 38, 46);
-    border-bottom: 6px solid;
-    border-right: 6px solid;
     border-color: rgb(69, 129, 142);
     color: #FFF;
     display: block;
