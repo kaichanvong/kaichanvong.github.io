@@ -356,6 +356,7 @@ body span.menubar.controls.widget li.digital-identity {
     color: rgb(33,38,46);
     clear: both;
     min-height: 110px;
+    padding: 0 0 40px;
     position: relative;
   }
     body .footer div.copyright p {
@@ -962,7 +963,7 @@ left: -30px;
 margin: 0 0 100px;
 position: absolute;
 right: -68px;
-top: 270px;
+top: 320px;
 z-index: 2;
 }
 body#top-of-page abbrev {
