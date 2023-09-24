@@ -984,3 +984,5 @@ content: "\F425 ";
 }
 body #main-content #about-plus-footernotes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
+#speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
+
