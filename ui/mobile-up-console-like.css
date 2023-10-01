@@ -56,8 +56,6 @@ td.about table td.tweets a {
 .home-links {
   margin-left: -30px; }html.highlight a.external:link,
 html.highlight body.social-links a:link,
-html.highlight body.esports a:link {
-  color: rgb(0, 152, 152); }
 html.highlight a.external:visited,
 html.highlight a.external:focus,
 html.highlight a.external:active,
@@ -440,7 +438,7 @@ body span.menubar.controls.widget li.digital-identity {
     margin-bottom: 1em;
     margin-left: 24px; }
   body #main-content {
-    background-color: whitesmoke;
+    background-color: rgb(242, 242, 242);
     min-height: 620px;
     padding-top: 0; }
   body .copyright p {
@@ -459,7 +457,7 @@ body span.menubar.controls.widget li.digital-identity {
     font-size: 15px;
     line-height: 1.25; }
     body table.menubar.controls.widget td a {
-      color: skyblue;
+      color: rbg(119, 195, 230);
       font-family: Arial, Helvetica, sans-serif;}
       body table.menubar.controls.widget td a:focus {
         color: grey; }
@@ -539,7 +537,7 @@ body span.menubar.controls.widget li.digital-identity {
       margin: 0.5em 0;
       padding: 0 2em; }
     body table.menubar.controls.widget .last-note {
-      color: skyblue; }
+      color: rbg(119, 195, 230); }
   body .twitter-tweet {
     min-height: 550px; }
   body blockquote,
@@ -566,9 +564,6 @@ body span.menubar.controls.widget li.digital-identity {
     color: white; }
 #about #email, #about #kai-info, #about .footer {
   background-color: white; }
-#about #hresume p {
-  margin-bottom: 0;
-  padding-bottom: 30px; }
 #about #email, #about #kai-info {
   margin: 0; }
 #about #kai-info {
@@ -607,14 +602,14 @@ body#top-of-page #main-content #bio.main-content-div {
   min-width: 460px; }
 
 #bio .twitch, #bio .twitter {
-  background-color: skyblue;
+  background-color: rbg(119, 195, 230);
   border-top: 4px solid rgb(154, 154, 154);
   padding-bottom: 30px;
   padding-top: 15px; }
   #bio .twitch p, #bio .twitter p {
     margin-bottom: 0; }
 #bio .twitter + div {
-  background-color: skyblue;
+  background-color: rbg(119, 195, 230);
   border-bottom: 2px solid rgb(154, 154, 154);
   padding-bottom: 20px; }
 #bio .twitch {
@@ -627,8 +622,6 @@ body#top-of-page #main-content #bio.main-content-div {
     background-color: rgb(33,38,46);
     color: rgb(244,164,96);
     font-weight: bold; }
-    #bio .twitch .bi.bi-link-45degspan:before,
-    #bio .twitch .bi.bi-link-45deg:before {    color: white; }
 #bio li.user h3.name {
   display: inline;
   margin: 0;
@@ -643,8 +636,6 @@ body#top-of-page #main-content #bio.main-content-div {
     color: rgb(103,  203,  254);
     padding-left: 30px;
     margin-left: -30px; }
-#bio ul#followers-kaichanvong,
-#bio ul#twitch-crimsonkinda,
 #bio ul#twitter-bio-rebels {
   margin-left: 60px;
   padding: 0; }#contact {
@@ -830,7 +821,6 @@ body #main-content #designs.main-content-div em { color: grey; }
 #designs.main-content-div {  border-bottom: 0;}
 #about {
 background-color: rgb(1, 0, 0);
-background-color: #rrggbb; /* amazement: http://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color */
 color: rgb(0, 161, 0);
 display: block;
 float: none;
@@ -840,7 +830,7 @@ padding: 10px 10px 20px 24px;
 position: relative;
 overflow: hidden;
 width: auto;
-border-bottom: 4px solid skyblue;
+border-bottom: 4px solid rbg(119, 195, 230);
 margin: 0;
 margin-bottom: 86px;
  z-index: 0;
@@ -976,13 +966,13 @@ content: "\F379 "; }
 content: "\F425 ";
 }
 #about div#browsed-details { float: none; }
-#about-plus-footernotes table.menubar.controls.widget  { margin: 0;}
-#about-plus-footernotes table.menubar.controls.widget td.about>a {padding-left: 22px; }
-#about-plus-footernotes table .about tr td {
+#about-plus-footer-notes table.menubar.controls.widget  { margin: 0;}
+#about-plus-footer-notes table.menubar.controls.widget td.about>a {padding-left: 22px; }
+#about-plus-footer-notes table .about tr td {
   margin-left: 0;
   padding: 4px 0 4px 22px;
 }
-body #main-content #about-plus-footernotes table tr td.even { background: rgb(100,100,100);  }
+body #main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
 #speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
 
