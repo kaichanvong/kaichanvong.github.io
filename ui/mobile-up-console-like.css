@@ -457,7 +457,7 @@ body span.menubar.controls.widget li.digital-identity {
     font-size: 15px;
     line-height: 1.25; }
     body table.menubar.controls.widget td a {
-      color: rbg(119, 195, 230);
+      color: rgb(119, 195, 230);
       font-family: Arial, Helvetica, sans-serif;}
       body table.menubar.controls.widget td a:focus {
         color: grey; }
@@ -537,7 +537,7 @@ body span.menubar.controls.widget li.digital-identity {
       margin: 0.5em 0;
       padding: 0 2em; }
     body table.menubar.controls.widget .last-note {
-      color: rbg(119, 195, 230); }
+      color: rgb(119, 195, 230); }
   body .twitter-tweet {
     min-height: 550px; }
   body blockquote,
@@ -602,14 +602,14 @@ body#top-of-page #main-content #bio.main-content-div {
   min-width: 460px; }
 
 #bio .twitch, #bio .twitter {
-  background-color: rbg(119, 195, 230);
+  background-color: rgb(119, 195, 230);
   border-top: 4px solid rgb(154, 154, 154);
   padding-bottom: 30px;
   padding-top: 15px; }
   #bio .twitch p, #bio .twitter p {
     margin-bottom: 0; }
 #bio .twitter + div {
-  background-color: rbg(119, 195, 230);
+  background-color: rgb(119, 195, 230);
   border-bottom: 2px solid rgb(154, 154, 154);
   padding-bottom: 20px; }
 #bio .twitch {
@@ -830,7 +830,7 @@ padding: 10px 10px 20px 24px;
 position: relative;
 overflow: hidden;
 width: auto;
-border-bottom: 4px solid rbg(119, 195, 230);
+border-bottom: 4px solid rgb(119, 195, 230);
 margin: 0;
 margin-bottom: 86px;
  z-index: 0;
