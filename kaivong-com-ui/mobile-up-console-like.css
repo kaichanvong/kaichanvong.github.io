@@ -76,12 +76,12 @@ a.external:focus {
 .hidden-visibility a.external:focus {
   background-color: initial;
   color: initial; }
-#external-links {
+#external-links.xoxo {
   float: right;
   line-height: 2;
   margin: 0 -6px 0 0;
   overflow: hidden;
-  padding: 40px 0 14px;
+  padding: 0 0 14px;
   position: relative;
   text-align: left;
   z-index:1;
@@ -961,8 +961,8 @@ left: -30px;
 margin: 0 0 100px;
 position: absolute;
 right: -68px;
-top: 320px;
-z-index: 2;
+bottom: -180px;
+z-index: 0;
 }
 body#top-of-page abbrev {
 border-bottom: dotted 1px rgb(250, 250, 224); 
