@@ -1,8 +1,8 @@
 @charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
-  src: url("fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
-       url("fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
+  src: url("/ui/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
+       url("/ui/fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
 #about a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
@@ -109,7 +109,7 @@ a.external:focus {
 #external-links li#artfinder a,
 #external-links li#dressipi a,
 #external-links li#justgiving a {
-  background: transparent url("social_network_icons.png") 0 0 no-repeat;
+  background: transparent url("/ui/social_network_icons.png") 0 0 no-repeat;
   background-size: cover;
   display: block;
   height: 28px;
@@ -387,7 +387,7 @@ body span.menubar.controls.widget li.digital-identity {
       display: inline-block;
       margin: 0.25em 0 0.25em; }
   body h1, body h2, body h3, body h4, body .widget {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
       font-weight: bold;
       margin: 0;
       padding: 0 12px 0 2px;
@@ -418,7 +418,7 @@ body span.menubar.controls.widget li.digital-identity {
   body div.nav ol {
     font-family: auto; }
   body ol, body ul {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0 4em 2em 44px; }
   body ol li, body ul li {
     margin: 0  1em 0 0; }
@@ -434,7 +434,7 @@ body span.menubar.controls.widget li.digital-identity {
     margin: 0;
     padding: 0; }
   body p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     margin-bottom: 1em;
     margin-left: 24px; }
   body #main-content {
@@ -458,7 +458,7 @@ body span.menubar.controls.widget li.digital-identity {
     line-height: 1.25; }
     body table.menubar.controls.widget td a {
       color: rgb(119, 195, 230);
-      font-family: Arial, Helvetica, sans-serif;}
+      font-family: Verdana, Arial, Helvetica, sans-serif;}
       body table.menubar.controls.widget td a:focus {
         color: grey; }
     body table.menubar.controls.widget td.external,
@@ -656,7 +656,7 @@ body#top-of-page #main-content #bio.main-content-div {
     #contact #contact-me h1,
     #contact #contact-me h2,
     #contact #contact-me h2 {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Verdana,Arial, Helvetica, sans-serif;
       font-size: 36px;
       float: left;
       margin: 0;
@@ -758,7 +758,7 @@ font-size: 1.8em;
     border-radius: 10px 10px;
     background-color: red;
 }
-.highlight.headline-text em { font-family: Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
+.highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
@@ -927,7 +927,7 @@ html { background-color: rgb(182, 215, 168);}
 body { cursor: default; }
 body#top-of-page {
   color: rgb(34, 34, 34);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 13px;
   margin: 0 60px 0 0;
   padding: 0;
@@ -941,7 +941,7 @@ body#top-of-page {
  position: relative;
 }
 .footer:after {
-background: url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat ;
+background: url(/ui/footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat ;
 background-position: right -1px;
 background-repeat: repeat-x;
 content: ' ';
