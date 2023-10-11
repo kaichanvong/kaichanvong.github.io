@@ -601,7 +601,8 @@ body#top-of-page #main-content #bio.main-content-div {
 #bio #twitter-details {
   margin: 0 0 1em 20px;
   min-width: 460px; }
-
+body #main-content #bio h2+p { display: inline; margin-right: 0; }
+#bio li, #bio ol { display: inline; margin: 0; padding: 0; }
 #bio .twitch, #bio .twitter {
   background-color: rgb(119, 195, 230);
   border-top: 4px solid rgb(154, 154, 154);
