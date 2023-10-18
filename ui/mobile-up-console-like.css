@@ -171,7 +171,7 @@ body span.menubar.controls.widget li.digital-identity {
   scroll-snap-type: x mandatory;
   scroll-padding: 40px;
   white-space: nowrap;
-  width: 420px; }
+  width: 320px; }
   @media (max-width: 320px) {
     .pictures {
       max-width: 260px; } }
@@ -351,7 +351,7 @@ body span.menubar.controls.widget li.digital-identity {
     body table.menubar.controls.widget table {
       border: 0; }
   body .footer div.copyright {
-    background: rgb(161, 182, 213);
+    background-color: rgb(124, 166, 215);;
     color: rgb(33,38,46);
     clear: both;
     min-height: 110px;
@@ -578,7 +578,7 @@ body span.menubar.controls.widget li.digital-identity {
   height: 70px;
   width: 70px; }
 body#top-of-page #main-content #bio.main-content-div {
-    background-color: rgb(162,196,201);
+    background-color: rgb(124, 166, 215);
     margin-top: 60px;
     padding-top: 60px;
 }
@@ -750,7 +750,7 @@ body #main-content table.menubar.controls.widget.z-bar-0 td.home a {
     font-weight: bold;
 }
 h1.highlight.headline-text {
-background-color: rgb(69, 129, 142);
+background-color: rgb(124, 166, 215);
 border-bottom: 10px solid rgb(15, 14, 14);
 color: rgb(15, 14, 14);
 font-size: 1.8em;
@@ -778,7 +778,7 @@ body#top-of-page>div.nav { position:sticky; top:0; z-index:2; }
 #online-companies h3 { font-style: italic; margin-bottom: 6px; }
 #online-companies h3 a { font-style: normal; left: -20px; padding: 4px 5px; position: relative; }
 .portfolioAlbum p { max-width: 510px; white-space: normal; line-height: 1.3; }
-#about button {
+#about img {
 border: 1px solid rgb(66, 66, 66);
 border-radius: 100%;
 display:block;
@@ -879,25 +879,7 @@ position: relative;
 }
 #thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0;
 border-right: 4px solid rgb(66, 66, 66); border-top: 4px solid rgb(66, 66, 66); position: relative; display: block; }
-#about:before {
-background-color: rgb(162, 0, 0);
-border-bottom: 4px solid rgb(135, 135, 135);
-border-right: 120px solid rgb(163, 0, 0);
-content: '...';
-color: rgb(255, 252, 234);
-display: block;
-float: right;
-font-family: none;
-font-size: 90px;
-height: 90px;
-left: 484px;
-margin-left: 0;
-position: absolute;
-right: 0;
-text-align: center;
-top: 0;
-z-index: 2;
-}
+
 .portfolioAlbum { margin-bottom: 30px; }
 .justgiving.portfolioAlbum { margin-bottom: 0; }
 body table.menubar.controls.widget td a.cc-link:link,
@@ -925,7 +907,7 @@ border-bottom: 6px solid rgb(138, 196, 40);
 span.channels {
 border-bottom: 6px solid rgb(34, 34, 34);
 }
-html { background-color: rgb(182, 215, 168);}
+html { background-color: rgb(120, 157, 229);}
 body { cursor: default; }
 body#top-of-page {
   color: rgb(34, 34, 34);
