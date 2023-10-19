@@ -171,7 +171,7 @@ body span.menubar.controls.widget li.digital-identity {
   scroll-snap-type: x mandatory;
   scroll-padding: 40px;
   white-space: nowrap;
-  width: 320px; }
+  width: 310px; }
   @media (max-width: 320px) {
     .pictures {
       max-width: 260px; } }
@@ -185,8 +185,8 @@ body span.menubar.controls.widget li.digital-identity {
     float: none;
     margin-left: 0;
     margin-right: 0;
-    max-height: 320px;
-    max-width: 320px;
+    max-height: 310px;
+    max-width: 310px;
     scroll-snap-align: none center;
   }
     .pictures--css div,
@@ -366,7 +366,6 @@ body span.menubar.controls.widget li.digital-identity {
       margin-top: 1.3em;
       padding-bottom: 40px;
       position: relative;
-      width: 360px;
       z-index: 1;
     }
     body div.footer img {
@@ -817,7 +816,7 @@ a.external.multi-links { background-color: rgb(255, 252, 234); color: rgb(66, 66
 body #main-content #bio.main-content-div { padding: 40px 0; }
 body #main-content #bio.main-content-div p { max-width: 556px; }
 body #main-content #contact.main-content-div { padding: 20px 0 20px; }
-body #main-content #designs.main-content-div { overflow: hidden; padding: 20px 0 0; margin-bottom: 0; }
+body #main-content #designs.main-content-div { padding: 20px 0 0; margin-bottom: 0; }
 body #main-content #designs.main-content-div em { color: grey; }
 .main-content-div { margin-bottom: 20px; }
 #designs.main-content-div {  border-bottom: 0;}
@@ -831,7 +830,7 @@ line-height: 1.3;
 padding: 10px 10px 20px 24px;
 position: relative;
 overflow: hidden;
-width: auto;
+width: 310px;
 border-bottom: 4px solid rgb(119, 195, 230);
 margin: 0;
 margin-bottom: 86px;
@@ -877,7 +876,7 @@ position: relative;
     width: 100%;
     z-index: 1;
 }
-#thoughtworks-talk { max-height: 368px; max-width: 368px; float: left; margin: 0;
+#thoughtworks-talk { max-height: 368px; max-width: 340px; float: left; margin: 0;
 border-right: 4px solid rgb(66, 66, 66); border-top: 4px solid rgb(66, 66, 66); position: relative; display: block; }
 
 .portfolioAlbum { margin-bottom: 30px; }
