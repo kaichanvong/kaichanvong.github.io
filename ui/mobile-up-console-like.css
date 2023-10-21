@@ -906,7 +906,7 @@ border-bottom: 6px solid rgb(138, 196, 40);
 span.channels {
 border-bottom: 6px solid rgb(34, 34, 34);
 }
-html { background-color: rgb(79, 79, 79);}
+html { background-color: rgb(53, 50, 47);}
 body { cursor: default; }
 body#top-of-page {
   color: rgb(34, 34, 34);
@@ -924,7 +924,7 @@ body#top-of-page {
  position: relative;
 }
 .footer:after {
-background: url(/ui/footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat ;
+background: url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
 background-position: right -1px;
 background-repeat: repeat-x;
 content: ' ';
