@@ -1,8 +1,8 @@
 @charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
-  src: url("/ui/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
-       url("/ui/fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
+  src: url("/ui/fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+       url("/ui/fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
 #about a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
@@ -20,6 +20,7 @@ li#github-note-01,
   line-height: 1;
 }
 .display-icons.social-media-channels li.bi-instagram a span:before,
+li.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 li.bi-linkedin a span:before,
 li.bi-github a span:before { color: rgba(200, 200, 200, 0.9); }
 li.bi-linkedin a span:before { color: rgba(200, 200, 200, 0.35); }
@@ -35,6 +36,7 @@ i.bi-link-45deg:before {content: "\f470"; }
 .display-icons.social-media-channels li.bi-github a span:before {content: "\f3ed"; }
 .display-icons.social-media-channels li.bi-linkedin a span:before {content: "\f472"; }
 .display-icons.social-media-channels li.bi-facebook a span:before {content: "\f344"; }
+.display-icons.social-media-channels li.bi-twitter-x a span:before {content: "\f8db"; }
 .display-icons.social-media-channels li.bi-instagram a span:before {content: "\f437 "; }
 
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
@@ -923,7 +925,8 @@ body#top-of-page {
 .footer {
  position: relative;
 }
-.footer:after {
+#power-style:after {
+/*.footer:after {*/
 background: url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
 background-position: right -1px;
 background-repeat: repeat-x;
