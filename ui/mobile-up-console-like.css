@@ -1,4 +1,4 @@
-@charset "utf-8";
+/* @charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
   src: url("/ui/fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
@@ -827,7 +827,6 @@ a.external.multi-links { background-color: rgb(255, 252, 234); color: rgb(66, 66
 #designs.main-content-div {  border-bottom: 0;}
 #about {
 background-color: rgb(1, 0, 0);
-background-image: url(hero-banner/activity-look.png);
 background-size: 100%;
 background-position: 0 0;
 color: rgb(0, 161, 0);
@@ -932,7 +931,6 @@ body#top-of-page {
  position: relative;
 }
 #power-style:after {
-/*.footer:after {*/
 background: url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
 background-position: right -1px;
 background-repeat: repeat-x;
@@ -967,4 +965,4 @@ content: "\F425 ";
 #main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
 #speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
-
+*/
