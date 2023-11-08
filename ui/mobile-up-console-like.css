@@ -20,11 +20,11 @@ li#github-note-01,
   line-height: 1;
 }
 .display-icons.social-media-channels li.bi-instagram a span:before,
-li.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
-li.bi-linkedin a span:before,
-li.bi-github a span:before { color: rgba(200, 200, 200, 0.9); }
-li.bi-linkedin a { background-color: #055EB3; overflow: hidden; padding: 40px 5px 5px 8px; border-radius: 5px; }
-li.bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
+.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
+.bi-linkedin a span:before,
+.bi-github a span:before { color: rgba(200, 200, 200, 0.9); }
+.bi-linkedin a { background-color: #055EB3; overflow: hidden; padding: 40px 5px 5px 8px; border-radius: 5px; }
+.bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
 .display-icons.social-media-channels li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
 html p { line-height: 1.4; }
 table span.bi-geo-alt:before,
@@ -225,7 +225,7 @@ body span.menubar.controls.widget li.digital-identity {
     margin-bottom: 1em;
     margin-left: 44px;
     line-height: 1; }
-  body #main-content {
+  #main-content {
     clear: both;
     padding: 3em 0 0; }
   body table.menubar.controls.widget {
@@ -440,7 +440,7 @@ body span.menubar.controls.widget li.digital-identity {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     margin-bottom: 1em;
     margin-left: 24px; }
-  body #main-content {
+  #main-content {
     background-color: rgb(242, 242, 242);
     min-height: 620px;
     padding-top: 0; }
@@ -586,6 +586,8 @@ body#top-of-page #main-content #bio.main-content-div {
 }
 #bio h2 {
   text-transform: none; }
+#bio p { display: inline; margin-right: 0; }
+
 #bio #twitch-details,
 #bio #twitter-details {
   font-size: 80%; }
@@ -603,7 +605,7 @@ body#top-of-page #main-content #bio.main-content-div {
 #bio #twitter-details {
   margin: 0 0 1em 20px;
   min-width: 460px; }
-body #main-content #bio h2+p { display: inline; margin-right: 0; }
+#main-content #bio h2+p { display: inline; margin-right: 0; }
 #bio li, #bio ol { display: inline; margin: 0; padding: 0; }
 #bio .twitch, #bio .twitter {
   background-color: rgb(119, 195, 230);
@@ -740,18 +742,18 @@ body#top-of-page ul.links {
  #main-content .kern-a-e,
  #main-content .google { background-color: transparent; color: rgb(40, 82, 135 ); font-weight: normal; }
  #main-content .kern-a-e- { position: relative; z-index: -1;}
-body #main-content #gaming-notes {padding-top:18px;}
+#main-content #gaming-notes {padding-top:18px;}
  #main-content .scattered-companies { padding-top: 0; padding-bottom: 0 }
-body #main-content p {margin-right: 2em;}
+#main-content p {margin-right: 2em;}
  #main-content .twitter .tweets-by-year li { display: inline; }
  #main-content .scattered-companies .pictures { height: 240px; }
  #main-content .scattered-companies  h2 { text-transform: none; }
 #designs .redesigns.pictures li { float: none; display: inline-block;}
  #main-content #developer-kata-stuff.note img { float: none; }
-body #main-content table.menubar.controls.widget.z-bar-0 td.home a {
+#main-content table.menubar.controls.widget.z-bar-0 td.home a {
     font-weight: bold;
 }
-h1.highlight.headline-text {
+.highlight.headline-text {
 background-color: rgb(124, 166, 215);
 border-bottom: 10px solid rgb(15, 14, 14);
 color: rgb(15, 14, 14);
@@ -764,18 +766,18 @@ font-size: 1.8em;
 }
 .highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
-body table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
+table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
-body table.menubar.z-bar-1 td.about a {
+table.menubar.z-bar-1 td.about a {
     padding: 0.5em 1.25em 0.5em;
     position: relative;
     text-decoration: none;
     z-index: 2;
 }
-body #main-content .footer table.menubar.controls.widget td.about a { padding-left: 2em}
-body #main-content .footer table.menubar.controls.widget td.about table a  { padding-left: 0}
-body h1 {font-size: 22pt;}
-body#top-of-page>div.nav { position:sticky; top:0; z-index:2; }
+#main-content .footer table.menubar.controls.widget td.about a { padding-left: 2em}
+#main-content .footer table.menubar.controls.widget td.about table a  { padding-left: 0}
+h1 {font-size: 22pt;}
+#top-of-page>div.nav { position:sticky; top:0; z-index:2; }
 #online-companies { padding-bottom: 0; }
 #online-companies h3 { font-style: italic; margin-bottom: 6px; }
 #online-companies h3 a { font-style: normal; left: -20px; padding: 4px 5px; position: relative; }
@@ -815,13 +817,13 @@ a.external.multi-links { background-color: rgb(255, 252, 234); color: rgb(66, 66
 .redesigns { width: 4540px; margin: 0; padding: 0; overflow: auto; }
 .redesigns li { display: inline; }
 .redesigns li img { margin-right: 0; }
-#digital-identity.main-content-div { padding-top: 90px; }
-body #main-content #bio.main-content-div { padding: 40px 0; }
-body #main-content #bio.main-content-div p { max-width: 556px; }
-body #main-content #contact.main-content-div { padding: 20px 0 20px; }
-body #main-content #designs.main-content-div { padding: 20px 0 0; margin-bottom: 0; }
-body #main-content #designs.main-content-div em { color: grey; }
-.main-content-div { margin-bottom: 20px; }
+
+#main-content #bio.main-content-div { padding: 40px 0; }
+#main-content #bio.main-content-div p { max-width: 556px; }
+#main-content #contact.main-content-div { padding: 20px 0 20px; }
+#main-content #designs.main-content-div { padding: 20px 0 0; margin-bottom: 0; }
+#main-content #designs.main-content-div em { color: grey; }
+.main-content { margin-bottom: 100px; }
 #designs.main-content-div {  border-bottom: 0;}
 #about {
 background-color: rgb(1, 0, 0);
@@ -947,7 +949,7 @@ z-index: 0;
 body#top-of-page abbrev {
 border-bottom: dotted 1px rgb(250, 250, 224); 
 text-decoration: underline dotted; }
-body #main-content #contact.main-content-div { padding-top: 90px; }
+#main-content #contact.main-content-div { padding-top: 90px; }
 .home a span#top-of-page,
 .about .container .icon { vertical-align: text-bottom; margin-right: 2px; }
 .z-bar-1 .about .icon:before {
@@ -962,7 +964,7 @@ content: "\F425 ";
   margin-left: 0;
   padding: 4px 0 4px 22px;
 }
-body #main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
+#main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
 #speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
 
