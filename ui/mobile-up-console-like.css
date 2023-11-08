@@ -1,4 +1,4 @@
-/* @charset "utf-8";
+@charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
   src: url("/ui/fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
@@ -965,4 +965,3 @@ content: "\F425 ";
 #main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
 #speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
-*/
