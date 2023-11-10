@@ -11,7 +11,7 @@ h1 {
   font-weight: normal;
   color: rgb(40,  82,  134);
   font-size: 32pt;
-  padding: 0.2em 1em 0.2em 0.4em;
+  padding: 6px 0 6px 24px;
   position: relative;
   visibility: visible;
   display: block;
@@ -64,21 +64,23 @@ body h1 a {
     line-height: 1.25;
     margin-right: 30px;
 }
-
-.menubar.controls.widget .about.browsing {
-  margin-right: 20px;
+.menubar.controls.widget .about.browsing,
+.menubar.controls.widget .about.browsing { 
+  padding: 12px 0;
 }
 
-    body .menubar.controls.widget td a {
+.menubar.controls.widget .about.browsing {
+  padding-right: 20px;
+}
+body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
       font-family: Verdana, Arial, Helvetica, sans-serif;}
-      body .menubar.controls.widget td a:focus {
-        color: grey; }
+body .menubar.controls.widget td a:focus { color: grey; }
 .main-content {
   background-color: #eee;
   z-index: 1;
   margin: 0 69px 0 0;
-  padding:0 100px 100px 0;
+  padding:0 20px 100px 0;
   position: relative;
   overflow: hidden;
 }
@@ -121,7 +123,7 @@ display: block;
 float: none;
 min-height: 100px;
 line-height: 1.3;
-padding: 10px 20px 20px 24px;
+padding: 10px 0 20px 24px;
 position: relative;
 overflow: hidden;
 margin: 0;
@@ -413,7 +415,7 @@ html p { line-height: 1.4; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#social-media-channels-complete { list-style-type: none; margin-left: 10px; }
+#social-media-channels-complete { list-style-type: none; margin:0; padding: 0 0 0 10px;  }
 @media (max-width: 320px) {
   #social-media-channels-complete { 
     margin-left: 0;
@@ -421,7 +423,7 @@ i.bi-link-45deg:before {content: "\f470"; }
   }
 }
 .display-icons.social-media-channels li { list-style: none; display: inline-block; margin-top: 30px; }
-#top-of-page { background-color: rgb(33,38,46); }
+#top-of-page { background-color: rgb(51, 51, 51); }
 #top-of-page table .home span.bi:before,
 .display-icons.social-media-channels li.bi a span:before {margin-right: 4px; font-size: 48px; }
 #top-of-page table .home span.bi-geo-alt:before { font-size: 11px; }
@@ -430,7 +432,6 @@ i.bi-link-45deg:before {content: "\f470"; }
 .display-icons.social-media-channels li.bi-twitter-x a span:before {content: "\f8db"; }
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
 div.footer {
-
   margin: 0 0 180px;
   text-align: left;
 }
@@ -487,8 +488,7 @@ body .footer div.copyright {
       float: left;
       line-height: 1.6;
       margin:  0 69px 0 0;
-      padding-bottom: 20px;
-      padding-top: 10px;
+      padding: 10px 80px 20px 0;
       position: relative;
       z-index: 1;
     }
