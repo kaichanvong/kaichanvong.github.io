@@ -66,11 +66,10 @@ body h1 a {
 }
 .menubar.controls.widget .about.browsing,
 .menubar.controls.widget .about.browsing { 
-  padding: 12px 0;
+  padding: 8px 0;
 }
-
 .menubar.controls.widget .about.browsing {
-  padding-right: 20px;
+  padding: 8px 20px;
 }
 body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
@@ -89,7 +88,7 @@ body .menubar.controls.widget {
   border: 0.1em solid rgb(34,  34,  34);
   clear: both;
   display: block;
-  margin: 0 69px 0 0;
+  margin: 0 68px 0 0;
   padding: 0;
 }
 body .menubar.controls.widget tbody,
