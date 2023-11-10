@@ -57,17 +57,22 @@ body h1 a {
   top: 0;
   z-index: 3;
 }
-table.menubar.controls.widget {
+.menubar.controls.widget {
     border-collapse: collapse;
     font-family: auto;
     font-size: 15px;
     line-height: 1.25;
     margin-right: 30px;
 }
-    body table.menubar.controls.widget td a {
+
+.menubar.controls.widget .about.browsing {
+  margin-right: 20px;
+}
+
+    body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
       font-family: Verdana, Arial, Helvetica, sans-serif;}
-      body table.menubar.controls.widget td a:focus {
+      body .menubar.controls.widget td a:focus {
         color: grey; }
 .main-content {
   background-color: #eee;
@@ -77,7 +82,7 @@ table.menubar.controls.widget {
   position: relative;
   overflow: hidden;
 }
-body table.menubar.controls.widget {
+body .menubar.controls.widget {
   background-color: rgb(33,38,46);
   border: 0.1em solid rgb(34,  34,  34);
   clear: both;
@@ -85,8 +90,8 @@ body table.menubar.controls.widget {
   margin: 0 69px 0 0;
   padding: 0;
 }
-body table.menubar.controls.widget tbody,
-body table.menubar.controls.widget.z-bar-1 td.about table {
+body .menubar.controls.widget tbody,
+body .menubar.controls.widget.z-bar-1 td.about table {
   margin: 0;
 }
 .highlight.headline-text {
@@ -103,7 +108,7 @@ margin: 0;
 }
 .highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
-table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
+.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
 h2 { clear: left; }
 #about {
@@ -467,7 +472,7 @@ div.footer p {
   z-index: 1;
 }
 
-body table.menubar.controls.widget table { border: 0; }
+body .menubar.controls.widget table { border: 0; }
 body .footer div.copyright {
     background-color: #333;
     color: rgb(33,38,46);
@@ -492,7 +497,7 @@ body .footer div.copyright {
         margin: 10px 10px 30px 0;
     }
 
-body table.menubar.controls.widget.z-bar-1 td.about table {
+body .menubar.controls.widget.z-bar-1 td.about table {
   border-spacing: initial;
   display: block;
   left: -9999em;
@@ -740,7 +745,7 @@ body span.menubar.controls.widget li.digital-identity {
   #main-content {
     clear: both;
     padding: 3em 0 0; }
-  body table.menubar.controls.widget {
+  body .menubar.controls.widget {
     background-color: rgb(33,38,46);
     border: 0.1em solid rgb(34,  34,  34);
     clear: both;
@@ -749,10 +754,10 @@ body span.menubar.controls.widget li.digital-identity {
     padding: 0;
     position: relative;
     z-index: 2; }
-    body table.menubar.controls.widget tbody,
-    body table.menubar.controls.widget tr {
+    body .menubar.controls.widget tbody,
+    body .menubar.controls.widget tr {
       width: 100%; }
-    body table.menubar.controls.widget.z-bar-1 td.about table {
+    body .menubar.controls.widget.z-bar-1 td.about table {
         border-spacing: initial;
         display: block;
         left: -9999em;
@@ -760,18 +765,18 @@ body span.menubar.controls.widget li.digital-identity {
         position: absolute;
         top: 1.5em;
         margin: 0; }
-        body table.menubar.controls.widget.z-bar-1 td.about table .about {
+        body .menubar.controls.widget.z-bar-1 td.about table .about {
           border: 0; }
-        body table.menubar.controls.widget.z-bar-1 td.about table tbody,
-        body table.menubar.controls.widget.z-bar-1 td.about table tr {
+        body .menubar.controls.widget.z-bar-1 td.about table tbody,
+        body .menubar.controls.widget.z-bar-1 td.about table tr {
           display: block; }
-        body table.menubar.controls.widget.z-bar-1 td.about table td {
+        body .menubar.controls.widget.z-bar-1 td.about table td {
           border: 0; }
-        body table.menubar.controls.widget.z-bar-1 td.about table .bio { 
+        body .menubar.controls.widget.z-bar-1 td.about table .bio { 
         padding-top: 1em; }
-          body table.menubar.controls.widget.z-bar-1 td.about table .bio a {
+          body .menubar.controls.widget.z-bar-1 td.about table .bio a {
         padding-top: 1em; }
-        body table.menubar.controls.widget.z-bar-1 td.about table td.about {
+        body .menubar.controls.widget.z-bar-1 td.about table td.about {
           padding: 0; }
 
 
@@ -790,80 +795,80 @@ body span.menubar.controls.widget li.digital-identity {
     margin-right: 4em; }
     body .normal.back-link a {
       visibility: hidden; }
-  body table.menubar.controls.widget {
+  body .menubar.controls.widget {
     border-collapse: collapse;
     font-family: auto;
     font-size: 15px;
     line-height: 1.25; }
-    body table.menubar.controls.widget td a {
+    body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
       font-family: Verdana, Arial, Helvetica, sans-serif;}
-      body table.menubar.controls.widget td a:focus {
+      body .menubar.controls.widget td a:focus {
         color: grey; }
-    body table.menubar.controls.widget td.external,
-    body table.menubar.controls.widget td.external a.external:link,
-    body table.menubar.controls.widget td.external a.external:visited {
+    body .menubar.controls.widget td.external,
+    body .menubar.controls.widget td.external a.external:link,
+    body .menubar.controls.widget td.external a.external:visited {
       color: white; }
-    body table.menubar.controls.widget.z-bar-0 {
+    body .menubar.controls.widget.z-bar-0 {
       padding-bottom: 0;
       text-align: left; }
-      body table.menubar.controls.widget.z-bar-0,
-      body table.menubar.controls.widget.z-bar-0 tbody,
-      body table.menubar.controls.widget.z-bar-0 tr,
-      body table.menubar.controls.widget.z-bar-0 td {
+      body .menubar.controls.widget.z-bar-0,
+      body .menubar.controls.widget.z-bar-0 tbody,
+      body .menubar.controls.widget.z-bar-0 tr,
+      body .menubar.controls.widget.z-bar-0 td {
         display: inline-block;
         border: 0; }
-      body table.menubar.controls.widget.z-bar-0 .about,
-      body table.menubar.controls.widget.z-bar-0 .about table,
-      body table.menubar.controls.widget.z-bar-0 .about tbody,
-      body table.menubar.controls.widget.z-bar-0 .about tr {
+      body .menubar.controls.widget.z-bar-0 .about,
+      body .menubar.controls.widget.z-bar-0 .about table,
+      body .menubar.controls.widget.z-bar-0 .about tbody,
+      body .menubar.controls.widget.z-bar-0 .about tr {
         display: inline-block; }
-      body table.menubar.controls.widget.z-bar-0 .about td {
+      body .menubar.controls.widget.z-bar-0 .about td {
         border: 0;
         display: inline-block; }
-        body table.menubar.controls.widget.z-bar-0 .about td a {
+        body .menubar.controls.widget.z-bar-0 .about td a {
           padding: 0; }
-      body table.menubar.controls.widget.z-bar-0 tbody,
-      body table.menubar.controls.widget.z-bar-0 tr {
+      body .menubar.controls.widget.z-bar-0 tbody,
+      body .menubar.controls.widget.z-bar-0 tr {
         display: block; }
-      body table.menubar.controls.widget.z-bar-0 td {
+      body .menubar.controls.widget.z-bar-0 td {
         border: 0;
         padding: 0;
         text-align: center; }
-      body table.menubar.controls.widget.z-bar-0 td.about,
-      body table.menubar.controls.widget.z-bar-0 td.about table {
+      body .menubar.controls.widget.z-bar-0 td.about,
+      body .menubar.controls.widget.z-bar-0 td.about table {
         display: block; margin-bottom: 0;
         text-align: left; }
-      body table.menubar.controls.widget.z-bar-0 td.about label {
+      body .menubar.controls.widget.z-bar-0 td.about label {
         margin: 0 0 0 0; }
-        body table.menubar.controls.widget.z-bar-0 td.bio a,
-        body table.menubar.controls.widget.z-bar-0 td.contact a,
-        body table.menubar.controls.widget.z-bar-0 td.designs a,
-        body table.menubar.controls.widget.z-bar-0 td.gaming a,
-        body table.menubar.controls.widget.z-bar-0 td.digital-identity a,
-        body table.menubar.controls.widget.z-bar-0 td.tweets a,
-        body table.menubar.controls.widget.z-bar-0 td.notes a,
-        body table.menubar.controls.widget.z-bar-0 td.home a {
+        body .menubar.controls.widget.z-bar-0 td.bio a,
+        body .menubar.controls.widget.z-bar-0 td.contact a,
+        body .menubar.controls.widget.z-bar-0 td.designs a,
+        body .menubar.controls.widget.z-bar-0 td.gaming a,
+        body .menubar.controls.widget.z-bar-0 td.digital-identity a,
+        body .menubar.controls.widget.z-bar-0 td.tweets a,
+        body .menubar.controls.widget.z-bar-0 td.notes a,
+        body .menubar.controls.widget.z-bar-0 td.home a {
           margin: 0;
           padding: 0; }
-    body table.menubar.controls.widget thead td {
+    body .menubar.controls.widget thead td {
       background: rgb(161, 182, 213);
       color: rgb(34,  34,  34);
       font-weight: bold; }
-    body table.menubar.controls.widget td {
+    body .menubar.controls.widget td {
       background: rgb(33,38,46);
       border: 0.1em solid rgb(1, 0, 0)
       padding: 0 0;
    }
-      body table.menubar.controls.widget td a:link {
+      body .menubar.controls.widget td a:link {
         border-bottom: 0;
         display: block; }
-    body table.menubar.controls.widget thead td,
-    body table.menubar.controls.widget td a {
+    body .menubar.controls.widget thead td,
+    body .menubar.controls.widget td a {
       display: block;
       margin: 0.5em 0;
       padding: 0 2em; }
-    body table.menubar.controls.widget .last-note {
+    body .menubar.controls.widget .last-note {
       color: rgb(119, 195, 230); }
   body .twitter-tweet {
     min-height: 550px; }
@@ -979,7 +984,7 @@ body#top-of-page ul.links {
  #main-content .scattered-companies  h2 { text-transform: none; }
 #designs .redesigns.pictures li { float: none; display: inline-block;}
  #main-content #developer-kata-stuff.note img { float: none; }
-#main-content table.menubar.controls.widget.z-bar-0 td.home a {
+#main-content .menubar.controls.widget.z-bar-0 td.home a {
     font-weight: bold;
 }
 .highlight.headline-text {
@@ -995,16 +1000,16 @@ font-size: 1.8em;
 }
 .highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
-table.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
+.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
-table.menubar.z-bar-1 td.about a {
+.menubar.z-bar-1 td.about a {
     padding: 0.5em 1.25em 0.5em;
     position: relative;
     text-decoration: none;
     z-index: 2;
 }
-#main-content .footer table.menubar.controls.widget td.about a { padding-left: 2em}
-#main-content .footer table.menubar.controls.widget td.about table a  { padding-left: 0}
+#main-content .footer .menubar.controls.widget td.about a { padding-left: 2em}
+#main-content .footer .menubar.controls.widget td.about table a  { padding-left: 0}
 h1 {font-size: 22pt;}
 #top-of-page>div.nav { position:sticky; top:0; z-index:2; }
 #online-companies { padding-bottom: 0; }
@@ -1121,8 +1126,8 @@ border-right: 4px solid rgb(66, 66, 66); border-top: 4px solid rgb(66, 66, 66); 
   }
 .portfolioAlbum { margin-bottom: 30px; }
 .justgiving.portfolioAlbum { margin-bottom: 0; }
-body table.menubar.controls.widget td a.cc-link:link,
-body table.menubar.controls.widget td a.cc-link:visited { color: blue; padding: 0; }
+body .menubar.controls.widget td a.cc-link:link,
+body .menubar.controls.widget td a.cc-link:visited { color: blue; padding: 0; }
 #scroll-to-bio { font-size: 0.9em; display: block; margin-top: 10px; margin-bottom: 10px; }
 .redesigns { overflow-y: hidden; overflow-x: auto; height: 300px;  }
 @media (max-width: 320px) {
@@ -1184,8 +1189,8 @@ content: "\F379 "; }
 content: "\F425 ";
 }
 #about div#browsed-details { float: none; }
-#about-plus-footer-notes table.menubar.controls.widget  { margin: 0;}
-#about-plus-footer-notes table.menubar.controls.widget td.about>a {padding-left: 22px; }
+#about-plus-footer-notes .menubar.controls.widget  { margin: 0;}
+#about-plus-footer-notes .menubar.controls.widget td.about>a {padding-left: 22px; }
 #about-plus-footer-notes table .about tr td {
   margin-left: 0;
   padding: 4px 0 4px 22px;
@@ -1193,6 +1198,6 @@ content: "\F425 ";
 #main-content #about-plus-footer-notes table tr td.even { background: rgb(100,100,100);  }
 .external.github-pages-link:link { background-color: rgb(125, 0, 151) }
 #speaking .headline h2 .more-details { font-size: 0.75em; color: rgb(130, 130, 130); }
-body table.menubar.controls.widget tr {
+body .menubar.controls.widget tr {
   width: 100%; }
 */
