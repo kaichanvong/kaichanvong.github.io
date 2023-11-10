@@ -73,7 +73,7 @@ table.menubar.controls.widget {
   background-color: #eee;
   z-index: 1;
   margin: 0 69px 0 0;
-  padding:0 100px 0 0;
+  padding:0 100px 100px 0;
   position: relative;
   overflow: hidden;
 }
