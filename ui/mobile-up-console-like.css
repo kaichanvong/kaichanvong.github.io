@@ -1,3 +1,9 @@
+#top-of-page h2 {
+  font-size: 18pt;
+  font-weight: normal;
+  padding-left: 1em;
+  padding: 0 13px 10px;
+}
 header {
   margin: 0 69px 0 0;
 }
@@ -490,10 +496,4 @@ div.footer p {
   padding-top: 5em;
   position: absolute;
   top: 1.5em;
-}
-#top-of-page h2 {
-  font-size: 18pt;
-  font-weight: normal;
-  padding-left: 1em;
-  padding: 0 13px 10px;
 }
