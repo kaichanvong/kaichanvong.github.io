@@ -480,6 +480,7 @@ div.footer {
       background-color: rgb(106, 130, 171);
       display: inline;
       float: left;
+      margin-right: 20px;
       position: relative;
       z-index: 2;
 }
