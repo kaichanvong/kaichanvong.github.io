@@ -14,6 +14,8 @@
   position: relative;
   overflow: hidden;
 }
+.main-content#digital-identity { background-color: #bbb; /* not ggg... ;) */ }
+.main-content#designs {background-color: #fff; */ }
 header {
   margin: 0 69px 0 0;
 }
@@ -188,14 +190,23 @@ position: relative;
     width: 100%;
     z-index: 1;
 }
-#thoughtworks-talk { max-height: 368px; max-width: 340px; float: left; margin: 0;
-border-right: 4px solid rgb(66, 66, 66); border-top: 4px solid rgb(66, 66, 66); position: relative; display: block; }
-@media (max-width: 320px) {
+#thoughtworks-talk { 
+  max-width: 340px; 
+  float: left; 
+  margin: 0;
+  border-right: 4px solid rgb(66, 66, 66); 
+  border-top: 4px solid rgb(66, 66, 66); 
+  position: relative; display: block;
+}
+#thoughtworks-talk  {
+
+}
+/*@media (max-width: 320px) {
   #thoughtworks-talk {
     max-width: 296px;
     max-height: 296px;
   }
-}
+}*/
 body#top-of-page #main-content #bio.main-content-div {
   background-color: rgb(124, 166, 215);
   margin-top: 60px;
