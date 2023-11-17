@@ -4,7 +4,7 @@
   padding-left: 1em;
   padding: 0 13px 10px;
 }
-.main-content#bio {  }
+.main-content#bio { background-color: #ccc;  }
 .main-content#bio h2 { float: left; line-height: 2; }
 .main-content#bio p { margin-left: 0; }
 .main-content#bio ol { margin-bottom: 10px; display: block;}
@@ -14,7 +14,7 @@
   position: relative;
   overflow: hidden;
 }
-.main-content#digital-identity { background-color: #bbb; /* not ggg... ;) */ }
+.main-content#digital-identity { background-color: #ddd; */ }
 .main-content#designs {background-color: #fff; */ }
 header {
   margin: 0 69px 0 0;
@@ -218,7 +218,7 @@ body#top-of-page #main-content #bio.main-content-div {
 #main-content {
   clear: both;
   padding: 3em 0 70px;
-  background-color: rgb(242, 242, 242);
+  background-color: #bbb;
   margin: 0 69px 0 0;
   min-height: 620px;
   padding-top: 0; 
