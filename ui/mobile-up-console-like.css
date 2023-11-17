@@ -110,6 +110,7 @@ body .menubar.controls.widget td a:focus { color: grey; }
   padding-right: 0;
   margin-top: 0;
   padding-top: 0;
+  padding-bottom: 0;
 }
 .footer #external-links { 
   background-color: rgb(106, 130, 171);
@@ -473,7 +474,7 @@ i.bi-link-45deg:before {content: "\f470"; }
 .display-icons.social-media-channels li.bi-twitter-x a span:before {content: "\f8db"; }
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
 div.footer {
-  margin: 0 0 180px;
+  margin: 0;
   text-align: left;
 }
 .menubar.controls.widget.z-bar-0 {
@@ -500,7 +501,10 @@ div.footer {
 .footer #power-style {
   clear: none;
 }
-
+.menubar.controls.widget.z-bar-0,
+.copyright {
+  padding-top: 20px;
+}
 .footer .normal.back-link {
     display: none;
 }
@@ -509,7 +513,8 @@ div.footer p {
   margin: 0.25em 0 0.25em;
 }
 #power-style:after {
-  background: transparent url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
+  background-color: crimson;
+  background: rgb(165, 42, 26) url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
   background-position: right -1px;
   background-repeat: no-repeat;
   bottom: -168px;
@@ -517,7 +522,7 @@ div.footer p {
   display: block;
   height: 168px;
   left: 0px;
-  margin: 0 0 30px;
+  margin: 0;
   position: absolute;
   right: -70px;
   z-index: 1;
