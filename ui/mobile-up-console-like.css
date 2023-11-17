@@ -513,8 +513,8 @@ div.footer p {
   margin: 0.25em 0 0.25em;
 }
 #power-style:after {
-  background-color: crimson;
-  background: rgb(165, 42, 26) url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
+  /* background-color: charcoal;*/
+  background: rgb(51, 51, 51) url(footer-glistening-so-V-brightly/liquid-drop-into--light.jpg) no-repeat;
   background-position: right -1px;
   background-repeat: no-repeat;
   bottom: -168px;
