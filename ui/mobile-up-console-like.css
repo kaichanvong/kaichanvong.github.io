@@ -254,9 +254,18 @@ body#top-of-page #main-content #bio.main-content-div {
 div#speaking { background-color: rgb(255,252,234);
     display: inline-block;
     float: left;
-    max-width: 320px;
     padding-bottom: 20px;
+    padding-right: 60px;
 }
+div#speaking img {
+    margin-right: 20px; }
+div#speaking h2,
+div#speaking p { display: inline; margin-left: 0; padding-left: 0; }
+div#speaking br.prefix-h2,
+div#speaking br.suffix-h2 { content: ' '; display: block; }
+div#speaking br.prefix-h2 {margin-top: 30px; }
+div#speaking br.suffix-h2 {margin-bottom: 2px; }
+div#speaking div.emoji-summary { padding-left: 20px; }
 #bio img.twitter {
   border: 0;
   border-radius: 300px;
