@@ -198,7 +198,7 @@ position: relative;
   border-right: 4px solid rgb(66, 66, 66); 
   border-top: 20px solid rgb(66, 66, 66);
   border-top: 4px solid rgb(100, 143, 293);
-  margin: 0 20px 20px 0;
+  margin: 0 20px 0 0;
   position: relative;
 }
 body#top-of-page #main-content #bio.main-content-div {
