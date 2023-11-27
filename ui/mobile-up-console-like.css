@@ -198,7 +198,7 @@ position: relative;
   border-right: 4px solid rgb(66, 66, 66); 
   border-top: 20px solid rgb(66, 66, 66);
   border-top: 4px solid rgb(100, 143, 293);
-  margin: 0 20px 0 0;
+  margin: 0 20px 20px 0;
   position: relative;
 }
 body#top-of-page #main-content #bio.main-content-div {
@@ -327,7 +327,9 @@ body#top-of-page #main-content #bio.main-content-div {
     margin-left: -30px; }
 #bio ul#twitter-bio-rebels {
   margin-left: 60px;
-  padding: 0; }#contact {
+  padding: 0; }
+  #contact {
+  padding: 30px 20px 30px 0;
   margin-top: 0; }
   #contact #contact-me {
     background-size: cover;
