@@ -254,7 +254,8 @@ div#speaking br.suffix-h2 { content: ' '; display: block; }
 div#speaking br.prefix-h2 {margin-top: 30px; }
 div#speaking br.suffix-h2 {margin-bottom: 2px; }
 div#speaking h2, div#speaking p { display: inline; margin: 0; padding: 0; }
-div#speaking div.emoji-summary { padding-left: 20px; }
+div#speaking div.emoji-summary,
+div#speaking div.talks-summary { padding-left: 20px; }
 #bio img.twitter {
   border: 0;
   border-radius: 300px;
