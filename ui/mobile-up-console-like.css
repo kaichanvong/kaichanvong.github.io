@@ -4,7 +4,24 @@
   padding-left: 1em;
   padding: 0 13px 10px;
 }
-.main-content#bio { background-color: #ccc;  }
+#contact {
+  padding: 30px 20px 30px 0;
+  margin-top: 0; }
+#contact #contact-me {
+  background-size: cover;
+  margin: 0 60px 20px 44px;
+  min-width: 420px;
+  max-width: 800px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  text-align: left; }
+#contact #contact-me .electronic-mail a {
+  background: rgb(33,38,46);
+  color: white;
+  display: inline-block; }
+.main-content#contact { background-color: #fff; }
+.main-content#bio {  background-color: #f6f6f6; }
 .main-content#bio h2 { float: left; line-height: 2; }
 .main-content#bio p { margin-left: 0; }
 .main-content#bio ol { margin-bottom: 10px; display: block;}
@@ -15,7 +32,7 @@
   overflow: hidden;
 }
 .main-content#digital-identity { background-color: #ddd; */ }
-.main-content#designs {background-color: #fff; */ }
+.main-content#designs {background-color: #ccc; }
 header {
   margin: 0 69px 0 0;
 }
@@ -103,12 +120,13 @@ body .menubar.controls.widget td a {
 body .menubar.controls.widget td a:focus { color: grey; }
 .nav.footer,
 .main-content {
-  margin: 0 69px 0 0;
+  margin: 0;
   padding:30px 20px 70px 0;
 }
 .nav.footer {
   padding-right: 0;
   margin-top: 0;
+  margin-right: 69px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -328,23 +346,6 @@ body#top-of-page #main-content #bio.main-content-div {
 #bio ul#twitter-bio-rebels {
   margin-left: 60px;
   padding: 0; }
-  #contact {
-  padding: 30px 20px 30px 0;
-  margin-top: 0; }
-  #contact #contact-me {
-    background-size: cover;
-    margin: 0 60px 20px 44px;
-    min-width: 420px;
-    max-width: 800px;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-    text-align: left; }
-#contact #contact-me .electronic-mail a {
-  background: rgb(33,38,46);
-  color: white;
-  display: inline-block; }
-
 html.highlight a.external:link,
 html.highlight body.social-links a:link,
 html.highlight a.external:visited,
