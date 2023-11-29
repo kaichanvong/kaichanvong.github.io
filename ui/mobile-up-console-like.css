@@ -117,28 +117,28 @@ body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
       font-family: Verdana, Arial, Helvetica, sans-serif;}
 body .menubar.controls.widget td a:focus { color: grey; }
-.nav.footer,
+.nav.page-bottom,
 .main-content {
   margin: 0;
   padding:30px 20px 70px 0;
 }
-.nav.footer {
+.nav.page-bottom {
   padding-right: 0;
   margin-top: 0;
   margin-right: 69px;
   padding-top: 0;
   padding-bottom: 0;
 }
-.footer #external-links { 
+.page-bottom #external-links { 
   background-color: rgb(106, 130, 171);
   padding: 0; 
   margin: 0; 
   text-align: center;
 }
-.footer #external-links,
-.footer #external-links img {
+.page-bottom #external-links,
+.page-bottom #external-links img {
 }
-.footer #external-links img {
+.page-bottom #external-links img {
   float: none;
 }
 body .menubar.controls.widget {
@@ -487,7 +487,7 @@ i.bi-link-45deg:before {content: "\f470"; }
 .display-icons.social-media-channels li.bi-linkedin a span:before {content: "\f472"; }
 .display-icons.social-media-channels li.bi-twitter-x a span:before {content: "\f8db"; }
 .display-icons.social-media-channels li.bi a span strong { display: inline-block;  overflow: hidden; text-indent: -9999px; }
-div.footer {
+div.page-bottom {
   margin: 0;
   text-align: left;
 }
@@ -512,17 +512,17 @@ div.footer {
         padding: 0;
         text-align: left; }
 .menubar.controls.widget.z-bar-0, 
-.footer #power-style {
+.page-bottom #power-style {
   clear: none;
 }
 .menubar.controls.widget.z-bar-0,
 .copyright {
   padding-top: 20px;
 }
-.footer .normal.back-link {
+.page-bottom .normal.back-link {
     display: none;
 }
-div.footer p {
+div.page-bottom p {
   display: inline-block;
   margin: 0.25em 0 0.25em;
 }
@@ -541,26 +541,26 @@ div.footer p {
   z-index: 1;
 }
 .menubar.controls.widget table { border: 0; }
-.footer #power-style {
+.page-bottom #power-style {
   background-color: #333;
   color: rgb(33,38,46);
   min-height: 110px;
   padding: 0;
   position: relative;
   }
-.footer #power-style .copyright {
+.page-bottom #power-style .copyright {
   background-color: rgb(106, 130, 171);
   font-size: smaller;
   line-height: 1.6;
   position: relative;
   z-index: 1;
 }
-.footer img {
+.page-bottom img {
   float: right; 
   margin: 10px;
   position: relative;
   z-index: 2;
 }
-.footer .css-validation {
+.page-bottom .css-validation {
   list-style-type: none;
 }
