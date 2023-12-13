@@ -455,6 +455,7 @@ li#github-note-01,
 .bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 .bi-linkedin a span:before,
 .bi-github a span:before { color: rgba(0, 0, 0, 0.9); }
+.bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
 .bi-linkedin a { background-color: #055EB3; overflow: hidden; padding: 40px 5px 5px 8px; border-radius: 5px; }
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
 .display-icons.social-media-channels li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
@@ -474,7 +475,9 @@ i.bi-link-45deg:before {content: "\f470"; }
 #topOfPageContent table .home span.bi:before,
 .display-icons.social-media-channels li.bi a span:before {margin-right: 4px; font-size: 48px; }
 #topOfPageContent table .home span.bi-geo-alt:before { font-size: 11px; }
+#linkContent {}
 .display-icons.social-media-channels li.bi-github a span:before {content: "\f3ed"; }
+.display-icons.social-media-channels li.bi-chess a span:before {content: "\265C"; font-size: 72px; }
 .display-icons.social-media-channels li.bi-facebook a span:before {content: "\f344"; }
 .display-icons.social-media-channels li.bi-linkedin a span:before {content: "\f472"; }
 .display-icons.social-media-channels li.bi-twitter-x a span:before {content: "\f8db"; }
