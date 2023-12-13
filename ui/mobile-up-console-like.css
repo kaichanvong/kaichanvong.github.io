@@ -347,14 +347,12 @@ a.external:link, a.external:visited {
   color: rgb(244, 164, 96);
   font-weight: bold; }
 
-#digitalIdentityContent span.social {
-border-bottom: 6px solid rgb(251, 0, 129);
-}
-#digitalIdentityContent span.media {
+#digitalIdentityContent span.external {
 border-bottom: 6px solid rgb(138, 196, 40);
+
 }
-#digitalIdentityContent span.channels {
-border-bottom: 6px solid rgb(34, 34, 34);
+#digitalIdentityContent span.links {
+border-bottom: 6px solid rgb(251, 0, 129);
 }
 .pictures--css ul li { display: inline;  vertical-align: top; }
 .pictures--css ul,
