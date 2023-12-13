@@ -207,7 +207,7 @@ position: relative;
     width: 100%;
     z-index: 1;
 }
-#thoughtworksTalk { 
+#thoughtworksTalkContent {
   max-width: 340px;
   display: block;
   float: left; 
