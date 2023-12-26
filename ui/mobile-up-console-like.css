@@ -106,6 +106,10 @@ body h1 a {
     line-height: 1.25;
     margin-right: 69px;
 }
+@media (max-width: 340px) {
+.menubar.controls.widget,
+header {margin-right: 0;}
+}
 .menubar.controls.widget .about.browsing,
 .menubar.controls.widget .about.browsing { 
   padding: 8px 0;
@@ -128,6 +132,11 @@ body .menubar.controls.widget td a:focus { color: grey; }
   margin-right: 69px;
   padding-top: 0;
   padding-bottom: 0;
+}
+@media (max-width: 340px) {
+  .nav.page-bottom {
+    margin-right: 0;
+  }  
 }
 .page-bottom #externalLinksContent { 
   background-color: rgb(106, 130, 171);
@@ -232,6 +241,10 @@ body#topOfPageContent #mainContent #bioContentContent.main-content-div {
   min-height: 620px;
   padding: 0; 
 }
+@media (max-width: 340px) {
+  #mainContent { margin-right: 0; }
+  .main-content { clear: left; }
+}
 .no-display { display: none; }
 #aboutContent #mainContent {
   background-color: rgb(148,	163,	167);
@@ -267,7 +280,7 @@ div#speakingContent { background-color: rgb(255,252,234);
 }
 @media (max-width: 340px) {
   div#speakingContent { 
-    max-width: 200px;
+    max-width: 244px;
   }
 }
 div#speakingContent br.prefix-h2,
@@ -300,7 +313,7 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
     text-decoration: none; }
 #bioContent #twitterDetailsContent {
   margin: 0 0 1em 20px;
-  min-width: 460px; }
+    }
 #mainContent #bioContent h2+p { display: inline; margin-right: 0; }
 #bioContent li, #bioContent ol { display: inline; margin: 0; padding: 0; }
 #bioContent .twitch, #bioContent .twitter {
