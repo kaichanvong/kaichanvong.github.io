@@ -482,7 +482,8 @@ i.bi-link-45deg:before {content: "\f470"; }
     padding-left: 20px;
   }
 }
-.display-icons.social-media-channels li { list-style: none; display: inline-block; margin-top: 10px; }
+.display-icons.social-media-channels li { list-style: none; display: inline-block; margin-top: 10px; 
+  margin-bottom: 10px; }
 #topOfPageContent { background-color: rgb(51, 51, 51); }
 #topOfPageContent table .home span.bi:before,
 .display-icons.social-media-channels li.bi a span:before {margin-right: 4px; font-size: 48px; }
