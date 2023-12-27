@@ -21,9 +21,10 @@
   display: inline-block; }
 .main-content#contactContent { background-color: #fff; }
 .main-content#bioContent {  background-color: #f6f6f6; }
+.main-content#bioContent #bio td { vertical-align: top; }
 .main-content#bioContent h2 { float: left; line-height: 2; }
 .main-content#bioContent p { margin-left: 0; }
-.main-content#bioContent ol { margin-bottom: 10px; display: block;}
+.main-content#bioContent ol { margin-bottom: 10px; }
 .main-content {
   background-color: #eee;
   z-index: 1;
@@ -312,7 +313,7 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
   #bioContent .twitter-handle a {
     text-decoration: none; }
 #bioContent #twitterDetailsContent {
-  margin: 0 0 1em 20px;
+  margin: 1em 0 1em;
     }
 #mainContent #bioContent h2+p { display: inline; margin-right: 0; }
 #bioContent li, #bioContent ol { display: inline; margin: 0; padding: 0; }
