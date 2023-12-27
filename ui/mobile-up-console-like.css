@@ -313,7 +313,7 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
   #bioContent .twitter-handle a {
     text-decoration: none; }
 #bioContent #twitterDetailsContent {
-  margin: 1em 0 1em;
+  margin: 1em 0 1em 1em;
     }
 #mainContent #bioContent h2+p { display: inline; margin-right: 0; }
 #bioContent li, #bioContent ol { display: inline; margin: 0; padding: 0; }
