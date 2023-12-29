@@ -1,6 +1,5 @@
 #topOfPageContent h2 {
   font-size: 18pt;
-  font-weight: normal;
   padding-left: 1em;
 }
 #contactContent {
@@ -19,8 +18,9 @@
   background: rgb(33,38,46);
   color: white;
   display: inline-block; }
-.main-content#contactContent { background-color: #fff; }
-.main-content#bioContent {  background-color: #f6f6f6; }
+.main-content#contactContent { background-color: rgb(139,0,0); }
+.main-content#contactContent a { color: rgb(255,148,0); }
+.main-content#bioContent {  background-color: rgb(115, 253, 255); }
 .main-content#bioContent #bio td { vertical-align: top; }
 .main-content#bioContent h2 { float: left; line-height: 2; }
 .main-content#bioContent p { margin-left: 0; }
@@ -31,8 +31,8 @@
   position: relative;
   overflow: hidden;
 }
-.main-content#digitalIdentityContent { background-color: #ddd; */ }
-.main-content#previousLooksContent {background-color: #ccc; }
+.main-content#digitalIdentityContent { background-color: #73DAFF; }
+.main-content#previousLooksContent {background-color: rgb(0, 77, 129); }
 header {
   margin: 0 69px 0 0;
 }
@@ -125,7 +125,7 @@ body .menubar.controls.widget td a:focus { color: grey; }
 .nav.page-bottom,
 .main-content {
   margin: 0;
-  padding:30px 20px 70px 0;
+  padding:30px 20px 40px 0;
 }
 .nav.page-bottom {
   padding-right: 0;
@@ -177,13 +177,14 @@ margin: 0;
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 .menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
-h2 { clear: left; }
+h2 { clear: left; font-weight: bold; }
 #aboutContent {
-background-color: rgb(1, 0, 0);
+background-color: rgb(39, 88, 120);
 background-size: 100%;
 background-position: 0 0;
 border-bottom: 4px solid rgb(119, 195, 230);
 color: rgb(0, 161, 0);
+color: #89F94F;
 display: block;
 float: none;
 min-height: 100px;
@@ -196,7 +197,7 @@ z-index: 0;
 }
 @media (min-width: 340px) {
  #aboutContent {
-  min-width: 280px; }
+  min-width: 230px; }
 }
 #aboutContent div,
 #aboutContent strong,
@@ -218,7 +219,7 @@ position: relative;
     z-index: 1;
 }
 #thoughtworksTalkContent {
-  max-width: 340px;
+  max-width: 240px;
   display: block;
   float: left; 
   margin: 0;
@@ -229,7 +230,7 @@ position: relative;
   position: relative;
 }
 body#topOfPageContent #mainContent #bioContentContent.main-content-div {
-  background-color: rgb(124, 166, 215);
+  background-color: rgb(115, 218, 255);
   margin-top: 60px;
   padding-top: 60px;
 }
@@ -272,9 +273,11 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
   z-index:5;
 } 
 @media (min-width: 340px) {
-  #aboutContent img { margin: 0 0 20px 100px; }
+  #aboutContent img { margin: 0 0 10px 40px; }
 }
-div#speakingContent { background-color: rgb(255,252,234);
+div#speakingContent { 
+    background-color: rgb(92, 13,2);
+    color: #000;
     float: left;
     padding-bottom: 20px;
     padding-right: 60px;
@@ -485,7 +488,7 @@ li#github-note-01,
                 border-radius: 5px; }
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
 .display-icons.social-media-channels li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
-html p { line-height: 1.4; }
+html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
