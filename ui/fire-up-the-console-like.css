@@ -124,10 +124,12 @@ body h1 a {
 .menubar.controls.widget,
 header {margin-right: 0;}
 }
-body .menubar.controls.widget td a {
+.menubar.controls.widget td a {
       color: rgb(119, 195, 230);
-      font-family: Verdana, Arial, Helvetica, sans-serif;}
-body .menubar.controls.widget td a:focus { color: grey; }
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      }
+.menubar.controls.widget td a:focus { color: grey; }
 .nav.page-bottom,
 .main-content {
   margin: 0;
@@ -519,9 +521,6 @@ div.page-bottom {
       position: relative;
       z-index: 2;
 }
-.menubar.controls.widget.z-bar-0 td.about {
-  margin-top: 0.5em;
-}
 .menubar.controls.widget.z-bar-0 td.about a {
   margin-bottom: 1em;
   display: block;
@@ -591,10 +590,13 @@ div.page-bottom p {
 #contactContent h2 strong,
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong {  font-family: 'Noto Serif', 'Cookie', 'Comic Sans', cursive, fantasy;  
+#previousLooksContent  h2 strong,
+.menubar.controls.widget td a {  font-family: 'Noto Serif', 'Cookie', 'Comic Sans', cursive, fantasy;  
   font-size: 28px; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
 .menubar.controls.widget .about.browsing { 
   padding: 8px 24px;
 }
+.menubar.controls.widget td a { font-size: 20px; }
+.page-bottom .menubar.controls.widget td a { font-size: 16px; }
