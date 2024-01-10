@@ -186,6 +186,7 @@ margin: 0;
     border-radius: 10px 10px;
     background-color: red;
 }
+.highlight.headline-text span span { color: #222; }
 .highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
 .menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
@@ -351,6 +352,11 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
   margin-right: 10px; }
 #bioContent li.user div.bio {
   clear: left; }
+  #bioContent li.user div.bio p span, 
+  #bioContent li.user div.bio p {
+    
+  }
+  
   #bioContent li.user div.bio.bio-not-found {
     border-left: rgb(34,  34,  34) 6px solid;
     color: rgb(103,  203,  254);
