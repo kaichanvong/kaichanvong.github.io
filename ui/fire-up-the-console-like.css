@@ -464,6 +464,7 @@ li#github-note-01,
 }
 .display-icons.social-media-channels li.bi-instagram a span:before,
 .bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
+.bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
 .bi-github a span:before { color: rgba(0, 0, 0, 0.9); }
 .bi-chess { margin-top: 20px; }
@@ -475,7 +476,6 @@ li#github-note-01,
  } 
 .bi-chess a span:before {
   color: rgb(163, 209, 96);
- 
 } 
 .bi-linkedin a { background-color: #055EB3; 
                 overflow: hidden; 
@@ -596,7 +596,7 @@ div.page-bottom p {
 #contactContent h2 strong,
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong {  font-family: 'Cookie';  font-size: 36px; }
+#previousLooksContent  h2 strong {  font-family: 'Cookie', 'Comic Sans', cursive, fantasy;  font-size: 36px; }
 .highlight.headline-text,#previousLooksContent  h2 strong { font-size: 36px; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 
