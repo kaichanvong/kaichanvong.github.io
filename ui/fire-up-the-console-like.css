@@ -124,13 +124,6 @@ body h1 a {
 .menubar.controls.widget,
 header {margin-right: 0;}
 }
-.menubar.controls.widget .about.browsing,
-.menubar.controls.widget .about.browsing { 
-  padding: 8px 0;
-}
-.menubar.controls.widget .about.browsing {
-  padding: 8px 20px;
-}
 body .menubar.controls.widget td a {
       color: rgb(119, 195, 230);
       font-family: Verdana, Arial, Helvetica, sans-serif;}
@@ -606,3 +599,8 @@ div.page-bottom p {
 #previousLooksContent  h2 strong {  font-family: 'Cookie';  font-size: 36px; }
 .highlight.headline-text,#previousLooksContent  h2 strong { font-size: 36px; }
 .main-content#bioContent #bio td {vertical-align: middle;}
+
+.menubar.controls.widget .home,
+.menubar.controls.widget .about.browsing { 
+  padding: 8px 24px;
+}
