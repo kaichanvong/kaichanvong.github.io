@@ -585,13 +585,14 @@ div.page-bottom p {
   list-style-type: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Cookie');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100');
 .highlight.headline-text,
 #speakingContent h2,
 #contactContent h2 strong,
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong {  font-family: 'Cookie', 'Comic Sans', cursive, fantasy;  font-size: 36px; }
-.highlight.headline-text,#previousLooksContent  h2 strong { font-size: 36px; }
+#previousLooksContent  h2 strong {  font-family: 'Noto Serif', 'Cookie', 'Comic Sans', cursive, fantasy;  
+  font-size: 28px; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
 .menubar.controls.widget .about.browsing { 
