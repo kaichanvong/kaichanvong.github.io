@@ -124,11 +124,6 @@ body h1 a {
 .menubar.controls.widget,
 header {margin-right: 0;}
 }
-.menubar.controls.widget td a {
-      color: rgb(119, 195, 230);
-      font-family: Verdana, Arial, Helvetica, sans-serif;
-      font-size: 16px;
-      }
 .menubar.controls.widget td a:focus { color: grey; }
 .nav.page-bottom,
 .main-content {
@@ -598,5 +593,5 @@ div.page-bottom p {
 .menubar.controls.widget .about.browsing { 
   padding: 8px 24px;
 }
-.menubar.controls.widget td a { font-size: 20px; }
+.menubar.controls.widget td a { color: rgb(119, 195, 230); font-size: 20px; }
 .page-bottom .menubar.controls.widget td a { font-size: 16px; }
