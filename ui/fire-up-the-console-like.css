@@ -351,12 +351,7 @@ body#topOfPageContent #mainContent #bioContent.main-content-div {
   float: left;
   margin-right: 10px; }
 #bioContent li.user div.bio {
-  clear: left; }
-  #bioContent li.user div.bio p span, 
-  #bioContent li.user div.bio p {
-    
-  }
-  
+  clear: left; }  
   #bioContent li.user div.bio.bio-not-found {
     border-left: rgb(34,  34,  34) 6px solid;
     color: rgb(103,  203,  254);
