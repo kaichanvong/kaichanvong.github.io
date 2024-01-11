@@ -484,9 +484,9 @@ html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkContent { list-style-type: none; margin:0; padding: 0 0 0 20px;  }
+#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin:0; padding: 0 0 0 20px;  }
 @media (max-width: 320px) {
-  #socialMediaChannelsCompleteContent linkContent {
+  #socialMediaChannelsCompleteContent #linkedContent {
     margin-left: 0;
     padding-left: 20px;
   }
@@ -497,7 +497,6 @@ i.bi-link-45deg:before {content: "\f470"; }
 #topOfPageContent table .home span.bi:before,
 .display-icons.social-media-channels li.bi a span:before {margin-right: 4px; font-size: 48px; }
 #topOfPageContent table .home span.bi-geo-alt:before { font-size: 11px; }
-#linkContent {}
 .display-icons.social-media-channels li.bi-github a span:before {content: "\f3ed"; }
 .display-icons.social-media-channels li.bi-chess a span:before {content: "\265C";   font-size: 64px;}
 .display-icons.social-media-channels li.bi-facebook a span:before {content: "\f344"; }
