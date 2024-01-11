@@ -1,3 +1,57 @@
+header {
+  margin: 0 69px 0 0;
+}
+h1, h2, h3, h4, .widget {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 12px 0 2px;
+}
+h1 {
+  font-weight: normal;
+  color: rgb(40,  82,  134);
+  font-size: 32pt;
+  padding: 6px 0 6px 24px;
+  position: relative;
+  visibility: visible;
+  display: block;
+  z-index: 1; }
+h1 a {
+      color: rgb(12, 12, 11); }
+p, pre, li {
+    font-size: 16px;
+    margin: 0; }
+h2,
+h3 {
+  font-size: 16px;
+  margin-bottom: 0; }
+img#logo {
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 0; }
+ol {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0 4em 2em 44px; }
+div.nav ol {
+  font-family: auto; }
+ol li {
+  margin: 0  1em 0 0; }
+ol li p {
+  margin: 0 0 1em; }
+ol li img {
+  margin-right: 10em;
+  position: relative; }
+ol h3 {
+  margin-bottom: 0.25em;
+  padding-bottom: 0; }
+ol h4 {
+  margin: 0;
+  padding: 0; }
+p {
+  font-family: lucida grande, Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  margin-left: 24px; }
 #topOfPageContent h2 {
   font-size: 18pt;
   padding-left: 1em;
@@ -14,10 +68,10 @@ div#speakingContent {
     max-width: 244px;
   }
 }
-#contactContent {
+.main-content#contactContent {
   padding: 30px 20px 30px 0;
   margin-top: 0; }
-#contactContent #contact-me {
+.main-content#contactContent #contact-me {
   background-size: cover;
   margin: 0 60px 20px 44px;
   min-width: 420px;
@@ -26,7 +80,7 @@ div#speakingContent {
   position: relative;
   overflow: hidden;
   text-align: left; }
-#contactContent #contact-me .electronic-mail a {
+.main-content#contactContent #contact-me .electronic-mail a {
   background: rgb(33,38,46);
   color: white;
   display: inline-block; }
@@ -46,60 +100,6 @@ div#speakingContent {
 }
 .main-content#digitalIdentityContent { background-color: #73DAFF; }
 .main-content#previousLooksContent {background-color: rgb(0, 77, 129); }
-header {
-  margin: 0 69px 0 0;
-}
-h1, h2, h3, h4, .widget {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 0;
-    padding: 0 12px 0 2px;
-}
-h1 {
-  font-weight: normal;
-  color: rgb(40,  82,  134);
-  font-size: 32pt;
-  padding: 6px 0 6px 24px;
-  position: relative;
-  visibility: visible;
-  display: block;
-  z-index: 1; }
-body h1 a {
-      color: rgb(12, 12, 11); }
-  body p, body pre, body li {
-    font-size: 16px;
-    margin: 0; }
-  body h2,
-  body h3 {
-    font-size: 16px;
-    margin-bottom: 0; }
-  body img#logo {
-    height: 53px;
-    left: 0;
-    position: absolute;
-    top: 0; }
-  body div.nav ol {
-    font-family: auto; }
-  body ol {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin: 0 4em 2em 44px; }
-  body ol li {
-    margin: 0  1em 0 0; }
-  body ol li p {
-    margin: 0 0 1em; }
-  body ol li img {
-    margin-right: 10em;
-    position: relative; }
-  body ol h3 {
-    margin-bottom: 0.25em;
-    padding-bottom: 0; }
-  body ol h4 {
-    margin: 0;
-    padding: 0; }
-  body p {
-    font-family: lucida grande, Verdana, Arial, Helvetica, sans-serif;
-    margin-bottom: 1em;
-    margin-left: 24px; }
 .nav.top-nav {
   position: sticky;
   top: 0;
@@ -154,14 +154,14 @@ header {margin-right: 0;}
 .page-bottom #externalLinksContent img {
   float: none;
 }
-body .menubar.controls.widget {
+.menubar.controls.widget {
   background-color: rgb(33,38,46);
   clear: both;
   display: block;
   padding: 0;
 }
-body .menubar.controls.widget tbody,
-body .menubar.controls.widget.z-bar-1 td.about table {
+.menubar.controls.widget tbody,
+.menubar.controls.widget.z-bar-1 td.about table {
   margin: 0;
 }
 .highlight.headline-text {
