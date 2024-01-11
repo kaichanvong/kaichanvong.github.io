@@ -59,9 +59,9 @@ p {
 div#speakingContent { 
     background-color: rgb(255, 197, 70);
     color: #000;
-    float: left;
+    overflow: hidden;
     padding-bottom: 20px;
-    padding-right: 60px;
+    padding-right: 20px;
 }
 @media (max-width: 340px) {
   div#speakingContent { 
@@ -223,14 +223,13 @@ position: relative;
     z-index: 1;
 }
 #thoughtworksTalkContent {
-  max-width: 240px;
-  display: block;
-  float: left; 
-  margin: 0;
   border-right: 4px solid rgb(66, 66, 66); 
   border-top: 20px solid rgb(66, 66, 66);
   border-top: 4px solid rgb(100, 143, 293);
-  margin: 0 20px 20px 0;
+  display: block;
+  float: left; 
+  margin: 0 0 20px 0;
+  max-width: 240px;
   position: relative;
 }
 body#topOfPageContent #mainContent #bioContentContent.main-content-div {
@@ -285,7 +284,10 @@ div#speakingContent br.prefix-h2 {margin-top: 30px; }
 div#speakingContent br.suffix-h2 {margin-bottom: 2px; }
 div#speakingContent h2, div#speakingContent p { display: inline; margin: 0; padding: 0; }
 div#speakingContent div.emoji-summary,
-div#speakingContent div.talks-summary { padding-left: 20px; }
+div#speakingContent div.talks-summary { float: left; padding-left: 20px; max-width: 280px;}
+div#speakingContent div.emoji-summary p,
+div#speakingContent div.talks-summary p { max-width: 225px;  }
+div#speakingContent div.emoji-summary  { max-width: 550px;  }
 #bioContent img.twitter {
   border: 0;
   border-radius: 300px;
