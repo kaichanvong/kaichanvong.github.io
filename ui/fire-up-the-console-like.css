@@ -486,7 +486,7 @@ html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin:0; padding: 0 0 0 20px;  }
+#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin:0; padding: 0 0 0 20px; max-width: 400px }
 @media (max-width: 320px) {
   #socialMediaChannelsCompleteContent #linkedContent {
     margin-left: 0;
