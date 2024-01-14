@@ -493,11 +493,9 @@ i.bi-link-45deg:before {content: "\f470"; }
     padding-left: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   #linkedContent  .bi.placeholder { display: none;}
 }
-
-
 #linkedContent {
     max-width: 500px; }
 #linkedContent .placeholder {
