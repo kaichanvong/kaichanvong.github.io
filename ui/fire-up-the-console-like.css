@@ -131,11 +131,13 @@ header {margin-right: 0;}
   padding:30px 20px 40px 0;
 }
 .nav.page-bottom {
-  padding-right: 0;
+  background-color: rgb(106, 130, 171);
   margin-top: 0;
   margin-right: 69px;
-  padding-top: 0;
   padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+
 }
 @media (max-width: 340px) {
   .nav.page-bottom {
@@ -486,7 +488,7 @@ html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 20px 0 0; padding: 0 0 0 20px; max-width: 400px }
+#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 20px 0 0; padding: 0 0 0 20px; max-width: 414px }
 @media (max-width: 320px) {
   #socialMediaChannelsCompleteContent #linkedContent {
     margin-left: 0;
@@ -523,10 +525,13 @@ div.page-bottom {
   text-align: left;
 }
 .menubar.controls.widget.z-bar-0 {
-      background-color: rgb(106, 130, 171);
+      background-color: rgb(126, 130, 190);
+      border-radius: 0  0 10px 10px;
       display: inline;
       float: left;
-      margin-right: 20px;
+      margin-right: 60px;
+      padding-bottom: 20px;
+      padding-right: 40px;
       position: relative;
       z-index: 2;
 }
@@ -570,7 +575,6 @@ div.page-bottom p {
 }
 .menubar.controls.widget table { border: 0; }
 .page-bottom #powerStyleContent {
-  background-color: #333;
   color: rgb(33,38,46);
   min-height: 110px;
   padding: 0;
@@ -580,6 +584,8 @@ div.page-bottom p {
   background-color: rgb(106, 130, 171);
   font-size: smaller;
   line-height: 1.6;
+  margin-right: 60px;
+  max-width: 690px;
   position: relative;
   z-index: 1;
 }
