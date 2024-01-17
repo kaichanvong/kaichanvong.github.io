@@ -468,7 +468,7 @@ li#github-note-01,
 .bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 .bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
-.bi-github a span:before { color: rgba(0, 0, 0, 0.9); }
+.bi-github a span:before { color: rgba(255, 255, 255, 1); }
 .bi-chess { margin-top: 20px; }
 .bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
 .bi-chess a { background-color: #333;
