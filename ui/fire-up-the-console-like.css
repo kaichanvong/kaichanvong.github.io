@@ -291,6 +291,7 @@ div#speakingContent div.emoji-summary p,
 div#speakingContent div.talks-summary p { max-width: 225px;  }
 div#speakingContent div.emoji-summary  { max-width: 450px;
                                          padding-left: 70px; }
+@media (min-width: 340px) { div#speakingContent div.emoji-summary  { padding-left: 20px; } }
 #bioContent img.twitter {
   border: 0;
   border-radius: 300px;
