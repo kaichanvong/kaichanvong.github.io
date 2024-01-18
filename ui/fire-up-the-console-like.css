@@ -609,7 +609,7 @@ div.page-bottom p {
 #digitalIdentityContent h2 strong,
 #previousLooksContent  h2 strong {  
 font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;  
-  font-size: 28px; }
+  font-size: 28px; font-weight: 300; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
 .menubar.controls.widget .about.browsing { 
