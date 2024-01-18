@@ -599,15 +599,16 @@ div.page-bottom p {
 .page-bottom .css-validation {
   list-style-type: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Cookie');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100');
+.menubar.controls.widget td a {}
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 .highlight.headline-text,
+#aboutContent strong span,
 #speakingContent h2,
 #contactContent h2 strong,
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong,
-.menubar.controls.widget td a {  font-family: 'Noto Serif', 'Cookie', 'Comic Sans', cursive, fantasy;  
+#previousLooksContent  h2 strong {  
+font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;  
   font-size: 28px; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
