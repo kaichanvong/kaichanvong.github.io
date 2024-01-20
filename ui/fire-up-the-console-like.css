@@ -86,7 +86,9 @@ div#speakingContent {
   display: inline-block; }
   
 .main-content#contactContent { background-color: rgb(139,0,0); }
-.main-content#contactContent a { color: rgb(255,148,0); }
+.main-content#contactContent a { color: rgb(255,148,0); 
+font-family: "times new roman", serif; font-style: italic; 
+font-size: 16px; font-weight: normal; text-decoration: none }
 .main-content#bioContent {  background-color: rgb(115, 253, 255); }
 .main-content#bioContent #bio td { vertical-align: top; }
 .main-content#bioContent h2 { float: left; line-height: 2; }
@@ -157,7 +159,7 @@ header {margin-right: 0;}
   float: none;
 }
 .menubar.controls.widget {
-  background-color: rgb(33,38,46);
+  background-color: rgb(255,255,246);
   clear: both;
   display: block;
   padding: 0;
@@ -166,13 +168,7 @@ header {margin-right: 0;}
 .menubar.controls.widget.z-bar-1 td.about table {
   margin: 0;
 }
-.highlight.headline-text {
-background-color: rgb(124, 166, 215);
-border-bottom: 10px solid rgb(15, 14, 14);
-color: rgb(15, 14, 14);
-font-size: 1.8em;
-margin: 0;
-}
+.highlight.headline-text { margin: 0; padding: 0;}
 .highlight.headline-text:after {
     content: ' ';
     border-radius: 10px 10px;
@@ -181,7 +177,7 @@ margin: 0;
 .highlight.headline-text span span { color: #222; }
 .highlight.headline-text em { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102);}
 .highlight.headline-text a,.highlight.headline-text span { padding: 0; margin: 0;}
-.menubar.controls.widget.z-bar-1 td.about table {top: 0.2em;}
+.menubar.controls.widget.z-bar-1 td.about table {top: 0.1em;}
 .highlight.headline-text a { background-color: rgb(103, 203, 254); color: rgb(66, 66, 66);  }
 h2 { clear: left; font-weight: bold; }
 #aboutContent {
@@ -218,7 +214,7 @@ position: relative;
     color: #FFF;
     display: block;
     left: -24px;
-    margin: 20px 0;
+    margin: 0 0 20px;
     padding: 8px 8px 8px 22px;
     position: relative;
     width: 100%;
@@ -616,5 +612,5 @@ font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;
 .menubar.controls.widget .about.browsing { 
   padding: 8px 24px;
 }
-.menubar.controls.widget td a { color: rgb(119, 195, 230); font-size: 20px; }
+.menubar.controls.widget td a { color: rgb(19, 95, 30); font-size: 20px; }
 .page-bottom .menubar.controls.widget td a { font-size: 16px; }
