@@ -1,3 +1,4 @@
+div, table, tr, td { border-collapse: collapse; }
 header {
   margin: 0 69px 0 0;
 }
@@ -90,11 +91,11 @@ div#speakingContent {
 .main-content#contactContent a { color: rgba(255, 148, 0, 1); 
 font-family: "times new roman", serif; font-style: italic; 
 font-size: 16px; font-weight: normal; text-decoration: none }
-.main-content#bioContent {  background-color: rgba(115, 253, 255, 1); }
-.main-content#bioContent #bio td { vertical-align: top; }
-.main-content#bioContent h2 { float: left; line-height: 2; }
-.main-content#bioContent p { margin-left: 0; }
-.main-content#bioContent ol { margin-bottom: 10px; }
+#bioContent {  background-color: rgba(115, 253, 255, 1); padding: 0 10px 0 0;  }
+#bioContent #bio td { vertical-align: top; }
+#bioContent h2 { float: left; line-height: 2; margin: 0;   }
+#bioContent p { margin-left: 0; }
+#bioContent ol { margin-bottom: 10px; }
 .main-content {
   background-color: #eee;
   z-index: 1;
@@ -131,7 +132,7 @@ header {margin-right: 0;}
 .nav.page-bottom,
 .main-content {
   margin: 0;
-  padding:30px 20px 40px 0;
+  padding: 20px 0 0;
 }
 .nav.page-bottom {
   background-color: rgba(106, 130, 171, 1);
@@ -187,13 +188,11 @@ background-size: 100%;
 background-position: 0 0;
 border-bottom: 10px solid rgba(0, 0, 0, 1);
 border-bottom: 4px solid rgba(119, 195, 230, 1);
-color: rgba(0, 161, 0, 1);
-color: #89F94F;
 display: block;
 float: none;
 min-height: 100px;
 line-height: 1.3;
-padding: 0 0 20px 24px;
+padding: 0;
 position: relative;
 overflow: hidden;
 margin: 0;
@@ -216,7 +215,7 @@ position: relative;
     color: #FFF;
     display: block;
     left: -24px;
-    margin: 0 0 20px;
+    margin: 0;
     padding: 8px 8px 8px 22px;
     position: relative;
     width: 100%;
@@ -237,8 +236,6 @@ body#topOfPageContent #mainContent #bioContentContent.main-content-div {
   margin-top: 60px;
   padding-top: 60px;
 }
-#mainContent #bioContent.main-content-div { padding: 40px 0; }
-#mainContent #bioContent.main-content-div p { max-width: 556px; }
 #mainContent {
   clear: both;
   background-color: #bbb;
@@ -255,10 +252,8 @@ body#topOfPageContent #mainContent #bioContentContent.main-content-div {
   background-color: rgba(148,	163,	167, 1);
   padding-bottom: 0;
   margin-bottom: 0; }
-body#topOfPageContent #mainContent #bioContent.main-content-div {
+body#topOfPageContent #mainContent #bioContent {
     background-color: rgba(124, 166, 215, 1);
-    margin-top: 60px;
-    padding-top: 60px;
 }
 #aboutContent img {
   border: 1px solid rgba(66, 66, 66, 1);
@@ -292,7 +287,9 @@ div#speakingContent div.talks-summary p { max-width: 225px;  }
 div#speakingContent div.emoji-summary,
 div#speakingContent div.what-summary { max-width: 280px;
                                          padding-left: 70px; }
-@media (min-width: 340px) { div#speakingContent div.emoji-summary  { padding-left: 20px; } }
+div#speakingContent div.talks-summary { margin-bottom: 40px;}                                         
+@media (min-width: 982px) { div#speakingContent div.emoji-summary, div#speakingContent div.what-summary  { padding-left: 0; } }
+@media (min-width: 340px) { div#speakingContent div.emoji-summary, div#speakingContent div.what-summary  { padding-left: 20px; } }
 #bioContent img.twitter {
   border: 0;
   border-radius: 300px;
@@ -300,22 +297,20 @@ div#speakingContent div.what-summary { max-width: 280px;
   margin: 0 0 0 0;
   height: 70px;
   width: 70px; }
-body#topOfPageContent #mainContent #bioContent.main-content-div {
+body#topOfPageContent #mainContent #bioContent {
     background-color: rgba(124, 166, 215, 1);
-    margin-top: 60px;
-    padding-top: 60px;
 }
-#bioContent h2 {
-  text-transform: none; }
-#bioContent p { display: inline; margin-right: 0; }
+#bioContent h2 { text-transform: none; }
+#bioContent p { display: inline; margin-right: 0; line-height: 2;}
 #bioContent #twitterDetailsContent {
-  font-size: 80%; }
+  font-size: 75%; line-height: 1;}
 #bioContent .twitter-handle {
   color: blue; }
+  #bioContent strong {padding: 0 10px;}
   #bioContent .twitter-handle a {
     text-decoration: none; }
 #bioContent #twitterDetailsContent {
-  margin: 1em 0 1em 1em;
+  margin: 0 0 1em -3px;
     }
 #mainContent #bioContent h2+p { display: inline; margin-right: 0; }
 #bioContent li, #bioContent ol { display: inline; margin: 0; padding: 0; }
@@ -616,3 +611,4 @@ font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;
 }
 .menubar.controls.widget td a { color: rgba(19, 95, 30, 1); font-size: 20px; }
 .page-bottom .menubar.controls.widget td a { font-size: 16px; }
+
