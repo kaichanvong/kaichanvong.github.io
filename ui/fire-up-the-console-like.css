@@ -91,7 +91,7 @@ div#speakingContent {
 .main-content#contactContent a { color: rgba(255, 148, 0, 1); 
 font-family: "times new roman", serif; font-style: italic; 
 font-size: 16px; font-weight: normal; text-decoration: none }
-#bioContent {  background-color: rgba(115, 253, 255, 1); padding: 0 10px 0 0;  }
+#bioContent {  background-color: rgba(115, 253, 255, 1); padding: 7px 10px 0 6px;  }
 #bioContent #bio td { vertical-align: top; }
 #bioContent h2 { float: left; line-height: 2; margin: 0;   }
 #bioContent p { margin-left: 0; }
@@ -216,7 +216,7 @@ position: relative;
     display: block;
     left: -24px;
     margin: 0;
-    padding: 8px 8px 8px 22px;
+    padding: 8px 8px 8px 42px;
     position: relative;
     width: 100%;
     z-index: 1;
