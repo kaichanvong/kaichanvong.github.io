@@ -271,7 +271,7 @@ body#topOfPageContent #mainContent #bioContent {
   z-index:5;
 } 
 @media (min-width: 340px) {
-  #aboutContent img { margin: 16px; }
+  #aboutContent img { margin: 16px 0 0; }
 }
 div#speakingContent br.prefix-h2,
 div#speakingContent br.suffix-h2 { content: ' '; display: inline-block; margin-left: 5px; }
