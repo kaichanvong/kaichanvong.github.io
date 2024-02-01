@@ -62,8 +62,7 @@ div#speakingContent {
     background-color: rgba(255, 197, 70, 1);
     color: #000;
     overflow: hidden;
-
-    padding-right: 20px;
+    padding: 0 20px 30px 0;
 }
 @media (max-width: 340px) {
   div#speakingContent { 
@@ -103,7 +102,16 @@ font-size: 16px; font-weight: normal; text-decoration: none }
   overflow: hidden;
 }
 .main-content#digitalIdentityContent { background-color: #73DAFF; }
-.main-content#previousLooksContent {background-color: rgba(0, 77, 129, 1); }
+.main-content#previousLooksContent   { background-color: rgba(0, 77, 129, 1); }
+#aboutContent,
+div#speakingContent,
+.main-content#digitalIdentityContent,
+.main-content#previousLooksContent {
+    border: solid 4px rgba(139, 0, 0, 1);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
 .nav.top-nav {
   position: sticky;
   top: 0;
@@ -186,8 +194,6 @@ h2 { clear: left; font-weight: bold; }
 background-color: rgba(39, 88, 120, 1);
 background-size: 100%;
 background-position: 0 0;
-border-bottom: 10px solid rgba(0, 0, 0, 1);
-border-bottom: 4px solid rgba(119, 195, 230, 1);
 display: block;
 float: none;
 min-height: 100px;
