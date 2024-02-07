@@ -558,10 +558,7 @@ margin-bottom: 10px; }
 .view-icons #linkedContent li.bi-chess a span:before {
 content: "\265C";
 font-size: 64px;}
-.view-list #linkedContent li.bi-chess a span:before { 
-color: #fff;
-font-size: 20px;
-}
+.view-list #linkedContent li.bi-chess a span:before { font-size: 20px; }
 .view-list #linkedContent li.bi-linkedin a span:before,
 .view-list #linkedContent li.bi-chess a span:before {
 margin-right: 0;
