@@ -466,12 +466,18 @@ li#github-note-01,
 .bi-linkedin a span:before,
 .bi-github a span:before { color: rgba(255, 255, 255, 1.0); }
 .bi-chess { margin-top: 20px; }
+
 .bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
+
+.view-list#linkedContent .bi-chess a span:before,
 .bi-chess a { background-color: #333;
   overflow: hidden; 
-  padding: 40px 9px 5px 12px; 
+  padding: 0 8px 8px;
   border-radius: 5px;
  } 
+
+.view-icons#linkedContent .bi-chess a {padding: 40px 9px 5px 12px;}
+ 
 .view-list#linkedContent li.bi-chess { margin-top: -12px;}
 .view-list .bi-chess a { padding-top: 0; }
 
@@ -489,10 +495,13 @@ li#github-note-01,
 .view-list .bi-chess a,
 .view-list .bi-linkedin a { background-color: transparent; }
 .view-list#linkedContent .bi-linkedin { margin-top: 40px; }
+
+.view-list .bi-linkedin a span:before, 
 .view-icons .bi-linkedin a { background-color: #055EB3; 
                 overflow: hidden; 
-                padding: 40px 5px 5px 8px; 
+                padding: 5px; 
                 border-radius: 5px; }
+.view-icons .bi-linkedin a { padding-top: 40px; padding-left: 8px;}
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
 .view-icons#linkedContent li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
 html p { line-height: 1.4; margin-right: 10px; }
@@ -546,7 +555,18 @@ content: "\265C";
 font-size: 64px;}
 .view-list#linkedContent li.bi-chess a span:before { 
 color: #fff;
-font-size: 28px;
+font-size: 20px;
+}
+.view-list#linkedContent li.bi-linkedin a span:before,
+.view-list#linkedContent li.bi-chess a span:before {
+margin-right: 0;
+}
+
+.view-list#linkedContent li.bi-linkedin a span:before,
+.view-list#linkedContent li.bi-chess a span:before {
+  position: relative;
+  top: 6px;
+  left: -6px;
 }
 .view-list#linkedContent li.bi-facebook a span:before,
 .view-icons#linkedContent li.bi-facebook a span:before {content: "\f344"; }
