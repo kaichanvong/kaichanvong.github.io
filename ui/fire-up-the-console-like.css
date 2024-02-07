@@ -526,6 +526,8 @@ i.bi-link-45deg:before {content: "\f470"; }
   min-height: 50px;
   min-width: 50px;
   outline: dashed 1px #eee;
+  position: relative;
+  top: 12px;
 }
 .view-list#linkedContent li {
 list-style: none;
