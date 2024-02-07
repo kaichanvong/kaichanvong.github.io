@@ -17,7 +17,8 @@
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-PHFJ50Z6VK');
-        </script><body id="topOfPageContent">
+        </script>
+        <body id="topOfPageContent">
         <div class="nav top-nav">
           <table class="menubar controls widget z-bar-1"><tbody><tr>
           <td class="home"> <a href="#topOfPageContent"><span id="homeContent" title="page up, top of page"><span class="icon"></span></span>home<span></span></a></td>
@@ -78,15 +79,19 @@
         </div>
         <div class="main-content" id="digitalIdentityContent">
             <h2 title="Links"><strong><span class="links external"> Links </span></strong></h2>
+            <p id="socialMediaChannelsToggleLinks">View as:
+<a href="#digitalIdentityContent" id="socialMediaChannelsToggleLink1" data-name="view-icons">icons</a>/
+<a href="#digitalIdentityContent" id="socialMediaChannelsToggleLink2" data-name="view-list">list</a></p>
             <div class="identity identity-status" id="socialMediaChannelsCompleteContent">
-                <ol id="linkedContent" class="display-icons social-media-channels">
+                <!-- View as: view-icons view-list -->
+                <ol id="linkedContent" class="view-icons" data-view="view-icons">
                     <li class="bi bi-linkedin "><a href="https://www.linkedin.com/in/kaichanvong" id="linkedinLinkContent" title="professional networking on linkedin of kai" rel="me"><span><strong>Linkedin</strong></span></a></li>
                     <li class="bi bi-github "><a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai" rel="me"><span><strong>Github</strong></span></a></li>
                     <li class="bi bi-facebook"><a href="https://www.facebook.com/kaichanvong" id="facebookLinkContent" title="facebook of kai" rel="me"><span><strong>Facebook</strong></span></a></li>
                     <li class="bi placeholder"></li>
                     <li class="bi placeholder"></li>
                     <li class="bi bi-chess "><a href="https://www.chess.com/member/kaichanvong" id="chessLinkContent" title="chess member link to chess profile online" rel="me"><span><strong>Chess</strong></span></a></li>
-                    <li class="bi bi-twitter-x"><a href="https://www.x.com/kaichanvong" id="twitterXLinkContent" title="formerly twitter, now known as X's posts for kai happenings (Point of View)" rel="me"><span><strong>X-formerly-Twitter</strong></span></a></li>
+                    <li class="bi bi-twitter-x"><a href="https://www.x.com/kaichanvong" id="twitterXLinkContent" title="formerly twitter, now known as X's posts for kai happenings (Point of View)" rel="me"><span><strong>formerly-Twitter</strong></span></a></li>
                     <li class="bi placeholder"></li>
                     <li class="bi placeholder"></li>
                     <li class="bi placeholder"></li>
@@ -141,4 +146,18 @@
             </div>
         </div>
     </body>
+<script>
+        kaivong_com_objs = { linkedContent: { views: ['view-icons','view-icons'] }  }
+           toggle_views = function(){
+              var new_view = this.getAttribute('data-name');
+              linkedContent.setAttribute('class', new_view);
+              linkedContent.setAttribute('data-view', new_view);
+              return false;
+           };
+           var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
+               socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
+               linkedContent = document.getElementById('linkedContent');
+           socialMediaChannelsToggleLink1.onclick = toggle_views;
+           socialMediaChannelsToggleLink2.onclick = toggle_views;
+        </script>
 </html>
