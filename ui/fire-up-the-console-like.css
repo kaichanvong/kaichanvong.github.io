@@ -460,10 +460,8 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-.view-icons #linkedContent #socialMediaChannelsToggleLink1,
-.view-list #linkedContent #socialMediaChannelsToggleLink1,
-.view-icons #linkedContent #socialMediaChannelsToggleLink2,
-.view-list #linkedContent #socialMediaChannelsToggleLink2 {
+.view-icons#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink1,
+.view-list#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink2 {
   text-decoration: none;
 }
 .view-icons #linkedContent li.bi-instagram a span:before,
@@ -495,7 +493,6 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks { float: right; margin: 21px 10px 40px 0; }
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
-#socialMediaChannelsCompleteContent,
 #linkedContent { clear: both; }
 .view-list #linkedContent .bi.placeholder { display: none; }
 .view-list .bi-chess a,
