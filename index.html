@@ -82,8 +82,8 @@
             <p id="socialMediaChannelsToggleLinks">View as:
 <a href="#digitalIdentityContent" id="socialMediaChannelsToggleLink1" data-name="view-icons">icons</a>/
 <a href="#digitalIdentityContent" id="socialMediaChannelsToggleLink2" data-name="view-list">list</a></p>
-            <div class="identity identity-status" id="socialMediaChannelsCompleteContent">
-                <ol id="linkedContent" class="view-icons" data-view="view-icons">
+            <div class="view-icons" data-view="view-icons" id="socialMediaChannelsCompleteContent">
+                <ol id="linkedContent">
                     <li class="bi bi-linkedin "><a href="https://www.linkedin.com/in/kaichanvong" id="linkedinLinkContent" title="professional networking on linkedin of kai" rel="me"><span><strong>Linkedin</strong></span></a></li>
                     <li class="bi bi-github "><a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai" rel="me"><span><strong>Github</strong></span></a></li>
                     <li class="bi bi-facebook"><a href="https://www.facebook.com/kaichanvong" id="facebookLinkContent" title="facebook of kai" rel="me"><span><strong>Facebook</strong></span></a></li>
@@ -155,7 +155,7 @@
            };
            var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
                socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
-               linkedContent = document.getElementById('linkedContent');
+               linkedContent = document.getElementById('socialMediaChannelsCompleteContent');
            socialMediaChannelsToggleLink1.onclick = toggle_views;
            socialMediaChannelsToggleLink2.onclick = toggle_views;
         </script>

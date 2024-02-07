@@ -460,7 +460,13 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-.view-icons#linkedContent li.bi-instagram a span:before,
+.view-icons #linkedContent #socialMediaChannelsToggleLink1,
+.view-list #linkedContent #socialMediaChannelsToggleLink1,
+.view-icons #linkedContent #socialMediaChannelsToggleLink2,
+.view-list #linkedContent #socialMediaChannelsToggleLink2 {
+  text-decoration: none;
+}
+.view-icons #linkedContent li.bi-instagram a span:before,
 .bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 .bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
@@ -469,16 +475,16 @@ li#github-note-01,
 
 .bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
 
-.view-list#linkedContent .bi-chess a span:before,
+.view-list #linkedContent .bi-chess a span:before,
 .bi-chess a { background-color: #333;
   overflow: hidden; 
   padding: 0 8px 8px;
   border-radius: 5px;
  } 
 
-.view-icons#linkedContent .bi-chess a {padding: 40px 9px 5px 12px;}
+.view-icons #linkedContent .bi-chess a {padding: 40px 9px 5px 12px;}
  
-.view-list#linkedContent li.bi-chess { margin-top: -12px;}
+.view-list #linkedContent li.bi-chess { margin-top: -12px;}
 .view-list .bi-chess a { padding-top: 0; }
 
 .bi-chess a span:before {
@@ -491,10 +497,10 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #socialMediaChannelsCompleteContent,
 #linkedContent { clear: both; }
-#linkedContent.view-list .bi.placeholder { display: none; }
+.view-list #linkedContent .bi.placeholder { display: none; }
 .view-list .bi-chess a,
 .view-list .bi-linkedin a { background-color: transparent; }
-.view-list#linkedContent .bi-linkedin { margin-top: 40px; }
+.view-list #linkedContent .bi-linkedin { margin-top: 40px; }
 
 .view-list .bi-linkedin a span:before, 
 .view-icons .bi-linkedin a { background-color: #055EB3; 
@@ -503,7 +509,7 @@ li#github-note-01,
                 border-radius: 5px; }
 .view-icons .bi-linkedin a { padding-top: 40px; padding-left: 8px;}
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
-.view-icons#linkedContent li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
+.view-icons #linkedContent li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
 html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
@@ -529,57 +535,57 @@ i.bi-link-45deg:before {content: "\f470"; }
   position: relative;
   top: 12px;
 }
-.view-list#linkedContent li {
+.view-list #linkedContent li {
 list-style: none;
 display: inline-block;
 margin-top: 10px;
 margin-bottom: 10px;
 } 
-.view-list#linkedContent li {display: block; }
-.view-list#linkedContent li span:before {
+.view-list #linkedContent li {display: block; }
+.view-list #linkedContent li span:before {
 margin-right: 10px;
 }
-.view-list#linkedContent li a { padding-left: 0; }
-.view-icons#linkedContent li { 
+.view-list #linkedContent li a { padding-left: 0; }
+.view-icons #linkedContent li { 
 list-style: none; 
 display: inline-block; 
 margin-top: 10px; 
 margin-bottom: 10px; }
 #topOfPageContent { background-color: rgba(51, 51, 51, 1); }
 #topOfPageContent table .home span.bi:before, 
-.view-icons#linkedContent li.bi a span:before {margin-right: 4px; font-size: 48px; }
+.view-icons #linkedContent li.bi a span:before {margin-right: 4px; font-size: 48px; }
 #topOfPageContent table .home span.bi-geo-alt:before { font-size: 11px; }
-.view-list#linkedContent li.bi-github a span:before,
-.view-icons#linkedContent li.bi-github a span:before {content: "\f3ed"; }
-.view-list#linkedContent li.bi-chess a span:before,
-.view-icons#linkedContent li.bi-chess a span:before {
+.view-list #linkedContent li.bi-github a span:before,
+.view-icons #linkedContent li.bi-github a span:before {content: "\f3ed"; }
+.view-list #linkedContent li.bi-chess a span:before,
+.view-icons #linkedContent li.bi-chess a span:before {
 content: "\265C";
 font-size: 64px;}
-.view-list#linkedContent li.bi-chess a span:before { 
+.view-list #linkedContent li.bi-chess a span:before { 
 color: #fff;
 font-size: 20px;
 }
-.view-list#linkedContent li.bi-linkedin a span:before,
-.view-list#linkedContent li.bi-chess a span:before {
+.view-list #linkedContent li.bi-linkedin a span:before,
+.view-list #linkedContent li.bi-chess a span:before {
 margin-right: 0;
 }
 
-.view-list#linkedContent li.bi-linkedin a span:before,
-.view-list#linkedContent li.bi-chess a span:before {
+.view-list #linkedContent li.bi-linkedin a span:before,
+.view-list #linkedContent li.bi-chess a span:before {
   position: relative;
   top: 6px;
   left: -6px;
 }
-.view-list#linkedContent li.bi-facebook a span:before,
-.view-icons#linkedContent li.bi-facebook a span:before {content: "\f344"; }
-.view-list#linkedContent li.bi-linkedin a span:before,
-.view-icons#linkedContent li.bi-linkedin a span:before {content: "\f472"; }
-.view-list#linkedContent li.bi-twitter-x a span:before,
-.view-icons#linkedContent li.bi-twitter-x a span:before {content: "\f8db"; }
-.view-list#linkedContent li.view-icons li.bi a span strong,
-.view-icons#linkedContent li.bi a span strong { 
+.view-list #linkedContent li.bi-facebook a span:before,
+.view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; }
+.view-list #linkedContent li.bi-linkedin a span:before,
+.view-icons #linkedContent li.bi-linkedin a span:before {content: "\f472"; }
+.view-list #linkedContent li.bi-twitter-x a span:before,
+.view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; }
+.view-list #linkedContent li.view-icons li.bi a span strong,
+.view-icons #linkedContent li.bi a span strong { 
 display: inline-block;  overflow: hidden; text-indent: -9999px;  }
-.view-icons#linkedContent li.bi a span strong {}
+.view-icons #linkedContent li.bi a span strong {}
 div.page-bottom {
   margin: 0;
   text-align: left;
@@ -678,4 +684,3 @@ font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;
 }
 .menubar.controls.widget td a { color: rgba(19, 95, 30, 1); font-size: 20px; }
 .page-bottom .menubar.controls.widget td a { font-size: 16px; }
-
