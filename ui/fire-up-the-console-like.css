@@ -490,7 +490,7 @@ li#github-note-01,
 } 
 
 #digitalIdentityContent h2 { float: left; margin-top: 21px;}
-#socialMediaChannelsToggleLinks { float: right; margin: 21px 10px 40px 0; }
+#socialMediaChannelsToggleLinks { float: right; margin: 21px 10px 30px 0; }
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
@@ -510,7 +510,8 @@ html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 20px 0 0; padding: 20px 0 0 20px; max-width: 414px }
+#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 0; padding: 0 0 0 20px; max-width: 414px }
+.view-list#socialMediaChannelsCompleteContent #linkedContent
 @media (max-width: 320px) {
   #socialMediaChannelsCompleteContent #linkedContent {
     margin-left: 0;
@@ -531,13 +532,16 @@ i.bi-link-45deg:before {content: "\f470"; }
   position: relative;
   top: 12px;
 }
+#socialMediaChannelsCompleteContent.view-list #linkedContent {
+  padding-top: 4px;
+}
 .view-list #linkedContent li {
+display: block;
 list-style: none;
-display: inline-block;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 16px;
+margin-bottom: 12px;
+padding-left: 10px;
 } 
-.view-list #linkedContent li {display: block; }
 .view-list #linkedContent li span:before {
 margin-right: 10px;
 }
