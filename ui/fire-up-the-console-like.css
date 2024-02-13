@@ -91,8 +91,22 @@ div#speakingContent {
 font-family: "times new roman", serif; font-style: italic; 
 font-size: 16px; font-weight: normal; text-decoration: none }
 #bioContent {  background-color: rgba(115, 253, 255, 1); padding: 6px 10px 0 16px;  }
+
+#bioContent table, #bioContent tr, #bioContent td {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+#bioContent h2 { float: left; margin: 0; padding: 0 0 0 30px; }
+#bioContent #bioText p,
+#bioContent #bioText ol {  
+  background-color: rgba(33, 38, 46, 1);
+  color: #fff;
+  color: rgba(244, 164, 96, 1);
+  padding: 6px 0 10px;
+ }
+#bioContent #bioText p#previously { padding-left: 10px; }
 #bioContent #bio td { vertical-align: top; }
-#bioContent h2 { float: left; line-height: 2; margin: 0;   }
 #bioContent p { margin-left: 0; }
 #bioContent ol { margin-bottom: 10px; }
 .main-content {
@@ -215,12 +229,9 @@ z-index: 2;
 position: relative;
 }
 #aboutContent strong {
-    background-color: rgba(33, 38, 46, 1);
-    background-color: rgba(33, 38, 46, 1);
     border-color: rgba(69, 129, 142, 1);
     color: #FFF;
     display: block;
-    left: -24px;
     margin: 0;
     padding: 8px 8px 8px 42px;
     position: relative;
@@ -304,18 +315,16 @@ div#speakingContent div.talks-summary { margin-bottom: 42px;}
 body#topOfPageContent #mainContent #bioContent {
     background-color: rgba(124, 166, 215, 1);
 }
-#bioContent h2 { text-transform: none; }
+#bioContent h2 { text-transform: none;  text-align: right;}
 #bioContent p { display: inline; margin-right: 0; line-height: 2;}
 #bioContent #twitterDetailsContent {
   font-size: 75%; line-height: 1;}
 #bioContent .twitter-handle {
   color: blue; }
-  #bioContent strong {padding: 0 10px;}
+  #bioContent strong {padding: 0; }
   #bioContent .twitter-handle a {
     text-decoration: none; }
-#bioContent #twitterDetailsContent {
-  margin: 0 0 1em -3px;
-    }
+#bioContent #twitterDetailsContent { margin: 10px 0 1em 10px; }
 #mainContent #bioContent h2+p { display: inline; margin-right: 0; }
 #bioContent li, #bioContent ol { display: inline; margin: 0; padding: 0; }
 #bioContent .twitch, #bioContent .twitter {
