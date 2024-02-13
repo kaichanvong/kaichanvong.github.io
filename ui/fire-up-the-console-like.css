@@ -497,9 +497,9 @@ li#github-note-01,
 .bi-chess a span:before {
   color: rgba(163, 209, 96, 1);
 } 
-
 #digitalIdentityContent h2 { float: left; margin-top: 21px;}
-#socialMediaChannelsToggleLinks { float: right; margin: 21px 10px 30px 0; }
+.has-javascript #socialMediaChannelsToggleLinks { visibility: visible; }
+#socialMediaChannelsToggleLinks { float: right; margin: 21px 10px 30px 0; visibility: hidden; }
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
