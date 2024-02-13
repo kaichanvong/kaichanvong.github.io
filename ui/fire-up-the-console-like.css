@@ -480,7 +480,7 @@ li#github-note-01,
 .bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 .bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
-.bi-github a span:before { color: rgba(255, 255, 255, 1.0); }
+
 .bi-chess { margin-top: 20px; }
 
 .bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
@@ -492,7 +492,7 @@ li#github-note-01,
   border-radius: 5px;
  } 
 
-.view-icons #linkedContent .bi-chess a {padding: 40px 9px 5px 12px;}
+.view-icons #linkedContent .bi-chess a {padding: 68px 9px 5px 12px;}
  
 .view-list #linkedContent li.bi-chess { margin-top: -12px;}
 .view-list .bi-chess a { padding-top: 0; }
@@ -515,14 +515,14 @@ li#github-note-01,
                 overflow: hidden; 
                 padding: 5px; 
                 border-radius: 5px; }
-.view-icons .bi-linkedin a { padding-top: 40px; padding-left: 8px;}
+.view-icons .bi-linkedin a { padding-top: 74px; padding-left: 8px;}
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
 .view-icons #linkedContent li.bi-instagram a span:before { color: rgba(200, 200, 200, 0.6); }
 html p { line-height: 1.4; margin-right: 10px; }
 table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 0; padding: 0 0 0 20px; max-width: 414px }
+#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 0; padding: 0 0 0 20px; max-width: 550px; }
 .view-list#socialMediaChannelsCompleteContent #linkedContent
 @media (max-width: 320px) {
   #socialMediaChannelsCompleteContent #linkedContent {
@@ -538,8 +538,8 @@ i.bi-link-45deg:before {content: "\f470"; }
 #linkedContent .placeholder {
   background-color: #555;
   margin: 23px 23px 0 0;
-  min-height: 50px;
-  min-width: 50px;
+  min-height: 80px;
+  min-width: 80px;
   outline: dashed 1px #eee;
   position: relative;
   top: 12px;
@@ -565,14 +565,38 @@ margin-top: 10px;
 margin-bottom: 10px; }
 #topOfPageContent { background-color: rgba(51, 51, 51, 1); }
 #topOfPageContent table .home span.bi:before, 
-.view-icons #linkedContent li.bi a span:before {margin-right: 4px; font-size: 48px; }
+.view-icons #linkedContent li.bi a span:before {margin-right: 4px; font-size: 80px; }
 #topOfPageContent table .home span.bi-geo-alt:before { font-size: 11px; }
-.view-list #linkedContent li.bi-github a span:before,
+/*.view-list #linkedContent li.bi-github a span:before,
 .view-icons #linkedContent li.bi-github a span:before {content: "\f3ed"; }
+.view-icons #linkedContent li.bi-github a span:before { color: rgba(255, 255, 255, 1.0); }
+.view-icons #linkedContent li.logomark-github { 
+  background-size: cover; 
+  background-position: 0 -1px;
+  background-image: url(logomarks/github-mark.png);
+  background-image: url(logomarks/github-mark-white.png);
+  border-radius: 40px;
+  position: relative;
+  top: -3px;
+  width: 48px; height: 48px; background-color: #333;
+  vertical-align: bottom;
+  }*/
+.view-icons #linkedContent li.logomark-github img { 
+  display: inline-block; 
+  margin-right: 0;
+  height: 80px;
+  width: 80px;
+}
+
+.view-list #linkedContent li.logomark-github img {
+  height: 16px;
+  margin-right: 5px;
+  width: 16px;
+}
 .view-list #linkedContent li.bi-chess a span:before,
 .view-icons #linkedContent li.bi-chess a span:before {
 content: "\265C";
-font-size: 64px;}
+font-size: 110px;}
 .view-list #linkedContent li.bi-chess a span:before { font-size: 20px; }
 .view-list #linkedContent li.bi-linkedin a span:before,
 .view-list #linkedContent li.bi-chess a span:before {
