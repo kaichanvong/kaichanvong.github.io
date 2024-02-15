@@ -104,10 +104,10 @@ font-size: 16px; font-weight: normal; text-decoration: none }
   background-color: rgba(33, 38, 46, 1);
   color: #fff;
   color: rgba(244, 164, 96, 1);
-  padding: 14px 0 10px;
+  padding: 14px 0 8px;
  }
 #bioContent #bioText p#previously { padding-left: 10px; padding-right: 0; }
-#bioContent #bioText p { padding-right: 10px; }
+#bioContent #bioText p { padding-right: 35px; }
 #bioContent #bio td { vertical-align: top; }
 #bioContent p { margin-left: 0; }
 .main-content {
@@ -128,7 +128,9 @@ div#speakingContent,
     border-right: 0;
 }
 .nav.top-nav {
+  background-color: #fff;
   position: sticky;
+  text-align: center;
   top: 0;
   z-index: 3;
 }
@@ -145,7 +147,7 @@ div#speakingContent,
     font-family: auto;
     font-size: 15px;
     line-height: 1.25;
-    margin-right: 69px;
+    margin: 0 auto;
 }
 @media (max-width: 340px) {
 .menubar.controls.widget,
@@ -186,8 +188,8 @@ header {margin-right: 0;}
 .menubar.controls.widget {
   background-color: rgba(255, 255, 246, 1);
   clear: both;
-  display: block;
-  padding: 0 0 0 42px;
+  display: inline-block;
+  padding: 0;
 }
 .menubar.controls.widget tbody,
 .menubar.controls.widget.z-bar-1 td.about table {
@@ -748,7 +750,7 @@ div.page-bottom p {
 .has-javascript .view-icons #linkedContent .bi.placeholder { margin-top: 10px; }
 .has-javascript .view-icons #linkedContent .bi.placeholder#placeholder1 { margin-top: 0; }
 #bioContent h2 a  { padding: 8px; }
-#bio #bioText #_dot-com { padding: 13px 8px 10px;  }
+#bio #bioText #_dot-com { padding: 13px 8px 8px; line-height: 2; }
 #bio #bioText { margin: 0; }
 td { padding:0; border:0; }
  
