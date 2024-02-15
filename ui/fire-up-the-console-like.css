@@ -506,7 +506,7 @@ li#github-note-01,
 #linkedContent { clear: both; }
 
 #linkedContent .bi.placeholder { display: none; }
-#linkedContent .bi.placeholder#placeholder1 { margin-top: 12px; }
+/*#linkedContent .bi.placeholder#placeholder1 { margin-top: 12px; }*/
 .has-javascript .view-icons #linkedContent .bi.placeholder { display: inline-block; }
 
 .view-list .bi-chess a,
@@ -539,12 +539,12 @@ i.bi-link-45deg:before {content: "\f470"; }
 }
 @media (max-width: 510px) {
   #linkedContent  .bi.placeholder { display: none;}
-}
-#linkedContent .placeholder {
+}.has-javascript .view-icons #linkedContent li.placeholder {
   background-color: #555;
-  margin: 23px 16px 0 0;
-  min-height: 80px;
-  min-width: 80px;
+  margin: 10px 43px 0 13px;
+  min-height: 70px;
+  min-width: 70px;
+  width: auto;
   outline: dashed 1px #eee;
   position: relative;
 }
