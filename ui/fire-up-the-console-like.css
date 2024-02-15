@@ -477,7 +477,7 @@ li#github-note-01,
   text-decoration: none;
 }
 .has-javascript .view-icons #linkedContent li.bi-instagram a span:before,
-.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
+.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); margin-top: 10px; }
 .bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
 .bi-chess { margin-top: 10px; }
@@ -504,9 +504,6 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
-
-#linkedContent .bi.placeholder { display: none; }
-/*#linkedContent .bi.placeholder#placeholder1 { margin-top: 12px; }*/
 .has-javascript .view-icons #linkedContent .bi.placeholder { display: inline-block; }
 
 .view-list .bi-chess a,
@@ -726,7 +723,7 @@ div.page-bottom p {
   list-style-type: none;
 }
 .menubar.controls.widget td a {}
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');*/
 .highlight.headline-text,
 #aboutContent strong span,
 #speakingContent h2,
@@ -750,3 +747,6 @@ font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;
 
 .has-javascript #socialMediaChannelsCompleteContent.view-list .bi-linkedin span:before { padding: 5px; left: -7px; }
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; }
+.view-icons #linkedContent .bi.placeholder { display: none; }
+.has-javascript .view-icons #linkedContent .bi.placeholder { margin-top: 10px; }
+.has-javascript .view-icons #linkedContent .bi.placeholder#placeholder1 { margin-top: 0; }
