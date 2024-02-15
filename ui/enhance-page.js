@@ -10,7 +10,7 @@ toggle_views = function(){
 };            
 
 adjustOnlineAddy = function(newInnerHTML){
-document.getElementById('current_online_addy').innerHTML = newInnerHTML;
+document.getElementById('current_online_addy').innerHTML = newInnerHTML.replace(https[1],'').replace('/','');
 };
 var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
     socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
