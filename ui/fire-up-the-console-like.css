@@ -129,6 +129,7 @@ div#speakingContent,
 }
 .nav.top-nav {
   background-color: #fff;
+  margin-right: 69px;
   position: sticky;
   text-align: center;
   top: 0;
