@@ -94,8 +94,7 @@ font-size: 16px; font-weight: normal; text-decoration: none }
 
 #bioContent table, #bioContent tr, #bioContent td {
     border-collapse: collapse;
-    border-spacing: 0;
-    
+    border-spacing: 0;    
 }
 #bioContent h2 { float: left; margin: 0 0 0 -51px; padding: 0 0 0 30px; color: #333; }
 #bioContent h2 a { color: #333; }
@@ -105,13 +104,12 @@ font-size: 16px; font-weight: normal; text-decoration: none }
   background-color: rgba(33, 38, 46, 1);
   color: #fff;
   color: rgba(244, 164, 96, 1);
-  padding: 6px 0 10px;
+  padding: 14px 0 10px;
  }
 #bioContent #bioText p#previously { padding-left: 10px; padding-right: 0; }
 #bioContent #bioText p { padding-right: 10px; }
 #bioContent #bio td { vertical-align: top; }
 #bioContent p { margin-left: 0; }
-#bioContent ol { margin-bottom: 10px; }
 .main-content {
   background-color: #eee;
   z-index: 1;
@@ -189,7 +187,7 @@ header {margin-right: 0;}
   background-color: rgba(255, 255, 246, 1);
   clear: both;
   display: block;
-  padding: 0 0 0 21px;
+  padding: 0 0 0 42px;
 }
 .menubar.controls.widget tbody,
 .menubar.controls.widget.z-bar-1 td.about table {
@@ -236,7 +234,7 @@ position: relative;
     color: #FFF;
     display: block;
     margin: 0;
-    padding: 8px 8px 8px 42px;
+    padding: 8px 8px 8px 68px;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -538,7 +536,7 @@ i.bi-link-45deg:before {content: "\f470"; }
   #linkedContent  .bi.placeholder { display: none;}
 }.has-javascript .view-icons #linkedContent li.placeholder {
   background-color: #555;
-  margin: 10px 43px 0 13px;
+  margin: 10px 42px 0 13px;
   min-height: 70px;
   min-width: 70px;
   width: auto;
@@ -730,9 +728,8 @@ div.page-bottom p {
 #contactContent h2 strong,
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong {  
-font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;  
-  font-size: 28px; font-weight: 300; }
+#previousLooksContent  h2 strong {    
+  font-size: 21px; font-weight: 600; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
 .menubar.controls.widget .about.browsing { 
@@ -750,3 +747,8 @@ font-family: 'Arizonia', 'Comic Sans', cursive, fantasy;
 .view-icons #linkedContent .bi.placeholder { display: none; }
 .has-javascript .view-icons #linkedContent .bi.placeholder { margin-top: 10px; }
 .has-javascript .view-icons #linkedContent .bi.placeholder#placeholder1 { margin-top: 0; }
+#bioContent h2 a  { padding: 8px; }
+#bio #bioText #_dot-com { padding: 13px 8px 10px;  }
+#bio #bioText { margin: 0; }
+td { padding:0; border:0; }
+ 
