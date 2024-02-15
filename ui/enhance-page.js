@@ -21,10 +21,10 @@ var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannel
 https = ['http://', 'https://'];
 link_names = ['kaichanvong.github.io/', 'kaivong.com/', 'kaichanvong.online']
 dot_com_link = https[0] + link_names[1];
-online_link = https[1] + link_names[0];
+online_link = https[1] + link_names[2];
 
 if (window.location.href == online_link){
-  adjustOnlineAddy(online_link);
+  adjustOnlineAddy(link_names[2]);
 } else if (window.location.href == dot_com_link){
   adjustOnlineAddy(dot_com_link);
 } else { adjustOnlineAddy('offline'); }
