@@ -232,9 +232,7 @@ position: relative;
     color: #FFF;
     display: block;
     margin: 0;
-    padding: 8px 8px 8px 68px;
-    position: relative;
-    width: 100%;
+    padding: 8px;
     z-index: 1;
 }
 #thoughtworksTalkContent {
@@ -654,7 +652,7 @@ div.page-bottom {
       border-top: 6px solid rgba(251, 0, 129, 1);
       display: inline;
       float: left;
-      margin-right: 60px;
+      margin-right: 20px;
       margin-top: -5px;
       padding-bottom: 20px;
       padding-right: 40px;
@@ -677,6 +675,7 @@ div.page-bottom {
 .menubar.controls.widget.z-bar-0,
 .copyright {
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 .page-bottom .normal.back-link {
     display: none;
@@ -710,7 +709,8 @@ div.page-bottom p {
   background-color: rgba(106, 130, 171, 1);
   font-size: smaller;
   line-height: 1.6;
-  margin-right: 60px;
+  margin-right: 20px;
+  margin-left: 30px;
   max-width: 690px;
   position: relative;
   z-index: 1;
@@ -762,3 +762,4 @@ h1 span span { display: block; font-size: 75%; }
 #bioContent h2 { padding: 10px 0 0 10px}
 #bioContent #bioText {  padding: 10px 10px 0 0  }
 #bioContent #bioText code a { color: rgb(42,64,211); }
+a#online-profile-picture { float: right }
