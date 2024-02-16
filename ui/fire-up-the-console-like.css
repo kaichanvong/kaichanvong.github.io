@@ -59,12 +59,6 @@ p {
   font-size: 18pt;
   padding-left: 1em;
 }
-div#speakingContent { 
-    background-color: rgba(255, 297, 180, 1);
-    color: #000;
-    overflow: hidden;
-    padding: 0 21px 12px 0;
-}
 @media (max-width: 340px) {
   div#speakingContent { 
     max-width: 244px;
@@ -236,7 +230,7 @@ position: relative;
     z-index: 1;
 }
 #thoughtworksTalkContent {
-  border-bottom: 12px solid rgba(66, 66, 66, 1);
+  border-bottom: 190px solid rgba(66, 66, 66, 1);
   border-right: 40px solid rgba(66, 66, 66, 1); 
   border-top: 6px solid rgba(66, 66, 66, 1);
   display: block;
@@ -763,3 +757,11 @@ h1 span span { display: block; font-size: 75%; }
 #bioContent #bioText {  padding: 10px 10px 0 0  }
 #bioContent #bioText code a { color: rgb(42,64,211); }
 a#online-profile-picture { float: right }
+div#speakingContent { 
+    background-color: rgba(255, 297, 180, 1);
+    border-bottom: 12px rgb(139, 0, 0, 1) solid;
+    color: #000;
+    overflow: hidden;
+    padding: 0 21px 0 0;
+}
+div#speakingContent div.what-summary { padding-bottom: 21px }
