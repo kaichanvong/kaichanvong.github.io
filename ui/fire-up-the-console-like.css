@@ -478,10 +478,9 @@ li#github-note-01,
   text-decoration: none;
 }
 .has-javascript .view-icons #linkedContent li.bi-instagram a span:before,
-.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); margin-top: 10px; }
+.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
 .bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
 .bi-linkedin a span:before,
-.bi-chess { margin-top: 10px; }
 
 .bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
 
@@ -493,7 +492,6 @@ li#github-note-01,
  } 
 .has-javascript .view-icons #linkedContent .bi-chess a {padding: 5px 0 5px;}
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; margin: 0 auto;}
-.view-list #linkedContent li.bi-chess { margin-top: -12px;}
 .view-list .bi-chess a { padding-top: 0; }
 
 .bi-chess a span:before {
@@ -514,7 +512,7 @@ li#github-note-01,
 .has-javascript .view-icons .bi-linkedin a { background-color: #055EB3; 
                 display: inline-block;
                 overflow: hidden;  
-                padding: 5px 15px;
+                padding: 12px 15px 5px;
                 border-radius: 5px; }
 
 .bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
@@ -548,14 +546,21 @@ i.bi-link-45deg:before {content: "\f470"; }
 }
 #socialMediaChannelsCompleteContent.view-list #linkedContent {
   padding-top: 4px;
+  line-height: 2;
 }
 .view-icons #linkedContent li,
 .view-list #linkedContent li {
 display: block;
 list-style: none;
-margin-bottom: 12px;
 } 
-
+.view-list #linkedContent li a {
+  text-decoration: none;
+  color: #333;
+}
+.view-list #linkedContent li strong {
+  font-weight: 300;
+  font-size: 12px;
+}
 .has-javascript .view-icons #linkedContent li { 
 list-style: none; 
 display: inline-block; 
@@ -622,21 +627,23 @@ text-align: center;
 .view-list #linkedContent li.bi-chess a span:before {
   margin-right: 0;
 }*/
-
+.view-list #linkedContent li.bi-twitter-x a span:before,
 .view-list #linkedContent li.bi-linkedin a span:before,
 .view-list #linkedContent li.bi-chess a span:before {
   position: relative;
   left: -7px;
   margin-right: 0;
-  top: 6px;
-  padding: 5px 9px;
+  top: 8px;
+  padding: 0px 9px 6px;
 }
+.view-list #linkedContent li.bi-twitter-x a span:before{top: 4px;}
+.view-list #linkedContent li.placeholder {}
 .view-list #linkedContent li.bi-facebook a span:before,
 .view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; }
 .view-list #linkedContent li.bi-linkedin a span:before,
-.view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 20px; margin-right: 0; top: 4px; position: relative; }
+.view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 20px; margin-right: 0; position: relative; }
 .view-list #linkedContent li.bi-twitter-x a span:before,
-.view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; }
+.view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; line-height: 1.2; }
 
 .view-icons #linkedContent li.bi.bi-linkedin a span:before { font-size: 60px;  }
 
