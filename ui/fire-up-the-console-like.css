@@ -765,3 +765,5 @@ div#speakingContent {
     padding: 0 21px 0 0;
 }
 div#speakingContent div.what-summary { padding-bottom: 21px }
+a#kaichanvong-github-io-repo { text-decoration: none; color: rgba(244, 164, 96, 1); cursor: default;  }
+.copyright hr { display: none; }
