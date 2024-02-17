@@ -486,8 +486,16 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
-.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { display: inline-block; }
-
+.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
+  display: inline-block; 
+    vertical-align: middle;
+}
+.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder em {
+  display: inline-block;
+  margin: 12px 0 0;
+  vertical-align: middle;
+  font-style: normal;
+}
 .view-list .bi-chess a,
 .view-list .bi-linkedin a { background-color: transparent; }
 
@@ -519,12 +527,13 @@ i.bi-link-45deg:before {content: "\f470"; }
 @media (max-width: 510px) {
   #linkedContent  .bi.horizontal-placeholder { display: none;}
 }.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
-  background-color: #555;
+  background-color: rgb(204, 204, 204);
+  font-size: 18px;
   margin: 10px 42px 0 13px;
   min-height: 70px;
   min-width: 70px;
   width: auto;
-  outline: dashed 1px #eee;
+  outline: solid 3px #fff;
   position: relative;
 }
 #socialMediaChannelsCompleteContent.view-list #linkedContent {
@@ -723,7 +732,7 @@ div.page-bottom p {
 #bioContent h2 strong,
 #digitalIdentityContent h2 strong,
 #previousLooksContent  h2 strong {    
-  font-size: 21px; font-weight: 600; }
+  font-size: 18px; font-weight: 600; }
 .main-content#bioContent #bio td {vertical-align: middle;}
 .menubar.controls.widget .home,
 .menubar.controls.widget .about.browsing { 
