@@ -230,9 +230,11 @@ position: relative;
     z-index: 1;
 }
 #thoughtworksTalkContent {
-  background-color: rgb(66, 66, 66, 1);
-  border-top: 44px solid rgb(66, 66, 66, 1);
-  padding: 0 16px 80px;
+  background-color: var(--background-primary);
+  border-top: 44px solid var(--background-primary);
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  padding: 0 16px 78px;
   display: block;
   float: left; 
   margin: 0;
@@ -291,7 +293,8 @@ div#speakingContent div.talks-summary p { max-width: 225px;  }
 div#speakingContent div.emoji-summary,
 div#speakingContent div.what-summary { max-width: 280px;
                                        padding-left: 18px; }
-div#speakingContent div.talks-summary { margin-bottom: 22px; margin-top: 22px;}                                         
+div#speakingContent div#talks-summary,
+div#speakingContent div#kaivong-com-summary { margin-bottom: 22px; margin-top: 22px;}                                         
 #bioContent img.twitter {
   border: 0;
   border-radius: 300px;
@@ -768,3 +771,7 @@ div#speakingContent {
 div#speakingContent div.what-summary { padding-bottom: 21px }
 a#kaichanvong-github-io-repo { text-decoration: none; color: rgba(244, 164, 96, 1); cursor: default;  }
 .copyright hr { display: none; }
+:root {
+  --background-errr: rgb(100,220,240);
+  --background-primary: #eee; // rgb(66, 66, 66, 1)
+  --background-secondary: #333; }
