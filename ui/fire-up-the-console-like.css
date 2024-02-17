@@ -529,6 +529,7 @@ i.bi-link-45deg:before {content: "\f470"; }
 }.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
   background-color: rgb(0, 0, 197);
   color: #333;
+  cursor: default;
   font-size: 18px;
   margin: 10px 42px 0 13px;
   min-height: 70px;
