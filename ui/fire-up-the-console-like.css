@@ -230,9 +230,9 @@ position: relative;
     z-index: 1;
 }
 #thoughtworksTalkContent {
-  border-bottom: 190px solid rgba(66, 66, 66, 1);
-  border-right: 40px solid rgba(66, 66, 66, 1); 
-  border-top: 6px solid rgba(66, 66, 66, 1);
+  background-color: rgb(66, 66, 66, 1);
+  border-top: 44px solid rgb(66, 66, 66, 1);
+  padding: 0 16px 80px;
   display: block;
   float: left; 
   margin: 0;
@@ -278,7 +278,7 @@ body#topOfPageContent #mainContent #bioContent {
   z-index:5;
 } 
 @media (min-width: 340px) {
-  #aboutContent img { margin: 16px 0 0; }
+  #aboutContent img { margin: 0 0 16px; }
 }
 div#speakingContent br.prefix-h2,
 div#speakingContent br.suffix-h2 { content: ' '; display: inline-block; margin-left: 5px; }
@@ -294,7 +294,7 @@ div#speakingContent div.talks-summary p { max-width: 225px;  }
 div#speakingContent div.emoji-summary,
 div#speakingContent div.what-summary { max-width: 280px;
                                        padding-left: 18px; }
-div#speakingContent div.talks-summary { margin-bottom: 42px;}                                         
+div#speakingContent div.talks-summary { margin-bottom: 22px; margin-top: 22px;}                                         
 #bioContent img.twitter {
   border: 0;
   border-radius: 300px;
@@ -750,9 +750,11 @@ div.page-bottom p {
 td { padding:0; border:0; } 
 #aboutContent strong span span,
 h1 span span { display: block; font-size: 75%; } 
+
+#bio #bioHeadliner h2 a,
 #bio #bioText,
 #bio #bioText li,
-#bio #bioText p { font-size: 21px; }
+#bio #bioText p { font-size: small; vertical-align: top; }
 #bioContent h2 { padding: 10px 0 0 10px}
 #bioContent #bioText {  padding: 10px 10px 0 0  }
 #bioContent #bioText code a { color: rgb(42,64,211); }
@@ -763,6 +765,13 @@ div#speakingContent {
     color: #000;
     overflow: hidden;
     padding: 0 21px 0 0;
+}
+#thoughtworksTalkContent,
+div#speakingContent { 
+/*    background-image: url('../pictures/patterns-/wavery-pattern3c.png');
+    background-size: 10%;
+    background-repeat: repeat;
+    background-position: right bottom; */
 }
 div#speakingContent div.what-summary { padding-bottom: 21px }
 a#kaichanvong-github-io-repo { text-decoration: none; color: rgba(244, 164, 96, 1); cursor: default;  }
