@@ -85,7 +85,7 @@ p {
 .main-content#contactContent a { color: rgba(255, 148, 0, 1); 
 font-family: "times new roman", serif; font-style: italic; 
 font-size: 16px; font-weight: normal; text-decoration: none }
-#bioContent {  background-color: rgba(115, 253, 255, 1); }
+#bioContent {  background-color: #444; padding-top: 20px; }
 #bioContent #bio { background-color: #444; margin: 0 auto; }
 #bioContent h2 { float: left; margin: 0; padding: 0; color: #333; }
 #bioContent h2 a { color: #333; padding: 0 10px 0 0; }
@@ -226,7 +226,7 @@ position: relative;
     color: #FFF;
     display: block;
     margin: 0;
-    padding: 8px;
+    padding: 12px 8px;
     z-index: 1;
 }
 #thoughtworksTalkContent {
@@ -259,9 +259,6 @@ body#topOfPageContent #mainContent #bioContentContent.main-content-div {
   background-color: rgba(148,	163,	167, 1);
   padding-bottom: 0;
   margin-bottom: 0; }
-body#topOfPageContent #mainContent #bioContent {
-    background-color: rgba(124, 166, 215, 1);
-}
 #aboutContent img {
   border: 1px solid rgba(66, 66, 66, 1);
   border-radius: 100%;
@@ -302,9 +299,6 @@ div#speakingContent div.talks-summary { margin-bottom: 22px; margin-top: 22px;}
   margin: 0 0 0 0;
   height: 70px;
   width: 70px; }
-body#topOfPageContent #mainContent #bioContent {
-    background-color: rgba(124, 166, 215, 1);
-}
 #bioContent h2 { text-transform: none;  text-align: right;}
 #bioContent p { display: inline; margin-right: 0; }
 #bioContent #twitterDetailsContent {
@@ -489,7 +483,7 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
-.has-javascript .view-icons #linkedContent .bi.placeholder { display: inline-block; }
+.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { display: inline-block; }
 
 .view-list .bi-chess a,
 .view-list .bi-linkedin a { background-color: transparent; }
@@ -520,8 +514,8 @@ i.bi-link-45deg:before {content: "\f470"; }
   }
 }
 @media (max-width: 510px) {
-  #linkedContent  .bi.placeholder { display: none;}
-}.has-javascript .view-icons #linkedContent li.placeholder {
+  #linkedContent  .bi.horizontal-placeholder { display: none;}
+}.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
   background-color: #555;
   margin: 10px 42px 0 13px;
   min-height: 70px;
@@ -623,7 +617,6 @@ text-align: center;
   padding: 0px 9px 6px;
 }
 .view-list #linkedContent li.bi-twitter-x a span:before{top: 4px;}
-.view-list #linkedContent li.placeholder {}
 .view-list #linkedContent li.bi-facebook a span:before,
 .view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; }
 .view-list #linkedContent li.bi-linkedin a span:before,
@@ -741,9 +734,8 @@ div.page-bottom p {
 
 .has-javascript #socialMediaChannelsCompleteContent.view-list .bi-linkedin span:before { padding: 5px; left: -7px; }
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; }
-.view-icons #linkedContent .bi.placeholder { display: none; }
-.has-javascript .view-icons #linkedContent .bi.placeholder { margin-top: 10px; }
-.has-javascript .view-icons #linkedContent .bi.placeholder#placeholder1 { margin-top: 0; }
+.view-icons #linkedContent .bi.horizontal-placeholder { display: none; }
+.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { margin-top: 10px; }
 
 /* #bio #bioText #_dot-com { line-height: 2; } */
 #bio #bioText { margin: 0; }
@@ -755,8 +747,8 @@ h1 span span { display: block; font-size: 75%; }
 #bio #bioText,
 #bio #bioText li,
 #bio #bioText p { font-size: small; vertical-align: top; }
-#bioContent h2 { padding: 10px 0 0 10px}
-#bioContent #bioText {  padding: 10px 10px 0 0  }
+#bioContent h2 { padding-left: 10px; }
+#bioContent #bioText {  padding-right: 10px; }
 #bioContent #bioText code a { color: rgb(42,64,211); }
 a#online-profile-picture { float: right }
 div#speakingContent { 
