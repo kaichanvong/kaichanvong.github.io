@@ -484,6 +484,9 @@ li#github-note-01,
 #socialMediaChannelsToggleLinks,
 #socialMediaChannelsToggleLinks a {color: #999; }
 #linkedContent { clear: both; }
+.has-javascript .view-list #linkedContent .bi.horizontal-placeholder {
+  display: none;
+} 
 .has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
   display: inline-block; 
     vertical-align: middle;
