@@ -590,14 +590,14 @@ vertical-align: top;
 .view-list a span:before,
 .view-icons #linkedContent li img,
 .view-list #linkedContent li img {
-  margin-right: 12px;
+  margin-right: 15px;
 }
 
 .view-icons #linkedContent li.logomark-github img,
 .view-list #linkedContent li.logomark-github img {
   height: 16px;
   width: 16px;
-  margin-right: 6px;
+  margin-right: 12px;
 }
 .has-javascript .view-icons #linkedContent li.logomark-github img { 
   display: inline-block; 
@@ -633,11 +633,17 @@ text-align: center;
   top: 8px;
   padding: 0px 9px 6px;
 }
-.view-list #linkedContent li.bi-twitter-x a span:before{top: 4px;}
+.view-list #linkedContent li.bi-linkedin,
+.view-list #linkedContent li.bi-chess {
+  margin-top: -10px;
+}
+
+.view-list #linkedContent li.bi-twitter-x a span:before{top: 4px; margin-right: 3px;}
 .view-list #linkedContent li.bi-facebook a span:before,
-.view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; }
+.view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; font-size: 16px; margin-top: 5px; }
 .view-list #linkedContent li.bi-linkedin a span:before,
-.view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 20px; margin-right: 0; position: relative; }
+.view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 16px; margin-right: 0; position: relative; }
+.view-list #linkedContent li.bi.bi-linkedin a span:before { margin-right: 7px; }
 .view-list #linkedContent li.bi-twitter-x a span:before,
 .view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; line-height: 1.2; }
 
