@@ -7,7 +7,7 @@ toggle_views = function(){
   linkedContent.setAttribute('class', new_view);
   linkedContent.setAttribute('data-view', new_view);
   return false;
-};            
+};
 
 adjustOnlineAddy = function(newInnerHTML){
 document.getElementById('current_online_addy').innerHTML = newInnerHTML.replace(https[1],'').replace('/','');
