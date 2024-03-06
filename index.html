@@ -18,8 +18,13 @@
                em.spoken-outloud,
                strong.emoji-search-result { color: #222; }
                span.from-pinyin-in-book-plus-online { color: #222; }
-               article { background-color: white; background-color: #66FFFF; padding: 2em 2em 4em; } a:link, a:visited { color: #333399; }
+               article { background-color: white; background-color: #66FFFF; padding: 2em 2em 4em; border-bottom: #66CCFF 21px solid; }
+               a:link, a:visited { color: #333399; }
                a:hover, a:focus, a:active { background-color: #006600; color: #bbb; }
+               .bio { background-color: #333; color: #00FF00; border-bottom: #66CCFF 21px solid; padding: 30px 0 10px;}
+               .bio h1 { float: left; margin-right: 20px; margin-left: 1.5em;}
+               .bio span { color: #111; }
+               a { text-decoration: none; }
                 </style>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFJ50Z6VK"></script>
         <script> window.dataLayer = window.dataLayer || [];
@@ -28,17 +33,19 @@
           gtag('config', 'G-PHFJ50Z6VK');
         </script>
         <body>
+          <div class="bio">
+            <h1>Kai Vong <span>@kaichanvong</span></h1>
+            <a href="https://gravatar.com/kaichanvong" id="online-profile-picture"><img alt="(gravatar) kaichanvong profile picture from hackathon" src="pictures/in-real-life/charity-event-kaichanvong.png" width="80" height="80"></a>
+          </div><!-- /bio -->
           <article>
           <em class="emoji-waving-h 
                      force-text-hello 
                      greeting-still-picture 
-                     shape-body-hand">👋</em>
-
+                     shape-body-hand">👋&hellip;</em>
           <p>Greetings the example (in the form of emoji), online <strong class="emoji-search-result" title="👋">waving hand</strong> emoji;</p>
-          <p>Email online suggests, "Hey!" (kinda similar happening during à greet)</p>        
+          <p>Email online suggests, "Hey!" (kinda similar happening during à greet)</p>
           <p class="xoxo">Note: not on: <a href="https://www.hey.com">HEY (hey.com --online-email)</a></p>
           <p>by <a href="http://x.com/kaichanvong">@kaichanvong</a></p>
-          <a href="https://youtu.be/Tbk5k38SJxc?si=uL_Zs9DOS07GJ0cz"></a>
           </article>
     </body>
 </html>
