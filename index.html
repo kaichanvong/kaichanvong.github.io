@@ -12,7 +12,7 @@
         <title>the page on kaichanvong.online/kaichanvong.github.io 👋</title>
     </head>
     <style class="css">
-.main-content#digitalIdentityContent { background-color: #73DAFF; }    
+/*.main-content#digitalIdentityContent { background-color: #73DAFF; }*/    
 .main-content#digitalIdentityContent,
 .main-content#previousLooksContent {
     border: solid 4px #666;
@@ -94,9 +94,14 @@ i.bi-link-45deg:before {content: "\f470"; }
   outline: solid 3px #fff;
   position: relative;
 }
+#NavigationAtTop,
+#NavigationAtBottom,
+.off-page-markedup-lols { position: absolute; left: -9999px; }
+
 #socialMediaChannelsCompleteContent.view-list #linkedContent {
   padding-top: 4px;
   line-height: 2;
+  padding-left: 10px;
 }
 .view-icons #linkedContent li,
 .view-list #linkedContent li {
@@ -288,8 +293,8 @@ table span.bi-geo-alt:before,
 i.bi-geo-alt:before    {content: "\f3e8"; }
 i.bi-link-45deg:before {content: "\f470"; }
 #socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 0; padding: 0; 
-  max-width: 610px; }
-#socialMediaChannelsCompleteContent.view-list  #linkedContent { padding: 0 0 0 30px; }  
+  max-width: 550px; }
+/*#socialMediaChannelsCompleteContent.view-list  #linkedContent { padding: 0 0 0 30px; }*/  
 .has-javascript .view-icons #linkedContent  { line-height: 2; }
   
 .view-list#socialMediaChannelsCompleteContent #linkedContent
@@ -333,7 +338,9 @@ i.bi-link-45deg:before {content: "\f470"; }
                em.spoken-outloud,
                strong.emoji-search-result { color: #222; }
                span.from-pinyin-in-book-plus-online { color: #222; }
-               article { padding: 1em 2em 4em; }
+               article,
+               #digitalIdentityContent { padding: 1em 2em 2em; }
+                /* { padding: 4em; } that wasn't going to work was it << teh World Wide LuL :P  */ 
                tr.containment-field { background-color: #66FFFF; overflow: hidden; }
                a:link, a:visited { color: rgb(53,53,153); }
                a:hover, a:focus, a:active { background-color: #006600; color: #bbb; }
@@ -429,7 +436,7 @@ i.bi-link-45deg:before {content: "\f470"; }
                     <ol id="linkedContent">
                         <li class="bi bi-chess emoji-♟️"><a href="https://www.chess.com/member/kaichanvong" id="chessLinkContent" title="chess member link to chess profile online" rel="me"><span><strong>Chess</strong></span></a></li>
                         <li class="bi bi-facebook"><a href="https://www.facebook.com/kaichanvong" id="facebookLinkContent" title="facebook of kai" rel="me"><span><strong>Facebook</strong></span></a></li>
-                        <li class="bi logomark-github"><a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai (GitHub Logomark)" rel="me"><img alt="(GitHub Logomark)"  height="80" width="80" src="ui/logomarks/github-mark-white.png"></a> <a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai (GitHub Logomark)" rel="me"><span><strong>Github</strong></span></a></li>
+                        <li class="bi logomark-github"><a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai (GitHub Logomark)" rel="me"><img alt="(GitHub Logomark)"  height="80" width="80" src="ui/logomarks/github-mark.png"></a> <a href="https://www.github.com/kaichanvong" id="githubLinkContent" title="personal developer platform on github of kai (GitHub Logomark)" rel="me"><span><strong>Github</strong></span></a></li>
                         <li class="bi bi-linkedin"><a href="https://www.linkedin.com/in/kaichanvong" id="linkedinLinkContent" title="professional networking on linkedin of kai" rel="me"><span><strong>Linkedin</strong></span></a></li>
                         <li class="bi bi-twitter-x"><a href="https://www.x.com/kaichanvong" id="twitterXLinkContent" title="formerly twitter, now known as X's posts for kai happenings (Point of View)" rel="me"><span><strong>formerly-Twitter</strong></span></a></li>
                         <li class="bi horizontal-placeholder"><em>❓</em></li>
