@@ -175,8 +175,8 @@ display: inline-block;  overflow: hidden; text-indent: -9999px;  }
 @charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
-  src: url("ui/fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
-       url("ui/fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
+  src: url("fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+       url("fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
 #aboutContent a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
