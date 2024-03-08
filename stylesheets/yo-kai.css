@@ -297,12 +297,8 @@ i.bi-link-45deg:before {content: "\f470"; }
 .view-list #linkedContent li.bi-chess {
   margin-top: -10px;
 }
-
-     body.screen {  
-                             color: #bbb;
-                             font-family: arial;
-                             padding: 0; margin: 0; }
-                             html { padding: 0; margin: 0; cursor: pointer; }
+     body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
+                   html { padding: 0; margin: 0; cursor: pointer; }
                em.emoji-waving-h { font-size: 92px; }
                td, tr, div { margin: 0; padding: 0; }
                table { border: 0; margin: 0; border-collapse: collapse; }
@@ -343,12 +339,10 @@ i.bi-link-45deg:before {content: "\f470"; }
                        color: blue; color: red; margin-bottom: 42px; border-left: #0000FF 10px solid; 
                        padding-left: 21px; margin-left: -24px; font-size: 75%; margin-top: 21px;
                        background-color: snow; padding: 6px 6px 6px 15px; }
-                       .📧📧:hover { background: red; color: yellow;  }
-               .roygbiv-mem-incREDdible { color: rgb(255, 38, 0);   }
-               .roygbiv-mem-OrangesAft  { color: rgb(255, 147, 0);  } 
-               .roygbiv-mem-yellow      { color: rgb(255, 251, 0);  }
-               .roygbiv-mem-gives       { color  rgb(0, 141, 02);   }
-               .roygbiv-mem-battles     { color: rgb(0, 25, 147);   }
-               .roygbiv-mem-within      { color: rgb(255,138, 216); }
-               .roygbiv-mem-vanity      { color: rgb(148, 23, 81);  }
+                       .📧📧:hover { background: red; color: yellow; }
                p:highlight { background-color: #ff0000 ; }
+#TFOWolviesSong { /* -- 🎧 Chase Petra - Soapy Water -- 
+                     -- 📕 Neil Gaiman's: The Sandman; "Personification of Delirium" --  */
+                  /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
+                }
+                          
