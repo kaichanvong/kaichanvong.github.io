@@ -58,6 +58,7 @@ off-page-markedup-lols2 { position: absolute; left: -9999px; }*/
   line-height: 1.2;
   padding-left: 10px;
 }
+.view-list #linkedContent li { min-height: 32px; }
 .view-icons #linkedContent li,
 .view-list #linkedContent li {
 display: block;
@@ -92,7 +93,7 @@ vertical-align: top;
 .view-list #linkedContent li.logomark-github img {
   height: 16px;
   width: 16px;
-  margin-right: 12px;
+  margin-right: 9px;
 }
 .has-javascript .view-icons #linkedContent li.logomark-github img { 
   display: inline-block; 
@@ -142,13 +143,13 @@ text-align: center;
 .view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; font-size: 78px; }
 .view-list #linkedContent li.bi-linkedin a span:before,
 .view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 16px; margin-right: 0; position: relative; }
-.view-list #linkedContent li.bi.bi-linkedin a span:before { margin-right: 7px; }
+.view-list #linkedContent li.bi.bi-linkedin a span:before { margin-right: 3px; line-height: 1; }
 .view-list #linkedContent li.bi-twitter-x a span:before,
 .view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; line-height: 1.2; font-size: 78px; }
 .view-icons #linkedContent li.bi.bi-linkedin a span:before { font-size: 60px;  }
 .has-javascript .view-icons #linkedContent li.bi a span strong { 
 display: inline-block;  overflow: hidden; text-indent: -9999px;  }
-.has-javascript #socialMediaChannelsCompleteContent.view-list .bi-linkedin span:before { padding: 5px; left: -7px; }
+.has-javascript #socialMediaChannelsCompleteContent.view-list .bi-linkedin span:before { padding: 5px 7px; left: -7px; }
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; }
 .view-icons #linkedContent .bi.horizontal-placeholder { display: none; }
 .view-icons #linkedContent .bi-instagram a span:before,
