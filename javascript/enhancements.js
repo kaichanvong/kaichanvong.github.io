@@ -27,3 +27,13 @@
       linkedContent.innerHTML += instagram_huh;
       linkedContent.innerHTML += huh;
       linkedContent.innerHTML += more;
+
+      javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
+      javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
+
+      addHackOneLineStylesheetOnHTML = function(args){
+        var read_page = "<style> #off-page-markedup-lols2, .🐰 { position: absolute; left: -9999px; } </style>",
+            HTML_page = document.getElementsByTagName(args)[0]; 
+        HTML_page.innerHTML += read_page;         
+      };
+      addHackOneLineStylesheetOnHTML("body");

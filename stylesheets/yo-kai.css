@@ -78,8 +78,9 @@ i.bi-link-45deg:before {content: "\f470"; }
 }
 #NavigationAtTop,
 #NavigationAtBottom,
-.off-page-markedup-lols { position: absolute; left: -9999px; }
-
+/*off-page-markedup-lols1,
+off-page-markedup-lols2 { position: absolute; left: -9999px; }*/
+.off-page--HTML-only { position: absolute; left: -9999px; }
 #socialMediaChannelsCompleteContent.view-list #linkedContent {
   padding-top: 4px;
   line-height: 1.2;
