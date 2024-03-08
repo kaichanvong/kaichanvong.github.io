@@ -181,8 +181,7 @@ display: inline-block;  overflow: hidden; text-indent: -9999px;  }
 .view-list #linkedContent li.bi-twitter-x a span:before {font-size: 16px;}
 .view-list #linkedContent li.bi-twitter-x a span:before { margin-left: 4px;}
 .view-list #linkedContent li.bi-instagram a span:before { margin-right: 18px}
-
-/* BI == 'Twitter BootStrap Icons'*/
+/* BI/bi: Twitter bootstrap icons library, url: https://icons.getbootstrap.com/  */
 @charset "utf-8";
 @font-face {
   font-family: "bootstrap-icons";
