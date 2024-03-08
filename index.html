@@ -11,7 +11,7 @@
               type="image/x-icon">
         <title>the page on kaichanvong.online/kaichanvong.github.io 👋</title>
     </head>
-    <!-- link href="stylesheets/yo-kai.css" rel="stylesheet" type="text/css" -->
+    <link href="stylesheets/yo-kai.css" rel="stylesheet" type="text/css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFJ50Z6VK"></script>
     <script> window.dataLayer = window.dataLayer || [];
              function gtag(){dataLayer.push(arguments);}
@@ -77,34 +77,6 @@
         </table>
         </td></tr>
       </table>
-      <script>
-      document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
-      kaivong_com_objs = { linkedContent: { views: ['view-icons','view-icons'] }  }
-      toggle_views = function(){
-        var new_view = this.getAttribute('data-name');
-        linkedContent.setAttribute('class', new_view);
-        linkedContent.setAttribute('data-view', new_view);
-        return false;
-      };            
-      adjustOnlineAddy = function(newInnerHTML){
-      document.getElementById('current_online_addy').innerHTML = newInnerHTML.replace(https[1],'').replace('/','');
-      };
-      var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
-          socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
-          linkedContent = document.getElementById('linkedContent');
-          socialMediaChannelsToggleLink1.onclick = toggle_views;
-          socialMediaChannelsToggleLink2.onclick = toggle_views;
-
-      https = ['http://', 'https://'];
-      link_names = ['kaichanvong.github.io/', 'kaivong.com/', 'kaichanvong.online']
-      dot_com_link = https[0] + link_names[1];
-      online_link = https[1] + link_names[2];
-
-      var huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
-          more = "<li class=\"bi horizontal-placeholder\"><em>…</em></li>";
-      linkedContent.innerHTML += huh;
-      linkedContent.innerHTML += huh;
-      linkedContent.innerHTML += more;
-      </script>
+      <script async src="javascript/enhancements.js"></script>
     </body>
 </html>
