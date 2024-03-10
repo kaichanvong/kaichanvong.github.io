@@ -184,3 +184,4 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
                      -- 📕 Neil Gaiman's: The Sandman; "Personification of Delirium" --  */
                   /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
                 }
+.neil-gaiman-line-rule { background: #aaaaaa; border-radius: 20px; height: 6px; outline: 0; border: 0;  }
