@@ -75,7 +75,7 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
+body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background-color: #f8f8fb; }
 			   html { padding: 0; margin: 0; cursor: pointer; }
 		   em.emoji-waving-h { font-size: 92px; }
 		   td, tr, div { margin: 0; padding: 0; }
@@ -119,8 +119,9 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
    #digitalIdentityContent { padding: 0; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
-               .bio { background-color: #333; color: #00FF00; 
-               border-bottom: rgb(225, 225, 225) 15px solid; 
+               .bio { background-color: rgb(0,50,0); 
+               			color: #7F7800; 
+		                border-bottom: rgb(225, 225, 225) 15px solid; 
                       padding: 30px 0 10px; position: relative;  }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 13px; 
@@ -136,7 +137,7 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
                table td { vertical-align: top; }
                table.link-to-contact aside h2 { font-family: Baskerville,serif; 
                									font-size: 28px; margin-bottom: 6px; }
-               table.link-to-contact aside { background: snow; 
+               table.link-to-contact aside { background: #F0F2F6; 
                                             color: #333; 
                                             padding: 0 18px 12px 0;  
                                             margin: 0 10px 0 0; 
@@ -175,7 +176,7 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
                        color: blue; color: red; border-left: #0000FF 10px solid; 
                        padding-left: 21px; margin-left: -24px; font-size: 75%; 
                        margin-top: 21px;
-                       background-color: snow; 
+                       background-color: #f8f8fb; 
                        padding: 6px 6px 6px 15px; }
                        .📧📧:hover { background: red; color: yellow; }
                p:highlight { background-color: #ff0000 ; }
