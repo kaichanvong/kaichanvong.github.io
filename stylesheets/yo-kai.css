@@ -1,170 +1,64 @@
-
 /* 
 stylesheet-author: @kaichanvong
 stylesheet-name: yo-kai.css
 stylesheet-domain: http://kaivong.com && http://kaichanvong.online
 stylesheet-about: direction kinda links (in HTML) to HEY! (http://hey.com)
  */
-#digitalIdentityContent h2 { float: left; }
-#digitalIdentityContent h2 strong,
-#previousLooksContent  h2 strong {    
-  font-size: 18px; font-weight: 600; }
-.has-javascript .view-icons#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink1,
-.view-list#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink2 {
-  text-decoration: none;
-}
 
-.has-javascript .view-icons #linkedContent li.bi-instagram a span:before,
-.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
-.has-javascript .view-icons #linkedContent .bi-chess a {padding: 5px 0 5px;}
-.has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; margin: 0 auto;}
-.view-list .bi-chess a { padding-top: 0; }
-.bi-chess a span:before {
-  color: rgba(163, 209, 96, 1);
-} 
-.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
-  display: inline-block; 
-    vertical-align: middle;
+@charset "utf-8";
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+	   url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
+/* url("../fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") */
 }
+body { font-size: 13px; }
+article.greets-back { max-width: 460px; padding-left: 33px; }
 
-.view-list#socialMediaChannelsCompleteContent #linkedContent
-@media (max-width: 320px) {
-  #socialMediaChannelsCompleteContent #linkedContent {
-    margin-left: 0;
-    padding-left: 20px;
-  }
-}
-@media (max-width: 510px) {
-  #linkedContent  .bi.horizontal-placeholder { display: none;}
-}.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
-  background-color: rgb(0, 0, 197);
-  color: #333;
-  cursor: default;
-  font-size: 18px;
-  margin: 10px 42px 0 13px;
-  min-height: 70px;
-  min-width: 70px;
-  width: auto;
-  outline: solid 3px #fff;
-  position: relative;
-}
+.view-list #linkedContent,
+.view-icons #linkedContent { max-width: 290px; }
+.view-list #linkedContent { padding-left: 0; margin-top: 0; }
+.view-icons #linkedContent { padding: 0; margin-top: 0;}
+.view-icons #linkedContent li { min-width: 60px; }
+.view-list ol#linkedContent { list-style: none; }
+#linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
+.view-icons #linkedContent a span:before {  font-size: 48px; margin: 0 7pt; }
+.has-javascript .view-list #linkedContent li.logomark-github { padding-bottom: 18px; }
+.has-javascript .view-icons #linkedContent li.logomark-github img { width: 48px; 
+																	height: 48px; }
+.has-javascript .view-list #linkedContent li span:before,
+.has-javascript .view-list #linkedContent li img { position: relative; top: 5px; }
+.view-list #linkedContent a span:before { margin-right: 9px; }
+.view-list #linkedContent li.bi { padding: 8px 0 4px; clear: both; }
+.view-icons #linkedContent li.bi { padding: 0px 0px 10px; }
+#linkedContent li.bi-instagram a span:before { 	content: "\f437"; }
+#linkedContent li.bi-facebook a span:before { 	content: "\f344";  }
+#linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; 
+        									  	position: relative; }
+.view-list #linkedContent li.bi.bi-linkedin a span:before { line-height: 1; }
+#linkedContent li.bi-twitter-x a span:before {content: "\f8db"; 
+														  	line-height: 1.2; }
+.has-javascript .view-icons #linkedContent li.bi a span strong { display: inline-block;  
+														  	overflow: hidden; 
+														  	text-indent: -9999px;  }
+
+.has-javascript .view-icons #linkedContent li.bi-chess a span:before { 
+background-color: rgb(53,53,153); color: #fff; padding: 0 14px 10px; margin: 0 3px; 
+font-size: 36px; position: relative; top: -10px; }
+#linkedContent li.bi-chess a span:before,
+.has-javascript .view-icons #linkedContent li.bi-chess a span:before {
+														  	content: "\265C"; 
+														  	line-height: 1; 
+														  	text-align: center;
+														  	min-width: 21px;
+														  	 }
+														  	 
+														  	 
 #NavigationAtTop,
 #NavigationAtBottom,
 /*off-page-markedup-lols1,
 off-page-markedup-lols2 { position: absolute; left: -9999px; }*/
 .off-page--HTML-only { position: absolute; left: -9999px; }
-#socialMediaChannelsCompleteContent.view-list #linkedContent {
-  padding-top: 4px;
-  line-height: 1.2;
-  padding-left: 10px;
-}
-.view-list #linkedContent li { min-height: 32px; }
-.view-icons #linkedContent li,
-.view-list #linkedContent li {
-display: block;
-list-style: none;
-} 
-.view-list #linkedContent li a {
-  text-decoration: none;
-  color: #333;
-}
-.view-list #linkedContent li strong {
-  font-weight: 300;
-  font-size: 12px;
-}
-.has-javascript .view-icons #linkedContent li { 
-list-style: none; 
-display: inline-block; 
-margin-top: 0; 
-width: 110px;
-text-align: center;
-vertical-align: top;
- }
-
-#topOfPageContent table .home span.bi-geo-alt:before { font-size: 11px; }
-.view-icons a span:before,
-.view-list a span:before,
-.view-icons #linkedContent li img,
-.view-list #linkedContent li img {
-  margin-right: 15px;
-}
-
-.view-icons #linkedContent li.logomark-github img,
-.view-list #linkedContent li.logomark-github img {
-  height: 16px;
-  width: 16px;
-  margin-right: 9px;
-}
-.has-javascript .view-icons #linkedContent li.logomark-github img { 
-  display: inline-block; 
-  height: 83px;
-  width: 83px;
-}
-.view-icons #linkedContent li.bi-chess a span:before,
-.view-list #linkedContent li.bi-chess a span:before {
-padding: 0px 4px 4px; margin-right: 10px; 
-}
-.view-icons #linkedContent li.bi-chess a span:before,
-.view-list #linkedContent li.bi-chess a span:before,
-.has-javascript .view-icons #linkedContent li.bi-chess a span:before {
-content: "\265C";
-font-size: 70px;
-line-height: 1;
-text-align: center;
-}
-.view-icons #linkedContent li.bi-chess a span:before,
-.view-list #linkedContent li.bi-chess a span:before { font-size: 20px; top: 4px; position: relative; }
-.view-list #linkedContent li.bi-twitter-x { margin-left: -8px; }
-.view-list #linkedContent li a:hover { background-color: transparent; }
-.view-list #linkedContent li.bi-twitter-x a span:before,
-.view-list #linkedContent li.bi-linkedin a span:before,
-.view-list #linkedContent li.bi-chess a span:before {
-  position: relative;
-  left: -7px;
-  margin-right: 0;
-  top: 8px;
-  padding: 0px 9px 6px;
-}
-.view-list #linkedContent li.bi-linkedin,
-.view-list #linkedContent li.bi-chess {
-  margin-top: -10px;
-}
-.view-icons #linkedContent li.bi-linkedin a { margin-top: 4px; }
-.has-javascript .view-icons #linkedContent li.logomark-github img,
-.view-list #linkedContent li.bi-facebook a span:before,
-.view-icons #linkedContent li.bi-facebook a span:before { margin-top: 12px;}
-
-.has-javascript .view-icons #linkedContent li.logomark-github img { margin-top: 10px;}
-
-.view-list #linkedContent li.bi-twitter-x a span:before{top: 4px; margin-right: 3px; }
-.view-icons #linkedContent li.bi-instagram a span:before,
-.view-list #linkedContent li.bi-instagram a span:before {content: "\f437"; font-size: 72px; }
-.view-list #linkedContent li.bi-facebook a span:before,
-.view-icons #linkedContent li.bi-facebook a span:before {content: "\f344"; font-size: 78px; }
-.view-list #linkedContent li.bi-linkedin a span:before,
-.view-icons #linkedContent li.bi.bi-linkedin a span:before {content: "\f472"; font-size: 16px; margin-right: 0; position: relative; }
-.view-list #linkedContent li.bi.bi-linkedin a span:before { margin-right: 3px; line-height: 1; }
-.view-list #linkedContent li.bi-twitter-x a span:before,
-.view-icons #linkedContent li.bi-twitter-x a span:before {content: "\f8db"; line-height: 1.2; font-size: 78px; }
-.view-icons #linkedContent li.bi.bi-linkedin a span:before { font-size: 60px;  }
-.has-javascript .view-icons #linkedContent li.bi a span strong { 
-display: inline-block;  overflow: hidden; text-indent: -9999px;  }
-.has-javascript #socialMediaChannelsCompleteContent.view-list .bi-linkedin span:before { padding: 5px 7px; left: -7px; }
-.has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; }
-.view-icons #linkedContent .bi.horizontal-placeholder { display: none; }
-.view-icons #linkedContent .bi-instagram a span:before,
-.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { margin-top: 10px; }  
-.view-list #linkedContent li.bi-instagram a span:before,
-.view-list #linkedContent li.bi-facebook a span:before,
-.view-list #linkedContent li.bi-twitter-x a span:before {font-size: 16px;}
-.view-list #linkedContent li.bi-twitter-x a span:before { margin-left: 4px;}
-.view-list #linkedContent li.bi-instagram a span:before { margin-right: 18px}
-/* BI/bi: Twitter bootstrap icons library, url: https://icons.getbootstrap.com/  */
-@charset "utf-8";
-@font-face {
-  font-family: "bootstrap-icons";
-  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
-       url("../fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff"); }
 #aboutContent a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
@@ -181,148 +75,112 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-.has-javascript .view-icons#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink1,
-.view-list#socialMediaChannelsCompleteContent #socialMediaChannelsToggleLink2 {
-  text-decoration: none;
-}
-.has-javascript .view-icons #linkedContent li.bi-instagram a span:before,
-.bi-twitter-x a span:before  { color: rgba(0, 0, 0, 0.7); }
-.bi-facebook a span:before  { color: rgba(0, 0, 202, 0.7); }
-.bi-linkedin a span:before,
-.bi-chess a span:before { color: rgba(0, 0, 0, 0.9); }
+body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
+			   html { padding: 0; margin: 0; cursor: pointer; }
+		   em.emoji-waving-h { font-size: 92px; }
+		   td, tr, div { margin: 0; padding: 0; }
 
-.view-list #linkedContent .bi-chess a span:before,
-.bi-chess a  span:before { background-color: #333;
-  overflow: hidden; 
-  padding: 0 0 8px;
-  border-radius: 5px;
- } 
-.has-javascript .view-icons #linkedContent .bi-chess a {padding: 5px 0 5px;}
-.has-javascript .view-icons #linkedContent li.bi-chess a span:before { padding: 0 25px 20px; margin: 0 auto;}
-.view-list .bi-chess a { padding-top: 0; }
-
-.bi-chess a span:before {
-  color: rgba(163, 209, 96, 1);
-} 
-#digitalIdentityContent h2 { float: left; }
-.has-javascript #socialMediaChannelsToggleLinks { visibility: visible; font-size: 75%; }
-#socialMediaChannelsToggleLinks { float: right; margin: 0 10px 30px 0; visibility: hidden; }
-#socialMediaChannelsToggleLinks,
-#socialMediaChannelsToggleLinks a {color: #999; }
-#linkedContent { clear: both; }
+#linkedContent {}
 .has-javascript .view-list #linkedContent .bi.horizontal-placeholder {
   display: none;
-} 
-.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
+}.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
   display: inline-block; 
     vertical-align: middle;
 }
-.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder em {
-  background-color: #eee;
-  display: inline-block;
-  margin: 15px 0 0;
-  padding: 3px 9px 0;
-  vertical-align: middle;
-  font-style: normal;
-}
-.view-list .bi-chess a,
-.view-list .bi-linkedin a { background-color: transparent; }
-
-.view-list .bi-linkedin a span:before, 
-.has-javascript .view-icons .bi-linkedin a { background-color: #055EB3; 
-                display: inline-block;
-                overflow: hidden;
-                line-height: 0;  
-                margin: 0;
-                padding: 15px 15px 15px;
-                border-radius: 5px; }
-
-.bi-linkedin a span:before { color: rgba(255, 255, 255, 1); }
-html p { line-height: 1.4; margin-right: 10px; }
-table span.bi-geo-alt:before,
-i.bi-geo-alt:before    {content: "\f3e8"; }
-i.bi-link-45deg:before {content: "\f470"; }
-#socialMediaChannelsCompleteContent #linkedContent { list-style-type: none; margin: 0; padding: 0; 
-  max-width: 550px; }  
-.has-javascript .view-icons #linkedContent  { line-height: 2; }
-  
-.view-list#socialMediaChannelsCompleteContent #linkedContent
-@media (max-width: 320px) {
-  #socialMediaChannelsCompleteContent #linkedContent {
-    margin-left: 0;
-    padding-left: 20px;
-  }
-}
-@media (max-width: 510px) {
-  #linkedContent  .bi.horizontal-placeholder { display: none;}
-}.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
-  background-color: rgb(0, 0, 197);
+.has-javascript .view-icons #linkedContent li.horizontal-placeholder {
   color: #333;
   cursor: default;
   font-size: 18px;
-  margin: 10px 36px 0 18px;
-  min-height: 70px;
-  min-width: 70px;
-  width: auto;
+  margin: 0 12px;
+  min-height: 32px;
+  min-width: 32px;
   outline: solid 3px #fff;
+  padding: 4px;
   position: relative;
+  text-align: center;
+  top: -15px;
 }
-.has-javascript .view-icons #linkedContent li a:hover { background-color: transparent; }
-.view-list #linkedContent li.bi-linkedin a:hover span:before,
-.has-javascript .view-icons #linkedContent li.bi-linkedin a:hover { background-color: #055EB3; }
-.view-list #linkedContent li.bi-linkedin,
-.view-list #linkedContent li.bi-chess {
-  margin-top: -10px;
+														  	 
+.view-list #linkedContent li:nth-child(odd) { background-color: rgb(235,235,235); }
+.view-icons #linkedContent .bi.horizontal-placeholder { display: none; }
+.has-javascript #linkedContent li.logomark-github img { 
+  display: inline-block; 
+  height: 21px;
+  width: 21px;}
+  .has-javascript .view-list #linkedContent li.logomark-github img { 
+  margin-right: 5px;
 }
-     body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; }
-                   html { padding: 0; margin: 0; cursor: pointer; }
-               em.emoji-waving-h { font-size: 92px; }
-               td, tr, div { margin: 0; padding: 0; }
-               table { border: 0; margin: 0; border-collapse: collapse; }
-               p,
-               ol { font-size: 21px; }
-               li { display: inline-block; }
-               em.spoken-outloud { font-style: normal; }
-               em.spoken-outloud,
-               strong.emoji-search-result { color: #222; }
-               span.from-pinyin-in-book-plus-online { color: #222; }
-               article,
-               #digitalIdentityContent { padding: 1em 2em 2em; } 
-               tr.containment-field { background-color: #66FFFF; overflow: hidden; }
-               a:link, a:visited { color: rgb(53,53,153); }
-               a:hover, a:focus, a:active { background-color: #006600; color: #bbb; }
-               .bio { background-color: #333; color: #00FF00; border-bottom: rgb(225, 225, 225) 15px solid; 
+   .view-icons li { display: inline-block; }
+   em.spoken-outloud { font-style: normal; }
+   em.spoken-outloud,
+   strong.emoji-search-result { color: #222; }
+   span.from-pinyin-in-book-plus-online { color: #222; }
+   article,
+   #digitalIdentityContent { padding: 0; } 
+   tr.containment-field { background-color: #66FFFF; overflow: hidden; }
+   a:link, a:visited { color: rgb(53,53,153); }
+               .bio { background-color: #333; color: #00FF00; 
+               border-bottom: rgb(225, 225, 225) 15px solid; 
                       padding: 30px 0 10px; position: relative;  }    
-               .bio:after { content: ' '; background-color: rgb(165, 165, 165); height: 13px; 
-                            display: block; position: absolute; bottom: -15px; left: 3px; right: 3px; 
+               .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
+               							  height: 13px; 
+                        			      display: block; position: absolute; 
+					                      bottom: -15px; left: 3px; right: 3px; 
                             border-radius:20px; }
-               .bio h1 { float: left; margin-right: 20px; margin-left: 24px;}
+               .bio h1 {	float: left; 
+						    margin-right: 20px; 
+						    margin-left: 24px;}
                .bio span { color: #111; }
                a { text-decoration: none; }
-               table { width: 100%; }
+               table.skeuo { width: 100%; }
                table td { vertical-align: top; }
-               table.link-to-contact aside { background: snow; color: #333; padding: 0 18px 12px 24px;  margin: 33px 10px 0 0; border-bottom: 12px solid rgb(225, 225, 225); position: relative; }
-               table.link-to-contact aside:after { content: ' '; background-color: rgb(165, 165, 165); height: 6px; display: block; position: absolute; bottom: -9px; left: 3px; right: 3px; border-radius:20px; }
-               table.link-to-contact aside span.pineapple.discombobulation { float: left; margin: 12px 12px 24px 0; font-size: 32px; }
+               table.link-to-contact aside h2 { font-family: Baskerville,serif; 
+               									font-size: 28px; margin-bottom: 6px; }
+               table.link-to-contact aside { background: snow; 
+                                            color: #333; 
+                                            padding: 0 18px 12px 0;  
+                                            margin: 0 10px 0 0; 
+                                            border-bottom: 12px solid rgb(225, 225, 225); 
+                                            position: relative; }			   
+			   table.link-to-contact aside table,
+			   #digitalIdentityContent h2,
+			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
+			   #digitalIdentityContent .view-list #linkedContent a { padding-left: 24px; }
+			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
+			   #digitalIdentityContent #socialMediaChannelsToggleLinks { float: right; 
+			   								text-align: right; 
+			   								padding-right: 30px; }
+			   #digitalIdentityContent .view-icons #linkedContent {  clear: both; 
+			   										     			padding-left: 10pt; }
+			   #digitalIdentityContent .view-icons #linkedContent a { padding-right: 4pt;}
+               table.link-to-contact aside:after { content: ' '; 
+               background-color: rgb(165, 165, 165); height: 6px; display: block; 
+               position: absolute; bottom: -9px; left: 3px; right: 3px; 
+               border-radius:20px; }
+               table.link-to-contact aside span.pineapple.discombobulation { 
+               float: left; margin: 12px 12px 24px 0; font-size: 32px; }
                article.greets-back { color: #ff0000; }
-               article.greets-back p { color: rgb(195, 195, 195); }
-               article.greets-back p span.external-links a { background-color: rgb(125, 125, 125); color: orange; }
-               
+               article.greets-back p { color: rgb(195, 195, 195); line-height: 1.3; 
+               font-family: times; }
+               article.greets-back p span.external-links a { 
+													background-color: rgb(125, 125, 125); 
+													color: orange; }               
                article.greets-back p span.external-links span { font-size: 75%; }
                p.highlight-text.int-rest-focuses { margin-left: -3px; }
-               p.highlight-text.int-rest-focuses span { background: #ffaa00; color: #333; padding: 3px 9px 3px 3px; }
+               p.highlight-text.int-rest-focuses span {  background: #ffaa00; 
+														 color: #333; 
+														 padding: 3px 9px 3px 3px; }
                em { text-decoration: none; font-style: normal; }
                .📧📧 { display: block; margin-top: 10px; font-style: italic; 
-                       color: blue; color: red; margin-bottom: 42px; border-left: #0000FF 10px solid; 
-                       padding-left: 21px; margin-left: -24px; font-size: 75%; margin-top: 21px;
-                       background-color: snow; padding: 6px 6px 6px 15px; }
+                       color: blue; color: red; border-left: #0000FF 10px solid; 
+                       padding-left: 21px; margin-left: -24px; font-size: 75%; 
+                       margin-top: 21px;
+                       background-color: snow; 
+                       padding: 6px 6px 6px 15px; }
                        .📧📧:hover { background: red; color: yellow; }
                p:highlight { background-color: #ff0000 ; }
 #TFOWolviesSong { /* -- 🎧 Chase Petra - Soapy Water -- 
 
                      -- 📕 Neil Gaiman's: The Sandman; "Personification of Delirium" --  */
                   /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
-
-                  /* but… wut is a broken link, wut is an incomplete profile link? 
-                     from computer video games, computer games ergh! */
                 }
