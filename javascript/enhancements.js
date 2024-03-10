@@ -16,17 +16,23 @@ select_list_icons_view += '	</option>';
 select_list_icons_view += '	<option value="select-list-view">';
 select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
 select_list_icons_view += '	</option>';
-// select_list_icons_view += '</select>';
-// document.getElementById('section-for-select-box').innerHTML = select_list_icons_view;
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
-document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
-linkedContent.innerHTML += instagram_huh;
+      document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
+      kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-icons'] }  }
 
-kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
+      function adjustOnlineAddy(newInnerHTML){
+      document.getElementById('current_online_addy').innerHTML = newInnerHTML.replace(https[1],'').replace('/','');
+      };
+      var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
+          socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
+          socialMediaDiv = document.getElementById('socialMediaChannelsCompleteContent');
+          linkedContent = document.getElementById('linkedContent');
+          socialMediaChannelsToggleLink1.onclick = toggle_views;
+          socialMediaChannelsToggleLink2.onclick = toggle_views;
+
 function toggle_views(){
 	index_for_view = document.getElementById('select-list-icons-view').selectedIndex,
-// 	index_for_view = select_list_icons_view.selectedIndex,
 	new_view = kaivong_com_objs['socialMediaDiv']['views'][index_for_view];
 	socialMediaDiv.setAttribute('class', new_view);
 	socialMediaDiv.setAttribute('data-view', new_view);
@@ -36,10 +42,8 @@ if(localStorage.key('kaivong_com_socialmedia_view')){
 	viewName = localStorage['kaivong_com_socialmedia_view'],
 	viewIndex = kaivong_com_objs['socialMediaDiv']['views'].indexOf(viewName);
 	document.getElementById('select-list-icons-view').selectedIndex = viewIndex;
-// 	select_list_icons_view.selectedIndex = viewIndex;
 	toggle_views();
 }
-
 javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
 javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
 	
@@ -48,8 +52,4 @@ function addHackOneLineStylesheetOnHTML(pageElement){
 	pageElement.innerHTML += read_page
 }
 addHackOneLineStylesheetOnHTML(HTML_page_optimizr_selector);
-
-
-
 document.getElementById('select-list-icons-view').onchange = toggle_views;
-// select_list_icons_view.onchange = toggle_views;
