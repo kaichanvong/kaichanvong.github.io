@@ -34,3 +34,4 @@ function addHackOneLineStylesheetOnHTML(pageElement){
 	pageElement.innerHTML += "<style> #off-page-markedup-lols2, .🐰 { position: absolute; left: -9999px; } </style>";         
 }
 addHackOneLineStylesheetOnHTML(HTML_page_optimizr_selector);
+document.getElementById('select-list-icons-view').onchange = toggle_views;
