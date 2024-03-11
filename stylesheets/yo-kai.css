@@ -16,7 +16,9 @@ body { font-size: 13px; }
 article.greets-back { max-width: 460px; padding-left: 33px; }
 
 .view-list #linkedContent,
-.view-icons #linkedContent { max-width: 290px; }
+.view-icons #linkedContent { max-width: 321px; }
+.has-javascript .view-list#socialMediaChannelsCompleteContent,
+.has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 321px; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; }
 .view-icons #linkedContent { padding: 0; margin-top: 0;}
 .view-icons #linkedContent li { min-width: 60px; }
@@ -186,5 +188,3 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
                   /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
                 }
 .neil-gaiman-line-rule { background: #aaaaaa; border-radius: 20px; height: 6px; outline: 0; border: 0;  }
-.has-javascript .view-list#socialMediaChannelsCompleteContent,
-.has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 321px; }
