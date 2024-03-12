@@ -133,7 +133,7 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
                .bio h1 {	float: left; 
 						    margin-right: 20px; 
 						    margin-left: 24px;}
-               .bio span { color: #111; }
+               .bio span { color: #666666; }
                a { text-decoration: none; }
                table.skeuo { width: 100%; }
                table td { vertical-align: top; }
