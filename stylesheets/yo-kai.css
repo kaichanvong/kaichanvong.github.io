@@ -55,12 +55,14 @@ font-size: 36px; position: relative; top: -10px; }
 														  	min-width: 21px;
 														  	 }
 														  	 
-														  	 
+/* .off-page-markedup-lols, */
+.javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
-/*off-page-markedup-lols1,
-off-page-markedup-lols2 { position: absolute; left: -9999px; }*/
 .off-page--HTML-only { position: absolute; left: -9999px; }
+
+.has-javascript .javascript-required { position: relative; left: 0;}
+
 #aboutContent a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
@@ -188,3 +190,6 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
                   /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
                 }
 .neil-gaiman-line-rule { background: #aaaaaa; border-radius: 20px; height: 6px; outline: 0; border: 0;  }
+#kaomoji { min-height: 100px; }
+.has-javascript #select-list-icons-view { display: inline-block !important; position: relative; left:0; }
+#off-page-markedup-lols2 { clear: both; text-align: center; }
