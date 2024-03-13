@@ -80,7 +80,7 @@ li#github-note-01,
   line-height: 1;
 }
 body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background-color: #f8f8fb; }
-			   html { padding: 0; margin: 0; cursor: pointer; }
+			   html { padding: 0; margin: 0; }
 		   em.emoji-waving-h { font-size: 92px; }
 		   td, tr, div { margin: 0; padding: 0; }
 
@@ -93,7 +93,6 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
 }
 .has-javascript .view-icons #linkedContent li.horizontal-placeholder {
   color: #333;
-  cursor: default;
   font-size: 18px;
   margin: 0 12px;
   min-height: 32px;
