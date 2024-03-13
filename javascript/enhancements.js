@@ -9,7 +9,6 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
 	HTML_page_optimizr_selector = document.getElementById('downpage-markedup-lols3');
 
 select_list_icons_view = '';
-// select_list_icons_view += '<select id="select-list-icons-view" style="display: none;">';
 select_list_icons_view += '	<option value="select-icons-view">';
 select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
 select_list_icons_view += '	</option>';
@@ -18,19 +17,10 @@ select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-v
 select_list_icons_view += '	</option>';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
-      document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
-      kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-icons'] }  }
+document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
+linkedContent.innerHTML += instagram_huh;
 
-      function adjustOnlineAddy(newInnerHTML){
-      document.getElementById('current_online_addy').innerHTML = newInnerHTML.replace(https[1],'').replace('/','');
-      };
-      var socialMediaChannelsToggleLink1 = document.getElementById('socialMediaChannelsToggleLink1'),
-          socialMediaChannelsToggleLink2 = document.getElementById('socialMediaChannelsToggleLink2'),
-          socialMediaDiv = document.getElementById('socialMediaChannelsCompleteContent');
-          linkedContent = document.getElementById('linkedContent');
-          socialMediaChannelsToggleLink1.onclick = toggle_views;
-          socialMediaChannelsToggleLink2.onclick = toggle_views;
-
+kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
 function toggle_views(){
 	index_for_view = document.getElementById('select-list-icons-view').selectedIndex,
 	new_view = kaivong_com_objs['socialMediaDiv']['views'][index_for_view];
@@ -44,6 +34,7 @@ if(localStorage.key('kaivong_com_socialmedia_view')){
 	document.getElementById('select-list-icons-view').selectedIndex = viewIndex;
 	toggle_views();
 }
+
 javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
 javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
 	
