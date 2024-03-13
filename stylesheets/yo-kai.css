@@ -138,10 +138,11 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
                table td { vertical-align: top; }
                table.link-to-contact aside h2 { font-family: Baskerville,serif; 
                									font-size: 28px; margin-bottom: 6px; }
-               table.link-to-contact aside { background: #F0F2F6; 
+               table.link-to-contact #aside-links { background: #F0F2F6; 
                                             color: #333; 
                                             padding: 0 18px 12px 0;  
                                             margin: 0 10px 0 0; 
+                                            max-width: 400px;
                                             border-bottom: 12px solid rgb(225, 225, 225); 
                                             position: relative; }			   
 			   table.link-to-contact aside table,
