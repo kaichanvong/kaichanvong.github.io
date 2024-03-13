@@ -54,8 +54,6 @@ font-size: 36px; position: relative; top: -10px; }
 														  	text-align: center;
 														  	min-width: 21px;
 														  	 }
-														  	 
-/* .off-page-markedup-lols, */
 .javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
@@ -183,11 +181,7 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
                        padding: 6px 6px 6px 15px; }
                        .📧📧:hover { background: red; color: yellow; }
                p:highlight { background-color: #ff0000 ; }
-#TFOWolviesSong { /* -- 🎧 Chase Petra - Soapy Water -- 
 
-                     -- 📕 Neil Gaiman's: The Sandman; "Personification of Delirium" --  */
-                  /* apparently, "he younger (eh?) sister of Dream, and the youngest (er-ok-but-eh??) of the Endless" */
-                }
 .neil-gaiman-line-rule { background: #aaaaaa; border-radius: 20px; height: 6px; outline: 0; border: 0;  }
 #kaomoji { min-height: 100px; }
 .has-javascript #select-list-icons-view { display: inline-block !important; position: relative; left:0; }
