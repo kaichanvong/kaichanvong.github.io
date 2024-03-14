@@ -214,14 +214,13 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
   @media (prefers-color-scheme: dark) {
   	body.screen { background-color: #141414; }
   	.bio { background-color: #3D0000; }
-  	table.link-to-contact #aside-links { background-color: #191919; }
-  	.view-list #linkedContent li:nth-child(odd) { background-color: #111; }
-  	textarea, select { background-color: #808080; }
+	.bio { border-bottom-color: #000; }
 	.bio:after,
   	table.link-to-contact aside:after { background-color: #333; }
+  	table.link-to-contact #aside-links { background-color: #191919; }
+  	.view-list #linkedContent li:nth-child(odd) { background-color: #111; }
   	table.link-to-contact #aside-links { border-bottom-color: rgb(53,53,153); border-bottom-color: #000; }
+  	textarea, select { background-color: #808080; }
   	.neil-gaiman-line-rule { background-color: #333; }
-	.bio { border-bottom-color: #000; }
-	.bio:after {}
   }
   
