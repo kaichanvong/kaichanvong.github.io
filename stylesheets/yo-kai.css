@@ -257,7 +257,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 
 
 
-#footer { background-color: #444; padding: 13px 44px 420px; margin: 40px 0 0;  }
+#footer { background-color: #444; padding: 13px 44px 40px; margin: 40px 0 0;  }
 .discover-pictures { max-width: 400px; vertical-align: text-top; }
 #pictures-ol-tbd {min-width: 200px; }
 #pictures-ol-tbd ul {list-style: none;}
