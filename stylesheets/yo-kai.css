@@ -12,7 +12,6 @@ stylesheet-about: direction kinda links (in HTML) to HEY! (http://hey.com)
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
 	   url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 /* url("../fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") */
-body { font-size: 14px; line-height: 1.4; }
 article.greets-back { max-width: 460px; padding-left: 33px; }
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 321px; }
@@ -74,8 +73,8 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-body.screen { color: #bbb; font-family: arial; 
-			  padding: 0; margin: 0;
+body.screen { color: #bbb; font-family: arial; font-size: 13px; 
+			  padding: 0; margin: 0; line-height: 1.3;
 			  background-color: #f8f8fb; }
 			   html { padding: 0; margin: 0; }
 		   em.emoji-waving-h { font-size: 92px; }
@@ -139,9 +138,9 @@ body.screen { color: #bbb; font-family: arial;
                									font-size: 28px; margin-bottom: 6px; }
                table.link-to-contact #aside-links { background: #F0F2F6; 
                                             color: #333; 
-                                            padding: 0 18px 12px 0;  
+                                            padding: 20px 60px 12px 0;  
                                             margin: 0 10px 0 0; 
-                                            max-width: 400px;
+                                            max-width: 400px; 
                                             border-bottom: 12px solid rgb(225, 225, 225); 
                                             position: relative; }			   
 			   table.link-to-contact aside table,
@@ -151,7 +150,7 @@ body.screen { color: #bbb; font-family: arial;
 			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks { float: right; 
 			   								text-align: right; 
-			   								padding-right: 30px; }
+			   								padding-right: 0px; padding-top: 0; }
 			   #digitalIdentityContent .view-icons #linkedContent {  clear: both; 
 			   										     			padding-left: 10pt; }
 			   #digitalIdentityContent .view-icons #linkedContent a { padding-right: 4pt;}
