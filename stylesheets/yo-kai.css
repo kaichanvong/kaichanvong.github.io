@@ -12,8 +12,7 @@ stylesheet-about: direction kinda links (in HTML) to HEY! (http://hey.com)
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
 	   url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 /* url("../fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") */
-}
-body { font-size: 13px; }
+body { font-size: 14px; line-height: 1.4; }
 article.greets-back { max-width: 460px; padding-left: 33px; }
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 321px; }
@@ -75,7 +74,9 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background-color: #f8f8fb; }
+body.screen { color: #bbb; font-family: arial; 
+			  padding: 0; margin: 0;
+			  background-color: #f8f8fb; }
 			   html { padding: 0; margin: 0; }
 		   em.emoji-waving-h { font-size: 92px; }
 		   td, tr, div { margin: 0; padding: 0; }
