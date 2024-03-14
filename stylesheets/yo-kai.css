@@ -215,6 +215,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     width: 220px; }
+#pic-2 li,
 #pic-japan li { border: 4px solid #0a0a0a;
 				display: inline-block;
 				float: none;
@@ -228,7 +229,8 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 #picture-discovery h2,
 #picture-discovery h3 { margin: 0 0 0 33px; color: rgb(53,53,153); }
 #picture-discovery h3 { border-bottom: 12px solid ; }
-#picture-discovery ul#pic-japan { padding: 0; margin: 0 0 0 33px; }
+#picture-discovery ul#pic-japan,
+#picture-discovery ul#pic-2 { padding: 0; margin: 0 0 0 33px; }
 
   @media (prefers-color-scheme: dark) {
   	body.screen { background-color: #141414; }
@@ -242,7 +244,8 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
   	.neil-gaiman-line-rule { background-color: #333; }
 	article.greets-back p { color: rgb(75, 75, 75); }
   	em.spoken-outloud, strong.emoji-search-result { color: #aaa; }
-  	#pic-japan {scrollbar-color: #000; overflow: hidden; }
+  	#picture-discovery #pic-japan,
+  	#picture-discovery #pic-2 {scrollbar-color: #000; overflow: hidden; }
   }
 .haz-info { cursor: pointer; }
 #picture-discovery .discover-pictures { display: inline-block; }
@@ -250,3 +253,4 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
    table.link-to-contact #aside-links { padding-right: 6px; } /* 11 */
 /* #socialMediaChannelsCompleteContent { border-right: 3px solid #fff; } */
 #footer { background-color: #444; padding: 13px 44px 420px; margin: 40px 0 0;  }
+.discover-pictures { max-width: 400px; vertical-align: text-top; }
