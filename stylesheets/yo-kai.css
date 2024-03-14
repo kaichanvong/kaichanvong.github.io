@@ -225,5 +225,5 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
   	.neil-gaiman-line-rule { background-color: #333; }
 	article.greets-back p { color: rgb(75, 75, 75); }
   	em.spoken-outloud, strong.emoji-search-result { color: #aaa; }
+  	#pic-japan {scrollbar-color: #000; overflow: hidden; }
   }
-  
