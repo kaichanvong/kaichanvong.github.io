@@ -14,7 +14,6 @@ stylesheet-about: direction kinda links (in HTML) to HEY! (http://hey.com)
 }
 body { font-size: 13px; }
 article.greets-back { max-width: 460px; padding-left: 33px; }
-
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 321px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
@@ -58,9 +57,7 @@ font-size: 36px; position: relative; top: -10px; }
 #NavigationAtTop,
 #NavigationAtBottom,
 .off-page--HTML-only { position: absolute; left: -9999px; }
-
 .has-javascript .javascript-required { position: relative; left: 0;}
-
 #aboutContent a span:after,
 .z-bar-1 .icon,
 li#github-note-01,
@@ -187,3 +184,29 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
 #kaomoji { min-height: 100px; }
 .has-javascript #select-list-icons-view { display: inline-block !important; position: relative; left:0; }
 #off-page-markedup-lols2 { clear: both; text-align: center; }
+#pic-japan {   background-color: #0a0a0a;
+    border: 4px solid #0a0a0a;
+    display: inline-block;
+    height: 220px;
+    line-height: 1;
+    margin: 0 0 10px 44px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    width: 220px; }
+#pic-japan li { border: 4px solid #0a0a0a;
+				display: inline-block;
+				float: none;
+				margin-left: 0;
+				margin-right: 0;
+				max-height: 220px;
+				max-width: 220px;
+				scroll-snap-align: none center;
+				vertical-align: top; }
+#picture-discovery { margin-left: -33px; padding-left: 33px; }
+#picture-discovery h2,
+#picture-discovery h3 { margin: 0 0 0 33px; color: rgb(53,53,153); }
+#picture-discovery h3 { border-bottom: 12px solid ; }
+#picture-discovery ul#pic-japan { padding: 0; margin: 0 0 0 33px; }
