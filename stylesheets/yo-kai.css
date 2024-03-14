@@ -40,7 +40,7 @@ article.greets-back { max-width: 460px; padding-left: 33px; }
 														  	line-height: 1.2; }
 .has-javascript .view-icons #linkedContent li.bi a span strong { display: inline-block;  
 														  	overflow: hidden; 
-/* 														  	text-indent: -9999px;   */
+														  	text-indent: -9999px;  
 														  	}
 
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before { 
@@ -56,12 +56,12 @@ position: relative;
 														  	text-align: center;
 /* 														  	min-width: 21px; */
 														  	 }
-/* 
+
 .javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
 .off-page--HTML-only { position: absolute; left: -9999px; }
- */
+
 .has-javascript .javascript-required { position: relative; left: 0;}
 #aboutContent a span:after,
 .z-bar-1 .icon,
@@ -172,8 +172,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks { text-align: right; 
 							    			   							 padding: 0 20px 9px; }
-			   #digitalIdentityContent .view-icons #linkedContent {  clear: both; 
-			   										     			padding-left: 10pt; }
+			   #digitalIdentityContent .view-icons #linkedContent { clear: both; }
 			   #digitalIdentityContent .view-icons #linkedContent a { padding-right: 4pt;}
                table.link-to-contact aside:after { content: ' '; 
                background-color: rgb(165, 165, 165); height: 6px; display: block; 
