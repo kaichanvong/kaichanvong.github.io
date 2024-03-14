@@ -117,6 +117,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
    #digitalIdentityContent { padding: 0 0 0 24px; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
+   a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA; text-shadow: 4px 4px 6px #fff; }
                .bio { background-color: rgb(0,50,0); 
                			color: #7F7800; 
 		                border-bottom: rgb(225, 225, 225) 15px solid; 
