@@ -120,24 +120,41 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                .bio { background-color: rgb(0,50,0); 
                			color: #7F7800; 
 		                border-bottom: rgb(225, 225, 225) 15px solid; 
+		                overflow: hidden;
                       padding: 30px 0 10px; position: relative;  }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 13px; 
                         			      display: block; position: absolute; 
 					                      bottom: -15px; left: 3px; right: 3px; 
                             border-radius:20px; }
-               .bio h1 {	float: left; 
+               .bio h1 {	max-width: 360px; display: inline-block;
 						    margin-right: 20px; 
 						    margin-left: 24px;}
+						    .bio img { float: left; margin-right: 24px;margin-left: 12px; }
                .bio span { color: #666666; }
                a { text-decoration: none; }
                table.skeuo { width: 100%; }
                table td { vertical-align: top; }
                table.link-to-contact aside h2 { font-family: Baskerville,serif; 
-               									font-size: 28px; margin-bottom: 6px; }
+               									font-size: 28px; margin-bottom: 6px; 
+               													 margin-top: 0;}
+               								table.link-to-contact .sidebar .skeuo h2 {					 
+               													 background-color: #fff;
+               													 box-shadow: rgb(0,0,0,.15) 0px -13px 21px 2px;
+               													 margin: -50px -18px 0 -12px;
+               													 padding: 6px 12px 12px 6px;
+               													 border-radius: 10px 10px 0 0;
+               													 border-bottom: 4px solid #ccc;
+               													 text-align: center;
+
+               													  }
+               								table.link-to-contact .skeuo .external-links{
+               													margin-top: 0;
+               													padding-top: 10px;
+               								  }
                table.link-to-contact #aside-links { background: #F0F2F6; 
                                             color: #333; 
-                                            padding: 20px 42px 12px 0;  
+                                            padding: 20px 33px 12px 0;
                                             margin: 0 10px 0 0; 
                                             max-width: 400px; 
                                             border-bottom: 12px solid rgb(225, 225, 225); 
@@ -179,7 +196,9 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                        .📧📧:hover { background: red; color: yellow; }
                p:highlight { background-color: #ff0000 ; }
 
-.neil-gaiman-line-rule { background: #aaaaaa; border-radius: 20px; height: 6px; outline: 0; border: 0;  }
+.neil-gaiman-line-rule { background: #fff; 
+						border-radius: 20px; height: 6px; 
+						outline: 0; border: 0; margin-top: 97px; margin-bottom: 13px;  }
 #kaomoji { min-height: 100px; }
 .has-javascript #select-list-icons-view { display: inline-block !important; position: relative; left:0; }
 #off-page-markedup-lols2 { clear: both; text-align: center; }
@@ -225,5 +244,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
   	#pic-japan {scrollbar-color: #000; overflow: hidden; }
   }
 .haz-info { cursor: pointer; }
-
 #picture-discovery .discover-pictures { display: inline-block; }
+/* #aside-links table.skeuo { padding-right: 27px; border-right: 3px solid #fff; }
+   table.link-to-contact #aside-links { padding-right: 6px; } /* 11 */
+/* #socialMediaChannelsCompleteContent { border-right: 3px solid #fff; } */
