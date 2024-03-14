@@ -114,8 +114,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
    em.spoken-outloud,
    strong.emoji-search-result { color: #222; }
    span.from-pinyin-in-book-plus-online { color: #222; }
-   article,
-   #digitalIdentityContent { padding: 0; } 
+   #digitalIdentityContent { padding: 0 0 0 24px; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
                .bio { background-color: rgb(0,50,0); 
@@ -138,19 +137,17 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                									font-size: 28px; margin-bottom: 6px; }
                table.link-to-contact #aside-links { background: #F0F2F6; 
                                             color: #333; 
-                                            padding: 20px 60px 12px 0;  
+                                            padding: 20px 42px 12px 0;  
                                             margin: 0 10px 0 0; 
                                             max-width: 400px; 
                                             border-bottom: 12px solid rgb(225, 225, 225); 
                                             position: relative; }			   
 			   table.link-to-contact aside table,
-			   #digitalIdentityContent h2,
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
 			   #digitalIdentityContent .view-list #linkedContent a { padding-left: 24px; }
 			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
-			   #digitalIdentityContent #socialMediaChannelsToggleLinks { float: right; 
-			   								text-align: right; 
-			   								padding-right: 0px; padding-top: 0; }
+			   #digitalIdentityContent #socialMediaChannelsToggleLinks { text-align: right; 
+							    			   							 padding: 20px; }
 			   #digitalIdentityContent .view-icons #linkedContent {  clear: both; 
 			   										     			padding-left: 10pt; }
 			   #digitalIdentityContent .view-icons #linkedContent a { padding-right: 4pt;}
