@@ -1,3 +1,4 @@
+
 /* 
 stylesheet-author: @kaichanvong
 stylesheet-name: yo-kai.css
@@ -216,8 +217,7 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
   	body.screen { background-color: #141414; }
   	.bio { background-color: #3D0000; }
 	.bio { border-bottom-color: #000; }
-	.bio:after,
-  	table.link-to-contact aside:after { background-color: #333; }
+	.bio:after, table.link-to-contact aside:after { background-color: #333; }
   	table.link-to-contact #aside-links { background-color: #191919; }
   	.view-list #linkedContent li:nth-child(odd) { background-color: #111; }
   	table.link-to-contact #aside-links { border-bottom-color: rgb(53,53,153); border-bottom-color: #000; }
@@ -227,3 +227,4 @@ body.screen { color: #bbb; font-family: arial; padding: 0; margin: 0; background
   	em.spoken-outloud, strong.emoji-search-result { color: #aaa; }
   	#pic-japan {scrollbar-color: #000; overflow: hidden; }
   }
+.haz-info { cursor: pointer; }
