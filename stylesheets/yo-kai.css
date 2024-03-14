@@ -225,3 +225,5 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
   	#pic-japan {scrollbar-color: #000; overflow: hidden; }
   }
 .haz-info { cursor: pointer; }
+
+#picture-discovery .discover-pictures { display: inline-block; }
