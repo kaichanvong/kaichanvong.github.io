@@ -11,7 +11,7 @@ stylesheet-about: direction kinda links (in HTML) to HEY! (http://hey.com)
   font-family: "bootstrap-icons";
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
 	   url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
-/* url("../fonts/bootstrap-1.11.0-icons.woff?a74547b2f0863226942ff8ded57db345") */
+
 article.greets-back { max-width: 460px; padding-left: 33px; }
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 321px; }
@@ -19,7 +19,7 @@ article.greets-back { max-width: 460px; padding-left: 33px; }
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 321px; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; }
 .view-icons #linkedContent { padding: 0; margin-top: 0;}
-/* .view-icons #linkedContent li { min-width: 60px; } */
+
 .view-list ol#linkedContent { list-style: none; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 48px; margin: 0 7pt; }
@@ -47,14 +47,14 @@ article.greets-back { max-width: 460px; padding-left: 33px; }
 background-color: rgb(53,53,153); color: #fff; padding: 0 14px 10px; margin: 0 3px; 
 font-size: 36px; 
 position: relative; 
-/* top: -10px;  */
+
 }
 #linkedContent li.bi-chess a span:before,
 .has-javascript .view-icons #linkedContent li.bi-chess a span:before {
 														  	content: "\265C"; 
 														  	line-height: 1; 
 														  	text-align: center;
-/* 														  	min-width: 21px; */
+
 														  	 }
 
 .javascript-required,
@@ -98,12 +98,12 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
   font-size: 18px;
   margin: 0 12px;
   min-height: 32px;
-/*   min-width: 32px; */
+
   outline: solid 3px #fff;
   padding: 4px;
   position: relative;
   text-align: center;
-/*   top: -15px; */
+
 }
 														  	 
 .view-list #linkedContent li:nth-child(odd) { background-color: rgb(235,235,235); }
@@ -128,11 +128,11 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                			color: #7F7800; 
 		                border-bottom: rgb(225, 225, 225) 15px solid; 
 		                overflow: hidden;
-                      padding: 30px 0 10px; position: relative;  }    
+                      	padding: 30px 0 10px; position: relative; line-height: 1;  }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 13px; 
                         			      display: block; position: absolute; 
-/* 					                      bottom: -15px; left: 3px; right: 3px;  */
+
                             border-radius:20px; }
                .bio h1 {	max-width: 360px; display: inline-block;
 						    margin-right: 20px; 
@@ -140,7 +140,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 						    .bio img { float: left; margin-right: 24px;margin-left: 12px; }
                .bio span { color: #666666; }
                a { text-decoration: none; }
-/*                table.skeuo { width: 100%; } */
+
                table td { vertical-align: top; }
                table.link-to-contact aside h2 { font-family: Baskerville,serif; 
                									font-size: 28px; margin-bottom: 6px; 
@@ -181,7 +181,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                table.link-to-contact aside:after { content: ' '; 
                background-color: rgb(165, 165, 165); height: 6px; display: block; 
                position: absolute; 
-/*                bottom: -9px;  */
+
                left: 3px; right: 3px; 
                border-radius:20px; }
                table.link-to-contact aside span.pineapple.discombobulation { 
@@ -194,7 +194,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 													color: orange;
 													padding: 0 10px; }               
                article.greets-back p span.external-links span { font-size: 75%; }
-/*                p.highlight-text.int-rest-focuses { margin-left: -3px; } */
+
                p.highlight-text.int-rest-focuses span {  background: #ffaa00; 
 														 color: #333; 
 														 padding: 3px 9px 3px 3px; }
@@ -230,7 +230,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 				max-width: 220px;
 				scroll-snap-align: none center;
 				vertical-align: top; }
-/* #picture-discovery { margin-left: -33px; padding-left: 33px; } */
+
 #picture-discovery h2,
 #picture-discovery h3 { margin: 0 0 0 33px; color: rgb(53,53,153); }
 #picture-discovery h3 { border-bottom: 12px solid ; }
@@ -239,8 +239,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 
   @media (prefers-color-scheme: dark) {
   	body.screen { background-color: #141414; }
-  	.bio { background-color: #3D0000; }
-	.bio { border-bottom-color: #000; }
+  	.bio { background-color: #3D0000; border-bottom-color: #000; }
 	.bio:after, table.link-to-contact aside:after { background-color: #333; }
   	table.link-to-contact #aside-links { background-color: #191919; }
   	.view-list #linkedContent li:nth-child(odd) { background-color: #111; }
@@ -255,9 +254,9 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 .haz-info { cursor: pointer; }
 .haz-info:hover,.haz-info:focus,.haz-info:active { color: #999;  }
 #picture-discovery .discover-pictures { display: inline-block; }
-/* #aside-links table.skeuo { padding-right: 27px; border-right: 3px solid #fff; }
-   table.link-to-contact #aside-links { padding-right: 6px; } /* 11 */
-/* #socialMediaChannelsCompleteContent { border-right: 3px solid #fff; } */
+
+
+
 #footer { background-color: #444; padding: 13px 44px 420px; margin: 40px 0 0;  }
 .discover-pictures { max-width: 400px; vertical-align: text-top; }
 #pictures-ol-tbd {min-width: 200px; }
