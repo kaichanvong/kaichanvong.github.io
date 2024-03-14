@@ -275,3 +275,4 @@ body#body-level-layer1 #emoji–Kaomoji
 { text-align: left;
 }
 #footer a { color: orange; }
+#footer a:hover { text-shadow: none; text-decoration: underline; }
