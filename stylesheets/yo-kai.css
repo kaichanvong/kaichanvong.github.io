@@ -168,7 +168,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
                                             position: relative; }			   
 			   table.link-to-contact aside table,
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
-			   #digitalIdentityContent .view-list #linkedContent a { padding: 6px 6px 6px 24px;
+			   #digitalIdentityContent .view-list #linkedContent a { padding: 12px 6px 6px 24px;
 			   														 display: block; }
 			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks { text-align: right; 
