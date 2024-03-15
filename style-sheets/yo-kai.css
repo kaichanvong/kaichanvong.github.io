@@ -229,10 +229,10 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
 				vertical-align: top; }
 
 #picture-discovery h2,
-#picture-discovery h3 { margin: 0; color: rgb(53,53,153); }
+#picture-discovery h3 { margin: 0 33px 0 0; color: rgb(53,53,153); }
 #picture-discovery h3 { border-bottom: 12px solid ; }
 #picture-discovery ul#pic-japan,
-#picture-discovery ul#pic-2 { padding: 0; margin: 0; }
+#picture-discovery ul#pic-2 { padding: 0; margin: 0 33px 0 0 ; }
 
   @media (prefers-color-scheme: dark) {
   	body.screen { background-color: #141414; }
