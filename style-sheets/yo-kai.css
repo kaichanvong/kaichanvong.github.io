@@ -268,8 +268,6 @@ body#body-level-layer1 #container-crimsonkinda  { width: 100%;
 body#body-level-layer1 table,
 body#body-level-layer1 p,
 body#body-level-layer1 li,
-body#body-level-layer1 #emoji–Kaomoji
-{ text-align: left;
-}
+body#body-level-layer1 #emoji { text-align: left; }
 #footer a { color: orange; }
 #footer a:hover { text-shadow: none; text-decoration: underline; }
