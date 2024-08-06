@@ -22,8 +22,8 @@ article.greets-back { max-width: 460px; }
 																	height: 48px; }
 .has-javascript .view-list #linkedContent li span:before,
 .has-javascript .view-list #linkedContent li img { position: relative; top: 5px; }
-.view-list #linkedContent a span:before { margin-right: 9px; }
-.view-list #linkedContent li.bi { padding: 8px 0 4px; clear: both; }
+.view-list #linkedContent a span:before { margin-right: 14px; }
+.view-list #linkedContent li.bi { padding: 8px 0 4px 4px; clear: both; }
 .view-icons #linkedContent li.bi { padding: 0px 0px 10px; margin: 0 6px 0 0; }
 #linkedContent li.bi-instagram a span:before { 	content: "\f437"; }
 #linkedContent li.bi-facebook a span:before { 	content: "\f344";  }
@@ -114,7 +114,7 @@ body.screen { color: #bbb; font-family: arial; font-size: 13px;
    em.spoken-outloud,
    strong.emoji-search-result { color: #222; }
    span.from-pinyin-in-book-plus-online { color: #222; }
-   #digitalIdentityContent { padding: 0 0 0 24px; text-align: center; } 
+   #digitalIdentityContent { padding: 0; text-align: center; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
@@ -124,7 +124,7 @@ text-shadow: 4px 4px 6px #fff; }
 								position: relative; line-height: 1; 
 }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
-               							  height: 13px; 
+               							  height: 21px; 
                         			      display: block; position: absolute; 
 
                             border-radius:20px; }
@@ -169,10 +169,9 @@ text-shadow: 4px 4px 6px #fff; }
                                             position: relative; }			   
 			   table.link-to-contact aside table,
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
-			   #digitalIdentityContent .view-list #linkedContent a { padding: 12px 6px
-			   #6px 24px;
+			   #digitalIdentityContent .view-list #linkedContent a { padding: 12px 6px 6px 10px;
 			   														 display: block; }
-			   #digitalIdentityContent h2 { float: left; padding-bottom: 0; }
+			   #digitalIdentityContent h2 { float: left; padding: 0 0 0 10px; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks {
 					text-align: right; 
 					top: 10px;  
