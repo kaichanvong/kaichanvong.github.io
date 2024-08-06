@@ -6,7 +6,7 @@
 
 article.greets-back { max-width: 460px; }
 .view-list #linkedContent,
-.view-icons #linkedContent { max-width: 321px; }
+.view-icons #linkedContent { max-width: 430px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 321px;
 }
