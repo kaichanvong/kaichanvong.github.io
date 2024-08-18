@@ -135,7 +135,7 @@ text-shadow: 4px 4px 6px #fff; }
          		table.link-to-contact .sidebar .skeuo h2 {					 
                						background-color: #fff;
                						box-shadow: rgb(0,0,0,.15) 0px -13px 21px 2px;
-											margin: -32px 12px 12px 6px;
+											margin: -32px 12px 22px 6px;
      										border-radius: 10px 10px 0 0;
 				                  	border-bottom: 4px solid #ccc;
             				   		text-align: center; }
@@ -266,7 +266,11 @@ body#body-level-layer1 #emoji–Kaomoji
 }
 #footer a { color: orange; }
 #footer a:hover { text-shadow: none; text-decoration: underline; }
-
+table.link-to-contact .sidebar .skeuo h2 span.host-note { font-size: 12px;
+	color: #a1a1a1; display: block; }
+table.link-to-contact #aside-links p {
+	font-size: 12px;
+}
 @media only screen and (max-device-width: 480px){
 	body { font-size: 2vh; }
    .bio h1 { font-size: 0.9em; max-width: 100%; }
@@ -278,4 +282,5 @@ body#body-level-layer1 #emoji–Kaomoji
 	.view-icons #linkedContent a span:before { font-size: 3em; }
 	.view-list #linkedContent, .view-icons #linkedContent { max-width: 100%;}
 	.has-javascript #select-list-icons-view { font-size: 1em; }
+	#footer p { font-size: 12px;}
 }
