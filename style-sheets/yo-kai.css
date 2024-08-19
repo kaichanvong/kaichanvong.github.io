@@ -214,7 +214,7 @@ position: relative; left:0; color: #a3a3a3;  }
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     width: 220px; }
-#portfolio { width: 80%; min-height: 550px; } 
+#portfolio { width: 80%; min-height: 550px; display: block;} 
 #portfolio img { vertical-align: top; }
 #pic-2 li,
 #pic-japan li { border: 4px solid #0a0a0a;
