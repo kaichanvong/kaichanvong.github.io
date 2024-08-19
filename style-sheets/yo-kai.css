@@ -215,7 +215,6 @@ position: relative; left:0; color: #a3a3a3;  }
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     width: 220px; }
-table.link-to-contact #aside-links p { max-width: 450px;}
 #portfolio { width: 80%; min-height: 400px; display: block; background-color: #ddd;} 
 #portfolio img { vertical-align: top; margin: 100px 0 0; }
 #portfolio .long-png-img { margin: 0;}
@@ -278,7 +277,6 @@ table.link-to-contact #aside-links p {
 	font-size: 12px;
 }
 @media only screen and (max-device-width: 480px){
-	body { font-size: 2vh; }
    .bio h1 { font-size: 0.9em; max-width: 100%; }
    .bio h1 { font-size: 0.9em; max-width: 100%; }
 	#linkedContent a span:before { font-size: 1.4em; 
@@ -290,3 +288,6 @@ table.link-to-contact #aside-links p {
 	.has-javascript #select-list-icons-view { font-size: 1em; }
 	#footer p { font-size: 12px;}
 }
+table.link-to-contact #aside-links p,
+#aside-links p { font-size: 3vh; }
+/* table.link-to-contact #aside-links p { max-width: 450px;} */
