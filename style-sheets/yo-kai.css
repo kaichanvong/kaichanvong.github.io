@@ -109,7 +109,7 @@ td, tr, div { margin: 0; padding: 0; }
    em.spoken-outloud,
    strong.emoji-search-result { color: #222; }
    span.from-pinyin-in-book-plus-online { color: #222; }
-   #digitalIdentityContent { padding: 0 2px; text-align: center; max-width: 1000px; } 
+   #digitalIdentityContent { padding: 0 2px; text-align: center; width: 80%; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
