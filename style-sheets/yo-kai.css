@@ -109,7 +109,7 @@ td, tr, div { margin: 0; padding: 0; }
    em.spoken-outloud,
    strong.emoji-search-result { color: #222; }
    span.from-pinyin-in-book-plus-online { color: #222; }
-   #digitalIdentityContent { padding: 0 2px; text-align: center; width: 80%; } 
+   #digitalIdentityContent { padding: 0 2px; text-align: center; } 
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
@@ -215,7 +215,8 @@ position: relative; left:0; color: #a3a3a3;  }
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     width: 220px; }
-#portfolio { width: 80%; min-height: 400px; display: block; background-color: #ddd;} 
+#digitalIdentityContent, #portfolio { width: 80%; } 
+#portfolio { min-height: 400px; display: block; background-color: #ddd;} 
 #portfolio img { vertical-align: top; margin: 100px 0 0; }
 #portfolio .long-png-img { margin: 0;}
 #pic-2 li,
