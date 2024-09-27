@@ -10,7 +10,7 @@ article.greets-back { max-width: 460px; }
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { 
 																	min-height: 151px; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; }
-.view-icons #linkedContent { padding: 0; margin-top: 0;}
+.view-icons #linkedContent { padding: 0; margin-top: 0; }
 .view-list ol#linkedContent { list-style: none; position: absolute; background-color: #ffffff; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 48px; margin: 0 7pt; }
@@ -163,13 +163,8 @@ text-shadow: 4px 4px 6px #fff; }
 					top: 10px;  
 					position: relative; 
 					padding: 0 20px 9px; }
-			   #digitalIdentityContent .view-icons #linkedContent { clear: both; min-width: 430px; background-color: #ffffff; }
-			   #digitalIdentityContent .view-icons #linkedContent a { padding-right:
-			   #12px 3px;
-			   			   			   			   			   		margin-right:
-9px;
-			   					   					   				display: block;
-			   					   					   				float: left; }
+			   #digitalIdentityContent .view-icons #linkedContent { clear: both; min-width: 430px; background-color: #f8f8fb; }
+			   #digitalIdentityContent .view-icons #linkedContent a { padding: 12px 3px; margin-right: 9px; display: block; float: left; }
                table.link-to-contact aside:after { content: ' '; 
                background-color: rgb(165, 165, 165); height: 6px; display: block; 
                position: absolute; 
