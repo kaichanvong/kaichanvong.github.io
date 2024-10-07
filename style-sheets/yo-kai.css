@@ -7,10 +7,11 @@ article.greets-back { max-width: 460px; }
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 430px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
-.has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 151px; }
-.view-list #linkedContent { padding-left: 0; margin-top: 0; min-width: 460px; }
-.view-icons #linkedContent { padding: 0; margin-top: 0; }
-.view-list ol#linkedContent { list-style: none; position: absolute; background-color: #ffffff; }
+.has-javascript .view-icons#socialMediaChannelsCompleteContent { 
+																	min-height: 151px; }
+.view-list #linkedContent { padding-left: 0; margin-top: 0; }
+.view-icons #linkedContent { padding: 0; margin-top: 0;}
+.view-list ol#linkedContent { list-style: none; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 48px; margin: 0 7pt; }
 .has-javascript .view-list #linkedContent li.logomark-github {padding:0 0 18px;}
@@ -69,12 +70,14 @@ li#github-note-01,
   text-transform: none;
   line-height: 1;
 }
-body.screen { color: #bbb; font-family: arial; 
+body.screen { color: #bbb; 
+				  font-family: arial; 
 			  	  padding: 0; margin: 0; line-height: 1.3;
 			  	  background-color: #f8f8fb; }
 html { padding: 0; margin: 0; }
 em.emoji-waving-h { font-size: 92px; }
 td, tr, div { margin: 0; padding: 0; }
+span.huh-contact { background-color: #EFB219; margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 
 #linkedContent {}
 .has-javascript .view-list #linkedContent .bi.horizontal-placeholder {
@@ -108,7 +111,9 @@ td, tr, div { margin: 0; padding: 0; }
    em.spoken-outloud,
    strong.emoji-search-result { color: #222; }
    span.from-pinyin-in-book-plus-online { color: #222; }
-   #digitalIdentityContent { padding: 0 2px; text-align: center; } 
+	#aside-links,
+   #digitalIdentityContent { padding: 0 2px; text-align: center; max-width: 1000px; } 
+	#aside-links { max-width: 1018px; }
    tr.containment-field { background-color: #66FFFF; overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
@@ -129,6 +134,7 @@ text-shadow: 4px 4px 6px #fff; }
                a { text-decoration: none; }
 
                table td { vertical-align: top; }
+					table.link-to-contact { display: block; }
                table.link-to-contact aside h2 { font-family: Baskerville,serif; 
                											margin-bottom: 6px; 
 		               									margin-top: 0;}
@@ -140,30 +146,29 @@ text-shadow: 4px 4px 6px #fff; }
 				                  	border-bottom: 4px solid #ccc;
             				   		text-align: center; }
                								table.link-to-contact .skeuo
-.external-links{
-               													margin-top: 21px;
-               								  }
+.external-links{ font-family: 'Comic Neue', handwriting; }
 					#digitalIdentityContent,
-  	table.link-to-contact #aside-links p { padding: 0 30px; }
-               table.link-to-contact #aside-links { background: #F0F2F6; 
-                                            color: #333; 
-                                            margin: 20px 0 12px 0;
-                                            
+ #aside-links p { padding: 0 20px 0 40px; }
+                #aside-links { background: #F0F2F6; 
+                                            color: #333;                                             
                                             border-bottom: 12px solid rgb(225, 225,
-225); 
-                                            position: relative; }			   
+225);  }			   
 			   table.link-to-contact aside table,
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
-			   #digitalIdentityContent .view-list #linkedContent a { padding: 12px 6px 6px 10px;
-			   														 display: block; }
+			   #digitalIdentityContent .view-list #linkedContent a { display: block; }
 			   #digitalIdentityContent h2 { float: left; padding: 0 0 0 10px; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks {
 					text-align: right; 
 					top: 10px;  
 					position: relative; 
 					padding: 0 20px 9px; }
-			   #digitalIdentityContent .view-icons #linkedContent { clear: both; min-width: 430px; background-color: #f8f8fb; }
-			   #digitalIdentityContent .view-icons #linkedContent a { padding: 12px 3px; margin-right: 9px; display: block; float: left; }
+			   #digitalIdentityContent .view-icons #linkedContent { clear: both; }
+			   #digitalIdentityContent .view-icons #linkedContent a { padding-right:
+			   #12px 3px;
+			   			   			   			   			   		margin-right:
+9px;
+			   					   					   				display: block;
+			   					   					   				float: left; }
                table.link-to-contact aside:after { content: ' '; 
                background-color: rgb(165, 165, 165); height: 6px; display: block; 
                position: absolute; 
@@ -209,8 +214,8 @@ position: relative; left:0; color: #a3a3a3;  }
     scroll-snap-type: x mandatory;
     white-space: nowrap;
     width: 220px; }
-#digitalIdentityContent, #portfolio { width: 80%; } 
-#portfolio { min-height: 400px; display: block; background-color: #ddd;} 
+
+#portfolio { width: 80%; min-height: 400px; display: block; background-color: #ddd;} 
 #portfolio img { vertical-align: top; margin: 100px 0 0; }
 #portfolio .long-png-img { margin: 0;}
 #pic-2 li,
@@ -235,12 +240,11 @@ position: relative; left:0; color: #a3a3a3;  }
 	.bio:after,
 	table.link-to-contact aside:after { background-color: #333; }
   	table.link-to-contact #aside-links { background-color: #191919; }
-	.view-list ol#linkedContent { background-color: #EEEEEE; } /* li:nth-child(even) */
-	.view-list #linkedContent li:nth-child(odd) { background-color: #111111; }
-  	table.link-to-contact #aside-links { border-bottom-color: rgb(53,53,153); border-bottom-color: #000; }
+  	.view-list #linkedContent li:nth-child(odd) { background-color: #111; }
+  	table.link-to-contact #aside-links { border-bottom-color: rgb(53,53,153);
+													 border-bottom-color: #000; }
   	textarea, 
 	select { background-color: #808080; }
-	#digitalIdentityContent .view-icons #linkedContent { background-color: #141414; }
 	article.greets-back p { color: rgb(75, 75, 75); }
   	em.spoken-outloud, strong.emoji-search-result { color: #aaa; }
   	#picture-discovery #pic-japan,
