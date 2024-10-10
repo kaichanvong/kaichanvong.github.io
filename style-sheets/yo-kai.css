@@ -126,7 +126,7 @@ text-shadow: 4px 4px 6px #fff; }
                         			      display: block; position: absolute; 
 
                             border-radius:20px; }
-               .bio h1 { max-width: 360px; 
+               .bio h1 { max-width: 360px;     font-size: 32px;
 								display: inline-block; 
 						       margin-left: 24px;}
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; }
