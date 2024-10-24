@@ -9,18 +9,15 @@ article.greets-back { max-width: 460px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { 
 																	min-height: 151px; }
-.view-list #linkedContent { padding-left: 0; margin-top: 0; }
+.view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
 .view-icons #linkedContent { padding: 0; margin-top: 0;}
 .view-list ol#linkedContent { list-style: none; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 64px; margin: 0 7pt; }
 .has-javascript .view-list #linkedContent li.logomark-github {padding:0 0 18px;}
-.has-javascript .view-icons #linkedContent li.logomark-github img { 
-																	width: 48px; 
-																	height: 48px; }
+.has-javascript .view-icons #linkedContent li.logomark-github img { width: 48px; height: 48px; }
 .has-javascript .view-list #linkedContent li span:before,
-.has-javascript .view-list #linkedContent li img { position:relative; 
-																	top:5px; }
+.has-javascript .view-list #linkedContent li img { position:relative; top:5px; margin: 0 10px 10px; }
 .view-list #linkedContent a span:before { margin-right: 14px; }
 .view-list #linkedContent li.bi {  padding: 8px 0 4px 4px; clear: both; }
 .view-icons #linkedContent li.bi { padding: 0px 0px 10px; margin: 0 6px 0 0; }
