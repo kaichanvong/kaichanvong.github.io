@@ -5,7 +5,7 @@
     	 url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 article.greets-back { max-width: 460px; }
 .view-list #linkedContent,
-.view-icons #linkedContent { max-width: 430px; }
+.view-icons #linkedContent { max-width: 502px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { 
 																	min-height: 151px; }
@@ -13,7 +13,7 @@ article.greets-back { max-width: 460px; }
 .view-icons #linkedContent { padding: 0; margin-top: 0;}
 .view-list ol#linkedContent { list-style: none; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
-.view-icons #linkedContent a span:before {  font-size: 48px; margin: 0 7pt; }
+.view-icons #linkedContent a span:before {  font-size: 64px; margin: 0 7pt; }
 .has-javascript .view-list #linkedContent li.logomark-github {padding:0 0 18px;}
 .has-javascript .view-icons #linkedContent li.logomark-github img { 
 																	width: 48px; 
