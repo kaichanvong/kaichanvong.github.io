@@ -1,1 +1,1 @@
-kinda offline
+kinda offline (the page that is)
