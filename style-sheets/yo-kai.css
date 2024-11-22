@@ -31,8 +31,7 @@ article.greets-back { max-width: 460px; }
 #linkedContent li.bi.bi-linkedin a span:before { content: "\f472"; 
 																 position: relative; }
 .view-list #linkedContent li.bi.bi-linkedin a span:before { line-height: 1; }
-#linkedContent li.bi-twitter-x a span:before {content: "\f8db"; 
-														  	line-height: 1.2; }
+#linkedContent li.bi-twitter-x a span:before {content: "\f8db";  }
 .has-javascript .view-icons #linkedContent li.bi a span strong { 
 														  	display: inline-block;
 														  	overflow: hidden;
