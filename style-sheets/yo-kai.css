@@ -96,8 +96,7 @@ span.huh-contact { background-color: #EFB219; margin-bottom: 2px; font-family: '
   padding: 4px;
   position: relative;
   text-align: center;
-}														  	 
-.view-list #linkedContent li:nth-child(odd) { background-color: #033B62; }
+}
 .view-icons #linkedContent .bi.horizontal-placeholder { display: none; }
 .has-javascript #linkedContent li.logomark-github img { 
   display: inline-block; 
