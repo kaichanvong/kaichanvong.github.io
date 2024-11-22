@@ -12,7 +12,7 @@ article.greets-back { max-width: 460px; }
 .view-icons #linkedContent { max-width: 502px; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { 
-																	min-height: 151px; }
+																	min-height: 151px; max-width: 80%; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
 .view-icons #linkedContent { padding: 40px 0 0; margin-top: 0;}
 .view-list ol#linkedContent { list-style: none; }
