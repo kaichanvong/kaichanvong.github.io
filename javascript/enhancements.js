@@ -4,13 +4,17 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
 	linkedContent = document.getElementById('linkedContent'),
 	socialMediaChannels = { 1: 'list' , 0: 'icons'},
 	huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
-	instagram_huh = "<li class=\"bi bi-instagram\"><a href=\"https://www.instagram.com/kaichanvong\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span><strong>instagram</strong></span></a></li>",
+	instagram_huh = "<li class=\"bi bi-instagram\"><a href=\"https://www.instagram.com/kaivong_com\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span><strong>instagram</strong></span></a></li>",
 	more = "<li class=\"bi horizontal-placeholder\"><em>…</em></li>",
 	HTML_page_optimizr_selector = document.getElementById('downpage-markedup-lols3');
 
 select_list_icons_view = '';
-select_list_icons_view += '<option value="select-icons-view"  href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</option>';
-select_list_icons_view += '<option value="select-list-view"  href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</option>';
+select_list_icons_view += '	<option value="select-icons-view">';
+select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
+select_list_icons_view += '	</option>';
+select_list_icons_view += '	<option value="select-list-view">';
+select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
+select_list_icons_view += '	</option>';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
 document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
