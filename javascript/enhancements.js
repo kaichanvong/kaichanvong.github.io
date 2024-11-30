@@ -17,7 +17,7 @@ select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-v
 select_list_icons_view += '	</option>';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
-document.getElementById('topOfPageContent').setAttribute('class','has-javascript');
+document.getElementById('HTMLPageContent').setAttribute('class','has-javascript');
 linkedContent.innerHTML += instagram_huh;
 
 kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
