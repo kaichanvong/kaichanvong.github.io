@@ -122,8 +122,8 @@ span.huh-contact { background-color: #EFB219; margin-bottom: 2px; font-family: '
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
 text-shadow: 4px 4px 6px #033B62; } 
-               .bio { background-color: black; color: #7F7800; 
-		                overflow: hidden; padding: 30px 0 10px; 
+               .bio { background-color: #706E67; color: #9F3931;
+		                overflow: hidden; padding: 30px 0 10px;
 								position: relative; line-height: 1; }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 21px; 
@@ -134,7 +134,7 @@ text-shadow: 4px 4px 6px #033B62; }
 								display: inline-block; 
 						       margin-left: 24px;}
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; }
-               .bio span { color: #666666; }
+               .bio span { color: #333; }
                a { text-decoration: none; }
 
                table td { vertical-align: top; }
@@ -245,7 +245,7 @@ position: relative; left:0; color: #a3a3a3;  }
   	#picture-discovery #pic-2 { scrollbar-color: #000; overflow: hidden; }
   }
 .haz-info { cursor: pointer; }
-.haz-info:hover,.haz-info:focus,.haz-info:active { color: #999;  }
+.haz-info:hover,.haz-info:focus,.haz-info:active { color: #333;  }
 #picture-discovery .discover-pictures { display: inline-block; }
 #footer { background-color: #444; padding: 13px 44px 40px; #clear: both;}
 .discover-pictures { max-width: 400px; vertical-align: text-top; }
