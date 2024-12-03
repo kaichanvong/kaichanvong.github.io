@@ -133,7 +133,7 @@ text-shadow: 4px 4px 6px #033B62; }
                .bio h1 { max-width: 360px;     font-size: 32px;
 								display: inline-block; 
 						        margin: 6px 24px 30px; }
-					.bio img { float: left; margin-right: 24px; margin-left: 12px; }
+					.bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; }
                .bio span { color: #333; }
                a { text-decoration: none; }
 
