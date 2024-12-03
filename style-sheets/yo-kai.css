@@ -132,7 +132,7 @@ text-shadow: 4px 4px 6px #033B62; }
                             border-radius:20px; }
                .bio h1 { max-width: 360px;     font-size: 32px;
 								display: inline-block; 
-						       margin-left: 24px;}
+						        margin: 6px 24px 30px; }
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; }
                .bio span { color: #333; }
                a { text-decoration: none; }
@@ -269,7 +269,6 @@ table.link-to-contact #different-links p {
 	font-size: 12px;
 }
 @media only screen and (max-device-width: 480px){
-   .bio h1 { font-size: 0.9em; max-width: 100%; }
    .bio h1 { font-size: 0.9em; max-width: 100%; }
 	#linkedContent a span:before { font-size: 1.4em; 
         padding-right: 20px;
