@@ -15,6 +15,7 @@ select_list_icons_view += '	</option>';
 select_list_icons_view += '	<option value="select-list-view">';
 select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
 select_list_icons_view += '	</option>';
+document.getElementById('select-list-icons-view').style.display = 'block';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
 document.getElementById('HTMLPageContent').setAttribute('class','has-javascript');
