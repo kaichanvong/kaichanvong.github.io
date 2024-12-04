@@ -10,7 +10,7 @@ aside p { margin: 2.1em 0 ; }
     	 url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 article.greets-back { max-width: 460px; }
 .view-list #linkedContent,
-.view-icons #linkedContent { max-width: 502px; }
+.view-icons #linkedContent { max-width: 502px; float: left; }
 .has-javascript .view-list#socialMediaChannelsCompleteContent,
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { 
 																	min-height: 151px; max-width: 80%; padding-top: 0; }
@@ -85,7 +85,6 @@ em.emoji-waving-h { font-size: 92px; }
 td, tr, div { margin: 0; padding: 0; }
 span.huh-contact { background-color: #EFB219; margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 
-#linkedContent {}
 .has-javascript .view-list #linkedContent .bi.horizontal-placeholder {
   display: none;
 }.has-javascript .view-icons #linkedContent .bi.horizontal-placeholder { 
@@ -154,6 +153,7 @@ text-shadow: 4px 4px 6px #033B62; }
 			   table.link-to-contact aside table,
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
 			   #digitalIdentityContent .view-list #linkedContent a { display: block; }
+			   #linkedContent a { outline: none; }
 			   #digitalIdentityContent h2 { text-align: left; padding: 0 0 0 10px; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks {
 					float: right;
