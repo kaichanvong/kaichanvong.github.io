@@ -258,7 +258,7 @@ table.link-to-contact #different-links p,
                 #different-links { color: #333;  border-top: 8px solid #333;  }
 	#different-links p { padding: 0 50px; }
     #digitalIdentityContent  { padding: 0 30px; }
-	#digitalIdentityContent { border-top: 8px solid #033B62; min-height: 12em; }
+	#digitalIdentityContent { min-height: 12em; }
 	#background2 {  }
 	#background3,	#different-links {  }
 #different-links .container { display: inline-block; }
