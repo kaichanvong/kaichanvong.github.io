@@ -125,9 +125,9 @@ text-shadow: 4px 4px 6px #033B62; }
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 21px; 
                         			      display: block; position: absolute; border-radius:20px; }
-               .bio h1 { font-size: 32px;  margin: 6px 24px 30px; }
+               .bio h1 { font-size: 32px;  margin: 6px 24px 30px; font-style: italic; }
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; }
-               .bio span { color: #333; }
+               .bio span { color: #333; font-style: normal; }
                a { text-decoration: none; }
 
                table td { vertical-align: top; }
