@@ -269,12 +269,13 @@ table.link-to-contact #different-links p {
 table.link-to-contact #different-links p,
 	#different-links p { max-width: 1018px; font-size: 3vh; }
                 #different-links { background: #F0F2F6; color: #333;  border-top: 8px solid #B38A00;  }
-	#digitalIdentityContent, #different-links p { padding-left: 42px;padding-right: 20px; }
+	#digitalIdentityContent, #different-links p { padding: 0 50px; }
 	#digitalIdentityContent { background-color: #1EB100; border-top: 8px solid #033B62; min-height: 12em; }
 	#background2 { background-color: #1EB100; }
 	#background3,	#different-links { background-color: #F7BA00; }
-	#background4, #portfolio { background-color: #ED230D; }
- #portfolio { width: 100%; margin: 0; padding: 40px 0 30px; border-top: 8px solid #7F2F2B;  }
+#different-links .container { display: inline-block; }
+#different-links .container p { margin: 0 0 30px; }
+ #portfolio { width: 420px; float: left; margin: 0; padding: 40px 0 30px;  }
 #portfolio .wrapper { width: 80%; border-color: #7F2F2B; }
 body.screen { background-color: #fff; }
 div, aside { overflow: hidden; }
