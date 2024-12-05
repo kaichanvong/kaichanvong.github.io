@@ -124,12 +124,8 @@ text-shadow: 4px 4px 6px #033B62; }
 								position: relative; line-height: 1; }    
                .bio:after { content: ' '; background-color: rgb(165, 165, 165); 
                							  height: 21px; 
-                        			      display: block; position: absolute; 
-
-                            border-radius:20px; }
-               .bio h1 { max-width: 360px;     font-size: 32px;
-								display: inline-block; 
-						        margin: 6px 24px 30px; }
+                        			      display: block; position: absolute; border-radius:20px; }
+               .bio h1 { max-width: 360px; font-size: 32px;  margin: 6px 24px 30px; }
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; }
                .bio span { color: #333; }
                a { text-decoration: none; }
@@ -154,11 +150,8 @@ text-shadow: 4px 4px 6px #033B62; }
 			   #linkedContent a { outline: none; }
 			   #digitalIdentityContent h2 { text-align: left; padding: 0 0 0 10px; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks {
-					float: right;
 					color: #333;
-					text-align: right;
-					margin: 0;
-					padding: 0 20px 9px; }
+					margin: 0;  }
 			   #digitalIdentityContent .view-icons #linkedContent a { padding-right: 3px;
 			   			   			   			   			   		margin-right: 9px;
 			   					   					   				display: block;
@@ -269,7 +262,8 @@ table.link-to-contact #different-links p {
 table.link-to-contact #different-links p,
 	#different-links p { max-width: 1018px; font-size: 3vh; }
                 #different-links { background: #F0F2F6; color: #333;  border-top: 8px solid #B38A00;  }
-	#digitalIdentityContent, #different-links p { padding: 0 50px; }
+	#different-links p { padding: 0 50px; }
+    #digitalIdentityContent  { padding: 0 30px; }
 	#digitalIdentityContent { background-color: #1EB100; border-top: 8px solid #033B62; min-height: 12em; }
 	#background2 { background-color: #1EB100; }
 	#background3,	#different-links { background-color: #F7BA00; }
