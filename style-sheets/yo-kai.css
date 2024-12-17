@@ -14,7 +14,7 @@ article.greets-back { max-width: 460px; }
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 151px; padding-top: 0; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
 .view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: left; }
-.view-list ol#linkedContent { list-style: none; float: left; }
+.view-list ol#linkedContent { list-style: none; float: left;  width:407.172px; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 64px; 
 																						margin: 0 7pt; }
@@ -257,6 +257,7 @@ table.link-to-contact #different-links p {
 	.view-icons #linkedContent a span:before { font-size: 3em; }
 	.view-list #linkedContent, .view-icons #linkedContent { max-width: 100%;}
 	.has-javascript #select-list-icons-view { font-size: 1em; }
+	.has-javascript #socialMediaChannelsToggleLinks svg { display: inline }
 	#footer p { font-size: 12px;}
 }
 table.link-to-contact #different-links p,
