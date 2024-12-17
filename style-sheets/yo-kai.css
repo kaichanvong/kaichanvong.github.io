@@ -256,14 +256,14 @@ table.link-to-contact #different-links p {
 	#footer p { font-size: 12px;}
 }
 table.link-to-contact #different-links p,
-	#different-links p { max-width: 1018px; font-size: 3vh; }
+	#different-links p { max-width: 1018px; font-size: 1.8vh; }
                 #different-links { color: #333;  border-top: 8px solid #333;  }
 	#different-links p { padding: 0 50px; }
     #digitalIdentityContent  { padding: 0 30px; }
 	#digitalIdentityContent { min-height: 12em; }
 	#background2 {  }
 	#background3,	#different-links {  }
-#different-links .container { display: inline-block; max-width: 500px; margin-top: 40px; }
+#different-links .container { display: inline-block; max-width: 550px; margin-top: 40px; }
 #different-links .container p { margin: 0 0 30px; }
  #portfolio { width: 420px; float: left; margin: 0; padding: 40px 0 30px;  }
 #portfolio .wrapper { width: 80%; border-color: #7F2F2B; }
