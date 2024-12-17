@@ -121,10 +121,14 @@ text-shadow: 4px 4px 6px #033B62; }
 								position: relative; line-height: 1; }    
                .bio:after { content: ' '; height: 21px;
                         			      display: block; position: absolute; border-radius:20px; }
-               .bio h1 { font-size: 32px;  margin: 6px 24px 30px; font-style: italic; }
+               .bio h1 { font-size: 32px;  margin: 6px 24px 30px; font-style: italic; 
+													max-height: 80px; }
+               .bio h1 span { font-size: 280px; top: -200px; position: relative; left: 0px; }
+               .bio h1 span.h1-hap { display: none; }
 					.bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; }
                .bio span { color: #333; font-style: normal; }
                a { text-decoration: none; }
+							 #online-profile-picture { position: relative; z-index: 2;}
 
                table td { vertical-align: top; }
 					table.link-to-contact { display: block; }
@@ -263,7 +267,10 @@ table.link-to-contact #different-links p,
 	#digitalIdentityContent { min-height: 12em; }
 	#background2 {  }
 	#background3,	#different-links {  }
-#different-links .container { display: inline-block; max-width: 550px; margin-top: 40px; }
+#different-links .container { display: inline-block; max-width: 550px; margin-top: 40px; 
+	background-color: rgba(200,200,200,0.6);
+	border-bottom: 20px solid #444444;
+}
 #different-links .container p { margin: 0 0 30px; }
  #portfolio { width: 420px; float: left; margin: 0; padding: 40px 0 30px;  }
 #portfolio .wrapper { width: 80%; border-color: #7F2F2B; }
