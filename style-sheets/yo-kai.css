@@ -168,6 +168,7 @@ text-shadow: 4px 4px 6px #033B62; }
 .has-javascript #select-list-icons-view { display: block;
 position: relative; left:0; color: #a3a3a3;  }
 #off-page-markedup-lols2 { clear: both; text-align: center; }
+#portfolio  h2 { text-align: left; margin-left: 44px; }
 #portfolio  .wrapper,
 #pic-2,
 #pic-japan {   background-color: #AD2F2B;
@@ -176,7 +177,8 @@ position: relative; left:0; color: #a3a3a3;  }
     height: 280px;
 	max-width: 330px;
     line-height: 1;
-    margin: 0 0 10px 44px;
+    margin-bottom: 10px;
+		margin-left: 44px;
     overflow-x: hidden;
     overflow-y: scroll;
     padding: 0;
@@ -261,7 +263,7 @@ table.link-to-contact #different-links p,
 	#digitalIdentityContent { min-height: 12em; }
 	#background2 {  }
 	#background3,	#different-links {  }
-#different-links .container { display: inline-block; }
+#different-links .container { display: inline-block; max-width: 500px; margin-top: 40px; }
 #different-links .container p { margin: 0 0 30px; }
  #portfolio { width: 420px; float: left; margin: 0; padding: 40px 0 30px;  }
 #portfolio .wrapper { width: 80%; border-color: #7F2F2B; }
