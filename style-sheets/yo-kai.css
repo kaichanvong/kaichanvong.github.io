@@ -289,3 +289,4 @@ code { color: #666; font-size: 80%;
 body.grid-enabled:after { border: 1px solid red; background:transparent url(../ui/grid-initial-plain-r.png) repeat; 
 left:0;right:0; display: block; content:' '; position: absolute; z-index:9; 
 top:0; bottom:0;}
+.buttons-alt-looks { background: #dddddd; border: #333333 1px solid; padding: 2px; position: relative; top: 4px;}

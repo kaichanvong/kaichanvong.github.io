@@ -15,7 +15,7 @@ select_list_icons_view += '	</option>';
 select_list_icons_view += '	<option value="select-list-view">';
 select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
 select_list_icons_view += '	</option>';
-document.getElementById('select-list-icons-view').style.display = 'block';
+// document.getElementById('select-list-icons-view').style.display = 'block';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
 document.getElementById('HTMLPageContent').setAttribute('class','has-javascript');
@@ -23,12 +23,21 @@ linkedContent.innerHTML += instagram_huh;
 
 kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
 function toggle_views(){
+
+	if(this.nodeName == undefined || this.nodeName == 'SELECT' ){
 	index_for_view = document.getElementById('select-list-icons-view').selectedIndex,
-	new_view = kaivong_com_objs['socialMediaDiv']['views'][index_for_view];
+	new_view = kaivong_com_objs['socialMediaDiv']['views'][index_for_view];	
+	}
+	if(this.nodeName == 'A'){
+		$button = this.nodeName;
+		index_for_view = this.attributes['data-social-media-channel-num'].value,
+		new_view = kaivong_com_objs['socialMediaDiv']['views'][index_for_view];	
+	}
 	socialMediaDiv.setAttribute('class', new_view);
 	socialMediaDiv.setAttribute('data-view', new_view);
 	localStorage.setItem('kaivong_com_socialmedia_view', new_view);
 };
+
 if(localStorage.key('kaivong_com_socialmedia_view')){
 	viewName = localStorage['kaivong_com_socialmedia_view'],
 	viewIndex = kaivong_com_objs['socialMediaDiv']['views'].indexOf(viewName);
@@ -45,3 +54,6 @@ function addHackOneLineStylesheetOnHTML(pageElement){
 }
 addHackOneLineStylesheetOnHTML(HTML_page_optimizr_selector);
 document.getElementById('select-list-icons-view').onchange = toggle_views;
+document.getElementById('select-icons-view').onclick =  toggle_views;
+document.getElementById('select-list-view').onclick = toggle_views;
+
