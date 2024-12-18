@@ -74,7 +74,7 @@ li#github-note-01,
   line-height: 1;
 }
 body.screen { color: #bbb; 
-				  font-family: arial; 
+				  font-family: arial; overflow-x: hidden;
 			  	  padding: 0; margin: 0; line-height: 1.3; }
 html { padding: 0; margin: 0; }
 em.emoji-waving-h { font-size: 92px; }
