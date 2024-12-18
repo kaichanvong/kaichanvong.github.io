@@ -268,7 +268,7 @@ table.link-to-contact #different-links p,
 	#digitalIdentityContent { min-height: 12em; }
 	#background2 {  }
 	#background3,	#different-links {  }
-#different-links .container { display: inline-block; max-width: 550px; margin-top: 40px; 
+#different-links .container { display: inline-block; max-width: 560px; margin-top: 40px; 
 	background-color: rgba(200,200,200,0.6);
 	border-bottom: 20px solid #444444;
 }
