@@ -21,7 +21,7 @@ article.greets-back { max-width: 460px; }
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 151px; padding-top: 0; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
 #socialMediaChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#socialMediaChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks { border: #7DA7B0 1px solid; background: transparent; color: #222; cursor:default; }
+#socialMediaChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: rgb(53,53,153); color: #fff; cursor: default; border: #333333 1px solid; position: relative; top: 4px; border-radius: 5px; }
 .view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: left; display: inline-block; }
 .view-list ol#linkedContent { list-style: none; width:407.172px; display: inline-block; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
@@ -297,4 +297,4 @@ code { color: #666; font-size: 80%;
 body.grid-enabled:after { border: 1px solid red; background:transparent url(../ui/grid-initial-plain-r.png) repeat; 
 left:0;right:0; display: block; content:' '; position: absolute; z-index:9; 
 top:0; bottom:0;}
-.buttons-alt-looks { background: rgb(53,53,153); color: #fff; border: #333333 1px solid; padding: 5px 5px 6px; position: relative; top: 4px; border-radius: 5px; }
+.buttons-alt-looks { border: #7DA7B0 1px solid; background: transparent; color: #222; text-align: center;  padding: 5px 5px 6px; }
