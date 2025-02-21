@@ -8,7 +8,7 @@ aside p { margin: 2.1em 0 ; }
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
     	 url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 article.greets-back { max-width: 460px; }
-/* 
+/*
 .view-list #linkedContent,
 .view-icons #linkedContent { max-width: 600px; }
  */
@@ -277,10 +277,17 @@ table.link-to-contact #different-links p,
 #different-links .container { display: inline-block; max-width: 560px; margin-top: 80px; 
 	margin-left: 32px; 
 	margin-right: 32px;
-	background-color: rgba(200,200,200,0.6);
+	background-color: rgba(200,200,200,0.6); padding-top: 0; overflow: initial;
 	border-bottom: 20px solid #444444;
 }
 #different-links .container p { margin: 0 0 30px; }
+.miu-miu-embroided #different-links .container h2 { background-image: url('triangular-pointer-blu-0.png'); background-size: 3%; background-repeat: repeat-x;
+	display: block;  line-height: 1; padding-top: 34px; margin-top: 0; margin-left: 16px; margin-bottom: 0; position: relative; top: -15px; }
+.miu-miu-embroided #different-links .container { background-image: url('triangular-pointer-blu-3.png'); background-size: 3%; background-repeat: repeat-y; overflow: visible; border-bottom: 0;   }
+.miu-miu-embroided #different-links .container p.last-item { border-bottom: 20px solid #444444; margin-left: 16px; margin-bottom: 0; position: relative; padding-left: 35px;}
+.miu-miu-embroided #different-links .container p.last-item:after { display: block; content: ''; width: 15px; height: 16px; background-color: #76A5AF; bottom: -20px; left: -15px; position: absolute; }
+
+
 #portfolio { width: 390px;  margin: 0;  margin-left: auto; margin-right: auto; padding: 40px 0 30px; }
 #portfolio .wrapper { width: 100%; border-color: #7F2F2B; }
 body.screen { background-color: #76A5AF; }
