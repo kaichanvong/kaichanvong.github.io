@@ -306,6 +306,6 @@ top:0; bottom:0;}
 #even-cowgirls-get-the-blues { background: rgb(53,53,153); padding: 60px 100px; text-align: center;  }
 #even-cowgirls-get-the-blues h2 { margin-bottom: 80px; color: #eee; line-height: 1.5; }
 #even-cowgirls-get-the-blues h2 em { color: #bbb; }
-#even-cowgirls-get-the-blues h2 span { display: none; }
+#even-cowgirls-get-the-blues h2 span.hidden { display: none; }
 #even-cowgirls-get-the-blues a span { font-size: 48px; }
-#even-cowgirls-get-the-blues h2 span.red-highlighter { color: red ; }
+#even-cowgirls-get-the-blues h2 span.red-highlighter { color: #FE968D ; }
