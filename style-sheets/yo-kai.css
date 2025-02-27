@@ -1,5 +1,5 @@
 html, body, div { padding: 0; margin: 0;}
-div,li,ul,ol { margin: 0; line-height: 0; vertical-align: baseline; cursor: default; }
+div,li,ul,ol { margin: 0; line-height: 0; vertical-align: baseline;}
 body p {line-height: 2.3;}
 aside p { margin: 2.1em 0 ; }
 @charset "utf-8";
@@ -21,7 +21,7 @@ article.greets-back { max-width: 460px; }
 .has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 151px; padding-top: 0; }
 .view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
 #socialMediaChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#socialMediaChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: #047101; ; color: #fff; cursor: default; border: #333333 1px solid; position: relative; top: 4px; border-radius: 5px; }
+#socialMediaChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: rgb(53,53,153); color: #fff; cursor: default; border: #333333 1px solid; position: relative; top: 4px; border-radius: 5px; }
 .view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: left; display: inline-block; }
 .view-list ol#linkedContent { list-style: none; width:407.172px; display: inline-block; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
@@ -122,8 +122,9 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 	#different-links,
    #digitalIdentityContent { text-align: center;  }
    tr.containment-field { overflow: hidden; }
-   a:link, a:visited { color: #047101;  }
-   a:hover, a:focus, a:active { color: #39A736; } 
+   a:link, a:visited { color: rgb(53,53,153); }
+   a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
+text-shadow: 4px 4px 6px #033B62; } 
                .bio { color: #333; background-color: #777;
 		                overflow: hidden; padding: 30px 0 10px;
 								position: relative; line-height: 1.5; }
@@ -222,7 +223,7 @@ position: relative; left:0; color: #a3a3a3;  }
   	body.screen {  }
   	.bio { border-bottom-color: #000; }
 	.bio:after,
-  	table.link-to-contact #different-links { border-bottom-color: color: #047101;
+  	table.link-to-contact #different-links { border-bottom-color: rgb(53,53,153);
  }
   	textarea, 
 	select { background-color: #808080; }
@@ -309,5 +310,6 @@ top:0; bottom:0;}
 #even-cowgirls-get-the-blues a span { font-size: 48px; }
 /*#even-cowgirls-get-the-blues h2 span*/ .red-highlighter { color: #7F2F2B ; }
 h1 .h1-edits { font-style: normal; }
-h1 .blue-highlighter { color: rgb(53,53,153); }
-h1 .color-03-highlighter { color: #047101; }
+.color-02-highlighter,
+.blue-highlighter { color: rgb(53,53,153); }
+
