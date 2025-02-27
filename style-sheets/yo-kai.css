@@ -125,17 +125,17 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
 text-shadow: 4px 4px 6px #033B62; } 
-               .bio { color: #9F3931; background-color: #777;
+               .bio { color: #333; background-color: #777;
 		                overflow: hidden; padding: 30px 0 10px;
 								position: relative; line-height: 1.5; }
                .bio:after { content: ' '; height: 21px;
                         			      display: block; position: absolute; border-radius:20px; }
-               .bio h1 { font-size: 32px;  margin: 6px 24px 30px; font-style: italic; 
-													max-height: 80px; }
-               .bio h1 span { font-size: 280px; top: -200px; position: relative; left: 0px; }
-               .bio h1 span.h1-hap { display: none; }
+               .bio #page-name { font-size: 32px;  margin: 6px 24px 30px; font-style: italic;
+													max-height: 105px; }
+               .bio h1 .h1-edits { font-size: 280px; top: -200px; position: relative; left: 0px; }
+               .bio h1 .h1-hap { display: none; }
                .bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; position: relative; z-index:2;}
-               .bio span { color: #333; font-style: normal; }
+/*               .bio span { color: #333; font-style: normal; }*/
                a { text-decoration: none; }
 							 #online-profile-picture { position: relative; z-index: 2;}
 
@@ -308,4 +308,6 @@ top:0; bottom:0;}
 #even-cowgirls-get-the-blues h2 em { color: #bbb; }
 #even-cowgirls-get-the-blues h2 span.hidden { display: none; }
 #even-cowgirls-get-the-blues a span { font-size: 48px; }
-#even-cowgirls-get-the-blues h2 span.red-highlighter { color: #FE968D ; }
+/*#even-cowgirls-get-the-blues h2 span*/ .red-highlighter { color: #FE968D ; }
+h1 .h1-edits { font-style: normal; }
+h1 .blue-highlighter { color: rgb(53,53,153); }
