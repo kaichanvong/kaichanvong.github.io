@@ -123,8 +123,7 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
    #digitalIdentityContent { text-align: center;  }
    tr.containment-field { overflow: hidden; }
    a:link, a:visited { color: #047101;  }
-   a:hover, a:focus, a:active { color: rgb(149,187,251); color: #95BBFA;
-text-shadow: 4px 4px 6px #033B62; } 
+   a:hover, a:focus, a:active { color: #39A736; } 
                .bio { color: #333; background-color: #777;
 		                overflow: hidden; padding: 30px 0 10px;
 								position: relative; line-height: 1.5; }
