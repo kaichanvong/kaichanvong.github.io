@@ -127,14 +127,14 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
                .bio { color: #333; background-color: #777; overflow: hidden; position: relative; line-height: 1.5; padding: 0; }
                .bio:after { content: ' '; height: 21px;
                         			      display: block; position: absolute; border-radius:20px; }
-		.bio #page-name img { float: left; display: none; }
-               .bio #page-name { line-height: normal; font-size: 32px;  margin: 0px 24px 30px; font-style: italic; max-height: 105px; vertical-align: text-top; }
-               .bio #page-name .h1-edits { font-size: 220px; } /* top: -200px; position: relative; left: 0px; */
+		.bio #page-name img { float: left;  }
+               .bio #page-name { line-height: normal;  margin: 0 24px 30px; max-height: 125px; vertical-align: text-top; }
+               .bio #page-name .h1-edits { font-size: 220px; }
                .bio h1 .h1-hap { display: none; }
                .bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; position: relative; z-index:2;}
 /*               .bio span { color: #333; font-style: normal; }*/
                a { text-decoration: none; }
-							 #online-profile-picture { position: relative; z-index: 2; display: none; }
+							 #online-profile-picture { position: relative; z-index: 2; position: absolute; left: 40px; top: 40px; }
 
                table td { vertical-align: top; }
 					table.link-to-contact { display: block; }
@@ -176,7 +176,6 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 														 color: #333; 
 														 padding: 3px 9px 3px 3px; }
                em { text-decoration: none; font-style: normal; }
-#kaomoji { min-height: 100px; }
 .has-javascript #select-list-icons-view { display: block;
 position: relative; left:0; color: #a3a3a3;  }
 #off-page-markedup-lols2 { clear: both; text-align: center; }
