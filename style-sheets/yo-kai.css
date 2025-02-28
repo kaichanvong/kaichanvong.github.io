@@ -111,9 +111,7 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
   display: inline-block; 
   height: 21px;
   width: 21px;}
-  .has-javascript .view-list #linkedContent li.logomark-github img { 
-  margin-right: 5px;
-}
+  .has-javascript .view-list #linkedContent li.logomark-github img {   margin-right: 5px; }
    .view-icons li { display: inline-block; }
    em.spoken-outloud { font-style: normal; }
    em.spoken-outloud,
