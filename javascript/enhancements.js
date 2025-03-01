@@ -1,6 +1,6 @@
 var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1'),
 	socialMediaChannelsToggleLink2 = document.getElementById('select-list-view2'),
-	socialMediaDiv = document.getElementById('socialMediaChannelsCompleteContent'),
+	socialMediaDiv = document.getElementById('SMChannelsCompleteContent'),
 	linkedContent = document.getElementById('linkedContent'),
 	socialMediaChannels = { 1: 'list' , 0: 'icons'},
 	huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
