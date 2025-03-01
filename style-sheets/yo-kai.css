@@ -298,3 +298,8 @@ h1 .h1-edits { font-style: normal; }
 .color-02-highlighter,
 .blue-highlighter { color: rgb(53,53,153); }
 .green-highlighter { color: green; }
+#even-cowgirls-get-the-blues a:link,
+#even-cowgirls-get-the-blues a:visited { border-bottom: 9px solid rgb(149,187,251); padding-bottom: 10px; margin: 0 9px; }
+#even-cowgirls-get-the-blues a:hover,
+#even-cowgirls-get-the-blues a:focus,
+#even-cowgirls-get-the-blues a:active{ border-bottom: 9px solid #AD2F2B; padding-bottom: 10px; margin: 0 9px; }
