@@ -111,7 +111,7 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
    .containment-field { overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: #7F2F2B; }
-   .view-icons #linkedContent a:hover { color: rgb(149,187,251); text-shadow: 4px 4px 6px #033B62; }
+   .view-icons #linkedContent a:hover { color: #7F2F2B; text-shadow: 4px 4px 6px #033B62; }
    #linkedContent a:hover { color: #7F2F2B; }
                .bio { color: #333; background-color: #777; overflow: hidden; position: relative; line-height: 1.5; padding: 0; }
                .bio:after { content: ' '; height: 21px;
