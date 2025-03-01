@@ -17,11 +17,12 @@ article.greets-back { max-width: 460px; }
 .view-icons #linkedContent { max-width: 320px; }
 /* } */
 
-.has-javascript .view-list#socialMediaChannelsCompleteContent,
-.has-javascript .view-icons#socialMediaChannelsCompleteContent { min-height: 151px; padding-top: 0; }
-.view-list #linkedContent { padding-left: 0; margin-top: 0; margin-left: -5px; }
-#socialMediaChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#socialMediaChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: rgb(53,53,153); color: #fff; cursor: default; border: #333333 1px solid; position: relative; top: 4px; border-radius: 5px; }
+/* #socialMediaChannelsCompleteContent = #SMChannelsCompleteContent */
+    .has-javascript .view-list#SMChannelsCompleteContent,
+    .has-javascript .view-icons#SMChannelsCompleteContent { min-height: 151px; padding-top: 0; }
+                                        .view-list #linkedContent  { padding-left: 0; margin-top: 0; margin-left: -5px; }
+#SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: rgb(53,53,153); color: #fff; cursor: default; border: #333333 1px solid; position: relative; top: 4px; border-radius: 5px; }
 .view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: left; display: inline-block; }
 .view-list ol#linkedContent { list-style: none; width:407.172px; display: inline-block; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
