@@ -8,15 +8,6 @@ aside p { margin: 2.1em 0 ; }
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
     	 url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 article.greets-back { max-width: 460px; }
-/*
-.view-list #linkedContent,
-.view-icons #linkedContent { max-width: 600px; }
- */
-/* @media only screen and (max-device-width: 480px){ */
-.view-list #linkedContent,
-.view-icons #linkedContent { max-width: 320px; }
-/* } */
-
 /* #socialMediaChannelsCompleteContent = #SMChannelsCompleteContent */
     .has-javascript .view-list#SMChannelsCompleteContent,
     .has-javascript .view-icons#SMChannelsCompleteContent { min-height: 151px; padding-top: 0; }
