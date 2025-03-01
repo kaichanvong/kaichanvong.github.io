@@ -13,7 +13,7 @@ article.greets-back { max-width: 460px; }
     .has-javascript .view-icons#SMChannelsCompleteContent { min-height: 151px; padding-top: 0; }
                                         .view-list #linkedContent  { padding-left: 0; margin-top: 0; margin-left: -5px; }
 #SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: rgb(53,53,153);
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: #7F2F2B;
 	                                                                            color: #fff;
 																				cursor: default;
 																				border: #333333 1px solid;
