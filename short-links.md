@@ -13,8 +13,8 @@
 * [http://kaivong.com/4ABO](https://www.linkedin.com/in/kaichanvong)
 * [http://kaivong.com/4ABN](https://www.facebook.com/kaichanvong)
 * [http://kaivong.com/4ABM](https://www.metacritic.com/movie/even-cowgirls-get-the-blues)
-* [http://kaivong.com/4ABL](https://www.metacritic.com/tv/izombie/season-2/episode-4-even-cowgirls-get-the-black-and-blues]
-* [http://kaivong.com)4AC0](https://vimeo.com/kaichanvong]
+* [http://kaivong.com/4ABL](https://www.metacritic.com/tv/izombie/season-2/episode-4-even-cowgirls-get-the-black-and-blues)
+* [http://kaivong.com)4AC0](https://vimeo.com/kaichanvong)
 * [http://kaivong.com/4ABZ](https://www.instagram.com/crimsonkinda)
 * [http://kaivong.com/4ABY](https://x.com/crimsonkinda)
 * [http://kaivong.com/4ABX](https://x.com/kaichanvong)
