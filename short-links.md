@@ -2,7 +2,7 @@
 * [http://kaivong.com/shortlinks](https://github.com/kaichanvong/kaichanvong.github.io/blob/main/short-links.md)
 * [http://kaivong.com/dpi](https://www.dressipi.com)
 * [http://kaivong.com/af](https://www.artfinder.com)
-* [http://kaivong.com/jg)[http://justgiving.com)
+* [http://kaivong.com/jg](http://justgiving.com)
 * [http://kaivong.com/4ABV](https://www.instagram.com/kaivong_com)
 * [http://kaivong.com/4ABU](https://gravatar.com/kaichanvong)
 * [http://kaivong.com/4ABT](https://x.com/kaichanvong/status/1895100979168555348?s=61)
