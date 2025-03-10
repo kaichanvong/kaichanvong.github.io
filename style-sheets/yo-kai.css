@@ -1,4 +1,4 @@
-h2.tag-line { border:0; border-top: 8px solid #333; margin-top: 0; }
+h2.tag-line { border:0; border-top: 8px solid #333; margin: 0; }
 .quick-about { margin-bottom: 0; }
 html, body, div { padding: 0; margin: 0;}
 div,li,ul,ol { margin: 0; line-height: 0; vertical-align: baseline; cursor: default; }
