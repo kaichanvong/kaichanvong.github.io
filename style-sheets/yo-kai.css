@@ -11,7 +11,6 @@ aside p { margin: 2.1em 0 ; } /* reset end */
   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
     	 url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
 article.greets-back { max-width: 460px; }
-/* #socialMediaChannelsCompleteContent = #SMChannelsCompleteContent */
     .has-javascript .view-list#SMChannelsCompleteContent,
     .has-javascript .view-icons#SMChannelsCompleteContent { min-height: 151px; padding-top: 0; }
                                         .view-list #linkedContent  { padding-left: 0; margin-top: 0; margin-left: -5px; }
