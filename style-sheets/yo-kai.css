@@ -1,6 +1,6 @@
 .tag-line { border:0; border-top: 8px solid #333; margin: 0; }
 .quick-about { margin-bottom: 0; }
-.links.external { text-align: center; } /* reset script */
+/* reset script */
 html, body, div { padding: 0; margin: 0;}
 div,li,ul,ol { margin: 0; line-height: 0; vertical-align: baseline; cursor: default; }
 body p {line-height: 2.3;}
@@ -145,7 +145,6 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks,
 			   #digitalIdentityContent .view-list #linkedContent a { display: block; }
 			   #linkedContent a { outline: none; }
-			   #digitalIdentityContent h2 { text-align: left; padding: 0 0 0 10px; }
 			   #digitalIdentityContent #socialMediaChannelsToggleLinks {
 					color: #333; float: left;
 					margin: 0;  }
@@ -278,7 +277,6 @@ table.link-to-contact #different-links p,
 #portfolio { width: 390px;  margin: 0;  margin-left: auto; margin-right: auto; padding: 40px 0 30px; }
 #portfolio .wrapper { width: 100%; border-color: #7F2F2B; }
 body.screen { background-color: #76A5AF; }
-div, aside { overflow: hidden; }
 div {padding-bottom: 20px; padding-top: 20px; }
 div div { border-bottom: 0; padding-bottom: 0;}
 #downpage-markedup-lols4 {padding-bottom: 0; padding-top: 0;}
