@@ -1,4 +1,4 @@
-.tag-line { border:0; border-top: 8px solid #333; margin: 0; }
+.tag-line { border:0; border-top: 8px solid #333; margin: 0; background: #333; }
 .quick-about { margin-bottom: 0; }
 /* reset script */
 html, body, div { padding: 0; margin: 0;}
