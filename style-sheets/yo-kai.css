@@ -5,6 +5,9 @@
 .tabular-data { border-collapse: collapse; padding: 0; }
 .tabular-data .tabular-data .table-data { margin: 0; border: 0; }
 /*#shortcuts-hotkeys .new-hotkey { display: block; }*/
+/*.key-combo,*/
+/*.key-does-info { text-align: center; float: left; }*/
+dd,dl {  margin: 0; }
 .tag-line { border:0; border-top: 8px solid #333; margin: 0; background: #333; }
 .quick-about { margin-bottom: 0; }
 /* reset script */
@@ -292,7 +295,7 @@ div {padding-bottom: 20px; padding-top: 20px; }
 div div { border-bottom: 0; padding-bottom: 0;}
 #downpage-markedup-lols4 {padding-bottom: 0; padding-top: 0;}
 p { font-family: Tahoma; }
-code { color: #666; padding: 8px; margin-left: -8px; }
+/*code { color: #666; padding: 8px; margin-left: -8px; }*/
 .invisible { visibility: hidden; display: none; }
 body.grid-enabled:after { border: 1px solid red; background:transparent url(../ui/grid-initial-plain-r.png) repeat; 
 left:0;right:0; display: block; content:' '; position: absolute; z-index:9; 
