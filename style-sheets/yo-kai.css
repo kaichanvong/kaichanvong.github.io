@@ -1,8 +1,14 @@
+.tabular-data .table-data-information,
+.tabular-data .table-data { border: 1px solid #333; }
+.tabular-data .table-data-information,
+.tabular-data .tabular-data .table-data { padding: 2px 40px; }
+.tabular-data { border-collapse: collapse; padding: 0; }
+.tabular-data .tabular-data .table-data { margin: 0; border: 0; }
+/*#shortcuts-hotkeys .new-hotkey { display: block; }*/
 .tag-line { border:0; border-top: 8px solid #333; margin: 0; background: #333; }
 .quick-about { margin-bottom: 0; }
 /* reset script */
-html, body, div { padding: 0; margin: 0;}
-div,li,ul,ol { margin: 0; line-height: 0; vertical-align: baseline; cursor: default; }
+div,li,ul,ol { vertical-align: baseline; cursor: default; }
 body p {line-height: 2.3;}
 aside p { margin: 2.1em 0 ; } /* reset end */
 @charset "utf-8";
@@ -75,7 +81,7 @@ li#github-note-01,
   text-transform: none;
   line-height: 1.5;
 }
-body.screen { color: #bbb;  font-family: arial; overflow-x: hidden; padding: 0; margin: 0; line-height: 1.5; }
+body.screen { color: #bbb;  font-family: arial; overflow-x: hidden; padding: 0; margin: 0; line-height: 1.5;  background-color: rgb(121,121,121); }
 html { padding: 0; margin: 0; }
 em.emoji-waving-h { font-size: 92px; }
 td, tr, div { margin: 0; padding: 0; }
@@ -115,13 +121,17 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
    a:hover, a:focus, a:active { color: #7F2F2B; }
    .view-icons #linkedContent a:hover { color: #7F2F2B; }
    #linkedContent a:hover { color: #7F2F2B; }
-               .bio { color: #333; background-color: #777; overflow: hidden; position: relative; line-height: 1.5; padding: 0; }
-               .bio:after { content: ' '; height: 21px;
-                        			      display: block; position: absolute; border-radius:20px; }
+               .bio { color: #333; background-color: #777; overflow: hidden;
+				   position: relative; line-height: 1.5; padding: 0; }
+               .bio:after { content: ' '; height: 21px; display: block;
+				   position: absolute; border-radius:20px; }
 		.bio #page-name img { float: left;  }
-               .bio #page-name { line-height: normal;  margin: 0 24px 30px; max-height: 125px; vertical-align: text-top; }
+               .bio #page-name { line-height: normal;  margin: 0 24px 30px; max-height: 125px; vertical-align: text-top; width: 2560px; text-align: left; }
+               .bio #page-name .color-02-highlighter,
+               .bio #page-name .red-highlighter,
+               .bio #page-name .green-highlighter {display: inline-block; }
                .bio #page-name .h1-edits { font-size: 220px; }
-               .bio h1 .h1-hap { display: none; }
+               .bio h1 .h1-hap { float: right; margin: 40px; }
                .bio img { float: left; margin-right: 24px; margin-left: 12px; border-radius: 3em; position: relative; z-index:2;}
 /*               .bio span { color: #333; font-style: normal; }*/
                a { text-decoration: none; }
@@ -261,11 +271,12 @@ table.link-to-contact #different-links p,
 #different-links p { padding: 0 50px; }
 #digitalIdentityContent  { padding: 0 30px; }
 #digitalIdentityContent { min-height: 18em; }
-#different-links .container { display: inline-block; max-width: 560px; margin-top: 80px; 
-	margin-left: 32px; 
+#different-links .container { display: inline-block; max-width: 560px; margin-top: 30px;
+	margin-left: 32px;
 	margin-right: 32px;
 	background-color: rgba(200,200,200,0.6); padding-top: 0; overflow: initial;
-	border-bottom: 20px solid #444444;
+	border: 2px solid #333;
+	border-bottom: 20px solid #333333;
 }
 #different-links .container p { margin: 0 0 30px; }
 .miu-miu-embroided #different-links .container h2 { background-image: url('miu-miu-embroidery/triangular-pointer-blu-0.png'); background-size: 3%; background-repeat: repeat-x;
@@ -276,13 +287,11 @@ table.link-to-contact #different-links p,
 
 #portfolio { width: 390px;  margin: 0;  margin-left: auto; margin-right: auto; padding: 40px 0 30px; }
 #portfolio .wrapper { width: 100%; border-color: #7F2F2B; }
-body.screen { background-color: #76A5AF; }
 div {padding-bottom: 20px; padding-top: 20px; }
 div div { border-bottom: 0; padding-bottom: 0;}
 #downpage-markedup-lols4 {padding-bottom: 0; padding-top: 0;}
 p { font-family: Tahoma; }
-code { color: #666; font-size: 80%;
-			 padding: 8px; margin-left: -8px; }
+code { color: #666; padding: 8px; margin-left: -8px; }
 .invisible { visibility: hidden; display: none; }
 body.grid-enabled:after { border: 1px solid red; background:transparent url(../ui/grid-initial-plain-r.png) repeat; 
 left:0;right:0; display: block; content:' '; position: absolute; z-index:9; 
