@@ -126,7 +126,8 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
                .bio:after { content: ' '; height: 21px; display: block;
 				   position: absolute; border-radius:20px; }
 		.bio #page-name img { float: left;  }
-               .bio #page-name { line-height: normal;  margin: 0 24px 30px; max-height: 125px; vertical-align: text-top; width: 2560px; text-align: left; }
+               .bio #page-name { line-height: normal;  margin: 0 24px 30px; max-height: 175px;
+				                 vertical-align: text-top; width: 2560px; text-align: left; }
                .bio #page-name .color-02-highlighter,
                .bio #page-name .red-highlighter,
                .bio #page-name .green-highlighter {display: inline-block; }
