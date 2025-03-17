@@ -181,7 +181,10 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
                em { text-decoration: none; font-style: normal; }
 .has-javascript #select-list-icons-view { display: block; position: relative; left:0; color: #a3a3a3;  }
 #off-page-markedup-lols2 { clear: both; text-align: center; }
-#portfolio  h2 { text-align: left; margin-left: 0; }
+#portfolio .h2,
+#digitalIdentityContent .h2 { margin-bottom: 0; }
+#portfolio .h2 { text-align: left; margin-left: 0; }
+#portfolio .external.link { }
 #portfolio  .wrapper,
 #pic-2,
 #pic-japan {   background-color: #AD2F2B;
@@ -289,7 +292,7 @@ table.link-to-contact #different-links p,
 .miu-miu-embroided #different-links .container p.last-item { border-bottom: 20px solid #444444; margin-left: 16px; margin-bottom: 0; position: relative; padding-left: 35px;}
 .miu-miu-embroided #different-links .container p.last-item:after { display: block; content: ''; width: 15px; height: 16px; background-color: #76A5AF; bottom: -20px; left: -15px; position: absolute; }
 
-#portfolio { width: 390px;  margin: 0;  margin-left: auto; margin-right: auto; padding: 40px 0 30px; }
+#portfolio { margin: 0;  margin-left: auto; margin-right: auto; padding: 40px 0 30px; text-align: justify; max-width: 342px; }
 #portfolio .wrapper { width: 100%; border-color: #7F2F2B; }
 div {padding-bottom: 20px; padding-top: 20px; }
 div div { border-bottom: 0; padding-bottom: 0;}
