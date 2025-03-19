@@ -31,7 +31,7 @@ article.greets-back { max-width: 460px; }
 																				position: relative;
 																				top: 4px;
 																				border-radius: 5px; }
-.view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: left; display: inline-block; }
+.view-icons #linkedContent { padding: 0 0 0; margin-top: 0; text-align: center; display: inline-block; }
 .view-list ol#linkedContent { list-style: none; width:407.172px; display: inline-block; }
 #linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
 .view-icons #linkedContent a span:before {  font-size: 64px; margin: 0 7pt; }
@@ -184,7 +184,10 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
 #portfolio .h2,
 #digitalIdentityContent .h2 { margin-bottom: 0; }
 #portfolio .h2 { text-align: left; margin-left: 0; }
-#portfolio .external.link { }
+#linkedContent .recycle.logo-links { display: block; max-width: 180px; text-align: center; margin: 0 auto; }
+
+#digitalIdentityContent .view-icons #linkedContent .recycle.logo-links .hyperlink { float: none; text-align: center; }
+#linkedContent .rendered-path { fill: rgb(53,53,153); }
 #portfolio  .wrapper,
 #pic-2,
 #pic-japan {   background-color: #AD2F2B;
