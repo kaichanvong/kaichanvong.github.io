@@ -119,6 +119,9 @@ span.huh-contact { margin-bottom: 2px; font-family: 'Comic Neue', handwriting; }
    .from-pinyin-in-book-plus-online { color: #222; }
 	#different-links,
    #digitalIdentityContent { text-align: center; }
+#different-links h3,
+#different-links h2,
+#digitalIdentityContent h2 { text-align: left; margin-left: 50px; }
    .containment-field { overflow: hidden; }
    a:link, a:visited { color: rgb(53,53,153); }
    a:hover, a:focus, a:active { color: #7F2F2B; }
@@ -322,3 +325,5 @@ h1 .h1-edits { font-style: normal; }
 #even-cowgirls-get-the-blues a:hover,
 #even-cowgirls-get-the-blues a:focus,
 #even-cowgirls-get-the-blues a:active{ border-bottom: 9px solid #AD2F2B; padding-bottom: 10px; margin: 0 9px; }
+
+#different-links .header.level-3 { text-align: center; background-color: rgb(175,175,175); margin-left: 0; }
