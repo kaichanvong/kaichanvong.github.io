@@ -17,7 +17,7 @@ select_list_icons_view += '	</option>';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
 document.getElementById('HTMLPageContent').setAttribute('class','has-javascript');
-linkedContent.innerHTML += instagram_huh;
+linkedContent.innerHTML = instagram_huh + linkedContent.innerHTML;
 
 kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
 function toggle_views(){
