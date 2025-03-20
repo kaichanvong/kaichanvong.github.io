@@ -1,0 +1,30 @@
+.html.html1999 {
+/*  background-color: #fff;*/
+}
+
+.banner {
+  background-color: #f2f2f2;
+  display: block;
+  border-radius: 5px;
+  padding: 8px 8px 8px 8px;
+}
+
+.content {
+  padding-left: 24px;
+}
+.picture.image {
+  clear: left;
+  float: left;
+  max-width: 420px;
+  max-height: 306px;
+}
+.caption {
+  background-color: #fff;
+  clear: left;
+  float: left;
+  margin: 0;
+  max-width: 414px;
+  min-width: 414px;
+  padding: 4px 0 4px 4px;
+  border: #eee 4px solid;
+}
