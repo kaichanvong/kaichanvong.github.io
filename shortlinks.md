@@ -1,4 +1,5 @@
 # Short Links
+* [http://kaivong.com/404](http://kaivong.com/404) -- the 404 page not found
 * [http://kaivong.com/shortlinks](https://github.com/kaichanvong/kaichanvong.github.io/blob/main/shortlinks.md) --current page --github.com hosting shortlinks.md page
 * [http://kaivong.com/dpi](https://www.dressipi.com) --dressipi.com
 * [http://kaivong.com/af](https://www.artfinder.com) --artfinder.com
