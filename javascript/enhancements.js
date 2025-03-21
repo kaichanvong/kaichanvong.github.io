@@ -4,7 +4,7 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
 	linkedContent = document.getElementById('linkedContent'),
 	socialMediaChannels = { 1: 'list' , 0: 'icons'},
 	huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
-	instagram_huh = "<li class=\"bi bi-instagram\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span><strong>instagram</strong></span></a></li>",
+	instagram_huh = "<li class=\"bi bi-instagram sm-slots\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span><strong>instagram</strong></span></a></li>",
 	more = "<li class=\"bi horizontal-placeholder\"><em>…</em></li>",
 
 select_list_icons_view = '';
@@ -16,7 +16,12 @@ select_list_icons_view += '		<a href="#digitalIdentityContent" id="select-list-v
 select_list_icons_view += '	</option>';
 document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
-document.getElementById('HTMLPageContent').setAttribute('class','has-javascript');
+HTMLPageContentNode = document.getElementById('HTMLPageContent');
+previous_page_class_attrs = HTMLPageContentNode.getAttribute('class')
+if (previous_page_class_attrs != null){
+	previous_page_class_attrs += ' has-javascript html2025';
+} else { previous_page_class_attrs = 'has-javascript html2025' }
+HTMLPageContentNode.setAttribute('class', previous_page_class_attrs);
 linkedContent.innerHTML = instagram_huh + linkedContent.innerHTML;
 
 kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }

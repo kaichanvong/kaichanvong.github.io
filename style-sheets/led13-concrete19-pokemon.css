@@ -28,3 +28,45 @@
   padding: 4px 0 4px 4px;
   border: #eee 4px solid;
 }
+
+@charset "utf-8";
+@font-face {
+	font-family: "bootstrap-icons";
+	src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+	url("../fonts/bootstrap-1.11.0-icons.woff") format("woff"); }
+article.greets-back { max-width: 460px; }
+.has-javascript .view-list#SMChannelsCompleteContent,
+.has-javascript .view-icons#SMChannelsCompleteContent { min-height: 151px; padding-top: 0; }
+.view-list #linkedContent  { padding-left: 0; margin-top: 0; margin-left: -5px; }
+#SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  { background: #7F2F2B;
+	color: #fff;
+	cursor: default;
+	border: #333333 1px solid;
+	position: relative;
+	top: 4px;
+	border-radius: 5px; }
+#linkedContent a span:before {  font-size: 21px; margin-bottom: 18px; }
+#linkedContent li.bi-instagram a span:before   { content: "\f437"; }
+#linkedContent li.bi-facebook a span:before    { content: "\f344"; }
+#linkedContent li.bi-github a span:before      { content: "\f3ed"; }
+#linkedContent li.bi.bi-linkedin a span:before { content: "\f472"; position: relative; }
+#linkedContent li.bi.bi-linkedin a span:before { line-height: 1.5; }
+#linkedContent li.bi-twitter-x a span:before {content: "\f8db"; line-height: 1.5; }
+#linkedContent  li.bi a span strong { display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px; }
+.bi a span:before,
+.bi:before,
+[class^="bi-"]:before,
+[class*=" bi-"]:before {display: inline-block;
+	font-family: bootstrap-icons;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.5;
+}
+ol .sm-slots { display: inline-block; }
+.sm-slot-hidden { visibility: hidden; }
+
