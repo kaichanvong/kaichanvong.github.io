@@ -14,7 +14,6 @@ select_list_icons_view += '</option>';
 select_list_icons_view += '<option value="select-list-view">';
 select_list_icons_view += '<a href="#digitalIdentityContent" id="select-list-view2" data-name="view-list">list</a>';
 select_list_icons_view += '</option>';
-document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
 
 HTMLPageContentNode = document.getElementById('HTMLPageContent');
 previous_page_class_attrs = HTMLPageContentNode.getAttribute('class')
@@ -23,7 +22,10 @@ page_is_html1999 = (previous_page_class_attrs != null)
 if (page_is_html1999){
   previous_page_class_attrs += ' has-javascript html2025';
   instagram_huh += ' <span style="visibility: hidden;">.</span>'
-} else { previous_page_class_attrs = 'has-javascript html2025' }
+} else {
+	previous_page_class_attrs = 'has-javascript html2025'
+	document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
+}
 HTMLPageContentNode.setAttribute('class', previous_page_class_attrs);
 
 linkedContent.innerHTML = instagram_huh + linkedContent.innerHTML;
