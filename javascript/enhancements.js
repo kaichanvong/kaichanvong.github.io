@@ -4,9 +4,7 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
     linkedContent = document.getElementById('linkedContent'),
     socialMediaChannels = { 1: 'list' , 0: 'icons'},
     huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
-    instagram_huh = "<li class=\"bi bi-instagram sm-slots\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span><strong>instagram</strong></span></a></li>",
-    more = "<li class=\"bi horizontal-placeholder\"><em>…</em></li>",
-
+    instagram_huh = "<li class=\"list-item sm-slot bi bi-instagram\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span class=\"icon\"><strong class=\"h-text\">instagram</strong></span></a></li>",
 select_list_icons_view = '';
 select_list_icons_view += '<option value="select-icons-view">';
 select_list_icons_view += '<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
@@ -21,7 +19,6 @@ page_is_html1999 = (previous_page_class_attrs != null)
 
 if (page_is_html1999){
   previous_page_class_attrs += ' has-javascript html2025';
-  instagram_huh += ' <span style="visibility: hidden;">.</span>'
 } else {
 	previous_page_class_attrs = 'has-javascript html2025'
 	document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
