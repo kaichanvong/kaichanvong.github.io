@@ -5,7 +5,7 @@
         background-color: #f2f2f2;
         border-radius: 5px;
         display: block;
-        padding: 8px 8px 8px 8px;
+        padding: 8px 8px 8px 4px;
 }
 .content  {
         padding-left: 24px;
@@ -38,9 +38,12 @@
 article.greets-back  {
         max-width: 460px;
 }
+.javascript-required,
+#NavigationAtTop,
+#NavigationAtBottom,
+.off-page--HTML-only { position: absolute; left: -9999px; }
 .has-javascript .view-list#SMChannelsCompleteContent,
 .has-javascript .view-icons#SMChannelsCompleteContent  {
-        min-height: 151px;
         padding-top: 0;
 }
 .view-list #linkedContent   {
