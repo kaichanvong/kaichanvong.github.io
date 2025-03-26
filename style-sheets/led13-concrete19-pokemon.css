@@ -9,6 +9,11 @@
 .content  {
         padding-left: 24px;
 }
+
+.highlight1 {
+        background-color: rgba(255,251,0,0.75);
+}
+
 .picture.image  {
         clear: left;
         float: left;
