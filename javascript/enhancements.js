@@ -20,8 +20,17 @@ page_is_html1999 = (previous_page_class_attrs != null)
 if (page_is_html1999){
   previous_page_class_attrs += ' has-javascript html2025';
 } else {
-	previous_page_class_attrs = 'has-javascript html2025'
-	document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
+  previous_page_class_attrs = 'has-javascript html2025'
+  document.getElementById('select-list-icons-view').innerHTML = select_list_icons_view;
+  if(localStorage.key('kaivong_com_socialmedia_view')){
+      viewName = localStorage['kaivong_com_socialmedia_view'],
+      viewIndex = kaivong_com_objs['socialMediaDiv']['views'].indexOf(viewName);
+      document.getElementById('select-list-icons-view').selectedIndex = viewIndex;
+      toggle_views();
+  }
+  document.getElementById('select-list-icons-view').onchange = toggle_views;
+  document.getElementById('select-icons-view').onclick =  toggle_views;
+  document.getElementById('select-list-view').onclick = toggle_views;
 }
 HTMLPageContentNode.setAttribute('class', previous_page_class_attrs);
 
@@ -43,17 +52,6 @@ function toggle_views(){
     localStorage.setItem('kaivong_com_socialmedia_view', new_view);
 };
 
-if(localStorage.key('kaivong_com_socialmedia_view')){
-    viewName = localStorage['kaivong_com_socialmedia_view'],
-    viewIndex = kaivong_com_objs['socialMediaDiv']['views'].indexOf(viewName);
-    document.getElementById('select-list-icons-view').selectedIndex = viewIndex;
-    toggle_views();
-}
-
 javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
 javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
-
-document.getElementById('select-list-icons-view').onchange = toggle_views;
-document.getElementById('select-icons-view').onclick =  toggle_views;
-document.getElementById('select-list-view').onclick = toggle_views;
 
