@@ -5,6 +5,8 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
     socialMediaChannels = { 1: 'list' , 0: 'icons'},
     huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
     instagram_huh = "<li class=\"list-item sm-slot bi bi-instagram\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span class=\"icon\"><strong class=\"h-text\">instagram</strong></span></a></li>",
+		kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  },
+
 select_list_icons_view = '';
 select_list_icons_view += '<option value="select-icons-view">';
 select_list_icons_view += '<a href="#digitalIdentityContent" id="select-icons-view1" data-name="view-icons">icons</a>';
@@ -36,7 +38,6 @@ HTMLPageContentNode.setAttribute('class', previous_page_class_attrs);
 
 linkedContent.innerHTML = instagram_huh + linkedContent.innerHTML;
 
-kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  }
 function toggle_views(){
     if(this.nodeName == undefined || this.nodeName == 'SELECT' ){
         index_for_view = document.getElementById('select-list-icons-view').selectedIndex,
