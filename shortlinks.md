@@ -12,7 +12,7 @@
 * [http://kaivong.com/4ABR](https://x.com/kaichanvong/status/1895121766961262867?s=61) -- twitter post for panel 3 meta avatar edited
 * [http://kaivong.com/4ABQ](https://www.github.com/kaichanvong) --github.com/kaichanvong
 * [http://kaivong.com/4ABP](https://www.x.com/kaivong_com) --x.com/kaivong_com
-* [http://kaivong.com/4ABO](https://www.linkedin.com/in/kaichanvong) --linkedin.com/in/kaichanvong
+* [http://kaivong.com/4AC2](https://uk.linkedin.com/in/kaichanvong) --uk.linkedin.com/in/kaichanvong
 * [http://kaivong.com/4ABN](https://www.facebook.com/kaichanvong) --facebook.com/kaichanvong
 * [http://kaivong.com/4ABM](https://www.metacritic.com/movie/even-cowgirls-get-the-blues) --movie even-cowgirls-get-the-blues link on metacritic.com 
 * [http://kaivong.com/4ABL](https://www.metacritic.com/tv/izombie/season-2/episode-4-even-cowgirls-get-the-black-and-blues) --izombie "even-cowgirls" link
