@@ -5,7 +5,7 @@ var socialMediaChannelsToggleLink1 = document.getElementById('select-icons-view1
     socialMediaChannels = { 1: 'list' , 0: 'icons'},
     huh = "<li class=\"bi horizontal-placeholder\"><em>❓</em></li>",
     instagram_huh = "<li class=\"list-item sm-slot bi bi-instagram\"><a href=\"http://kaivong.com/4ABV\" id=\"instagramLinkContent\" title=\"instagram of kai\" rel=\"me\"><span class=\"icon\"><strong class=\"h-text\">instagram</strong></span></a></li>",
-		kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  },
+    kaivong_com_objs = { socialMediaDiv: { views: ['view-icons','view-list'] }  },
 
 select_list_icons_view = '';
 select_list_icons_view += '<option value="select-icons-view">';
@@ -57,33 +57,32 @@ javascript_enabled_message = document.getElementById('off-page-markedup-lols2');
 javascript_enabled_message.setAttribute('class', 'off-page--HTML-only');
 
 var add = function(a,b){
-	return a + b;
+    return a + b;
 },
 
 quick_discovery = function(){
-	DISCOVERY = 'testing',
-	fun_with_wordsa_obj = {
-		"s": 'Potentially ',
-		"r_OR_p": "#{DISCOVERY}",
-		"j1": ' Jacques ',
-		"j2": ' Jill ',
-		"n": NaN,
-		"n_eq": 'Not-a-Number',
-		"p": '…',
-		"c": ',',
-		"o": 'OK'
-	},
-	fww = fun_with_wordsa_obj,
-	fww_j1 = fww['j1'],
-	fww_j2 = fww['j2'],
-	message_l0a = fww['s'],
-	message_l0d = fww['r_OR_p'],
-	message_l1 = add.apply(null,[fww_j1,fww_j2]),
-	message_l2 = fww['p'],
-	oh = message_l0a.concat(message_l0d).concat(message_l1).concat(message_l2);
-	console.log(oh);
+    DISCOVERY = 'testing',
+    fun_with_wordsa_obj = {
+        "s": 'Potentially ',
+        "r_OR_p": "#{DISCOVERY}",
+        "j1": ' Jacques ',
+        "j2": ' Jill ',
+        "n": NaN,
+        "n_eq": 'Not-a-Number',
+        "p": '…',
+        "c": ',',
+        "o": 'OK'
+    },
+    fww = fun_with_wordsa_obj,
+    fww_j1 = fww['j1'],
+    fww_j2 = fww['j2'],
+    message_l0a = fww['s'],
+    message_l0d = fww['r_OR_p'],
+    message_l1 = add.apply(null,[fww_j1,fww_j2]),
+    message_l2 = fww['p'],
+    oh = message_l0a.concat(message_l0d).concat(message_l1).concat(message_l2);
+    console.log(oh);
 }
 
 quick_discovery();
-
 
