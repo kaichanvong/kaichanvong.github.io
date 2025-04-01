@@ -1,0 +1,82 @@
+.screen.page-body {
+  padding: 0 13px;
+}
+.picture.image {
+  border: 3px solid silver;
+}
+.highlight1 {
+  background-color: yellow;
+}
+/**/
+@charset "utf-8";@font-face  {
+        font-family: "bootstrap-icons";
+        src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
+}/**/
+article.greets-back  {
+        max-width: 460px;
+}
+.javascript-required,
+#NavigationAtTop,
+#NavigationAtBottom,
+.off-page--HTML-only { position: absolute; left: -9999px; }
+.has-javascript .view-list#SMChannelsCompleteContent,
+.has-javascript .view-icons#SMChannelsCompleteContent  {
+        padding-top: 0;
+}
+.view-list #linkedContent   {
+        margin-left: -5px;
+        margin-top: 0;
+        padding-left: 0;
+}
+#SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks   {
+        background: #7F2F2B;
+        border-radius: 5px;
+        border: #333333 1px solid;
+        color: #fff;
+        cursor: default;
+        position: relative;
+        top: 4px;
+}
+#linkedContent .icon:before  {
+        font-size: 21px;
+        margin-bottom: 18px;
+}
+#linkedContent .list-item.bi-instagram .icon:before    {
+        content: "\f437";
+}
+#linkedContent .list-item.bi-facebook .icon:before     {
+        content: "\f344";
+}
+#linkedContent .list-item.bi-github .icon:before       {
+        content: "\f3ed";
+}
+#linkedContent .list-item.bi-linkedin .icon:before { 
+				content: "\f472"; position: relative; line-height: 1.5;
+}
+#linkedContent .list-item.bi-twitter-x .icon:before  {
+        content: "\f8db";
+}
+#linkedContent  .list-item .h-text  {
+        display: inline-block;
+        overflow: hidden;
+        text-indent: -9999px;
+}
+.list-item .icon:before,
+.list-item:before  {
+        display: inline-block;
+        font-family: bootstrap-icons;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.5;
+        text-transform: none;
+}
+.list-item  {
+        display: inline-block;
+}
+.sm-slot-hidden  {
+        visibility: hidden;
+}
+
+
