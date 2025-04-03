@@ -1,10 +1,11 @@
 .html1999.html {
-  font-family: Verdana, Comic Sans MS;
+  font-family: Comic Sans MS, Verdana;
 }
-.screen.page-body { padding: 0 13px;
+.screen.page-body { padding: 0 13px; background: #D0E0E1; margin: 0;
 }
-.aside { overflow: hidden; margin: 0 26px 0 0; }
-.content {
+.aside { overflow: hidden; margin: 0 13px 0 0; float: left; }
+.content { background: #fff;
+padding: 26px 26px 0 26px; overflow: hidden; float: right;
 }
 .highlight1 {
   background-color: yellow;}
@@ -19,7 +20,12 @@ margin: 0;
 width: 416px;
 padding: 4px 0 4px 4px;
 }
+.small-text.caption {
+font-size: 13px;
+margin-bottom: 24px;
+}
 .view-icons.content {
+padding: 0;
 }
 .off-page-markedup-lols {
 }
@@ -126,7 +132,4 @@ padding: 4px 0 4px 4px;
 .pic-images-instagram {
    height: 160px; width: 160px;
 }
-.content,
-.aside { float: left; }
-.content { margin: 26px 0 0; overflow: hidden; }
 
