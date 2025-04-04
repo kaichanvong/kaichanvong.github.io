@@ -1,134 +1,144 @@
-.html1999.html {
+.html1999.html  {
   font-family: Alegreya, Comic Sans MS, Verdana;
 }
-.screen.page-body { padding: 0 13px; background: #D0E0E1; margin: 0;
+.screen.page-body  {
+  background: #D0E0E1;
+  margin: 0;
+  padding: 0 13px;
 }
-.aside { overflow: hidden; margin: 0 13px 0 0; float: left; }
-.content { background: #fff;
-padding: 26px 26px 0 26px; overflow: hidden; float: right; max-width: 360px;
+.aside  {
+  float: left;
+  margin: 0 13px 0 0;
+  overflow: hidden;
 }
-.highlight1 {
-  background-color: yellow;}
-.picture.image { border: 3px solid silver;
-display: block;
+.content  {
+  background: #fff;
+  float: right;
+  max-width: 360px;
+  overflow: hidden;
+  padding: 26px 26px 0 26px;
 }
-.caption {
-background-color: #fff;
-border: silver 3px solid;
-border-top: 0;
-margin: 0;
-width: 416px;
-padding: 4px 0 4px 4px;
+.highlight1  {
+  background-color: yellow;
 }
-.small-text.caption {
-font-size: 13px;
-margin-bottom: 24px;
+.picture.image  {
+  border: 3px solid silver;
+  display: block;
 }
-.view-icons.content {
-padding: 0;
+.caption  {
+  background-color: #fff;
+  border-top: 0;
+  border: silver 3px solid;
+  margin: 0;
+  padding: 4px 0 4px 4px;
+  width: 416px;
 }
-.monocode { font-family: monospace; font-size: 11px;
+.small-text.caption  {
+  font-size: 13px;
+  margin-bottom: 24px;
 }
-.off-page-markedup-lols { 
+.view-icons.content  {
+  padding: 0;
 }
-.bootstrap-icons { margin: 0; padding: 0;
+.monocode  {
+  font-family: monospace;
+  font-size: 11px;
 }
-.bi-github.list-item { 
+.off-page-markedup-lols  {
 }
-.icon { 
+.bootstrap-icons  {
+  margin: 0;
+  padding: 0;
 }
-.h-text { 
+.bi-github.list-item  {
 }
-.bi-twitter-x.list-item { 
+.icon  {
 }
-.icon { 
+.h-text  {
 }
-.h-text { 
+.bi-twitter-x.list-item  {
 }
-.bi-linkedin.list-item { 
+.bi-linkedin.list-item  {
 }
-.icon { 
+.bi-facebook.list-item  {
 }
-.h-text { 
+.banner  {
 }
-.bi-facebook.list-item { 
+.bi.bi-envelope-at-fill  {
 }
-.icon { 
-}
-.h-text { 
-}
-.banner { 
-}
-.bi.bi-envelope-at-fill { 
-}
-@charset "utf-8";@font-face {
-   font-family: "bootstrap-icons";
-   src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
-        url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
+@charset "utf-8";@font-face  {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),        url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
 }
 .javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
-.off-page--HTML-only { position: absolute; left: -9999px; }
-.has-javascript .view-list#SMChannelsCompleteContent,
-.has-javascript .view-icons#SMChannelsCompleteContent {
-   padding-top: 0;
+.off-page--HTML-only  {
+  left: -9999px;
+  position: absolute;
 }
-.view-list #linkedContent {
-   margin-left: -5px;
-   margin-top: 0;
-   padding-left: 0;
+.has-javascript .view-list#SMChannelsCompleteContent,
+.has-javascript .view-icons#SMChannelsCompleteContent  {
+  padding-top: 0;
+}
+.view-list #linkedContent  {
+  margin-left: -5px;
+  margin-top: 0;
+  padding-left: 0;
 }
 #SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks {
-   background: #7F2F2B;
-   border-radius: 5px;
-   border: #333333 1px solid;
-   color: #fff;
-   cursor: default;
-   position: relative;
-   top: 4px;
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks  {
+  background: #7F2F2B;
+  border-radius: 5px;
+  border: #333333 1px solid;
+  color: #fff;
+  cursor: default;
+  position: relative;
+  top: 4px;
 }
-#linkedContent .icon:before {
-   font-size: 21px;
-   margin-bottom: 18px;
+#linkedContent .icon:before  {
+  font-size: 21px;
+  margin-bottom: 18px;
 }
-#linkedContent .list-item.bi-instagram .icon:before {
-   content: "\f437";
+#linkedContent .list-item.bi-instagram .icon:before  {
+  content: "\f437";
 }
-#linkedContent .list-item.bi-facebook .icon:before {
-   content: "\f344";
+#linkedContent .list-item.bi-facebook .icon:before  {
+  content: "\f344";
 }
-#linkedContent .list-item.bi-github .icon:before {
-   content: "\f3ed";
+#linkedContent .list-item.bi-github .icon:before  {
+  content: "\f3ed";
 }
-#linkedContent .list-item.bi-linkedin .icon:before { 
-      content: "\f472"; position: relative; line-height: 1.5;
+#linkedContent .list-item.bi-linkedin .icon:before  {
+  content: "\f472";
+  line-height: 1.5;
+  position: relative;
 }
-#linkedContent .list-item.bi-twitter-x .icon:before {
-   content: "\f8db";
+#linkedContent .list-item.bi-twitter-x .icon:before  {
+  content: "\f8db";
 }
-#linkedContent .list-item .h-text {
-   display: inline-block;
-   overflow: hidden;
-   text-indent: -9999px;
+#linkedContent .list-item .h-text  {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
 }
 .list-item .icon:before,
-.list-item:before {
-   display: inline-block;
-   font-family: bootstrap-icons;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: normal;
-   line-height: 1.5;
-   text-transform: none;
+.list-item:before  {
+  display: inline-block;
+  font-family: bootstrap-icons;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  text-transform: none;
 }
-.list-item {
-   display: inline-block;
+.list-item  {
+  display: inline-block;
 }
-.sm-slot-hidden {
-   visibility: hidden;
+.sm-slot-hidden  {
+  visibility: hidden;
 }
-.pic-images-instagram {
-   height: 160px; width: 160px;
+.pic-images-instagram  {
+  height: 160px;
+  width: 160px;
 }
