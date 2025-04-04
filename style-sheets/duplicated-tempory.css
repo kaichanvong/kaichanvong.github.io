@@ -5,7 +5,7 @@
 }
 .aside { overflow: hidden; margin: 0 13px 0 0; float: left; }
 .content { background: #fff;
-padding: 26px 26px 0 26px; overflow: hidden; float: right;
+padding: 26px 26px 0 26px; overflow: hidden; float: right; max-width: 360px;
 }
 .highlight1 {
   background-color: yellow;}
@@ -27,47 +27,45 @@ margin-bottom: 24px;
 .view-icons.content {
 padding: 0;
 }
-.monocode {font-family: monospace; font-size: 11px;
+.monocode { font-family: monospace; font-size: 11px;
 }
-.off-page-markedup-lols {
+.off-page-markedup-lols { 
 }
 .bootstrap-icons { margin: 0; padding: 0;
 }
-.bi-github.list-item {
+.bi-github.list-item { 
 }
-.icon {
+.icon { 
 }
-.h-text {
+.h-text { 
 }
-.bi-twitter-x.list-item {
+.bi-twitter-x.list-item { 
 }
-.icon {
+.icon { 
 }
-.h-text {
+.h-text { 
 }
-.bi-linkedin.list-item {
+.bi-linkedin.list-item { 
 }
-.icon {
+.icon { 
 }
-.h-text {
+.h-text { 
 }
-.bi-facebook.list-item {
+.bi-facebook.list-item { 
 }
-.icon {
+.icon { 
 }
-.h-text {
+.h-text { 
 }
-.banner {
+.banner { 
 }
-.bi.bi-envelope-at-fill {
+.bi.bi-envelope-at-fill { 
 }
-
 @charset "utf-8";@font-face {
    font-family: "bootstrap-icons";
    src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
         url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
 }
-
 .javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
@@ -134,4 +132,3 @@ padding: 0;
 .pic-images-instagram {
    height: 160px; width: 160px;
 }
-
