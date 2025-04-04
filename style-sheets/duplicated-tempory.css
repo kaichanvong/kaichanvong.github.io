@@ -1,5 +1,5 @@
 .html1999.html {
-  font-family: Comic Sans MS, Verdana;
+  font-family: Alegreya, Comic Sans MS, Verdana;
 }
 .screen.page-body { padding: 0 13px; background: #D0E0E1; margin: 0;
 }
@@ -26,6 +26,8 @@ margin-bottom: 24px;
 }
 .view-icons.content {
 padding: 0;
+}
+.monocode {font-family: monospace; font-size: 11px;
 }
 .off-page-markedup-lols {
 }
