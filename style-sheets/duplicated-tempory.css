@@ -1,31 +1,43 @@
-.html1999.html   {
+.html1999.html {
   font-family: Alegreya, Comic Sans MS, Verdana;
 }
-.screen.page-body   {
+.screen.page-body {
   background: #D0E0E1;
   margin: 0;
   padding: 0 13px;
 }
-.aside   {
+.aside {
   float: left;
   margin: 0 13px 0 0;
   overflow: hidden;
 }
-.content   {
+.monogram {
+   margin-left: -21px;
+}
+.pic-lists {
+  background-color: #333;
+  border: 6px solid #111;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 0 10px 20px;
+  width: 340px;
+}
+.pic-lists .item { display: inline-block; }
+.content {
   background: #fff;
   float: right;
   max-width: 360px;
   overflow: hidden;
   padding: 26px 26px 0 26px;
 }
-.highlight1   {
+.highlight1 {
   background-color: yellow;
 }
-.picture.image   {
+.picture.image {
   border: 3px solid silver;
   display: block;
 }
-.caption   {
+.caption {
   background-color: #fff;
   border-top: 0;
   border: silver 3px solid;
@@ -33,43 +45,44 @@
   padding: 4px 0 4px 4px;
   width: 416px;
 }
-.small-text.caption   {
+.small-text.caption {
   font-size: 13px;
   margin-bottom: 24px;
 }
-.view-icons.content   {
+.view-icons.content {
   padding: 0;
 }
-.monocode   {
+.monocode {
   font-family: monospace;
   font-size: 11px;
 }
-.bootstrap-icons   {
+.bootstrap-icons {
   margin: 0;
   padding: 0;
 }
-@charset "utf-8";@font-face   {
+@charset "utf-8";@font-face {
   font-family: "bootstrap-icons";
-  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),        url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
+  src: url("../fonts/bootstrap-1.11.0-icons.woff") format("woff2"),
+  url("../fonts/bootstrap-1.11.0-icons.woff") format("woff");
 }
 .javascript-required,
 #NavigationAtTop,
 #NavigationAtBottom,
-.off-page--HTML-only   {
+.off-page--HTML-only {
   left: -9999px;
   position: absolute;
 }
 .has-javascript .view-list#SMChannelsCompleteContent,
-.has-javascript .view-icons#SMChannelsCompleteContent   {
+.has-javascript .view-icons#SMChannelsCompleteContent {
   padding-top: 0;
 }
-.view-list #linkedContent   {
+.view-list #linkedContent {
   margin-left: -5px;
   margin-top: 0;
   padding-left: 0;
 }
 #SMChannelsCompleteContent.view-list #select-list-view .buttons-alt-looks,
-#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks   {
+#SMChannelsCompleteContent.view-icons #select-icons-view .buttons-alt-looks {
   background: #7F2F2B;
   border-radius: 5px;
   border: #333333 1px solid;
@@ -78,34 +91,34 @@
   position: relative;
   top: 4px;
 }
-#linkedContent .icon:before   {
+#linkedContent .icon:before {
   font-size: 21px;
   margin-bottom: 18px;
 }
-#linkedContent .list-item.bi-instagram .icon:before   {
+#linkedContent .list-item.bi-instagram .icon:before {
   content: "\f437";
 }
-#linkedContent .list-item.bi-facebook .icon:before   {
+#linkedContent .list-item.bi-facebook .icon:before {
   content: "\f344";
 }
-#linkedContent .list-item.bi-github .icon:before   {
+#linkedContent .list-item.bi-github .icon:before {
   content: "\f3ed";
 }
-#linkedContent .list-item.bi-linkedin .icon:before   {
+#linkedContent .list-item.bi-linkedin .icon:before {
   content: "\f472";
   line-height: 1.5;
   position: relative;
 }
-#linkedContent .list-item.bi-twitter-x .icon:before   {
+#linkedContent .list-item.bi-twitter-x .icon:before {
   content: "\f8db";
 }
-#linkedContent .list-item .h-text   {
+#linkedContent .list-item .h-text {
   display: inline-block;
   overflow: hidden;
   text-indent: -9999px;
 }
 .list-item .icon:before,
-.list-item:before   {
+.list-item:before {
   display: inline-block;
   font-family: bootstrap-icons;
   font-style: normal;
@@ -114,13 +127,13 @@
   line-height: 1.5;
   text-transform: none;
 }
-.list-item   {
+.list-item {
   display: inline-block;
 }
-.sm-slot-hidden   {
+.sm-slot-hidden {
   visibility: hidden;
 }
-.pic-images-instagram   {
+.pic-images-instagram {
   height: 160px;
   width: 160px;
 }
