@@ -2,6 +2,7 @@
   border-top: #E8582B 13px solid;
   font-family: Alegreya, Verdana;
 }
+.html{}
 .screen.page-body {
   background: #D0E0E1;
   margin: 0;
@@ -31,8 +32,12 @@
   overflow: hidden;
   padding: 26px 26px 0 26px;
 }
-.highlight1 {
+.highlight1,
+.focus-highlightable:hover{
   background-color: yellow;
+}
+.focus-highlightable:hover{
+  cursor: move;
 }
 .picture.image {
   border: 3px solid silver;
