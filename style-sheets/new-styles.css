@@ -1,8 +1,22 @@
 .html1999.html {
   border-top: #E8582B 13px solid;
-  font-family: Alegreya, Verdana;
   cursor: default;
+  font-family: Alegreya, Verdana;
 }
+.headline2 {
+  border-left: 10px solid red;
+  color: red;
+  margin-left: -13px;
+  padding-left: 40px;
+  font-family: arial;
+  text-transform: uppercase;
+}
+.content .headline2 {
+  margin-left: -13px;
+  margin-left: -26px;
+  padding-left: 13px;
+}
+
 .html{}
 .screen.page-body {
   background: #D0E0E1;
@@ -12,7 +26,7 @@
 .aside {
   float: left;
   margin: 0 13px 0 0;
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 .monogram {
    margin-left: -21px;
