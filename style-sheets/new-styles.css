@@ -3,12 +3,16 @@
   cursor: default;
   font-family: Alegreya, Verdana;
 }
+.edited-social-colours {
+  height: 360px;
+  width: 360px;
+}
 .headline2 {
   border-left: 10px solid red;
   color: red;
+  font-family: arial;
   margin-left: -13px;
   padding-left: 40px;
-  font-family: arial;
   text-transform: uppercase;
 }
 .content .headline2 {
